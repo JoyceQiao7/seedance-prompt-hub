@@ -21,7 +21,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: actions/setup-python@v5
         with:
@@ -39,7 +39,15 @@ jobs:
           X_COOKIES_B64: ${{ secrets.X_COOKIES_B64 }}
         run: PYTHONPATH=. python -m crawler
 
-      - uses: actions/setup-node@v4
+      - name: Commit data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/prompts.json web/public/media/
+          git diff --staged --quiet || git commit -m "chore: refresh prompts dataset [skip ci]"
+          git push
+
+      - uses: actions/setup-node@v5
         with:
           node-version: "22"
 
@@ -53,17 +61,11 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: npm run build
 
-      - name: Commit data if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/prompts.json
-          git diff --staged --quiet || git commit -m "chore: refresh prompts dataset [skip ci]"
-          git push
-
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: web/dist
 

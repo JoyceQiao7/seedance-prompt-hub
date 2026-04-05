@@ -10,6 +10,10 @@ export type AdminFeedback = {
   action: "approve" | "reject";
   reason?: string | null;
   note?: string | null;
+  /** Optional substring that marks non-prompt content (off_target only; min length enforced server-side). */
+  block_phrase?: string | null;
+  /** Optional phrase to strip when trim was not aggressive enough. */
+  strip_text?: string | null;
   timestamp: string;
 };
 

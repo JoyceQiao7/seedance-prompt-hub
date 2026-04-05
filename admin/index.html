@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Seedance Prompt Hub</title>
+<style>
+:root {
+  --bg: #0e1117; --bg2: #161b22; --border: #30363d;
+  --text: #e6edf3; --muted: #8b949e; --accent: #58a6ff;
+  --green: #3fb950; --red: #f85149; --yellow: #d29922;
+  --purple: #bc8cff;
+}
+* { box-sizing: border-box; margin: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.5; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 1.5rem 1rem 4rem; }
+h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+.sub { color: var(--muted); margin-bottom: 1.25rem; }
+.stats { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin-bottom: 1rem;
+  font-size: 0.9rem; color: var(--muted); }
+.stats b { color: var(--text); }
+.toolbar { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem;
+  align-items: center; }
+.toolbar select, .toolbar input { background: var(--bg2); border: 1px solid var(--border);
+  color: var(--text); padding: 0.45rem 0.65rem; border-radius: 6px; font-size: 0.85rem; }
+.toolbar input { flex: 1; min-width: 200px; }
+.btn { padding: 0.45rem 0.85rem; border-radius: 6px; border: 1px solid var(--border);
+  background: var(--bg2); color: var(--text); cursor: pointer; font-size: 0.85rem;
+  transition: 0.15s; white-space: nowrap; }
+.btn:hover { border-color: var(--accent); }
+.btn-save { background: #238636; border-color: #2ea043; font-weight: 600; }
+.btn-save:hover { background: #2ea043; }
+.btn-save:disabled { opacity: 0.5; cursor: default; }
+
+.card { border: 1px solid var(--border); border-radius: 10px; background: var(--bg2);
+  padding: 1rem; margin-bottom: 0.75rem; }
+.card.published { border-left: 3px solid var(--green); }
+.card.rejected { border-left: 3px solid var(--red); opacity: 0.75; }
+.card.pending { border-left: 3px solid var(--yellow); }
+.card-meta { display: flex; flex-wrap: wrap; gap: 0.35rem 0.75rem; font-size: 0.8rem;
+  color: var(--muted); margin-bottom: 0.5rem; align-items: center; }
+.tag { padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.75rem; }
+.tag-cat { background: rgba(188,140,255,0.15); color: var(--purple); }
+.tag-score { background: rgba(63,185,80,0.15); color: var(--green); }
+.tag-status { font-weight: 600; }
+.tag-pub { color: var(--green); } .tag-rej { color: var(--red); } .tag-pend { color: var(--yellow); }
+
+.display-text { font-family: ui-monospace, "SFMono-Regular", monospace; font-size: 0.88rem;
+  white-space: pre-wrap; word-break: break-word; background: rgba(0,0,0,0.3); border-radius: 6px;
+  padding: 0.65rem 0.75rem; margin-bottom: 0.5rem; max-height: 180px; overflow-y: auto;
+  border: 1px solid rgba(255,255,255,0.05); }
+.orig-toggle { font-size: 0.8rem; color: var(--accent); cursor: pointer; background: none;
+  border: none; padding: 0; margin-bottom: 0.5rem; }
+.orig-toggle:hover { text-decoration: underline; }
+.orig-text { font-size: 0.82rem; color: var(--muted); white-space: pre-wrap;
+  word-break: break-word; background: rgba(0,0,0,0.2); border-radius: 6px;
+  padding: 0.5rem 0.65rem; margin-bottom: 0.5rem; max-height: 120px; overflow-y: auto;
+  display: none; }
+.orig-text.show { display: block; }
+
+.actions { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
+.actions-label { font-size: 0.78rem; color: var(--muted); margin-right: 0.15rem; }
+.btn-approve { border-color: var(--green); color: var(--green); }
+.btn-approve:hover { background: rgba(63,185,80,0.2); }
+.btn-approve.active { background: var(--green); color: #fff; border-color: var(--green); }
+.btn-fb { font-size: 0.78rem; padding: 0.3rem 0.55rem; border-color: rgba(248,81,73,0.4);
+  color: var(--muted); }
+.btn-fb:hover { border-color: var(--red); color: var(--red); background: rgba(248,81,73,0.12); }
+.btn-fb.active { border-color: var(--red); color: #fff; background: var(--red); }
+.btn-undo { font-size: 0.78rem; padding: 0.3rem 0.55rem; color: var(--muted); }
+.btn-undo:hover { color: var(--text); }
+.rej-reason { font-size: 0.78rem; color: var(--red); font-style: italic; margin-left: 0.25rem; }
+
+.toast { position: fixed; bottom: 1.5rem; right: 1.5rem; padding: 0.75rem 1.25rem;
+  background: #238636; color: #fff; border-radius: 8px; font-size: 0.9rem;
+  font-weight: 600; opacity: 0; transform: translateY(10px);
+  transition: all 0.3s; z-index: 100; pointer-events: none; }
+.toast.show { opacity: 1; transform: translateY(0); }
+
+.strip-input-wrap { margin-top: 0.5rem; }
+.strip-label { font-size: 0.78rem; color: var(--yellow); display: block; margin-bottom: 0.25rem; }
+.strip-input { width: 100%; background: var(--bg); border: 1px solid var(--yellow);
+  color: var(--text); padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.82rem; }
+.strip-input:focus { outline: none; border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(88,166,255,0.2); }
+
+.empty-msg { text-align: center; color: var(--muted); padding: 2rem 1rem;
+  border: 1px dashed var(--border); border-radius: 10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Seedance Prompt Hub — Admin</h1>
+  <p class="sub">Review, approve, and provide feedback on crawled prompts.</p>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="toolbar">
+    <select id="filter">
+      <option value="all">All</option>
+      <option value="pending" selected>Pending review</option>
+      <option value="published">Published</option>
+      <option value="rejected">Rejected</option>
+    </select>
+    <select id="sortBy">
+      <option value="score">Highest score</option>
+      <option value="date">Newest first</option>
+    </select>
+    <input id="search" type="text" placeholder="Search prompts…" autocomplete="off">
+    <button class="btn btn-save" id="saveBtn" disabled>Save changes</button>
+  </div>
+
+  <div id="list"></div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const FEEDBACK_OPTIONS = [
+  { value: "incomplete_text", label: "Incomplete text" },
+  { value: "trim_too_hard", label: "Trim too hard" },
+  { value: "trim_not_enough", label: "Trim not enough" },
+  { value: "off_target", label: "Not a prompt (off target)" },
+];
+
+let prompts = [];
+let dirty = new Map();      // id → { published, admin_feedback }
+let stripInputs = new Map(); // id → text the admin wants stripped
+let blockPhraseInputs = new Map(); // id → optional substring → non_prompt_substrings
+
+function feedbackLabel(reason) {
+  if (!reason) return "";
+  const hit = FEEDBACK_OPTIONS.find((x) => x.value === reason);
+  return hit ? hit.label : reason.replace(/_/g, " ");
+}
+
+async function load() {
+  const r = await fetch("/api/prompts");
+  const store = await r.json();
+  prompts = store.prompts || [];
+  dirty.clear();
+  stripInputs.clear();
+  blockPhraseInputs.clear();
+  render();
+}
+
+function getStatus(p) {
+  const d = dirty.get(p.id);
+  const pub = d !== undefined ? d.published : p.published;
+  if (pub === true) return "published";
+  if (pub === false) return "rejected";
+  return "pending";
+}
+
+function getFeedback(p) {
+  const d = dirty.get(p.id);
+  return d !== undefined ? d.admin_feedback : p.admin_feedback;
+}
+
+function getFeedbackReason(p) {
+  return getFeedback(p)?.reason || null;
+}
+
+function render() {
+  const filter = document.getElementById("filter").value;
+  const sortBy = document.getElementById("sortBy").value;
+  const search = document.getElementById("search").value.toLowerCase();
+
+  let items = prompts.filter(p => {
+    const st = getStatus(p);
+    if (filter !== "all" && st !== filter) return false;
+    if (search) {
+      const hay = `${p.display_text||""} ${p.text||""} ${p.author||""} ${p.category||""}`.toLowerCase();
+      if (!hay.includes(search)) return false;
+    }
+    return true;
+  });
+
+  if (sortBy === "score") items.sort((a,b) => (b.quality_score||0) - (a.quality_score||0));
+  else items.sort((a,b) => (b.created_at||"").localeCompare(a.created_at||""));
+
+  const total = prompts.length;
+  const nPub = prompts.filter(p => getStatus(p)==="published").length;
+  const nPend = prompts.filter(p => getStatus(p)==="pending").length;
+  const nRej = prompts.filter(p => getStatus(p)==="rejected").length;
+  document.getElementById("stats").innerHTML =
+    `<span><b>${total}</b> total</span>` +
+    `<span style="color:var(--green)"><b>${nPub}</b> published</span>` +
+    `<span style="color:var(--yellow)"><b>${nPend}</b> pending</span>` +
+    `<span style="color:var(--red)"><b>${nRej}</b> rejected</span>` +
+    (dirty.size ? `<span style="color:var(--accent)"><b>${dirty.size}</b> unsaved</span>` : "");
+
+  document.getElementById("saveBtn").disabled = dirty.size === 0;
+
+  const list = document.getElementById("list");
+  if (items.length === 0) {
+    list.innerHTML = `<div class="empty-msg">No prompts match this filter.</div>`;
+    return;
+  }
+
+  list.innerHTML = items.map(p => {
+    const st = getStatus(p);
+    const fbReason = getFeedbackReason(p);
+    const display = escHtml(p.display_text || p.text || "");
+    const orig = escHtml(p.text || "");
+    const hasOrigDiff = (p.display_text || "") !== (p.text || "");
+
+    const approveClass = st === "published" ? "active" : "";
+
+    const feedbackBtns = FEEDBACK_OPTIONS.map(o => {
+      const active = st === "rejected" && fbReason === o.value ? "active" : "";
+      return `<button class="btn btn-fb ${active}" onclick="rejectWith('${p.id}','${o.value}')" title="${o.label}">${o.label}</button>`;
+    }).join("");
+
+    const undoBtn = st !== "pending"
+      ? `<button class="btn btn-undo" onclick="undoDecision('${p.id}')" title="Reset to pending">↩ Undo</button>`
+      : "";
+
+    // Show strip-text input when "trim not enough" is active
+    const stripInput = (fbReason === "trim_not_enough")
+      ? `<div class="strip-input-wrap">
+           <label class="strip-label">Paste text to strip (adds to learned rules):</label>
+           <input type="text" class="strip-input" id="strip-${p.id}"
+             placeholder="e.g. @MartiniArt_ or 'made with Luma'"
+             value="${escHtml(stripInputs.get(p.id) || (p.admin_feedback && p.admin_feedback.strip_text) || "")}"
+             oninput="onStripInput('${p.id}', this.value)">
+         </div>`
+      : "";
+
+    const blockPhraseInput = (fbReason === "off_target" || fbReason === "low_quality")
+      ? `<div class="strip-input-wrap">
+           <label class="strip-label">Optional: text that marks &quot;not a prompt&quot; (substring, min 8 chars). The post itself is also remembered so duplicates are skipped.</label>
+           <input type="text" class="strip-input" id="block-${p.id}"
+             placeholder="e.g. repeated hype line with no shot list…"
+             value="${escHtml(blockPhraseInputs.get(p.id) || (p.admin_feedback && p.admin_feedback.block_phrase) || "")}"
+             oninput="onBlockPhraseInput('${p.id}', this.value)">
+         </div>`
+      : "";
+
+    return `<div class="card ${st}" data-id="${p.id}">
+      <div class="card-meta">
+        <span class="tag tag-cat">${escHtml(p.category)}</span>
+        <span class="tag tag-score">score ${p.quality_score}</span>
+        <span class="tag tag-status ${st==="published"?"tag-pub":st==="rejected"?"tag-rej":"tag-pend"}">
+          ${st.toUpperCase()}</span>
+        <span>${escHtml(p.author||"")}</span>
+        <span>${(p.created_at||"").slice(0,10)}</span>
+        <a href="${escHtml(p.source_url||"")}" target="_blank" style="color:var(--accent);font-size:0.8rem">source ↗</a>
+        ${st === "rejected" && fbReason ? `<span class="rej-reason">${escHtml(feedbackLabel(fbReason))}</span>` : ""}
+      </div>
+      <div class="display-text">${display}</div>
+      ${hasOrigDiff ? `<button class="orig-toggle" onclick="toggleOrig(this)">Show original text</button>
+      <div class="orig-text">${orig}</div>` : ""}
+      <div class="actions">
+        <button class="btn btn-approve ${approveClass}" onclick="approve('${p.id}')">✓ Publish</button>
+        <span class="actions-label">Reject:</span>
+        ${feedbackBtns}
+        ${undoBtn}
+      </div>
+      ${stripInput}
+      ${blockPhraseInput}
+    </div>`;
+  }).join("");
+}
+
+function onStripInput(id, value) {
+  stripInputs.set(id, value);
+  // Also update the feedback object so it's sent on save
+  const d = dirty.get(id);
+  if (d && d.admin_feedback && d.admin_feedback.reason === "trim_not_enough") {
+    d.admin_feedback.strip_text = value.trim();
+  }
+}
+
+function onBlockPhraseInput(id, value) {
+  blockPhraseInputs.set(id, value);
+  let d = dirty.get(id);
+  const p = prompts.find((q) => q.id === id);
+  if (!d && p) {
+    const st = getStatus(p);
+    const fr = getFeedbackReason(p);
+    if (st === "rejected" && (fr === "off_target" || fr === "low_quality")) {
+      const prev = p.admin_feedback || {};
+      d = {
+        published: false,
+        admin_feedback: {
+          action: "reject",
+          reason: fr,
+          timestamp: prev.timestamp || new Date().toISOString(),
+          strip_text: prev.strip_text,
+          block_phrase: value.trim(),
+        },
+      };
+      dirty.set(id, d);
+    }
+  }
+  if (d && d.admin_feedback && (d.admin_feedback.reason === "off_target" || d.admin_feedback.reason === "low_quality")) {
+    d.admin_feedback.block_phrase = value.trim();
+  }
+  document.getElementById("saveBtn").disabled = dirty.size === 0;
+}
+
+function approve(id) {
+  const st = getStatus(prompts.find(p=>p.id===id));
+  if (st === "published") {
+    dirty.set(id, { published: null, admin_feedback: null });
+  } else {
+    dirty.set(id, {
+      published: true,
+      admin_feedback: { action: "approve", timestamp: new Date().toISOString() }
+    });
+  }
+  stripInputs.delete(id);
+  blockPhraseInputs.delete(id);
+  render();
+}
+
+function rejectWith(id, reason) {
+  const current = getFeedbackReason(prompts.find(p=>p.id===id));
+  const st = getStatus(prompts.find(p=>p.id===id));
+  if (st === "rejected" && current === reason) {
+    dirty.set(id, { published: null, admin_feedback: null });
+    stripInputs.delete(id);
+    blockPhraseInputs.delete(id);
+  } else {
+    const fb = { action: "reject", reason, timestamp: new Date().toISOString() };
+    if (reason === "trim_not_enough" && stripInputs.has(id)) {
+      fb.strip_text = stripInputs.get(id).trim();
+    }
+    if (reason === "off_target" && blockPhraseInputs.has(id)) {
+      fb.block_phrase = blockPhraseInputs.get(id).trim();
+    }
+    dirty.set(id, { published: false, admin_feedback: fb });
+  }
+  render();
+}
+
+function undoDecision(id) {
+  dirty.set(id, { published: null, admin_feedback: null });
+  stripInputs.delete(id);
+  blockPhraseInputs.delete(id);
+  render();
+}
+
+function toggleOrig(btn) {
+  const el = btn.nextElementSibling;
+  el.classList.toggle("show");
+  btn.textContent = el.classList.contains("show") ? "Hide original text" : "Show original text";
+}
+
+async function save() {
+  if (dirty.size === 0) return;
+  const updates = [];
+  for (const [id, data] of dirty) {
+    updates.push({ id, ...data });
+  }
+  const saveBtn = document.getElementById("saveBtn");
+  saveBtn.disabled = true;
+  saveBtn.textContent = "Saving…";
+  try {
+    const r = await fetch("/api/save", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ updates }),
+    });
+    const result = await r.json();
+    if (result.ok) {
+      const parts = [`Saved ${result.changed} changes`];
+      if (result.new_rules_learned) parts.push(`${result.new_rules_learned} trim rules learned`);
+      if (result.new_screen_rules) parts.push(`${result.new_screen_rules} non-prompt rules learned`);
+      if (result.retrimmed) parts.push(`${result.retrimmed} re-trimmed`);
+      showToast(parts.join(" · "));
+      await load();
+    } else {
+      showToast("Error: " + result.error, true);
+    }
+  } catch (e) {
+    showToast("Network error: " + e.message, true);
+  }
+  saveBtn.textContent = "Save changes";
+}
+
+function showToast(msg, isError) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.style.background = isError ? "var(--red)" : "#238636";
+  t.classList.add("show");
+  setTimeout(() => t.classList.remove("show"), 3000);
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+document.getElementById("saveBtn").addEventListener("click", save);
+document.getElementById("filter").addEventListener("change", render);
+document.getElementById("sortBy").addEventListener("change", render);
+document.getElementById("search").addEventListener("input", render);
+document.addEventListener("keydown", e => {
+  if ((e.metaKey || e.ctrlKey) && e.key === "s") { e.preventDefault(); save(); }
+});
+
+load();
+</script>
+</body>
+</html>

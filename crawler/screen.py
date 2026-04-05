@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 from typing import Any
 
 from crawler.config import SCREEN_MIN_SCORE
+from crawler.screen_rules import non_prompt_substrings
 from crawler.score_quality import looks_spammy
 
 _URL = re.compile(r"https?://\S+", re.I)
@@ -67,6 +68,14 @@ def internal_screen(
 
     combined = f"{prepared}\n{source_post or ''}"
     n = len(prepared)
+    combined_lower = combined.lower()
+
+    for sub in non_prompt_substrings():
+        if sub.lower() in combined_lower:
+            reasons.append("learned_non_prompt_marker")
+            hard_block = True
+            score -= 80
+            break
 
     if looks_spammy(combined):
         reasons.append("spam_pattern")

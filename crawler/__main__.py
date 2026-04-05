@@ -17,6 +17,7 @@ from crawler.models import RawPost
 from crawler.prompt_trimmer import trim_to_prompt_body
 from crawler.relevance import is_ai_video_creator_content
 from crawler.screen import backfill_store_prompts, internal_screen
+from crawler.screen_rules import post_matches_off_target_memory
 from crawler.score_quality import score_prompt
 from crawler.x_scrape_playwright import backfill_video_urls, scrape_x_searches
 
@@ -77,6 +78,8 @@ def _process_posts(raw_posts: list[RawPost]) -> list[dict[str, Any]]:
         body = raw.text or ""
         combined_text = body + "\n" + "\n".join(raw.replies)
         if not is_ai_video_creator_content(combined_text):
+            continue
+        if post_matches_off_target_memory(body, combined_text):
             continue
 
         extracted = _best_prompt_text(raw)

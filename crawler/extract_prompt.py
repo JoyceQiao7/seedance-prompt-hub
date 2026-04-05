@@ -4,10 +4,13 @@ from __future__ import annotations
 
 import re
 
+from crawler.score_quality import is_mostly_commentary_not_prompt
+from crawler.screen_rules import text_has_non_prompt_marker
+
 
 def extract_prompt(raw: str) -> str | None:
     text = (raw or "").strip()
-    if not text:
+    if not text or text_has_non_prompt_marker(text):
         return None
 
     # Explicit labels often used on X
@@ -41,6 +44,8 @@ def extract_prompt(raw: str) -> str | None:
     stripped = re.sub(r"https?://\S+", "", text)
     stripped = _clean_block(stripped)
     if _is_substantial(stripped) and _looks_like_prompt(stripped):
+        if is_mostly_commentary_not_prompt(stripped):
+            return None
         return stripped
 
     return None

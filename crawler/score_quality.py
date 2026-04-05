@@ -7,6 +7,8 @@ from __future__ import annotations
 
 import re
 
+from crawler.screen_rules import text_has_non_prompt_marker
+
 
 _SPAM = re.compile(
     r"(?i)(giveaway|airdrop|follow\s+me|dm\s+me|onlyfans|crypto|nft|telegram\s+link)"
@@ -38,8 +40,19 @@ _COMMENTARY = re.compile(
 )
 
 
+def is_mostly_commentary_not_prompt(text: str) -> bool:
+    """Hype / announcement voice with almost no shot-grade prompt cues — not extractable as a prompt."""
+    if not text or len(text) < 40:
+        return False
+    if len(_COMMENTARY.findall(text)) < 2:
+        return False
+    return len(_PROMPT_CUE.findall(text)) < 2
+
+
 def score_prompt(text: str) -> int:
     if not text:
+        return 0
+    if text_has_non_prompt_marker(text):
         return 0
     if looks_spammy(text):
         return 0

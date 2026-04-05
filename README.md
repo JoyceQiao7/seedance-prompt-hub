@@ -16,6 +16,18 @@ Daily automation that **searches X (Twitter)** for **AI video / creator**-adjace
 
 X usually shows a **login wall** for search automation. You must supply **logged-in** session data.
 
+### Where is `X_COOKIES_JSON`?
+
+It is **not** a file inside the Git repository. It is a **GitHub Actions secret** (encrypted settings on GitHub):
+
+1. Open your repo: `https://github.com/JoyceQiao7/seedance-prompt-hub`
+2. **Settings** → **Secrets and variables** → **Actions**
+3. **New repository secret**
+4. **Name:** `X_COOKIES_JSON`
+5. **Secret:** paste your cookie JSON as **one line** (minified), or use secret **`X_COOKIES_B64`** with the whole JSON base64-encoded.
+
+**Locally**, use a **file** instead (so you never commit secrets): copy `x_cookies.example.json` to `x_cookies.json`, replace the placeholders with real `auth_token` and `ct0` values, and set `X_COOKIES_PATH=./x_cookies.json` in `.env`. The real `x_cookies.json` is listed in `.gitignore`.
+
 ### Option A — Cookie JSON (good for GitHub Actions)
 
 1. In **Chrome** or **Edge**, log into [x.com](https://x.com) with the **bot account**.

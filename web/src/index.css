@@ -85,9 +85,15 @@ code,
   grid-template-columns: 1fr;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 900px) {
   .controls {
-    grid-template-columns: 1.4fr 0.7fr 0.7fr;
+    grid-template-columns: 1.2fr 0.65fr 0.65fr 1fr;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 899px) {
+  .controls {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -170,9 +176,14 @@ select:focus {
   color: #ddd6fe;
 }
 
-.badge.llm {
-  border-color: rgba(110, 231, 255, 0.35);
-  color: #cffafe;
+.badge.screen-ok {
+  border-color: rgba(52, 211, 153, 0.4);
+  color: #a7f3d0;
+}
+
+.badge.screen-hold {
+  border-color: rgba(251, 191, 36, 0.45);
+  color: #fde68a;
 }
 
 .prompt-body {

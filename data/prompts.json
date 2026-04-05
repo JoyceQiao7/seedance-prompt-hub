@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-05T07:39:01Z",
+  "updated_at": "2026-04-05T08:07:04Z",
   "prompts": [
     {
       "id": "x:2040647070931906835",
@@ -13,7 +13,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039842504988627242",
@@ -27,7 +34,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040553379764552169",
@@ -41,7 +55,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040458193206423784",
@@ -55,7 +76,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "seed-demo-3",
@@ -69,7 +97,14 @@
       "source_network": "seed",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040692355821387950",
@@ -83,7 +118,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040671741933162786",
@@ -97,11 +139,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040650537528635544",
-      "text": "Flova × Seedance 2.0 is here! One sentence → a cinematic video. No edits. No cuts. Just flow. Flova × Seedance2.0 is quietly breaking the biggest limit in AI video http:// flova.ai/?refCode=FPWM2 XHZ … High-quality visuals with natural motion Stable, fast, and efficient generation",
+      "text": "Flova × Seedance 2.0 is here! One sentence → a cinematic video. No edits. No cuts. Just flow. Flova × Seedance2.0 is quietly breaking the biggest limit in AI video http:// flova.ai/?refCode=FPWM2 XHZ ... High-quality visuals with natural motion Stable, fast, and efficient generation",
       "category": "other",
       "quality_score": 89,
       "source_url": "https://x.com/atulkumarzz/status/2040650537528635544",
@@ -111,7 +160,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040648251360047495",
@@ -125,11 +181,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040628476739567880",
-      "text": "AI video creation just got a serious upgrade. Flova × Seedance 2.0 makes it ridiculously easy to create cinematic short dramas in one place. Try it here: http:// flova.ai/?refCode=WXJRJ 8ND … → High-quality visuals with natural motion → Stable, fast, efficient generation → One-click",
+      "text": "AI video creation just got a serious upgrade. Flova × Seedance 2.0 makes it ridiculously easy to create cinematic short dramas in one place. Try it here: http:// flova.ai/?refCode=WXJRJ 8ND ... → High-quality visuals with natural motion → Stable, fast, efficient generation → One-click",
       "category": "other",
       "quality_score": 89,
       "source_url": "https://x.com/Damn_coder/status/2040628476739567880",
@@ -139,7 +202,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040499399936315878",
@@ -153,7 +223,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040281771531739263",
@@ -167,7 +244,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039830264759635981",
@@ -181,7 +265,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039781332646015446",
@@ -195,7 +286,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "seed-demo-1",
@@ -209,7 +307,14 @@
       "source_network": "seed",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040691800135111140",
@@ -223,7 +328,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040640997965586791",
@@ -237,7 +349,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040640368933232807",
@@ -251,11 +370,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040639855156498935",
-      "text": "Most AI video tools stop at short clips. Flova × Seedance 2.0 goes further—full scenes, longer timelines, and characters that actually stay consistent. https:// flova.ai/en/?refCode=7U JM798F … Exclusive Quick Access: No other platform lets you launch Seedance 2.0 or NanoBanana in one click.",
+      "text": "Most AI video tools stop at short clips. Flova × Seedance 2.0 goes further—full scenes, longer timelines, and characters that actually stay consistent. https:// flova.ai/en/?refCode=7U JM798F ... Exclusive Quick Access: No other platform lets you launch Seedance 2.0 or NanoBanana in one click.",
       "category": "other",
       "quality_score": 86,
       "source_url": "https://x.com/Parul_Gautam7/status/2040639855156498935",
@@ -265,7 +391,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040560394784350628",
@@ -279,7 +412,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040535436821471388",
@@ -293,7 +433,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040414164351602728",
@@ -307,7 +454,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040396571401949510",
@@ -321,7 +475,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040346619359760811",
@@ -335,7 +496,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "seed-demo-2",
@@ -349,7 +517,14 @@
       "source_network": "seed",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040102481900998806",
@@ -363,7 +538,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040102032627957913",
@@ -377,11 +559,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040048781283184657",
-      "text": "Nemo Video just leveled up Seedance 2.0 integration is doing wonders While others struggle with consistency, Nemo keeps characters intact, adds cinematic depth, and delivers 1+ minute videos from a single prompt. This isn’t just AI video… this is next-gen storytelling",
+      "text": "Nemo Video just leveled up Seedance 2.0 integration is doing wonders While others struggle with consistency, Nemo keeps characters intact, adds cinematic depth, and delivers 1+ minute videos from a single prompt. This isn’t just AI video... this is next-gen storytelling",
       "category": "other",
       "quality_score": 86,
       "source_url": "https://x.com/GowthamCinemas/status/2040048781283184657",
@@ -391,11 +580,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040048738253812120",
-      "text": "Nemo Video just leveled up Seedance 2.0 integration is doing wonders While others struggle with consistency, Nemo keeps characters intact, adds cinematic depth, and delivers 1+ minute videos from a single prompt. This isn’t just AI video… this is next-gen storytelling",
+      "text": "Nemo Video just leveled up Seedance 2.0 integration is doing wonders While others struggle with consistency, Nemo keeps characters intact, adds cinematic depth, and delivers 1+ minute videos from a single prompt. This isn’t just AI video... this is next-gen storytelling",
       "category": "other",
       "quality_score": 86,
       "source_url": "https://x.com/GowthamCinemas/status/2040048738253812120",
@@ -405,7 +601,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040011480972792080",
@@ -419,7 +622,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040003531349049687",
@@ -433,7 +643,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039836789561868692",
@@ -447,7 +664,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039751337819140243",
@@ -461,7 +685,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039353153775427732",
@@ -475,7 +706,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2030671905645023620",
@@ -489,7 +727,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040668962879672699",
@@ -503,7 +748,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040677252539498995",
@@ -517,7 +769,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040649724261540347",
@@ -531,7 +790,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040516145946804236",
@@ -545,11 +811,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040443580490436831",
-      "text": "Here’s exactly how I did it straight from my phone: 1. Open the Pollo AI app 2. Select Seedance 2.0 3. Add your prompt or scene idea 4. Hit generate That’s it. The whole thing runs inside the mobile app. No desktop. No editor. No crew. Try it here: http:// pollo.ai/m/seedance/see dance-2-0 …",
+      "text": "Here’s exactly how I did it straight from my phone: 1. Open the Pollo AI app 2. Select Seedance 2.0 3. Add your prompt or scene idea 4. Hit generate That’s it. The whole thing runs inside the mobile app. No desktop. No editor. No crew. Try it here: http:// pollo.ai/m/seedance/see dance-2-0 ...",
       "category": "other",
       "quality_score": 83,
       "source_url": "https://x.com/abxxai/status/2040443580490436831",
@@ -559,11 +832,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040439899086864878",
-      "text": "ByteDance’s latest video model Seedance 2.0 is now LIVE on VisualGPT! The consistency and motion control are next level. Integrated Audio generation Precise storytelling Don’t miss the 90% OFF launch special! Experience the future of AI video: https:// visualgpt.io/ai-models/seed ance-2 …",
+      "text": "ByteDance’s latest video model Seedance 2.0 is now LIVE on VisualGPT! The consistency and motion control are next level. Integrated Audio generation Precise storytelling Don’t miss the 90% OFF launch special! Experience the future of AI video: https:// visualgpt.io/ai-models/seed ance-2 ...",
       "category": "character",
       "quality_score": 83,
       "source_url": "https://x.com/visualgpt_io/status/2040439899086864878",
@@ -573,7 +853,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040385785321423088",
@@ -587,7 +874,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040340565792063858",
@@ -601,11 +895,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040333672411279528",
-      "text": "BIP update on DevMotion A new tool on DevMotion: AI Video Generator powered by Seedance 2.0 You can now use your existing credits to generate videos from text directly in the chat (or as external MCP server) https:// devmotion.app/tools/generate -video …",
+      "text": "BIP update on DevMotion A new tool on DevMotion: AI Video Generator powered by Seedance 2.0 You can now use your existing credits to generate videos from text directly in the chat (or as external MCP server) https:// devmotion.app/tools/generate -video ...",
       "category": "other",
       "quality_score": 83,
       "source_url": "https://x.com/emadev01/status/2040333672411279528",
@@ -615,7 +916,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040324198946713780",
@@ -629,7 +937,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040308585826033871",
@@ -643,7 +958,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040293856886063108",
@@ -657,7 +979,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040292314057199921",
@@ -671,7 +1000,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040222151882780982",
@@ -685,7 +1021,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040173237439766956",
@@ -699,11 +1042,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040160156227367293",
-      "text": "https:// advertimes.com/20260403/artic le539669/ … In the previous column, I discussed the trends in AI video generation services facing elimination, including the termination of OpenAI's \"Sora\" and the freezing of ByteDance's overseas rollout of \"Seedance 2.0.\" On the other hand, there are players",
+      "text": "https:// advertimes.com/20260403/artic le539669/ ... In the previous column, I discussed the trends in AI video generation services facing elimination, including the termination of OpenAI's \"Sora\" and the freezing of ByteDance's overseas rollout of \"Seedance 2.0.\" On the other hand, there are players",
       "category": "other",
       "quality_score": 83,
       "source_url": "https://x.com/advertimes/status/2040160156227367293",
@@ -713,7 +1063,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040116594224124363",
@@ -727,7 +1084,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040109334160646424",
@@ -741,7 +1105,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040091039378157865",
@@ -755,7 +1126,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040083547004838378",
@@ -769,7 +1147,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039918575994163409",
@@ -783,7 +1168,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039905266045518149",
@@ -797,7 +1189,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039797137332969798",
@@ -811,7 +1210,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039461676185960495",
@@ -825,7 +1231,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039410364585058685",
@@ -839,7 +1252,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039262095527800961",
@@ -853,7 +1273,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039021624809205950",
@@ -867,7 +1294,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2038500696987689168",
@@ -881,7 +1315,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2038138746802258233",
@@ -895,7 +1336,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2038114702006559100",
@@ -909,7 +1357,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037870056583905668",
@@ -923,7 +1378,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037451134328271260",
@@ -937,7 +1399,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037433564598239259",
@@ -951,7 +1420,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037112928097493156",
@@ -965,7 +1441,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037098018210455687",
@@ -979,7 +1462,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2036827672610066531",
@@ -993,7 +1483,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2036137234068394466",
@@ -1007,7 +1504,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2036114812661272804",
@@ -1021,7 +1525,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2034515967808843939",
@@ -1035,7 +1546,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2034513455084966175",
@@ -1049,7 +1567,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2034206585351020821",
@@ -1063,7 +1588,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2030686205336256589",
@@ -1077,7 +1609,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040071556949217581",
@@ -1091,7 +1630,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039944791970996262",
@@ -1105,7 +1651,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040691195610030485",
@@ -1119,11 +1672,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040645390312349952",
-      "text": "Seedance 2.0 is NOW LIVE on LartAI! Finally, AI video that delivers： Multi-shot storytelling Consistent, distortion-free characters Zero weird/abnormal shots One-click generation, no post-editing needed! Try it FREE https:// lartai.com/?TG=5205 #seedance #seedance2",
+      "text": "Seedance 2.0 is NOW LIVE on LartAI! Finally, AI video that delivers: Multi-shot storytelling Consistent, distortion-free characters Zero weird/abnormal shots One-click generation, no post-editing needed! Try it FREE https:// lartai.com/?TG=5205 #seedance #seedance2",
       "category": "other",
       "quality_score": 80,
       "source_url": "https://x.com/Lart_AI/status/2040645390312349952",
@@ -1133,7 +1693,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040633627667775901",
@@ -1147,7 +1714,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040628381780242788",
@@ -1161,7 +1735,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040625725200282086",
@@ -1175,7 +1756,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040576799575593454",
@@ -1189,7 +1777,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040570676361535994",
@@ -1203,7 +1798,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040512751542370442",
@@ -1217,7 +1819,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040512743824933251",
@@ -1231,11 +1840,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040495181552890291",
-      "text": "I've never had more fun with a video model... https:// venice.ai/chat?model=see dance-2-0-text-to-video … #seedance",
+      "text": "I've never had more fun with a video model... https:// venice.ai/chat?model=see dance-2-0-text-to-video ... #seedance",
       "category": "character",
       "quality_score": 80,
       "source_url": "https://x.com/jesseproudman/status/2040495181552890291",
@@ -1245,7 +1861,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040470859840913421",
@@ -1259,7 +1882,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040466928117137696",
@@ -1273,7 +1903,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040442956080164882",
@@ -1287,7 +1924,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040442223775666319",
@@ -1301,7 +1945,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040376349504815467",
@@ -1315,7 +1966,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040372318841561416",
@@ -1329,7 +1987,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040295761494381037",
@@ -1343,7 +2008,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040203590065868814",
@@ -1357,7 +2029,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040113114956677309",
@@ -1371,7 +2050,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040096147105271973",
@@ -1385,11 +2071,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040058789466976570",
-      "text": "Most people think AI video is about the idea. It’s not. It’s about the Style Tags. These are UNIVERSAL you can apply them to any scene (space, cars, fashion, documentaries… anything). Here’s a powerful base set: Style Tags (use this in ANY prompt): • cinematic •",
+      "text": "Most people think AI video is about the idea. It’s not. It’s about the Style Tags. These are UNIVERSAL you can apply them to any scene (space, cars, fashion, documentaries... anything). Here’s a powerful base set: Style Tags (use this in ANY prompt): • cinematic •",
       "category": "scene",
       "quality_score": 80,
       "source_url": "https://x.com/Thedesgine/status/2040058789466976570",
@@ -1399,7 +2092,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039962793269715315",
@@ -1413,7 +2113,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039954939951378553",
@@ -1427,7 +2134,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039869447230394432",
@@ -1441,7 +2155,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039827701876330511",
@@ -1455,7 +2176,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039798169387602220",
@@ -1469,7 +2197,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039723931645497667",
@@ -1483,7 +2218,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039717993027146239",
@@ -1497,7 +2239,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039682390755615140",
@@ -1511,7 +2260,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039236503176450200",
@@ -1525,7 +2281,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037674310257586408",
@@ -1539,7 +2302,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037242033585201535",
@@ -1553,7 +2323,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037071141580263525",
@@ -1567,7 +2344,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2036498740543176764",
@@ -1581,7 +2365,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2035354672030953697",
@@ -1595,7 +2386,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2034136864030867649",
@@ -1609,7 +2407,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2031865986660331782",
@@ -1623,7 +2428,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2031488678917230710",
@@ -1637,7 +2449,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2028580206378676624",
@@ -1651,7 +2470,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040368844561145921",
@@ -1665,7 +2491,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2038462182011367657",
@@ -1679,11 +2512,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040036580698796436",
-      "text": "Huh? fal's got seedance2.0, huh https:// fal.ai/models/bytedan ce/seedance-2.0/text-to-video …",
+      "text": "Huh? fal's got seedance2.0, huh https:// fal.ai/models/bytedan ce/seedance-2.0/text-to-video ...",
       "category": "character",
       "quality_score": 78,
       "source_url": "https://x.com/jonigata_ai/status/2040036580698796436",
@@ -1693,7 +2533,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040686583888888241",
@@ -1707,7 +2554,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040670729205624869",
@@ -1721,11 +2575,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040660046535917904",
-      "text": "Woah… okay this is insane. This genuinely stopped me mid-scroll. Like I knew AI video generation was moving fast but this is a completely different level. The detail on the face, the lighting, the way it actually feels like a real scene and not just a render… I’m kind of",
+      "text": "Woah... okay this is insane. This genuinely stopped me mid-scroll. Like I knew AI video generation was moving fast but this is a completely different level. The detail on the face, the lighting, the way it actually feels like a real scene and not just a render... I’m kind of",
       "category": "character",
       "quality_score": 77,
       "source_url": "https://x.com/AlAlphaResearch/status/2040660046535917904",
@@ -1735,7 +2596,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040659779933311378",
@@ -1749,7 +2617,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040607374063399414",
@@ -1763,7 +2638,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040603656270307800",
@@ -1777,7 +2659,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040488301791174988",
@@ -1791,7 +2680,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040414445885653181",
@@ -1805,7 +2701,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040382288089809115",
@@ -1819,7 +2722,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040366067974049836",
@@ -1833,7 +2743,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040346155851112776",
@@ -1847,7 +2764,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040300833427108236",
@@ -1861,7 +2785,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040247991471403443",
@@ -1875,7 +2806,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040238783547818013",
@@ -1889,7 +2827,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040163526535262446",
@@ -1903,7 +2848,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040018858007052764",
@@ -1917,7 +2869,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039964164295418038",
@@ -1931,7 +2890,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039343514828308900",
@@ -1945,7 +2911,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2035583823895806274",
@@ -1959,7 +2932,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2034234840837452079",
@@ -1973,7 +2953,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2032511597223039350",
@@ -1987,7 +2974,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2029259719546646883",
@@ -2001,7 +2995,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040675492467261903",
@@ -2015,7 +3016,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040667427902796191",
@@ -2029,11 +3037,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040141248363946474",
-      "text": "Changed camera movement every 2 seconds in a complex prompt… Kling 3.0 on @lamaart_global still delivered clean. No retries. No fixing prompts again and again. The text-to-video here is insane. Think I have a new fav AI playground now. Highly recommend trying",
+      "text": "Changed camera movement every 2 seconds in a complex prompt... Kling 3.0 on @lamaart_global still delivered clean. No retries. No fixing prompts again and again. The text-to-video here is insane. Think I have a new fav AI playground now. Highly recommend trying",
       "category": "other",
       "quality_score": 76,
       "source_url": "https://x.com/sravs_AI_labs/status/2040141248363946474",
@@ -2043,7 +3058,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040096025356976292",
@@ -2057,7 +3079,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040058489415094666",
@@ -2071,7 +3100,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037969690316693597",
@@ -2085,7 +3121,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040677605565661485",
@@ -2099,11 +3142,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040628387266363400",
-      "text": "Someone might have an answer to this question! why one seedance generation works flawlessly why the other suck big time here are the two examples #seedance #bytedance https:// youtube.com/watch?v=FeNjQp lcj7o … vs",
+      "text": "Someone might have an answer to this question! why one seedance generation works flawlessly why the other suck big time here are the two examples #seedance #bytedance https:// youtube.com/watch?v=FeNjQp lcj7o ... vs",
       "category": "other",
       "quality_score": 74,
       "source_url": "https://x.com/hidalgoserra/status/2040628387266363400",
@@ -2113,7 +3163,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040212572360565127",
@@ -2127,7 +3184,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040100791822721300",
@@ -2141,7 +3205,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039708178456486375",
@@ -2155,7 +3226,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039672457267732651",
@@ -2169,7 +3247,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2038977755279204614",
@@ -2183,7 +3268,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2030674973543498001",
@@ -2197,7 +3289,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039955623975281037",
@@ -2211,7 +3310,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037981378063876604",
@@ -2225,7 +3331,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2036107627676266655",
@@ -2239,11 +3352,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040667320973140122",
-      "text": "Seedance2.0提示词教程！不用排队！（提示词库，官方手册） https:// studio.youtube.com/video/0tul5mXP 1Dc/edit …",
+      "text": "Seedance2.0提示词教程!不用排队!(提示词库,官方手册) https:// studio.youtube.com/video/0tul5mXP 1Dc/edit ...",
       "category": "scene",
       "quality_score": 72,
       "source_url": "https://x.com/sonic_yann/status/2040667320973140122",
@@ -2253,11 +3373,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040461976619688372",
-      "text": "To the moon! #seedance https:// venice.ai/chat?model=see dance-v2-fast-text-to-video …",
+      "text": "To the moon! #seedance https:// venice.ai/chat?model=see dance-v2-fast-text-to-video ...",
       "category": "character",
       "quality_score": 72,
       "source_url": "https://x.com/jesseproudman/status/2040461976619688372",
@@ -2267,7 +3394,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040066027204104580",
@@ -2281,7 +3415,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040692203136434591",
@@ -2295,7 +3436,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040603829939396813",
@@ -2309,7 +3457,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040424195398697239",
@@ -2323,7 +3478,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040675037687197733",
@@ -2337,7 +3499,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040630231040749646",
@@ -2351,7 +3520,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040686078961566032",
@@ -2365,7 +3541,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037507146380620143",
@@ -2379,7 +3562,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2035306970593231024",
@@ -2393,7 +3583,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040648553606140214",
@@ -2407,7 +3604,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040098656188035332",
@@ -2421,7 +3625,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040680165249081734",
@@ -2435,11 +3646,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040239061789810777",
-      "text": "Not to be feared, not to be saved. She stands alone and that is enough… First try with Seedance 2 on @itsPolloAI #PolloSeedance2.0 #PolloAI Basic prompt by @narwadan_j",
+      "text": "Not to be feared, not to be saved. She stands alone and that is enough... First try with Seedance 2 on @itsPolloAI #PolloSeedance2.0 #PolloAI Basic prompt by @narwadan_j",
       "category": "other",
       "quality_score": 66,
       "source_url": "https://x.com/lova_waruwu/status/2040239061789810777",
@@ -2449,7 +3667,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040633777035063686",
@@ -2463,7 +3688,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2035349897956728861",
@@ -2477,7 +3709,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2039746573853196292",
@@ -2491,7 +3730,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040694426746408976",
@@ -2505,7 +3751,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2038965064292790287",
@@ -2519,11 +3772,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040504651326603488",
-      "text": "@TheoMediaAI thank you for all the educational videos. I finished making my live action looking Dragonball Z movie short today using Seedance 2.0 and wanted to acknowledge how much you helped. https:// youtu.be/ZPoeFDE_guc?si =AaRRsWtrHzwae3w6 … #seedance #bytedance #nanobanana2 #openartai #higgsfield",
+      "text": "@TheoMediaAI thank you for all the educational videos. I finished making my live action looking Dragonball Z movie short today using Seedance 2.0 and wanted to acknowledge how much you helped. https:// youtu.be/ZPoeFDE_guc?si =AaRRsWtrHzwae3w6 ... #seedance #bytedance #nanobanana2 #openartai #higgsfield",
       "category": "other",
       "quality_score": 61,
       "source_url": "https://x.com/J_Mitch01/status/2040504651326603488",
@@ -2533,7 +3793,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040342690391634270",
@@ -2547,7 +3814,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040308415944405094",
@@ -2561,7 +3835,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040244701891363013",
@@ -2575,7 +3856,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040019536062341466",
@@ -2589,7 +3877,16 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 70,
+        "reasons": [
+          "short"
+        ],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2035644299212165447",
@@ -2603,7 +3900,16 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 70,
+        "reasons": [
+          "short"
+        ],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040296889300799833",
@@ -2617,7 +3923,16 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": false,
+        "score": 38,
+        "reasons": [
+          "too_short"
+        ],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040111155864010801",
@@ -2631,7 +3946,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2036856956330082662",
@@ -2645,7 +3967,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040197195220074675",
@@ -2659,11 +3988,18 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2038132908033188082",
-      "text": "Goodbye Sora! Hey, latest feature is out! Create your very own Music Videos! Upload a music file, type your prompt, use your images too! Join here https:// vidu.com/login?invite_c ode=RIPSORA&utm_source=cpp&utm_medium=cppcode&utm_campaign=cppcode … #ViduQ3, #ViduRefHub2.0, #Go Viral with Vidu #RIPSORA @ViduAI_official @vidujapan #MusicVideo #AIVideo",
+      "text": "Goodbye Sora! Hey, latest feature is out! Create your very own Music Videos! Upload a music file, type your prompt, use your images too! Join here https:// vidu.com/login?invite_c ode=RIPSORA&utm_source=cpp&utm_medium=cppcode&utm_campaign=cppcode ... #ViduQ3, #ViduRefHub2.0, #Go Viral with Vidu #RIPSORA @ViduAI_official @vidujapan #MusicVideo #AIVideo",
       "category": "camera",
       "quality_score": 54,
       "source_url": "https://x.com/JesnaSajan/status/2038132908033188082",
@@ -2673,7 +4009,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2037912414784565607",
@@ -2687,7 +4030,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2031926208720675011",
@@ -2701,7 +4051,14 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040574461791870993",
@@ -2715,7 +4072,17 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": false,
+        "score": 0,
+        "reasons": [
+          "spam_pattern",
+          "too_short"
+        ],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2038067336486523230",
@@ -2729,7 +4096,16 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": false,
+        "score": 38,
+        "reasons": [
+          "too_short"
+        ],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040667146850644145",
@@ -2743,7 +4119,16 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 70,
+        "reasons": [
+          "short"
+        ],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2040082383710404997",
@@ -2757,7 +4142,16 @@
       "source_network": "x",
       "reviewed_llm": false,
       "likes": null,
-      "retweets": null
+      "retweets": null,
+      "screen": {
+        "approved": false,
+        "score": 38,
+        "reasons": [
+          "too_short"
+        ],
+        "reviewed_at": "2026-04-05T08:07:04Z",
+        "engine": "internal_rules_v1"
+      }
     }
   ]
 }

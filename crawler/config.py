@@ -19,11 +19,11 @@ X_SCRAPE_QUERIES: list[str] = [
     "text to video prompt",
 ]
 
-# Minimum heuristic quality (0–100) to keep a row without LLM override.
+# Minimum heuristic quality (0–100) to keep a row before internal screening.
 MIN_HEURISTIC_SCORE = 42
 
-# Cap LLM-reviewed new items per run (optional OpenAI; costs money).
-MAX_LLM_REVIEWS_PER_RUN = 40
+# Internal screening: minimum screen score (0–100) to approve for the public list.
+SCREEN_MIN_SCORE = 48
 
 CATEGORIES: tuple[str, ...] = (
     "motion",

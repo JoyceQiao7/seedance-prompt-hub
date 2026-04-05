@@ -1,6 +1,6 @@
 # Seedance / AI video prompt hub (X-only, unofficial scrape)
 
-Daily automation that **searches X (Twitter)** for **AI video / creator**-adjacent posts (Seedance, Runway, Kling, Sora, text-to-video, etc.), **extracts prompts**, scores them, optionally runs **OpenAI** cleanup, merges into `data/prompts.json`, and publishes a **static search site** via GitHub Pages.
+Daily automation that **searches X (Twitter)** for **AI video / creator**-adjacent posts (Seedance, Runway, Kling, Sora, text-to-video, etc.), **extracts prompts**, scores them, runs an **internal rule-based screen** (no paid LLM API), merges into `data/prompts.json`, and publishes a **static search site** via GitHub Pages.
 
 > **Important:** This uses **browser automation (Playwright)** and **session cookies** — not the official X API. That may **violate X’s Terms of Service**, can trigger **locks or captchas**, and **breaks when X changes the site**. You are responsible for compliance and risk. Use a **dedicated X account** and **low volume** (defaults are conservative).
 
@@ -9,7 +9,7 @@ Daily automation that **searches X (Twitter)** for **AI video / creator**-adjace
 1. **Playwright** opens Chromium (headless in CI), visits X **Search → Latest** for each query in `crawler/config.py` (`X_SCRAPE_QUERIES`).
 2. Scrolls a few times per query, parses `article[data-testid="tweet"]` and `[data-testid="tweetText"]`.
 3. Keeps posts that match **AI video / creator** heuristics (`crawler/relevance.py`).
-4. **Extracts** prompt-like text (`crawler/extract_prompt.py`), **scores** and **categorizes**; optional **OpenAI** pass.
+4. **Extracts** prompt-like text (`crawler/extract_prompt.py`), **scores** and **categorizes**, then **`crawler/screen.py`** approves or holds rows using heuristics (spam, length, links, hashtags, promos).
 5. Dedupes by `x:{tweet_id}` and writes `data/prompts.json`.
 
 ## Session cookies (required for real data)
@@ -82,7 +82,6 @@ Workflow: `.github/workflows/daily-update.yml`
 | Name | Purpose |
 | --- | --- |
 | `X_COOKIES_JSON` or `X_COOKIES_B64` | Logged-in session (see above) |
-| `OPENAI_API_KEY` | Optional paid cleanup |
 
 **Pages:** Settings → Pages → **GitHub Actions**.
 
@@ -93,6 +92,10 @@ GitHub-hosted runners use **datacenter IPs**. X may **challenge or block** them 
 - `X_MAX_QUERIES` (default `10`)
 - `X_MAX_SCROLLS` (default `7`)
 - `X_SCROLL_PAUSE` (default `1.8` seconds)
+- `X_SKIP_SCRAPE=1` — only merge + internal screen backfill (no browser)
+- `FORCE_SCREEN_BACKFILL=1` — recompute `screen` for every row
+
+Screening thresholds live in `crawler/config.py` (`SCREEN_MIN_SCORE`).
 
 ## Local development
 
@@ -111,7 +114,8 @@ cd web && npm install && npm run dev
 | Path | Purpose |
 | --- | --- |
 | `crawler/x_scrape_playwright.py` | Unofficial X Latest-tab scrape |
-| `crawler/config.py` | Search query list |
+| `crawler/screen.py` | Internal rule-based screening + text prep |
+| `crawler/config.py` | Search queries, quality & screen thresholds |
 | `data/prompts.json` | Dataset for the site |
 | `web/` | React + Vite UI |
 

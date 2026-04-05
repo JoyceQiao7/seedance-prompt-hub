@@ -10,10 +10,14 @@ _SPAM = re.compile(
 )
 
 
+def looks_spammy(text: str) -> bool:
+    return bool(text and _SPAM.search(text))
+
+
 def score_prompt(text: str) -> int:
     if not text:
         return 0
-    if _SPAM.search(text):
+    if looks_spammy(text):
         return 0
 
     score = 48

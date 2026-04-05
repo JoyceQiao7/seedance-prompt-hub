@@ -13,6 +13,15 @@ const CATEGORIES = [
   "other",
 ] as const;
 
+const LISTING = ["published", "all", "held"] as const;
+
+function passesListing(p: PromptRow, mode: (typeof LISTING)[number]): boolean {
+  const approved = p.screen?.approved;
+  if (mode === "published") return approved !== false;
+  if (mode === "held") return approved === false;
+  return true;
+}
+
 function usePromptStore() {
   const [data, setData] = useState<PromptStore | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -36,11 +45,13 @@ export default function App() {
   const [q, setQ] = useState("");
   const [cat, setCat] = useState<(typeof CATEGORIES)[number]>("all");
   const [sort, setSort] = useState<"quality" | "date">("quality");
+  const [listing, setListing] = useState<(typeof LISTING)[number]>("published");
 
   const filtered = useMemo(() => {
     const rows = data?.prompts ?? [];
     const needle = q.trim().toLowerCase();
     let out: PromptRow[] = rows.filter((p) => {
+      if (!passesListing(p, listing)) return false;
       if (cat !== "all" && p.category !== cat) return false;
       if (!needle) return true;
       const hay = `${p.text} ${p.author} ${p.tweet_text ?? ""}`.toLowerCase();
@@ -55,7 +66,7 @@ export default function App() {
       return sort === "date" ? -da : da;
     });
     return out;
-  }, [data, q, cat, sort]);
+  }, [data, q, cat, sort, listing]);
 
   return (
     <div className="shell">
@@ -63,8 +74,8 @@ export default function App() {
         <div>
           <h1 className="title">Seedance 2.0 Prompt Hub</h1>
           <p className="sub">
-            Curated, scored prompts aggregated from X. Filter by category, search full text,
-            and open the original post when available.
+            Prompts from X are scored, then passed through an <strong>internal rule-based screen</strong>{" "}
+            (no cloud LLM). Browse published items or switch to <strong>All / Held back</strong> for review.
           </p>
         </div>
         <div className="pill mono">Daily refresh · Open source</div>
@@ -108,6 +119,18 @@ export default function App() {
             <option value="date">Newest first</option>
           </select>
         </div>
+        <div className="field">
+          <label htmlFor="listing">Listing</label>
+          <select
+            id="listing"
+            value={listing}
+            onChange={(e) => setListing(e.target.value as (typeof LISTING)[number])}
+          >
+            <option value="published">Published (screen approved)</option>
+            <option value="all">All (internal review)</option>
+            <option value="held">Held back only</option>
+          </select>
+        </div>
       </section>
 
       <div className="meta">
@@ -137,9 +160,17 @@ export default function App() {
                     {p.source_network}
                   </span>
                 ) : null}
-                {p.reviewed_llm ? (
-                  <span className="badge llm mono" title="Refined with LLM review">
-                    LLM reviewed
+                {p.screen ? (
+                  <span
+                    className={`badge mono ${p.screen.approved ? "screen-ok" : "screen-hold"}`}
+                    title={
+                      p.screen.reasons.length
+                        ? `Screen: ${p.screen.reasons.join(", ")}`
+                        : "Internal screen"
+                    }
+                  >
+                    screen {p.screen.score}
+                    {p.screen.approved ? "" : " · held"}
                   </span>
                 ) : null}
               </div>
@@ -165,15 +196,15 @@ export default function App() {
 
       <footer className="hint">
         <p>
-          <strong>How this works:</strong> A scheduled job runs a <strong>Playwright</strong>{" "}
-          crawler against <strong>X</strong> search (Latest) for AI-video-related queries, extracts
-          prompts, scores them, optionally refines with OpenAI, then commits{" "}
-          <span className="mono">data/prompts.json</span>. This site is a static build from that
-          file. Ingestion is <strong>unofficial</strong> and may break if X changes the UI.
+          <strong>How this works:</strong> A <strong>Playwright</strong> job searches <strong>X</strong>{" "}
+          (Latest) for AI-video-related queries, extracts prompts, scores them, then runs an{" "}
+          <strong>internal screen</strong> (spam, length, link/hashtag noise, promo patterns—no OpenAI).
+          Published rows have <span className="mono">screen.approved: true</span>. Data lives in{" "}
+          <span className="mono">data/prompts.json</span>.
         </p>
         <p style={{ marginTop: "0.75rem" }}>
-          Automation needs valid <span className="mono">X_COOKIES_JSON</span> (or base64) in CI;
-          <span className="mono"> OPENAI_API_KEY</span> is optional.
+          CI needs <span className="mono">X_COOKIES_JSON</span> / <span className="mono">X_COOKIES_B64</span>.
+          Set <span className="mono">X_SKIP_SCRAPE=1</span> locally to only backfill screening.
         </p>
       </footer>
     </div>

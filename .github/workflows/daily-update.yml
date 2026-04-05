@@ -37,7 +37,6 @@ jobs:
         env:
           X_COOKIES_JSON: ${{ secrets.X_COOKIES_JSON }}
           X_COOKIES_B64: ${{ secrets.X_COOKIES_B64 }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: PYTHONPATH=. python -m crawler
 
       - uses: actions/setup-node@v4

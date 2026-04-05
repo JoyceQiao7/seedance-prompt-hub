@@ -1,3 +1,11 @@
+export type ScreenMeta = {
+  approved: boolean;
+  score: number;
+  reasons: string[];
+  reviewed_at: string;
+  engine: string;
+};
+
 export type PromptRow = {
   id: string;
   text: string;
@@ -11,6 +19,7 @@ export type PromptRow = {
   reviewed_llm?: boolean;
   likes?: number | null;
   retweets?: number | null;
+  screen?: ScreenMeta | null;
 };
 
 export type PromptStore = {

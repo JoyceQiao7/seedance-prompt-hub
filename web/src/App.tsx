@@ -3,24 +3,29 @@ import type { PromptRow, PromptStore } from "./types";
 
 const CATEGORIES = [
   "all",
-  "motion",
-  "camera",
+  "cinematic",
+  "commercial",
+  "music-video",
+  "social-content",
   "character",
-  "scene",
-  "style",
-  "lighting",
-  "audio",
+  "nature-scenic",
+  "vfx",
   "other",
 ] as const;
 
-const LISTING = ["published", "all", "held"] as const;
+const CATEGORY_LABELS: Record<string, string> = {
+  all: "All categories",
+  cinematic: "Cinematic / Short film",
+  commercial: "Commercial / Advertising",
+  "music-video": "Music video",
+  "social-content": "Social / UGC",
+  character: "Character",
+  "nature-scenic": "Nature / Scenic",
+  vfx: "VFX / Effects",
+  other: "Other",
+};
 
-function passesListing(p: PromptRow, mode: (typeof LISTING)[number]): boolean {
-  const approved = p.screen?.approved;
-  if (mode === "published") return approved !== false;
-  if (mode === "held") return approved === false;
-  return true;
-}
+const MIN_PUBLIC_QUALITY = 90;
 
 function usePromptStore() {
   const [data, setData] = useState<PromptStore | null>(null);
@@ -44,21 +49,21 @@ export default function App() {
   const { data, error } = usePromptStore();
   const [q, setQ] = useState("");
   const [cat, setCat] = useState<(typeof CATEGORIES)[number]>("all");
-  const [sort, setSort] = useState<"quality" | "date">("quality");
-  const [listing, setListing] = useState<(typeof LISTING)[number]>("published");
+  const [sort, setSort] = useState<"relevance" | "date">("relevance");
 
   const filtered = useMemo(() => {
     const rows = data?.prompts ?? [];
     const needle = q.trim().toLowerCase();
     let out: PromptRow[] = rows.filter((p) => {
-      if (!passesListing(p, listing)) return false;
+      if (p.quality_score < MIN_PUBLIC_QUALITY) return false;
+      if (p.screen?.approved === false) return false;
       if (cat !== "all" && p.category !== cat) return false;
       if (!needle) return true;
-      const hay = `${p.text} ${p.author} ${p.tweet_text ?? ""}`.toLowerCase();
+      const hay = `${p.text} ${p.author} ${p.category}`.toLowerCase();
       return hay.includes(needle);
     });
     out = [...out].sort((a, b) => {
-      if (sort === "quality") {
+      if (sort === "relevance") {
         const dq = (b.quality_score ?? 0) - (a.quality_score ?? 0);
         if (dq !== 0) return dq;
       }
@@ -66,7 +71,7 @@ export default function App() {
       return sort === "date" ? -da : da;
     });
     return out;
-  }, [data, q, cat, sort, listing]);
+  }, [data, q, cat, sort]);
 
   return (
     <div className="shell">
@@ -74,28 +79,32 @@ export default function App() {
         <div>
           <h1 className="title">Seedance 2.0 Prompt Hub</h1>
           <p className="sub">
-            Prompts from X are scored, then passed through an <strong>internal rule-based screen</strong>{" "}
-            (no cloud LLM). Browse published items or switch to <strong>All / Held back</strong> for review.
+            Discover ready-to-use prompts for <strong>Seedance 2.0</strong> and other AI video
+            models. Search by use case, browse categories, and jump straight to the source.
           </p>
         </div>
-        <div className="pill mono">Daily refresh · Open source</div>
+        <div className="pill mono">
+          <span>Powered by <strong>Rizzbid</strong></span>
+          <span className="sep">·</span>
+          <span>Updated daily</span>
+        </div>
       </header>
 
       {error ? <div className="err">{error}</div> : null}
 
       <section className="controls" aria-label="Search and filters">
         <div className="field">
-          <label htmlFor="q">Search</label>
+          <label htmlFor="q">Search prompts</label>
           <input
             id="q"
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Try: dolly, neon, macro, golden hour…"
+            placeholder="Try: cinematic, drone, neon, portrait, explosion…"
             autoComplete="off"
           />
         </div>
         <div className="field">
-          <label htmlFor="cat">Category</label>
+          <label htmlFor="cat">Use case</label>
           <select
             id="cat"
             value={cat}
@@ -103,7 +112,7 @@ export default function App() {
           >
             {CATEGORIES.map((c) => (
               <option key={c} value={c}>
-                {c === "all" ? "All categories" : c}
+                {CATEGORY_LABELS[c] ?? c}
               </option>
             ))}
           </select>
@@ -113,33 +122,21 @@ export default function App() {
           <select
             id="sort"
             value={sort}
-            onChange={(e) => setSort(e.target.value as "quality" | "date")}
+            onChange={(e) => setSort(e.target.value as "relevance" | "date")}
           >
-            <option value="quality">Quality score</option>
+            <option value="relevance">Most relevant</option>
             <option value="date">Newest first</option>
-          </select>
-        </div>
-        <div className="field">
-          <label htmlFor="listing">Listing</label>
-          <select
-            id="listing"
-            value={listing}
-            onChange={(e) => setListing(e.target.value as (typeof LISTING)[number])}
-          >
-            <option value="published">Published (screen approved)</option>
-            <option value="all">All (internal review)</option>
-            <option value="held">Held back only</option>
           </select>
         </div>
       </section>
 
       <div className="meta">
         <span>
-          Showing <strong style={{ color: "var(--text)" }}>{filtered.length}</strong> prompts
+          <strong style={{ color: "var(--text)" }}>{filtered.length}</strong> prompts
         </span>
         {data?.updated_at ? (
           <span>
-            Dataset updated <span className="mono">{data.updated_at}</span>
+            Last updated <span className="mono">{data.updated_at.slice(0, 10)}</span>
           </span>
         ) : null}
       </div>
@@ -147,32 +144,13 @@ export default function App() {
       {!data && !error ? (
         <div className="empty">Loading prompts…</div>
       ) : filtered.length === 0 ? (
-        <div className="empty">No prompts match these filters.</div>
+        <div className="empty">No prompts match your search. Try a different keyword or category.</div>
       ) : (
         <div className="grid">
           {filtered.map((p) => (
             <article key={p.id} className="card">
               <div className="card-head">
-                <span className="badge mono">{p.category}</span>
-                <span className="badge score mono">score {p.quality_score}</span>
-                {p.source_network ? (
-                  <span className="badge mono" title="Origin network">
-                    {p.source_network}
-                  </span>
-                ) : null}
-                {p.screen ? (
-                  <span
-                    className={`badge mono ${p.screen.approved ? "screen-ok" : "screen-hold"}`}
-                    title={
-                      p.screen.reasons.length
-                        ? `Screen: ${p.screen.reasons.join(", ")}`
-                        : "Internal screen"
-                    }
-                  >
-                    screen {p.screen.score}
-                    {p.screen.approved ? "" : " · held"}
-                  </span>
-                ) : null}
+                <span className="badge cat mono">{CATEGORY_LABELS[p.category] ?? p.category}</span>
               </div>
               <p className="prompt-body mono">{p.text}</p>
               <div className="footer">
@@ -186,7 +164,7 @@ export default function App() {
                   ) : null}
                 </span>
                 <a href={p.source_url} target="_blank" rel="noreferrer">
-                  View source →
+                  View on X →
                 </a>
               </div>
             </article>
@@ -196,15 +174,16 @@ export default function App() {
 
       <footer className="hint">
         <p>
-          <strong>How this works:</strong> A <strong>Playwright</strong> job searches <strong>X</strong>{" "}
-          (Latest) for AI-video-related queries, extracts prompts, scores them, then runs an{" "}
-          <strong>internal screen</strong> (spam, length, link/hashtag noise, promo patterns—no OpenAI).
-          Published rows have <span className="mono">screen.approved: true</span>. Data lives in{" "}
-          <span className="mono">data/prompts.json</span>.
+          Prompts are collected daily from <strong>X</strong>, scored and screened automatically,
+          then published here. Only top-quality prompts make it to this page. Every card links
+          back to the original post so you can see the full thread and results.
         </p>
         <p style={{ marginTop: "0.75rem" }}>
-          CI needs <span className="mono">X_COOKIES_JSON</span> / <span className="mono">X_COOKIES_B64</span>.
-          Set <span className="mono">X_SKIP_SCRAPE=1</span> locally to only backfill screening.
+          Open source — built by{" "}
+          <a href="https://github.com/JoyceQiao7/seedance-prompt-hub" target="_blank" rel="noreferrer">
+            Rizzbid
+          </a>
+          .
         </p>
       </footer>
     </div>

@@ -79,21 +79,19 @@ code,
   font-size: 0.85rem;
 }
 
+.pill .sep {
+  opacity: 0.4;
+}
+
 .controls {
   display: grid;
   gap: 0.75rem;
   grid-template-columns: 1fr;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 780px) {
   .controls {
-    grid-template-columns: 1.2fr 0.65fr 0.65fr 1fr;
-  }
-}
-
-@media (min-width: 720px) and (max-width: 899px) {
-  .controls {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.4fr 1fr 0.7fr;
   }
 }
 
@@ -171,19 +169,9 @@ select:focus {
   color: var(--muted);
 }
 
-.badge.score {
+.badge.cat {
   border-color: rgba(167, 139, 250, 0.35);
   color: #ddd6fe;
-}
-
-.badge.screen-ok {
-  border-color: rgba(52, 211, 153, 0.4);
-  color: #a7f3d0;
-}
-
-.badge.screen-hold {
-  border-color: rgba(251, 191, 36, 0.45);
-  color: #fde68a;
 }
 
 .prompt-body {

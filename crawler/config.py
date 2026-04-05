@@ -1,6 +1,5 @@
 """Crawler thresholds and X search queries (unofficial scrape)."""
 
-# Human-readable X search strings (Latest tab). Keep modest count to reduce blocks.
 X_SCRAPE_QUERIES: list[str] = [
     "Seedance AI video",
     "Seedance 2 prompt",
@@ -19,19 +18,17 @@ X_SCRAPE_QUERIES: list[str] = [
     "text to video prompt",
 ]
 
-# Minimum heuristic quality (0–100) to keep a row before internal screening.
 MIN_HEURISTIC_SCORE = 42
-
-# Internal screening: minimum screen score (0–100) to approve for the public list.
 SCREEN_MIN_SCORE = 48
+PUBLIC_MIN_QUALITY = 90
 
 CATEGORIES: tuple[str, ...] = (
-    "motion",
-    "camera",
+    "cinematic",
+    "commercial",
+    "music-video",
+    "social-content",
     "character",
-    "scene",
-    "style",
-    "lighting",
-    "audio",
+    "nature-scenic",
+    "vfx",
     "other",
 )

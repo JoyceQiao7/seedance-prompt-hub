@@ -1,123 +1,85 @@
-# Seedance / AI video prompt hub (X-only, unofficial scrape)
+# Seedance 2.0 Prompt Hub
 
-Daily automation that **searches X (Twitter)** for **AI video / creator**-adjacent posts (Seedance, Runway, Kling, Sora, text-to-video, etc.), **extracts prompts**, scores them, runs an **internal rule-based screen** (no paid LLM API), merges into `data/prompts.json`, and publishes a **static search site** via GitHub Pages.
+**Open-source prompt library for AI video creators, powered by [Rizzbid](https://github.com/JoyceQiao7).**
 
-> **Important:** This uses **browser automation (Playwright)** and **session cookies** — not the official X API. That may **violate X’s Terms of Service**, can trigger **locks or captchas**, and **breaks when X changes the site**. You are responsible for compliance and risk. Use a **dedicated X account** and **low volume** (defaults are conservative).
+Browse, search, and copy high-quality prompts built for **Seedance 2.0** and other leading AI video models. Updated daily from real creator posts on X.
 
-## How the crawler works
+**Live site** — [joyceqiao7.github.io/seedance-prompt-hub](https://joyceqiao7.github.io/seedance-prompt-hub/)
 
-1. **Playwright** opens Chromium (headless in CI), visits X **Search → Latest** for each query in `crawler/config.py` (`X_SCRAPE_QUERIES`).
-2. Scrolls a few times per query, parses `article[data-testid="tweet"]` and `[data-testid="tweetText"]`.
-3. Keeps posts that match **AI video / creator** heuristics (`crawler/relevance.py`).
-4. **Extracts** prompt-like text (`crawler/extract_prompt.py`), **scores** and **categorizes**, then **`crawler/screen.py`** approves or holds rows using heuristics (spam, length, links, hashtags, promos).
-5. Dedupes by `x:{tweet_id}` and writes `data/prompts.json`.
+## What you get
 
-## Session cookies (required for real data)
+- **Curated prompts** organized by use case — cinematic, commercial, music video, social/UGC, character, nature/scenic, VFX, and more.
+- **Daily refresh** — a scheduled job finds new prompts from X, scores them, and publishes only the best.
+- **Search and filter** — full-text search plus category filters so you find what you need fast.
+- **Source links** — every prompt links to the original post for context, threads, and generated results.
 
-X usually shows a **login wall** for search automation. You must supply **logged-in** session data.
+## Use-case categories
 
-### Where is `X_COOKIES_JSON`?
-
-It is **not** a file inside the Git repository. It is a **GitHub Actions secret** (encrypted settings on GitHub):
-
-1. Open your repo: `https://github.com/JoyceQiao7/seedance-prompt-hub`
-2. **Settings** → **Secrets and variables** → **Actions**
-3. **New repository secret**
-4. **Name:** `X_COOKIES_JSON`
-5. **Secret:** paste your cookie JSON as **one line** (minified), or use secret **`X_COOKIES_B64`** with the whole JSON base64-encoded.
-
-**Locally**, use a **file** instead (so you never commit secrets): copy `x_cookies.example.json` to `x_cookies.json`, replace the placeholders with real `auth_token` and `ct0` values, and set `X_COOKIES_PATH=./x_cookies.json` in `.env`. The real `x_cookies.json` is listed in `.gitignore`.
-
-### Option A — Cookie JSON (good for GitHub Actions)
-
-1. In **Chrome** or **Edge**, log into [x.com](https://x.com) with the **bot account**.
-2. Open **DevTools** → **Application** → **Cookies** → `https://x.com`.
-3. Copy values for at least **`auth_token`** and **`ct0`** (also set cookie `ct0` header parity — both are required historically for X web).
-4. Build a **Playwright-style cookie list** (minimal example shape):
-
-```json
-[
-  {
-    "name": "auth_token",
-    "value": "PASTE_VALUE",
-    "domain": ".x.com",
-    "path": "/",
-    "secure": true,
-    "httpOnly": true
-  },
-  {
-    "name": "ct0",
-    "value": "PASTE_VALUE",
-    "domain": ".x.com",
-    "path": "/",
-    "secure": true
-  }
-]
-```
-
-5. Put the JSON in repo secret **`X_COOKIES_JSON`**, **or** base64 the entire JSON string and store as **`X_COOKIES_B64`** (helps with quoting/newlines).
-
-**GitHub secret size limit** is about **48 KB** per secret. If you exceed it, trim to only essential cookies or use local `X_COOKIES_PATH` / `X_STORAGE_STATE_PATH`.
-
-### Option B — Playwright `storage_state.json` (local / self-hosted)
-
-1. Run a one-off Playwright script on your machine to log in and save `storage_state.json`, **or** export from a logged-in Chromium user data dir (advanced).
-2. Point **`X_STORAGE_STATE_PATH`** at that file locally.  
-   GitHub Actions cannot read your disk; for CI you still need **Option A** or a **self-hosted runner** with the file on disk.
-
-### Local `.env`
-
-```bash
-cp .env.example .env
-# set X_COOKIES_JSON='[...]' OR X_COOKIES_PATH=./cookies.json OR X_STORAGE_STATE_PATH=./state.json
-PYTHONPATH=. python -m crawler
-```
-
-## GitHub Actions
-
-Workflow: `.github/workflows/daily-update.yml`
-
-**Secrets**
-
-| Name | Purpose |
+| Category | What it covers |
 | --- | --- |
-| `X_COOKIES_JSON` or `X_COOKIES_B64` | Logged-in session (see above) |
+| **Cinematic / Short film** | Narrative scenes, multi-shot storytelling, film grain, color grading, drama |
+| **Commercial / Advertising** | Product shots, brand content, fashion, beauty, marketing |
+| **Music video** | Performances, concerts, choreography, stage lighting, lip sync |
+| **Social / UGC** | TikTok, Reels, vertical 9:16, POV, vlog-style, mobile footage |
+| **Character** | Portraits, costumes, walk cycles, anime/3D characters |
+| **Nature / Scenic** | Landscapes, aerials, drone shots, golden hour, wildlife, travel |
+| **VFX / Effects** | Explosions, particles, magic, morphs, glitch, hologram |
 
-**Pages:** Settings → Pages → **GitHub Actions**.
+## How it works
 
-### CI reliability note
+1. A **Playwright** crawler searches X for Seedance / AI-video-related posts (Latest tab).
+2. Prompts are **extracted**, **scored** with heuristics, and passed through an **internal rule-based screen** (spam, noise, length, promo detection — no external API needed).
+3. Only prompts scoring **≥ 90** and passing screening are shown publicly.
+4. Categories are assigned automatically by keyword analysis.
+5. Everything merges into `data/prompts.json` and deploys as a **static site** via GitHub Pages.
 
-GitHub-hosted runners use **datacenter IPs**. X may **challenge or block** them even with valid cookies. If the job consistently sees a **login wall**, use a **self-hosted runner**, run the crawler on a **home server** with `cron`, or lower frequency / fewer queries via env:
+## For contributors
 
-- `X_MAX_QUERIES` (default `10`)
-- `X_MAX_SCROLLS` (default `7`)
-- `X_SCROLL_PAUSE` (default `1.8` seconds)
-- `X_SKIP_SCRAPE=1` — only merge + internal screen backfill (no browser)
-- `FORCE_SCREEN_BACKFILL=1` — recompute `screen` for every row
-
-Screening thresholds live in `crawler/config.py` (`SCREEN_MIN_SCORE`).
-
-## Local development
+### Local setup
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+git clone https://github.com/JoyceQiao7/seedance-prompt-hub.git
+cd seedance-prompt-hub
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python -m playwright install chromium
 cp .env.example .env
+# Add X session cookies (see .env.example for details)
 PYTHONPATH=. python -m crawler
 cd web && npm install && npm run dev
 ```
 
-## Repository layout
+### Session cookies
+
+The crawler needs logged-in X cookies (`auth_token` + `ct0`). See `x_cookies.example.json` for the format. Copy it to `x_cookies.json` (gitignored) and fill in real values from DevTools.
+
+For GitHub Actions, store the cookie JSON as a repository secret named **`X_COOKIES_JSON`** (or base64 it as **`X_COOKIES_B64`**).
+
+### GitHub Actions
+
+Workflow: `.github/workflows/daily-update.yml` — runs daily at 06:35 UTC or on manual dispatch.
+
+**Settings → Pages → Source: GitHub Actions** to enable the live site.
+
+### Environment variables
+
+| Variable | Purpose |
+| --- | --- |
+| `X_COOKIES_JSON` / `X_COOKIES_B64` | Logged-in X session for search |
+| `X_COOKIES_PATH` | Local path to cookie file (default: `./x_cookies.json`) |
+| `X_MAX_QUERIES` | Number of search queries per run (default 10) |
+| `X_MAX_SCROLLS` | Scrolls per query (default 7) |
+| `X_SKIP_SCRAPE=1` | Skip browser; only merge + re-screen |
+| `FORCE_SCREEN_BACKFILL=1` | Recompute screening for all rows |
+
+### Repository layout
 
 | Path | Purpose |
 | --- | --- |
-| `crawler/x_scrape_playwright.py` | Unofficial X Latest-tab scrape |
-| `crawler/screen.py` | Internal rule-based screening + text prep |
-| `crawler/config.py` | Search queries, quality & screen thresholds |
-| `data/prompts.json` | Dataset for the site |
-| `web/` | React + Vite UI |
+| `crawler/` | X scrape, extract, score, categorize, screen |
+| `data/prompts.json` | Canonical dataset |
+| `web/` | React + Vite frontend |
+| `.github/workflows/` | Daily automation + Pages deploy |
 
 ## License
 
@@ -125,4 +87,8 @@ MIT — see [LICENSE](LICENSE).
 
 ## Disclaimer
 
-This software is for **research and personal curation**. Scraping or automating X may breach **X’s Terms of Service** and applicable law in your jurisdiction. Prompt text belongs to original authors; this project **links** to source posts. **Rotate cookies** if leaked; use a **throwaway** X account for automation.
+This project uses **browser automation** to read public X posts. That may conflict with X's Terms of Service; use at your own risk with a dedicated account and conservative settings. Prompt text belongs to the original authors — every entry links to the source post.
+
+---
+
+**Built with care by Rizzbid for the AI creator community.**

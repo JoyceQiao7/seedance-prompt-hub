@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.local
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+web/node_modules/
+web/dist/
+web/public/prompts.json
+*.log
+.idea/
+.vscode/

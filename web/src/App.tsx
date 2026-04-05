@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { PromptRow, PromptStore } from "./types";
 
 const CATEGORIES = [
@@ -25,6 +25,8 @@ const CATEGORY_LABELS: Record<string, string> = {
   other: "Other",
 };
 
+const PROMPT_PREVIEW_LEN = 180;
+
 function usePromptStore() {
   const [data, setData] = useState<PromptStore | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -47,13 +49,33 @@ function mediaUrl(relPath: string): string {
   return new URL(relPath, window.location.origin + import.meta.env.BASE_URL).toString();
 }
 
-function PromptCard({ p }: { p: PromptRow }) {
+/* ── Modal ── */
+
+function PromptModal({
+  p,
+  onClose,
+}: {
+  p: PromptRow;
+  onClose: () => void;
+}) {
   const displayText = p.display_text || p.text;
   const [copied, setCopied] = useState(false);
-  const [playing, setPlaying] = useState(false);
+  const backdropRef = useRef<HTMLDivElement>(null);
 
   const hasThumb = !!p.thumbnail;
   const hasVideo = !!p.video;
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    document.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [onClose]);
 
   const handleCopy = useCallback(() => {
     navigator.clipboard.writeText(displayText).then(() => {
@@ -63,13 +85,86 @@ function PromptCard({ p }: { p: PromptRow }) {
   }, [displayText]);
 
   return (
-    <article className="card">
-      {hasThumb && !playing && (
-        <figure
-          className="card-media"
-          onClick={hasVideo ? () => setPlaying(true) : undefined}
-          style={hasVideo ? { cursor: "pointer" } : undefined}
-        >
+    <div
+      className="modal-backdrop"
+      ref={backdropRef}
+      onClick={(e) => {
+        if (e.target === backdropRef.current) onClose();
+      }}
+    >
+      <div className="modal">
+        <button className="modal-close" onClick={onClose} aria-label="Close">
+          ✕
+        </button>
+        <div className="modal-body">
+          {(hasThumb || hasVideo) && (
+            <div className="modal-media">
+              {hasVideo ? (
+                <video
+                  src={mediaUrl(p.video!)}
+                  poster={hasThumb ? mediaUrl(p.thumbnail!) : undefined}
+                  controls
+                  autoPlay
+                  playsInline
+                  preload="metadata"
+                />
+              ) : (
+                <img
+                  src={mediaUrl(p.thumbnail!)}
+                  alt={`Preview for ${p.category} prompt by ${p.author}`}
+                />
+              )}
+            </div>
+          )}
+          <div className="modal-content">
+            <div className="card-head">
+              <span className="badge cat mono">
+                {CATEGORY_LABELS[p.category] ?? p.category}
+              </span>
+              <button
+                className="copy-btn mono"
+                onClick={handleCopy}
+                title="Copy prompt"
+              >
+                {copied ? "Copied!" : "Copy"}
+              </button>
+            </div>
+            <pre className="prompt-body mono modal-prompt">{displayText}</pre>
+            <div className="footer">
+              <span>{p.author}</span>
+              <a href={p.source_url} target="_blank" rel="noreferrer">
+                View on X →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ── Card ── */
+
+function PromptCard({
+  p,
+  onOpen,
+}: {
+  p: PromptRow;
+  onOpen: () => void;
+}) {
+  const displayText = p.display_text || p.text;
+  const isLong = displayText.length > PROMPT_PREVIEW_LEN;
+  const preview = isLong
+    ? displayText.slice(0, PROMPT_PREVIEW_LEN).trimEnd() + "…"
+    : displayText;
+
+  const hasThumb = !!p.thumbnail;
+  const hasVideo = !!p.video;
+
+  return (
+    <article className="card" onClick={onOpen}>
+      {hasThumb && (
+        <figure className="card-media">
           <img
             src={mediaUrl(p.thumbnail!)}
             alt={`Preview for ${p.category} prompt by ${p.author}`}
@@ -89,57 +184,28 @@ function PromptCard({ p }: { p: PromptRow }) {
           )}
         </figure>
       )}
-      {playing && hasVideo && (
-        <div className="card-media">
-          <video
-            src={mediaUrl(p.video!)}
-            poster={hasThumb ? mediaUrl(p.thumbnail!) : undefined}
-            controls
-            autoPlay
-            playsInline
-            preload="metadata"
-            width={640}
-            height={360}
-            onEnded={() => setPlaying(false)}
-          />
-        </div>
-      )}
       <div className="card-head">
         <span className="badge cat mono">
           {CATEGORY_LABELS[p.category] ?? p.category}
         </span>
-        <button
-          className="copy-btn mono"
-          onClick={handleCopy}
-          title="Copy prompt"
-        >
-          {copied ? "Copied!" : "Copy"}
-        </button>
       </div>
-      <p className="prompt-body mono">{displayText}</p>
+      <p className="prompt-body mono prompt-preview">{preview}</p>
       <div className="footer">
-        <span>
-          {p.author}
-          {p.created_at ? (
-            <>
-              {" · "}
-              <span className="mono">{p.created_at.slice(0, 10)}</span>
-            </>
-          ) : null}
-        </span>
-        <a href={p.source_url} target="_blank" rel="noreferrer">
-          View on X →
-        </a>
+        <span>{p.author}</span>
+        <span className="view-more">View →</span>
       </div>
     </article>
   );
 }
+
+/* ── App ── */
 
 export default function App() {
   const { data, error } = usePromptStore();
   const [q, setQ] = useState("");
   const [cat, setCat] = useState<(typeof CATEGORIES)[number]>("all");
   const [sort, setSort] = useState<"relevance" | "date">("relevance");
+  const [activePrompt, setActivePrompt] = useState<PromptRow | null>(null);
 
   const filtered = useMemo(() => {
     const rows = data?.prompts ?? [];
@@ -174,8 +240,6 @@ export default function App() {
         </div>
         <div className="pill mono">
           <span>Powered by <strong>Rizzbid</strong></span>
-          <span className="sep">·</span>
-          <span>Updated daily</span>
         </div>
       </header>
 
@@ -223,11 +287,6 @@ export default function App() {
         <span>
           <strong style={{ color: "var(--text)" }}>{filtered.length}</strong> prompts
         </span>
-        {data?.updated_at ? (
-          <span>
-            Last updated <span className="mono">{data.updated_at.slice(0, 10)}</span>
-          </span>
-        ) : null}
       </div>
 
       {!data && !error ? (
@@ -237,18 +296,13 @@ export default function App() {
       ) : (
         <div className="grid">
           {filtered.map((p) => (
-            <PromptCard key={p.id} p={p} />
+            <PromptCard key={p.id} p={p} onOpen={() => setActivePrompt(p)} />
           ))}
         </div>
       )}
 
       <footer className="hint">
         <p>
-          Prompts are collected daily from <strong>X</strong>, scored and screened automatically,
-          then published here. Only top-quality prompts make it to this page. Every card links
-          back to the original post so you can see the full thread and results.
-        </p>
-        <p style={{ marginTop: "0.75rem" }}>
           Open source — built by{" "}
           <a href="https://github.com/JoyceQiao7/seedance-prompt-hub" target="_blank" rel="noreferrer">
             Rizzbid
@@ -256,6 +310,10 @@ export default function App() {
           .
         </p>
       </footer>
+
+      {activePrompt && (
+        <PromptModal p={activePrompt} onClose={() => setActivePrompt(null)} />
+      )}
     </div>
   );
 }

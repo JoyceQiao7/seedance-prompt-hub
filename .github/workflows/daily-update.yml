@@ -2,7 +2,7 @@ name: Daily prompt update and site deploy
 
 on:
   schedule:
-    - cron: "35 6 * * *"
+    - cron: "0 10,22 * * *"
   workflow_dispatch:
 
 permissions:

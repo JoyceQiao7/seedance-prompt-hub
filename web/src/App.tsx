@@ -165,17 +165,15 @@ export default function App() {
 
       <footer className="hint">
         <p>
-          <strong>How this works:</strong> GitHub Actions runs the Python crawler on a schedule.
-          It ingests public posts from <strong>Bluesky</strong> and <strong>Mastodon</strong> ($0),
-          optionally <strong>X</strong> if configured, extracts prompts, scores them, optionally
-          refines with OpenAI, then commits <span className="mono">data/prompts.json</span>. This
-          site is a static build from that file.
+          <strong>How this works:</strong> A scheduled job runs a <strong>Playwright</strong>{" "}
+          crawler against <strong>X</strong> search (Latest) for AI-video-related queries, extracts
+          prompts, scores them, optionally refines with OpenAI, then commits{" "}
+          <span className="mono">data/prompts.json</span>. This site is a static build from that
+          file. Ingestion is <strong>unofficial</strong> and may break if X changes the UI.
         </p>
         <p style={{ marginTop: "0.75rem" }}>
-          <span className="mono">BLUESKY_IDENTIFIER</span> +{" "}
-          <span className="mono">BLUESKY_APP_PASSWORD</span> power free Bluesky search.{" "}
-          <span className="mono">TWITTER_BEARER_TOKEN</span> and{" "}
-          <span className="mono">OPENAI_API_KEY</span> are optional.
+          Automation needs valid <span className="mono">X_COOKIES_JSON</span> (or base64) in CI;
+          <span className="mono"> OPENAI_API_KEY</span> is optional.
         </p>
       </footer>
     </div>

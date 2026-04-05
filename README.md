@@ -1,99 +1,107 @@
-# Seedance 2.0 Prompt Hub
+# Seedance / AI video prompt hub (X-only, unofficial scrape)
 
-Fully automated, **$0-first** ingestion of **Seedance / SD2.x / ByteDance**-related prompts from **Bluesky** and **Mastodon**, with optional **X** (often paid) and optional **OpenAI** cleanup. Everything merges into `data/prompts.json` and ships as a **static search site** (categories + full-text search).
+Daily automation that **searches X (Twitter)** for **AI video / creator**-adjacent posts (Seedance, Runway, Kling, Sora, text-to-video, etc.), **extracts prompts**, scores them, optionally runs **OpenAI** cleanup, merges into `data/prompts.json`, and publishes a **static search site** via GitHub Pages.
 
-## Strategy ($0, low maintenance)
+> **Important:** This uses **browser automation (Playwright)** and **session cookies** — not the official X API. That may **violate X’s Terms of Service**, can trigger **locks or captchas**, and **breaks when X changes the site**. You are responsible for compliance and risk. Use a **dedicated X account** and **low volume** (defaults are conservative).
 
-| Source | Cost | Automation | Notes |
-| --- | --- | --- | --- |
-| **Bluesky** (`app.bsky.feed.searchPosts`) | **$0** | Daily in GitHub Actions | Uses a **free Bluesky account** + **App Password** (not your login password). Official API, stable. |
-| **Mastodon** (public hashtag timelines) | **$0** | Same job | Reads **public** posts from several large instances. **No token** if the instance allows anonymous tag reads; optional token if you hit `401`. |
-| **X** (Recent Search) | Often **paid** | Optional | Enabled only if `TWITTER_BEARER_TOKEN` is set. Stops after **402** so logs stay quiet. |
-| **OpenAI** | Paid per use | Optional | Improves cleanup; omit for strict **$0**. |
+## How the crawler works
 
-Posts must look **on-topic** (`seedance`, `bytedance`, `sd2`, etc.) before extraction—see `crawler/relevance.py`.
+1. **Playwright** opens Chromium (headless in CI), visits X **Search → Latest** for each query in `crawler/config.py` (`X_SCRAPE_QUERIES`).
+2. Scrolls a few times per query, parses `article[data-testid="tweet"]` and `[data-testid="tweetText"]`.
+3. Keeps posts that match **AI video / creator** heuristics (`crawler/relevance.py`).
+4. **Extracts** prompt-like text (`crawler/extract_prompt.py`), **scores** and **categorizes**; optional **OpenAI** pass.
+5. Dedupes by `x:{tweet_id}` and writes `data/prompts.json`.
 
-## How to get free Bluesky API credentials (App Password)
+## Session cookies (required for real data)
 
-You need this for **fully automated** Bluesky search (recommended).
+X usually shows a **login wall** for search automation. You must supply **logged-in** session data.
 
-1. Create a free account at [https://bsky.app](https://bsky.app) (or sign in).
-2. Open **Settings** → **Privacy and security** → **App passwords**.
-3. Tap **Add app password**, give it a label (e.g. `prompt-hub`), **copy the generated password** once.  
-   - This is **not** your normal Bluesky password.
-4. Note your **handle** (e.g. `yourname.bsky.social`) — this is `BLUESKY_IDENTIFIER`.
+### Option A — Cookie JSON (good for GitHub Actions)
 
-Local `.env`:
+1. In **Chrome** or **Edge**, log into [x.com](https://x.com) with the **bot account**.
+2. Open **DevTools** → **Application** → **Cookies** → `https://x.com`.
+3. Copy values for at least **`auth_token`** and **`ct0`** (also set cookie `ct0` header parity — both are required historically for X web).
+4. Build a **Playwright-style cookie list** (minimal example shape):
 
-```env
-BLUESKY_IDENTIFIER=your.handle.bsky.social
-BLUESKY_APP_PASSWORD=xxxx-xxxx-xxxx-xxxx
+```json
+[
+  {
+    "name": "auth_token",
+    "value": "PASTE_VALUE",
+    "domain": ".x.com",
+    "path": "/",
+    "secure": true,
+    "httpOnly": true
+  },
+  {
+    "name": "ct0",
+    "value": "PASTE_VALUE",
+    "domain": ".x.com",
+    "path": "/",
+    "secure": true
+  }
+]
 ```
 
-GitHub Actions → **Settings** → **Secrets and variables** → **Actions** → add:
+5. Put the JSON in repo secret **`X_COOKIES_JSON`**, **or** base64 the entire JSON string and store as **`X_COOKIES_B64`** (helps with quoting/newlines).
 
-- `BLUESKY_IDENTIFIER`
-- `BLUESKY_APP_PASSWORD`
+**GitHub secret size limit** is about **48 KB** per secret. If you exceed it, trim to only essential cookies or use local `X_COOKIES_PATH` / `X_STORAGE_STATE_PATH`.
 
-Optional: `BLUESKY_PDS_HOST` (default `https://bsky.social`).
+### Option B — Playwright `storage_state.json` (local / self-hosted)
 
-## Optional: Mastodon token (usually skip)
+1. Run a one-off Playwright script on your machine to log in and save `storage_state.json`, **or** export from a logged-in Chromium user data dir (advanced).
+2. Point **`X_STORAGE_STATE_PATH`** at that file locally.  
+   GitHub Actions cannot read your disk; for CI you still need **Option A** or a **self-hosted runner** with the file on disk.
 
-Many instances return public hashtag timelines **without** auth. If logs show empty Mastodon results and you know an instance requires login:
-
-1. On that instance, create an account → **Preferences** → **Development** → **New Application** (read scope) → copy **access token**.
-2. Set `MASTODON_ACCESS_TOKEN` locally or as a GitHub secret.
-
-## Live site
-
-With **GitHub Pages** source set to **GitHub Actions**, the workflow publishes something like:
-
-`https://joyceqiao7.github.io/seedance-prompt-hub/`
-
-## Local development
-
-### Crawler
+### Local `.env`
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
 cp .env.example .env
-# Add BLUESKY_IDENTIFIER + BLUESKY_APP_PASSWORD at minimum
+# set X_COOKIES_JSON='[...]' OR X_COOKIES_PATH=./cookies.json OR X_STORAGE_STATE_PATH=./state.json
 PYTHONPATH=. python -m crawler
 ```
-
-### Web UI
-
-```bash
-cd web
-npm install
-npm run dev
-```
-
-Open the URL Vite prints (usually `http://localhost:5173/`).
 
 ## GitHub Actions
 
 Workflow: `.github/workflows/daily-update.yml`
 
-- **Schedule**: daily **06:35 UTC** (edit cron to change).
-- **Secrets**:
-  - **Recommended ($0):** `BLUESKY_IDENTIFIER`, `BLUESKY_APP_PASSWORD`
-  - **Optional:** `MASTODON_ACCESS_TOKEN`, `BLUESKY_PDS_HOST`
-  - **Optional (often paid):** `TWITTER_BEARER_TOKEN`
-  - **Optional (costs money):** `OPENAI_API_KEY`
+**Secrets**
 
-**Pages:** **Settings** → **Pages** → **Build and deployment** → **GitHub Actions**.
+| Name | Purpose |
+| --- | --- |
+| `X_COOKIES_JSON` or `X_COOKIES_B64` | Logged-in session (see above) |
+| `OPENAI_API_KEY` | Optional paid cleanup |
+
+**Pages:** Settings → Pages → **GitHub Actions**.
+
+### CI reliability note
+
+GitHub-hosted runners use **datacenter IPs**. X may **challenge or block** them even with valid cookies. If the job consistently sees a **login wall**, use a **self-hosted runner**, run the crawler on a **home server** with `cron`, or lower frequency / fewer queries via env:
+
+- `X_MAX_QUERIES` (default `10`)
+- `X_MAX_SCROLLS` (default `7`)
+- `X_SCROLL_PAUSE` (default `1.8` seconds)
+
+## Local development
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m playwright install chromium
+cp .env.example .env
+PYTHONPATH=. python -m crawler
+cd web && npm install && npm run dev
+```
 
 ## Repository layout
 
 | Path | Purpose |
 | --- | --- |
-| `crawler/` | Bluesky + Mastodon + optional X; extract, score, optional LLM |
-| `data/prompts.json` | Canonical dataset |
+| `crawler/x_scrape_playwright.py` | Unofficial X Latest-tab scrape |
+| `crawler/config.py` | Search query list |
+| `data/prompts.json` | Dataset for the site |
 | `web/` | React + Vite UI |
-| `.github/workflows/` | Daily automation + Pages deploy |
 
 ## License
 
@@ -101,4 +109,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Disclaimer
 
-Respect each network’s **terms**, **automation**, and **rate** expectations. This project links to original posts; prompt text belongs to authors. **X** access must follow the [X Developer Agreement](https://developer.x.com/en/docs/developer-terms/agreement-and-policy). **Bluesky** and **Mastodon** have their own rules—use modest request volume (the daily job is designed to be light).
+This software is for **research and personal curation**. Scraping or automating X may breach **X’s Terms of Service** and applicable law in your jurisdiction. Prompt text belongs to original authors; this project **links** to source posts. **Rotate cookies** if leaked; use a **throwaway** X account for automation.

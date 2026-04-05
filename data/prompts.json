@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-04-04T00:00:00Z",
+  "updated_at": "2026-04-05T07:15:57Z",
   "prompts": [
+    {
+      "id": "seed-demo-3",
+      "text": "Character-led walk-and-talk through a neon-lit night market in the rain: handheld tracking at chest height, reflections on wet pavement, bilingual signage bokeh, moody cyan-magenta grade, natural gait, crowd depth layers.",
+      "category": "character",
+      "quality_score": 90,
+      "source_url": "https://github.com/JoyceQiao7/seedance-prompt-hub",
+      "author": "@seed",
+      "created_at": "2026-04-04T00:00:00Z",
+      "tweet_text": null,
+      "source_network": "seed",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null
+    },
     {
       "id": "seed-demo-1",
       "text": "Cinematic wide shot at golden hour: a lone cyclist crosses an empty coastal highway, warm rim light, subtle film grain, slow dolly-in, 35mm anamorphic feel, photoreal, shallow depth of field, gentle ocean haze.",
@@ -20,20 +34,6 @@
       "text": "Studio macro: molten glass being shaped by a blowtorch, extreme close-up, crisp specular highlights, dark backdrop, high-speed motion blur on sparks, HDR lighting, hyper-detailed textures.",
       "category": "lighting",
       "quality_score": 86,
-      "source_url": "https://github.com/JoyceQiao7/seedance-prompt-hub",
-      "author": "@seed",
-      "created_at": "2026-04-04T00:00:00Z",
-      "tweet_text": null,
-      "source_network": "seed",
-      "reviewed_llm": false,
-      "likes": null,
-      "retweets": null
-    },
-    {
-      "id": "seed-demo-3",
-      "text": "Character-led walk-and-talk through a neon-lit night market in the rain: handheld tracking at chest height, reflections on wet pavement, bilingual signage bokeh, moody cyan-magenta grade, natural gait, crowd depth layers.",
-      "category": "character",
-      "quality_score": 90,
       "source_url": "https://github.com/JoyceQiao7/seedance-prompt-hub",
       "author": "@seed",
       "created_at": "2026-04-04T00:00:00Z",

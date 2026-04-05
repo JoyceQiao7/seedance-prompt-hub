@@ -1,4 +1,4 @@
-"""CLI: ingest from Bluesky + Mastodon ($0), optional X + OpenAI, merge into data/prompts.json."""
+"""CLI: unofficial X search scrape → extract/score → data/prompts.json."""
 
 from __future__ import annotations
 
@@ -8,112 +8,22 @@ from typing import Any
 
 from dotenv import load_dotenv
 
-from crawler.bluesky_fetch import create_session, search_posts
 from crawler.categorize import categorize
-from crawler.config import (
-    BLUESKY_SEARCH_QUERIES,
-    MASTODON_INSTANCES,
-    MASTODON_TAGS,
-    MAX_LLM_REVIEWS_PER_RUN,
-    MIN_HEURISTIC_SCORE,
-    SEARCH_QUERIES,
-)
+from crawler.config import MAX_LLM_REVIEWS_PER_RUN, MIN_HEURISTIC_SCORE, X_SCRAPE_QUERIES
 from crawler.extract_prompt import extract_prompt
-from crawler.mastodon_fetch import fetch_tag_timeline
 from crawler.merge_store import load_store, merge_items, save_store
 from crawler.models import RawPost
 from crawler.openai_review import review_prompt
-from crawler.relevance import is_seedance_related
+from crawler.relevance import is_ai_video_creator_content
 from crawler.score_quality import score_prompt
-from crawler.twitter_fetch import fetch_search_pages
+from crawler.x_scrape_playwright import scrape_x_searches
 
 
-def _raw_from_x(tw: dict[str, Any]) -> RawPost | None:
-    tid = tw.get("id")
-    if not tid:
-        return None
-    user = tw.get("username") or "unknown"
-    text = tw.get("text") or ""
-    return RawPost(
-        id=f"x:{tid}",
-        text=text,
-        created_at=str(tw["created_at"]) if tw.get("created_at") else None,
-        username=str(user),
-        source_url=f"https://x.com/{user}/status/{tid}",
-        network="x",
-        metrics=dict(tw.get("metrics") or {}),
-    )
-
-
-def _collect_free_sources() -> list[RawPost]:
-    """Bluesky + Mastodon: $0 automated feeds."""
-    posts: list[RawPost] = []
-    seen: set[str] = set()
-
-    ident = os.environ.get("BLUESKY_IDENTIFIER", "").strip()
-    app_pw = os.environ.get("BLUESKY_APP_PASSWORD", "").strip()
-    if ident and app_pw:
-        try:
-            jwt = create_session(ident, app_pw)
-            for q in BLUESKY_SEARCH_QUERIES:
-                try:
-                    for p in search_posts(jwt, q, max_pages=3):
-                        if p.id not in seen:
-                            seen.add(p.id)
-                            posts.append(p)
-                except Exception as exc:  # noqa: BLE001
-                    print(f"Bluesky query failed ({q!r}): {exc}", file=sys.stderr)
-        except Exception as exc:  # noqa: BLE001
-            print(f"Bluesky session failed: {exc}", file=sys.stderr)
-    else:
-        print(
-            "Bluesky: set BLUESKY_IDENTIFIER + BLUESKY_APP_PASSWORD for $0 search ingest "
-            "(see README).",
-            file=sys.stderr,
-        )
-
-    mastodon_token = os.environ.get("MASTODON_ACCESS_TOKEN", "").strip() or None
-    for base in MASTODON_INSTANCES:
-        for tag in MASTODON_TAGS:
-            try:
-                batch = fetch_tag_timeline(base, tag, limit=40, access_token=mastodon_token)
-                for p in batch:
-                    if p.id not in seen:
-                        seen.add(p.id)
-                        posts.append(p)
-            except Exception as exc:  # noqa: BLE001
-                print(f"Mastodon {base} #{tag}: {exc}", file=sys.stderr)
-
-    return posts
-
-
-def _collect_x_optional(bearer: str) -> list[RawPost]:
-    if not bearer:
-        return []
-    seen: set[str] = set()
-    out: list[RawPost] = []
-    for q in SEARCH_QUERIES:
-        try:
-            page = fetch_search_pages(bearer, q, max_pages=5)
-        except RuntimeError as exc:
-            msg = str(exc)
-            print(f"X query failed ({q[:48]}…): {exc}", file=sys.stderr)
-            if "402" in msg:
-                print(
-                    "X: stopping further X queries (search not available on this plan).",
-                    file=sys.stderr,
-                )
-                break
-            continue
-        except Exception as exc:  # noqa: BLE001
-            print(f"X query failed ({q[:48]}…): {exc}", file=sys.stderr)
-            continue
-        for tw in page:
-            raw = _raw_from_x(tw)
-            if raw and raw.id not in seen:
-                seen.add(raw.id)
-                out.append(raw)
-    return out
+def _env_int(name: str, default: int) -> int:
+    raw = (os.environ.get(name) or "").strip()
+    if not raw:
+        return default
+    return int(raw)
 
 
 def _build_record(
@@ -137,7 +47,7 @@ def _build_record(
         "source_network": raw.network,
         "reviewed_llm": reviewed_llm,
         "likes": raw.metrics.get("like_count"),
-        "retweets": raw.metrics.get("repost_count"),
+        "retweets": raw.metrics.get("retweet_count"),
     }
 
 
@@ -150,7 +60,7 @@ def _process_posts(
 
     for raw in raw_posts:
         body = raw.text or ""
-        if not is_seedance_related(body):
+        if not is_ai_video_creator_content(body):
             continue
         extracted = extract_prompt(body)
         if not extracted:
@@ -204,17 +114,11 @@ def run() -> int:
     existing = list(store.get("prompts") or [])
     existing_ids = {p["id"] for p in existing if p.get("id")}
 
-    bearer = os.environ.get("TWITTER_BEARER_TOKEN", "").strip()
+    max_queries = max(1, _env_int("X_MAX_QUERIES", 10))
+    queries = X_SCRAPE_QUERIES[:max_queries]
 
-    raw_posts: list[RawPost] = []
-    raw_posts.extend(_collect_free_sources())
-    raw_posts.extend(_collect_x_optional(bearer))
-
-    if not bearer:
-        print(
-            "X: TWITTER_BEARER_TOKEN not set — skipping X (optional; often paid).",
-            file=sys.stderr,
-        )
+    print(f"X scrape: running {len(queries)} search queries (Latest).", flush=True)
+    raw_posts = scrape_x_searches(queries)
 
     incoming = _process_posts(raw_posts, existing_ids)
     merged = merge_items(existing, incoming)
@@ -222,7 +126,8 @@ def run() -> int:
     save_store(store)
     print(
         f"Stored {len(merged)} prompts ({len(incoming)} accepted this run from "
-        f"{len(raw_posts)} raw posts)."
+        f"{len(raw_posts)} scraped posts).",
+        flush=True,
     )
     return 0
 

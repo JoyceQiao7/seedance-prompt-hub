@@ -1,11 +1,41 @@
-"""Keep posts that plausibly discuss Seedance / SD2.x / ByteDance video model prompts."""
+"""Filter scraped posts to AI video / generative-video creator niche."""
 
 from __future__ import annotations
 
 import re
 
+# Broad but still on-topic for this hub (tune in config if needed).
+_MARKERS: tuple[str, ...] = (
+    "seedance",
+    "bytedance",
+    "sd2",
+    "sora",
+    "runway",
+    "gen-3",
+    "gen3",
+    "kling",
+    "pika",
+    "luma",
+    "dream machine",
+    "veo",
+    "wan ",
+    "wan2",
+    "minimax",
+    "hailuo",
+    "haiper",
+    "pixverse",
+    "text to video",
+    "text-to-video",
+    "ai video",
+    "video model",
+    "video prompt",
+    "cinematic prompt",
+    "t2v",
+    "i2v",
+)
 
-def is_seedance_related(text: str) -> bool:
+
+def is_ai_video_creator_content(text: str) -> bool:
     if not text:
         return False
     lower = text.lower()
@@ -15,4 +45,8 @@ def is_seedance_related(text: str) -> bool:
         return True
     if re.search(r"\bsd2\b", lower):
         return True
-    return False
+    return any(m in lower for m in _MARKERS)
+
+
+# Back-compat name used in tests / imports
+is_seedance_related = is_ai_video_creator_content

@@ -66,6 +66,18 @@ The workflow commits updates to `data/prompts.json` with `[skip ci]` to avoid re
 | `web/` | React + Vite frontend |
 | `.github/workflows/` | Daily automation + Pages deploy |
 
+## Publish to GitHub (`JoyceQiao7`)
+
+This repository is ready to push. Create a **new public** repository under your account (for example `seedance-prompt-hub`), **without** adding a README or `.gitignore` on GitHub so histories stay clean. Then:
+
+```bash
+cd /path/to/seedance-prompt-hub
+git remote add origin https://github.com/JoyceQiao7/seedance-prompt-hub.git
+git push -u origin main
+```
+
+Enable **Settings → Pages → Build and deployment → GitHub Actions**, then open **Actions** and run **Daily prompt update and site deploy** once manually while your `TWITTER_BEARER_TOKEN` secret is configured.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

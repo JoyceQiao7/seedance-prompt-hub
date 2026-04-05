@@ -127,11 +127,14 @@ def _pick_best_video(urls: list[str]) -> str | None:
     return max(urls, key=_res_score)
 
 
+_MAX_REPLIES = 5
+
+
 def _fetch_tweet_detail(
     page: Any, username: str, tid: str
-) -> tuple[str | None, str | None, str | None]:
+) -> tuple[str | None, str | None, list[str]]:
     """Navigate to an individual tweet page.
-    Returns (full_text, best_video_url, first_reply_text)."""
+    Returns (full_text, best_video_url, reply_texts)."""
     captured_videos: list[str] = []
 
     def _on_response(response: Any) -> None:
@@ -145,22 +148,24 @@ def _fetch_tweet_detail(
     page.on("response", _on_response)
     url = f"https://x.com/{username}/status/{tid}"
     text: str | None = None
-    reply_text: str | None = None
+    replies: list[str] = []
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=30_000)
         page.wait_for_timeout(2500)
 
-        # Main tweet is the first tweetText on the page
+        # Scroll once to load replies below the main tweet
+        page.evaluate("window.scrollBy(0, 600)")
+        page.wait_for_timeout(1500)
+
         all_text_els = page.query_selector_all('[data-testid="tweetText"]')
         if all_text_els:
             text = all_text_els[0].inner_text().strip() or None
 
-        # First reply: the second tweetText element on a detail page is
-        # typically the author's own reply (where prompts are often posted).
-        if len(all_text_els) >= 2:
-            candidate = all_text_els[1].inner_text().strip()
+        # Grab up to _MAX_REPLIES reply texts (elements after the main tweet)
+        for el in all_text_els[1 : 1 + _MAX_REPLIES]:
+            candidate = el.inner_text().strip()
             if candidate and len(candidate) > 20:
-                reply_text = candidate
+                replies.append(candidate)
 
         # Trigger video load by clicking play if present
         if not captured_videos:
@@ -184,7 +189,7 @@ def _fetch_tweet_detail(
         except Exception:  # noqa: BLE001
             pass
 
-    return text, _pick_best_video(captured_videos), reply_text
+    return text, _pick_best_video(captured_videos), replies
 
 
 def scrape_x_searches(
@@ -271,15 +276,15 @@ def scrape_x_searches(
                 flush=True,
             )
         for i, stub in enumerate(needs_detail):
-            full_text, video_url, reply_text = _fetch_tweet_detail(
+            full_text, video_url, replies = _fetch_tweet_detail(
                 page, stub["username"], stub["id"]
             )
             if full_text and len(full_text) > len(stub["text"]):
                 stub["text"] = full_text
             if video_url:
                 stub["video_url"] = video_url
-            if reply_text:
-                stub["reply_text"] = reply_text
+            if replies:
+                stub["replies"] = replies
             if (i + 1) % 25 == 0:
                 print(f"  … {i + 1}/{len(needs_detail)}", flush=True)
 
@@ -298,7 +303,7 @@ def scrape_x_searches(
                 network="x",
                 metrics={},
                 video_url=s.get("video_url"),
-                reply_text=s.get("reply_text"),
+                replies=s.get("replies") or [],
             )
         )
     return posts

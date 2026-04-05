@@ -14,7 +14,7 @@ X_SCRAPE_QUERIES: list[str] = [
     "ByteDance Seedance prompt",
 ]
 
-MIN_HEURISTIC_SCORE = 42
+MIN_HEURISTIC_SCORE = 80
 SCREEN_MIN_SCORE = 48
 PUBLIC_MIN_QUALITY = 90
 

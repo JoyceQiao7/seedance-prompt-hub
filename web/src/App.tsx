@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import type { PromptRow, PromptStore } from "./types";
 
 const CATEGORIES = [
@@ -25,8 +25,6 @@ const CATEGORY_LABELS: Record<string, string> = {
   other: "Other",
 };
 
-const MIN_PUBLIC_QUALITY = 90;
-
 function usePromptStore() {
   const [data, setData] = useState<PromptStore | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -45,6 +43,50 @@ function usePromptStore() {
   return { data, error };
 }
 
+function PromptCard({ p }: { p: PromptRow }) {
+  const displayText = p.display_text || p.text;
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = useCallback(() => {
+    navigator.clipboard.writeText(displayText).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    });
+  }, [displayText]);
+
+  return (
+    <article className="card">
+      <div className="card-head">
+        <span className="badge cat mono">
+          {CATEGORY_LABELS[p.category] ?? p.category}
+        </span>
+        <button
+          className="copy-btn mono"
+          onClick={handleCopy}
+          title="Copy prompt"
+        >
+          {copied ? "Copied!" : "Copy"}
+        </button>
+      </div>
+      <p className="prompt-body mono">{displayText}</p>
+      <div className="footer">
+        <span>
+          {p.author}
+          {p.created_at ? (
+            <>
+              {" · "}
+              <span className="mono">{p.created_at.slice(0, 10)}</span>
+            </>
+          ) : null}
+        </span>
+        <a href={p.source_url} target="_blank" rel="noreferrer">
+          View on X →
+        </a>
+      </div>
+    </article>
+  );
+}
+
 export default function App() {
   const { data, error } = usePromptStore();
   const [q, setQ] = useState("");
@@ -55,11 +97,10 @@ export default function App() {
     const rows = data?.prompts ?? [];
     const needle = q.trim().toLowerCase();
     let out: PromptRow[] = rows.filter((p) => {
-      if (p.quality_score < MIN_PUBLIC_QUALITY) return false;
-      if (p.screen?.approved === false) return false;
+      if (p.published !== true) return false;
       if (cat !== "all" && p.category !== cat) return false;
       if (!needle) return true;
-      const hay = `${p.text} ${p.author} ${p.category}`.toLowerCase();
+      const hay = `${p.display_text ?? p.text} ${p.author} ${p.category}`.toLowerCase();
       return hay.includes(needle);
     });
     out = [...out].sort((a, b) => {
@@ -148,26 +189,7 @@ export default function App() {
       ) : (
         <div className="grid">
           {filtered.map((p) => (
-            <article key={p.id} className="card">
-              <div className="card-head">
-                <span className="badge cat mono">{CATEGORY_LABELS[p.category] ?? p.category}</span>
-              </div>
-              <p className="prompt-body mono">{p.text}</p>
-              <div className="footer">
-                <span>
-                  {p.author}
-                  {p.created_at ? (
-                    <>
-                      {" · "}
-                      <span className="mono">{p.created_at.slice(0, 10)}</span>
-                    </>
-                  ) : null}
-                </span>
-                <a href={p.source_url} target="_blank" rel="noreferrer">
-                  View on X →
-                </a>
-              </div>
-            </article>
+            <PromptCard key={p.id} p={p} />
           ))}
         </div>
       )}

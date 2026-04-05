@@ -15,3 +15,5 @@ web/public/prompts.json
 *.log
 .idea/
 .vscode/
+admin/
+data/prompts.json.bak

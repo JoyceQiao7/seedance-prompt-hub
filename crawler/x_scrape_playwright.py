@@ -1,7 +1,7 @@
 """
 Unofficial X (Twitter) search ingestion via browser automation.
 
-X’s terms and technical barriers (login walls, bot checks, DOM changes) mean this
+X's terms and technical barriers (login walls, bot checks, DOM changes) mean this
 can break without notice. Use logged-in session cookies and run at modest volume.
 """
 
@@ -71,8 +71,9 @@ def _looks_like_login_wall(page: Any) -> bool:
     return False
 
 
-def _parse_articles(page: Any) -> list[RawPost]:
-    out: list[RawPost] = []
+def _parse_articles(page: Any) -> list[dict[str, Any]]:
+    """Extract tweet stubs from search results (text may be truncated)."""
+    out: list[dict[str, Any]] = []
     articles = page.query_selector_all('article[data-testid="tweet"]')
     for art in articles:
         link_el = art.query_selector('a[href*="/status/"]')
@@ -92,18 +93,33 @@ def _parse_articles(page: Any) -> list[RawPost]:
             continue
         time_el = art.query_selector("time")
         created = time_el.get_attribute("datetime") if time_el else None
-        out.append(
-            RawPost(
-                id=f"x:{tid}",
-                text=text,
-                created_at=created,
-                username=user.lstrip("@"),
-                source_url=f"https://x.com/{user.lstrip('@')}/status/{tid}",
-                network="x",
-                metrics={},
-            )
-        )
+
+        show_more = art.query_selector('[data-testid="tweet-text-show-more-link"]')
+        if not show_more:
+            show_more = art.query_selector('a[href$="/status/' + tid + '"][role="link"]')
+
+        out.append({
+            "id": tid,
+            "text": text,
+            "created_at": created,
+            "username": user.lstrip("@"),
+            "truncated": show_more is not None,
+        })
     return out
+
+
+def _fetch_full_text(page: Any, username: str, tid: str) -> str | None:
+    """Navigate to an individual tweet page and extract the full post text."""
+    url = f"https://x.com/{username}/status/{tid}"
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+        page.wait_for_timeout(2500)
+        text_el = page.query_selector('[data-testid="tweetText"]')
+        if text_el:
+            return text_el.inner_text().strip() or None
+    except Exception as exc:  # noqa: BLE001
+        print(f"X scrape: failed to fetch full text for {tid}: {exc}", flush=True)
+    return None
 
 
 def scrape_x_searches(
@@ -127,7 +143,7 @@ def scrape_x_searches(
     pause = pause_s if pause_s is not None else env_float("X_SCROLL_PAUSE", 1.8)
     initial_wait = int(env_float("X_SCRAPE_INITIAL_WAIT_MS", 4500.0))
 
-    posts: list[RawPost] = []
+    stubs: list[dict[str, Any]] = []
     seen: set[str] = set()
 
     with sync_playwright() as p:
@@ -150,6 +166,7 @@ def scrape_x_searches(
             context.add_cookies(cookies)
         page = context.new_page()
 
+        # --- Phase 1: collect tweet stubs from search ---
         login_wall = False
         for q in queries:
             if login_wall:
@@ -172,14 +189,41 @@ def scrape_x_searches(
                 break
 
             for _ in range(max_scrolls):
-                for raw in _parse_articles(page):
-                    if raw.id not in seen:
-                        seen.add(raw.id)
-                        posts.append(raw)
+                for stub in _parse_articles(page):
+                    if stub["id"] not in seen:
+                        seen.add(stub["id"])
+                        stubs.append(stub)
                 page.evaluate("window.scrollBy(0, Math.floor(window.innerHeight * 2.1))")
                 page.wait_for_timeout(int(pause * 1000))
+
+        # --- Phase 2: fetch full text for truncated tweets ---
+        truncated = [s for s in stubs if s.get("truncated")]
+        if truncated:
+            print(
+                f"X scrape: fetching full text for {len(truncated)} truncated posts…",
+                flush=True,
+            )
+        for i, stub in enumerate(truncated):
+            full = _fetch_full_text(page, stub["username"], stub["id"])
+            if full and len(full) > len(stub["text"]):
+                stub["text"] = full
+            if (i + 1) % 25 == 0:
+                print(f"  … expanded {i + 1}/{len(truncated)}", flush=True)
 
         context.close()
         browser.close()
 
+    posts: list[RawPost] = []
+    for s in stubs:
+        posts.append(
+            RawPost(
+                id=f"x:{s['id']}",
+                text=s["text"],
+                created_at=s.get("created_at"),
+                username=s["username"],
+                source_url=f"https://x.com/{s['username']}/status/{s['id']}",
+                network="x",
+                metrics={},
+            )
+        )
     return posts

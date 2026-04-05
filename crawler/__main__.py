@@ -13,6 +13,7 @@ from crawler.envutil import env_int
 from crawler.extract_prompt import extract_prompt
 from crawler.merge_store import load_store, merge_items, save_store
 from crawler.models import RawPost
+from crawler.prompt_trimmer import trim_to_prompt_body
 from crawler.relevance import is_ai_video_creator_content
 from crawler.screen import backfill_store_prompts, internal_screen
 from crawler.score_quality import score_prompt
@@ -31,6 +32,7 @@ def _build_record(
     return {
         "id": raw.id,
         "text": prompt_text,
+        "display_text": trim_to_prompt_body(prompt_text),
         "category": category,
         "quality_score": quality_score,
         "source_url": raw.source_url,

@@ -6,9 +6,17 @@ export type ScreenMeta = {
   engine: string;
 };
 
+export type AdminFeedback = {
+  action: "approve" | "reject";
+  reason?: string | null;
+  note?: string | null;
+  timestamp: string;
+};
+
 export type PromptRow = {
   id: string;
   text: string;
+  display_text?: string | null;
   category: string;
   quality_score: number;
   source_url: string;
@@ -20,6 +28,8 @@ export type PromptRow = {
   likes?: number | null;
   retweets?: number | null;
   screen?: ScreenMeta | null;
+  published?: boolean | null;
+  admin_feedback?: AdminFeedback | null;
 };
 
 export type PromptStore = {

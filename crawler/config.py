@@ -1,21 +1,17 @@
 """Crawler thresholds and X search queries (unofficial scrape)."""
 
 X_SCRAPE_QUERIES: list[str] = [
-    "Seedance AI video",
+    "Seedance 2.0 prompt",
     "Seedance 2 prompt",
-    "ByteDance Seedance",
+    "Seedance2 prompt",
+    "SD2.0 prompt",
+    "Seedance 2.0",
+    "Seedance 2",
+    '"Seedance" prompt',
     "Seedance text to video",
-    "AI video prompt cinematic",
-    "Runway Gen-3 video prompt",
-    "Kling AI video prompt",
-    "Sora video prompt",
-    "Pika Labs video prompt",
-    "Luma Dream Machine prompt",
-    "Google Veo video",
-    "Minimax video AI",
-    "Wan video AI",
-    "PixVerse AI video",
-    "text to video prompt",
+    "Seedance cinematic",
+    "Seedance AI video",
+    "ByteDance Seedance prompt",
 ]
 
 MIN_HEURISTIC_SCORE = 42

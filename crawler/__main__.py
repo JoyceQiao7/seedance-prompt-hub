@@ -51,14 +51,35 @@ def _build_record(
     return rec
 
 
+def _best_prompt_text(raw: RawPost) -> str | None:
+    """Pick the best prompt source: main text or first reply."""
+    body = raw.text or ""
+    extracted = extract_prompt(body)
+
+    # If the reply contains a longer/better prompt, prefer it
+    if raw.reply_text:
+        reply_extracted = extract_prompt(raw.reply_text)
+        if reply_extracted:
+            reply_score = score_prompt(reply_extracted)
+            main_score = score_prompt(extracted) if extracted else 0
+            if reply_score > main_score:
+                return reply_extracted
+
+    return extracted
+
+
 def _process_posts(raw_posts: list[RawPost]) -> list[dict[str, Any]]:
     incoming: list[dict[str, Any]] = []
 
     for raw in raw_posts:
         body = raw.text or ""
-        if not is_ai_video_creator_content(body):
+        combined_text = body
+        if raw.reply_text:
+            combined_text = f"{body}\n{raw.reply_text}"
+        if not is_ai_video_creator_content(combined_text):
             continue
-        extracted = extract_prompt(body)
+
+        extracted = _best_prompt_text(raw)
         if not extracted:
             continue
         heur = score_prompt(extracted)

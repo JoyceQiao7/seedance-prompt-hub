@@ -13,6 +13,19 @@ _TAIL_NOISE: list[re.Pattern[str]] = [
     re.compile(r"(?i)\bLink in bio\b.*$", re.S),
     re.compile(r"(?i)\bSign up\b.*$", re.S),
     re.compile(r"(?i)\bGr[ea]ding\s*[:：]?\s*@\w+.*$", re.S),
+    # Commercial / attribution tails: "made on @LumaAI", "created with @PixVerse", etc.
+    re.compile(
+        r"(?i)\n\s*(?:made|created|generated|produced|built|rendered|crafted|powered)"
+        r"\s+(?:on|with|using|in|by|via|through)\s+@\w+.*$",
+        re.S,
+    ),
+    re.compile(
+        r"(?i)\n\s*(?:tool|app|model|platform|engine)\s*[:：]?\s*@\w+.*$", re.S
+    ),
+    re.compile(r"(?i)\n\s*(?:try|check out|download|get)\s+@\w+.*$", re.S),
+    re.compile(r"(?i)\n\s*(?:via|cc)\s+@\w+\s*$"),
+    # "— @handle" or "- Made with @handle" at the end
+    re.compile(r"(?i)\s*[—–-]\s*(?:made\s+)?(?:on|with|by|via)?\s*@\w+\s*$"),
     re.compile(r"(?:(?:\s*#\w+){3,})\s*$"),
     re.compile(r"(?:\s*@\w+){3,}\s*$"),
 ]

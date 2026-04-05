@@ -129,9 +129,9 @@ def _pick_best_video(urls: list[str]) -> str | None:
 
 def _fetch_tweet_detail(
     page: Any, username: str, tid: str
-) -> tuple[str | None, str | None]:
+) -> tuple[str | None, str | None, str | None]:
     """Navigate to an individual tweet page.
-    Returns (full_text, best_video_url)."""
+    Returns (full_text, best_video_url, first_reply_text)."""
     captured_videos: list[str] = []
 
     def _on_response(response: Any) -> None:
@@ -145,13 +145,22 @@ def _fetch_tweet_detail(
     page.on("response", _on_response)
     url = f"https://x.com/{username}/status/{tid}"
     text: str | None = None
+    reply_text: str | None = None
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=30_000)
         page.wait_for_timeout(2500)
 
-        text_el = page.query_selector('[data-testid="tweetText"]')
-        if text_el:
-            text = text_el.inner_text().strip() or None
+        # Main tweet is the first tweetText on the page
+        all_text_els = page.query_selector_all('[data-testid="tweetText"]')
+        if all_text_els:
+            text = all_text_els[0].inner_text().strip() or None
+
+        # First reply: the second tweetText element on a detail page is
+        # typically the author's own reply (where prompts are often posted).
+        if len(all_text_els) >= 2:
+            candidate = all_text_els[1].inner_text().strip()
+            if candidate and len(candidate) > 20:
+                reply_text = candidate
 
         # Trigger video load by clicking play if present
         if not captured_videos:
@@ -175,7 +184,7 @@ def _fetch_tweet_detail(
         except Exception:  # noqa: BLE001
             pass
 
-    return text, _pick_best_video(captured_videos)
+    return text, _pick_best_video(captured_videos), reply_text
 
 
 def scrape_x_searches(
@@ -252,8 +261,9 @@ def scrape_x_searches(
                 page.evaluate("window.scrollBy(0, Math.floor(window.innerHeight * 2.1))")
                 page.wait_for_timeout(int(pause * 1000))
 
-        # --- Phase 2: visit individual tweet pages for full text + video ---
-        needs_detail = [s for s in stubs if s.get("truncated") or s.get("has_video")]
+        # --- Phase 2: visit individual tweet pages for full text + video + replies ---
+        # Visit all posts: prompts are often in the first reply, not just the main text.
+        needs_detail = stubs
         if needs_detail:
             print(
                 f"X scrape: fetching details for {len(needs_detail)} posts "
@@ -261,13 +271,15 @@ def scrape_x_searches(
                 flush=True,
             )
         for i, stub in enumerate(needs_detail):
-            full_text, video_url = _fetch_tweet_detail(
+            full_text, video_url, reply_text = _fetch_tweet_detail(
                 page, stub["username"], stub["id"]
             )
             if full_text and len(full_text) > len(stub["text"]):
                 stub["text"] = full_text
             if video_url:
                 stub["video_url"] = video_url
+            if reply_text:
+                stub["reply_text"] = reply_text
             if (i + 1) % 25 == 0:
                 print(f"  … {i + 1}/{len(needs_detail)}", flush=True)
 
@@ -286,6 +298,7 @@ def scrape_x_searches(
                 network="x",
                 metrics={},
                 video_url=s.get("video_url"),
+                reply_text=s.get("reply_text"),
             )
         )
     return posts

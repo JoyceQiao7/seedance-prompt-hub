@@ -18,3 +18,4 @@ class RawPost:
     network: str
     metrics: dict[str, Any]
     video_url: str | None = None
+    reply_text: str | None = None

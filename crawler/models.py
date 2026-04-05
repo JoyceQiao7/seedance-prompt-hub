@@ -17,3 +17,4 @@ class RawPost:
     source_url: str
     network: str
     metrics: dict[str, Any]
+    video_url: str | None = None

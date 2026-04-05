@@ -43,9 +43,17 @@ function usePromptStore() {
   return { data, error };
 }
 
+function mediaUrl(relPath: string): string {
+  return new URL(relPath, window.location.origin + import.meta.env.BASE_URL).toString();
+}
+
 function PromptCard({ p }: { p: PromptRow }) {
   const displayText = p.display_text || p.text;
   const [copied, setCopied] = useState(false);
+  const [playing, setPlaying] = useState(false);
+
+  const hasThumb = !!p.thumbnail;
+  const hasVideo = !!p.video;
 
   const handleCopy = useCallback(() => {
     navigator.clipboard.writeText(displayText).then(() => {
@@ -56,6 +64,46 @@ function PromptCard({ p }: { p: PromptRow }) {
 
   return (
     <article className="card">
+      {hasThumb && !playing && (
+        <figure
+          className="card-media"
+          onClick={hasVideo ? () => setPlaying(true) : undefined}
+          style={hasVideo ? { cursor: "pointer" } : undefined}
+        >
+          <img
+            src={mediaUrl(p.thumbnail!)}
+            alt={`Preview for ${p.category} prompt by ${p.author}`}
+            width={640}
+            height={360}
+            loading="lazy"
+            decoding="async"
+            fetchPriority="low"
+          />
+          {hasVideo && (
+            <div className="play-overlay" aria-label="Play video">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                <circle cx="24" cy="24" r="24" fill="rgba(0,0,0,0.55)" />
+                <path d="M19 14l16 10-16 10V14z" fill="#fff" />
+              </svg>
+            </div>
+          )}
+        </figure>
+      )}
+      {playing && hasVideo && (
+        <div className="card-media">
+          <video
+            src={mediaUrl(p.video!)}
+            poster={hasThumb ? mediaUrl(p.thumbnail!) : undefined}
+            controls
+            autoPlay
+            playsInline
+            preload="metadata"
+            width={640}
+            height={360}
+            onEnded={() => setPlaying(false)}
+          />
+        </div>
+      )}
       <div className="card-head">
         <span className="badge cat mono">
           {CATEGORY_LABELS[p.category] ?? p.category}

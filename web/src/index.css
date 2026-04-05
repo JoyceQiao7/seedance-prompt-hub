@@ -152,6 +152,45 @@ select:focus {
   backdrop-filter: blur(10px);
 }
 
+.card-media {
+  position: relative;
+  margin: -1rem -1.05rem 0.75rem;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+  background: #000;
+  aspect-ratio: 16 / 9;
+}
+
+.card-media img,
+.card-media video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.play-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.card-media:hover .play-overlay {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.play-overlay svg {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+  transition: transform 0.15s;
+}
+
+.card-media:hover .play-overlay svg {
+  transform: scale(1.1);
+}
+
 .card-head {
   display: flex;
   flex-wrap: wrap;

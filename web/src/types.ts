@@ -30,6 +30,9 @@ export type PromptRow = {
   screen?: ScreenMeta | null;
   published?: boolean | null;
   admin_feedback?: AdminFeedback | null;
+  video_url?: string | null;
+  thumbnail?: string | null;
+  video?: string | null;
 };
 
 export type PromptStore = {

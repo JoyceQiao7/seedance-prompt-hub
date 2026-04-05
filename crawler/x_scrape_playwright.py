@@ -19,6 +19,7 @@ from crawler.models import RawPost
 
 
 _STATUS_PATH = re.compile(r"/@?([^/]+)/status/(\d+)")
+_VIDEO_CDN = re.compile(r"https://video\.twimg\.com/.+\.mp4")
 
 
 def _load_cookies() -> list[dict[str, Any]] | None:
@@ -98,28 +99,83 @@ def _parse_articles(page: Any) -> list[dict[str, Any]]:
         if not show_more:
             show_more = art.query_selector('a[href$="/status/' + tid + '"][role="link"]')
 
+        has_video = art.query_selector("video") is not None or \
+                    art.query_selector('[data-testid="videoPlayer"]') is not None
+
         out.append({
             "id": tid,
             "text": text,
             "created_at": created,
             "username": user.lstrip("@"),
             "truncated": show_more is not None,
+            "has_video": has_video,
         })
     return out
 
 
-def _fetch_full_text(page: Any, username: str, tid: str) -> str | None:
-    """Navigate to an individual tweet page and extract the full post text."""
+def _pick_best_video(urls: list[str]) -> str | None:
+    """From a list of X CDN video URLs, pick the highest resolution."""
+    if not urls:
+        return None
+    # X CDN URLs contain resolution hints like /vid/avc1/1280x720/
+    # Pick the one with the largest dimensions.
+    def _res_score(u: str) -> int:
+        m = re.search(r"/(\d{3,4})x(\d{3,4})/", u)
+        if m:
+            return int(m.group(1)) * int(m.group(2))
+        return len(u)  # fallback: longer URL ≈ higher res
+    return max(urls, key=_res_score)
+
+
+def _fetch_tweet_detail(
+    page: Any, username: str, tid: str
+) -> tuple[str | None, str | None]:
+    """Navigate to an individual tweet page.
+    Returns (full_text, best_video_url)."""
+    captured_videos: list[str] = []
+
+    def _on_response(response: Any) -> None:
+        try:
+            url = response.url
+            if _VIDEO_CDN.match(url):
+                captured_videos.append(url)
+        except Exception:  # noqa: BLE001
+            pass
+
+    page.on("response", _on_response)
     url = f"https://x.com/{username}/status/{tid}"
+    text: str | None = None
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=30_000)
         page.wait_for_timeout(2500)
+
         text_el = page.query_selector('[data-testid="tweetText"]')
         if text_el:
-            return text_el.inner_text().strip() or None
+            text = text_el.inner_text().strip() or None
+
+        # Trigger video load by clicking play if present
+        if not captured_videos:
+            play_btn = page.query_selector(
+                '[data-testid="videoPlayer"] button, '
+                '[aria-label="Play"], '
+                'video'
+            )
+            if play_btn:
+                try:
+                    play_btn.click(timeout=2000)
+                    page.wait_for_timeout(2000)
+                except Exception:  # noqa: BLE001
+                    pass
+
     except Exception as exc:  # noqa: BLE001
-        print(f"X scrape: failed to fetch full text for {tid}: {exc}", flush=True)
-    return None
+        print(f"X scrape: failed to fetch detail for {tid}: {exc}", flush=True)
+    finally:
+        try:
+            page.remove_listener("response", _on_response)
+        except Exception:  # noqa: BLE001
+            pass
+
+    return text, _pick_best_video(captured_videos)
 
 
 def scrape_x_searches(
@@ -196,19 +252,24 @@ def scrape_x_searches(
                 page.evaluate("window.scrollBy(0, Math.floor(window.innerHeight * 2.1))")
                 page.wait_for_timeout(int(pause * 1000))
 
-        # --- Phase 2: fetch full text for truncated tweets ---
-        truncated = [s for s in stubs if s.get("truncated")]
-        if truncated:
+        # --- Phase 2: visit individual tweet pages for full text + video ---
+        needs_detail = [s for s in stubs if s.get("truncated") or s.get("has_video")]
+        if needs_detail:
             print(
-                f"X scrape: fetching full text for {len(truncated)} truncated posts…",
+                f"X scrape: fetching details for {len(needs_detail)} posts "
+                f"(text + video)…",
                 flush=True,
             )
-        for i, stub in enumerate(truncated):
-            full = _fetch_full_text(page, stub["username"], stub["id"])
-            if full and len(full) > len(stub["text"]):
-                stub["text"] = full
+        for i, stub in enumerate(needs_detail):
+            full_text, video_url = _fetch_tweet_detail(
+                page, stub["username"], stub["id"]
+            )
+            if full_text and len(full_text) > len(stub["text"]):
+                stub["text"] = full_text
+            if video_url:
+                stub["video_url"] = video_url
             if (i + 1) % 25 == 0:
-                print(f"  … expanded {i + 1}/{len(truncated)}", flush=True)
+                print(f"  … {i + 1}/{len(needs_detail)}", flush=True)
 
         context.close()
         browser.close()
@@ -224,6 +285,7 @@ def scrape_x_searches(
                 source_url=f"https://x.com/{s['username']}/status/{s['id']}",
                 network="x",
                 metrics={},
+                video_url=s.get("video_url"),
             )
         )
     return posts

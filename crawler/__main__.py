@@ -11,6 +11,7 @@ from crawler.categorize import categorize
 from crawler.config import MIN_HEURISTIC_SCORE, X_SCRAPE_QUERIES
 from crawler.envutil import env_int
 from crawler.extract_prompt import extract_prompt
+from crawler.media import process_prompts_media
 from crawler.merge_store import load_store, merge_items, save_store
 from crawler.models import RawPost
 from crawler.prompt_trimmer import trim_to_prompt_body
@@ -29,7 +30,7 @@ def _build_record(
     screen: dict[str, Any],
 ) -> dict[str, Any]:
     author = raw.username if raw.username.startswith("@") else f"@{raw.username}"
-    return {
+    rec: dict[str, Any] = {
         "id": raw.id,
         "text": prompt_text,
         "display_text": trim_to_prompt_body(prompt_text),
@@ -45,6 +46,9 @@ def _build_record(
         "retweets": raw.metrics.get("retweet_count"),
         "screen": screen,
     }
+    if raw.video_url:
+        rec["video_url"] = raw.video_url
+    return rec
 
 
 def _process_posts(raw_posts: list[RawPost]) -> list[dict[str, Any]]:
@@ -102,11 +106,18 @@ def run() -> int:
     merged = merge_items(existing, incoming)
     force_backfill = os.environ.get("FORCE_SCREEN_BACKFILL", "").lower() in ("1", "true", "yes")
     n_back = backfill_store_prompts(merged, force=force_backfill)
+
+    skip_media = os.environ.get("SKIP_MEDIA", "").lower() in ("1", "true", "yes")
+    n_media = 0
+    if not skip_media:
+        n_media = process_prompts_media(merged)
+
     store["prompts"] = merged
     save_store(store)
     print(
         f"Stored {len(merged)} prompts ({len(incoming)} new screened this run from "
-        f"{len(raw_posts)} scraped posts; backfill touched {n_back}).",
+        f"{len(raw_posts)} scraped posts; backfill touched {n_back}; "
+        f"media processed {n_media}).",
         flush=True,
     )
     return 0

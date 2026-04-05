@@ -22,6 +22,10 @@ _STATUS_PATH = re.compile(r"/@?([^/]+)/status/(\d+)")
 
 def _load_cookies() -> list[dict[str, Any]] | None:
     path = os.environ.get("X_COOKIES_PATH", "").strip()
+    if not path:
+        default = Path.cwd() / "x_cookies.json"
+        if default.is_file():
+            path = str(default)
     if path and Path(path).is_file():
         raw_file = Path(path).read_text(encoding="utf-8").strip()
         parsed = json.loads(raw_file)

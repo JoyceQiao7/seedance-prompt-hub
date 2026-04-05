@@ -41,6 +41,10 @@ def fetch_search_pages(
                 raise RuntimeError(
                     "X API returned 403: this app may need Elevated access for recent search."
                 )
+            if resp.status_code == 402:
+                raise RuntimeError(
+                    "X API returned 402 Payment Required: recent search is not on your plan."
+                )
             resp.raise_for_status()
             payload = resp.json()
             data = payload.get("data") or []

@@ -7,6 +7,7 @@ export type PromptRow = {
   author: string;
   created_at: string | null;
   tweet_text?: string | null;
+  source_network?: string | null;
   reviewed_llm?: boolean;
   likes?: number | null;
   retweets?: number | null;

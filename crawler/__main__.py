@@ -18,7 +18,7 @@ from crawler.prompt_trimmer import trim_to_prompt_body
 from crawler.relevance import is_ai_video_creator_content
 from crawler.screen import backfill_store_prompts, internal_screen
 from crawler.score_quality import score_prompt
-from crawler.x_scrape_playwright import scrape_x_searches
+from crawler.x_scrape_playwright import backfill_video_urls, scrape_x_searches
 
 
 def _build_record(
@@ -116,17 +116,29 @@ def run() -> int:
     max_queries = max(1, env_int("X_MAX_QUERIES", 10))
     queries = X_SCRAPE_QUERIES[:max_queries]
 
+    # Use last crawl timestamp to only fetch new posts
+    last_updated = store.get("updated_at", "")
+    since_date: str | None = None
+    if last_updated and not os.environ.get("X_FULL_CRAWL"):
+        since_date = last_updated[:10]  # "2026-04-05T..." → "2026-04-05"
+
     if os.environ.get("X_SKIP_SCRAPE", "").lower() in ("1", "true", "yes"):
         print("X_SKIP_SCRAPE set — skipping browser fetch.", flush=True)
         raw_posts: list[RawPost] = []
     else:
         print(f"X scrape: running {len(queries)} search queries (Latest).", flush=True)
-        raw_posts = scrape_x_searches(queries)
+        raw_posts = scrape_x_searches(queries, since=since_date)
 
     incoming = _process_posts(raw_posts)
     merged = merge_items(existing, incoming)
     force_backfill = os.environ.get("FORCE_SCREEN_BACKFILL", "").lower() in ("1", "true", "yes")
     n_back = backfill_store_prompts(merged, force=force_backfill)
+
+    # Backfill video URLs for prompts that are missing them
+    skip_scrape = os.environ.get("X_SKIP_SCRAPE", "").lower() in ("1", "true", "yes")
+    n_vid_backfill = 0
+    if not skip_scrape:
+        n_vid_backfill = backfill_video_urls(merged)
 
     skip_media = os.environ.get("SKIP_MEDIA", "").lower() in ("1", "true", "yes")
     n_media = 0
@@ -138,7 +150,7 @@ def run() -> int:
     print(
         f"Stored {len(merged)} prompts ({len(incoming)} new screened this run from "
         f"{len(raw_posts)} scraped posts; backfill touched {n_back}; "
-        f"media processed {n_media}).",
+        f"video backfill {n_vid_backfill}; media processed {n_media}).",
         flush=True,
     )
     return 0

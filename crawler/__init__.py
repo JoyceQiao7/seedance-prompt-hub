@@ -1,1 +1,1 @@
-# Seedance 2.0 prompt crawler package
+"""X prompt crawler package."""

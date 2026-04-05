@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import quote_plus
 
+from crawler.envutil import env_float, env_int
 from crawler.models import RawPost
 
 
@@ -70,20 +71,6 @@ def _looks_like_login_wall(page: Any) -> bool:
     return False
 
 
-def _env_int(name: str, default: int) -> int:
-    raw = (os.environ.get(name) or "").strip()
-    if not raw:
-        return default
-    return int(raw)
-
-
-def _env_float(name: str, default: float) -> float:
-    raw = (os.environ.get(name) or "").strip()
-    if not raw:
-        return default
-    return float(raw)
-
-
 def _parse_articles(page: Any) -> list[RawPost]:
     out: list[RawPost] = []
     articles = page.query_selector_all('article[data-testid="tweet"]')
@@ -136,9 +123,9 @@ def scrape_x_searches(
             flush=True,
         )
 
-    max_scrolls = max_scrolls_per_query or _env_int("X_MAX_SCROLLS", 7)
-    pause = pause_s if pause_s is not None else _env_float("X_SCROLL_PAUSE", 1.8)
-    initial_wait = int(_env_float("X_SCRAPE_INITIAL_WAIT_MS", 4500.0))
+    max_scrolls = max_scrolls_per_query or env_int("X_MAX_SCROLLS", 7)
+    pause = pause_s if pause_s is not None else env_float("X_SCROLL_PAUSE", 1.8)
+    initial_wait = int(env_float("X_SCRAPE_INITIAL_WAIT_MS", 4500.0))
 
     posts: list[RawPost] = []
     seen: set[str] = set()

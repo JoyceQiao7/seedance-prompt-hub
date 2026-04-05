@@ -3,13 +3,13 @@
 from __future__ import annotations
 
 import os
-import sys
 from typing import Any
 
 from dotenv import load_dotenv
 
 from crawler.categorize import categorize
 from crawler.config import MAX_LLM_REVIEWS_PER_RUN, MIN_HEURISTIC_SCORE, X_SCRAPE_QUERIES
+from crawler.envutil import env_int
 from crawler.extract_prompt import extract_prompt
 from crawler.merge_store import load_store, merge_items, save_store
 from crawler.models import RawPost
@@ -17,13 +17,6 @@ from crawler.openai_review import review_prompt
 from crawler.relevance import is_ai_video_creator_content
 from crawler.score_quality import score_prompt
 from crawler.x_scrape_playwright import scrape_x_searches
-
-
-def _env_int(name: str, default: int) -> int:
-    raw = (os.environ.get(name) or "").strip()
-    if not raw:
-        return default
-    return int(raw)
 
 
 def _build_record(
@@ -114,7 +107,7 @@ def run() -> int:
     existing = list(store.get("prompts") or [])
     existing_ids = {p["id"] for p in existing if p.get("id")}
 
-    max_queries = max(1, _env_int("X_MAX_QUERIES", 10))
+    max_queries = max(1, env_int("X_MAX_QUERIES", 10))
     queries = X_SCRAPE_QUERIES[:max_queries]
 
     print(f"X scrape: running {len(queries)} search queries (Latest).", flush=True)

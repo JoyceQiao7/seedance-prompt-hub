@@ -46,7 +46,3 @@ def is_ai_video_creator_content(text: str) -> bool:
     if re.search(r"\bsd2\b", lower):
         return True
     return any(m in lower for m in _MARKERS)
-
-
-# Back-compat name used in tests / imports
-is_seedance_related = is_ai_video_creator_content

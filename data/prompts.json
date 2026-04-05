@@ -1,6 +1,198 @@
 {
-  "updated_at": "2026-04-05T11:39:51Z",
+  "updated_at": "2026-04-05T23:00:24Z",
   "prompts": [
+    {
+      "id": "x:2040912350035742908",
+      "text": "FORMAT: 15s / 150 BPM / 8 shots / compact action duel loop SUBJECTS: One occult fighter and one curse-like creature, both drawn as 2.5D line-art characters with visible contour lines, interior sketch lines and light hatching, never solid black fill, one body each in every beat. SCENE: Black and white 3D sketch-anime combat inside a minimal sketch ruin on white paper. Keep clear 2.5D line-art characters with contour lines, interior construction strokes and light hatching, not black silhouette bodies. Start on direct impact, not entry, with both characters already in mid-exchange at center frame. Use aggressive cinematic framing, hard impact punctuation, sharp micro-pauses, strong anticipation and forceful follow-through while preserving left-right continuity and readable strike lanes. The creature uses short curse bursts, limb warping and ink shockwaves. Build the action as a seamless loop so the final rush reconnects directly into the opening clash. The space has floor, broken wall planes and depth, and only redraws on hits, surges or skids. MOOD: Occult pressure, supernatural force, hard cinematic impact, seamless loop energy. COLOR LOGIC: Monochromatic Grading STYLE: 3D hand-drawn sketch anime with 2.5D line-art characters, bold cinematic action framing and readable curse-battle choreography TIMELINE: 1. Smash cut, low 24mm impact track, open on direct mid-clash at center frame as fighter's short strike and creature's forearm collide, lines splinter outward, both bodies compress then snap past each other without stopping, SFX: impact snap, brush tear. 2. Hard cut, 35mm handheld push, fighter pivots out of the pass, shoulder-feints and lands a short body strike under guard, both recoil half a step with visible force transfer, SFX: air slice, ink thud. 3. Whip pan, 50mm side track, creature whips a warped forearm across a clear lane and sheds a short ink shockwave, fighter slips under both by inches, SFX: heavy whoosh, brush tear, ink flare. 4. Smash cut, 28mm close pursuit, micro-pause, fighter plants, twists through the hips and drives a compact rib counter, impact distortion spikes and the camera kicks with contact, SFX: crack hit, ink burst. 5. Match cut, 40mm rear three-quarter, creature skids backward as floor and wall lines redraw under the impact path, SFX: scrape, paper rip, low ink pulse. 6. Hard cut, 32mm handheld orbit, creature slams back in with one arm warping longer, fighter gives ground, parries high and pivots across the axis to keep continuity, SFX: double hit, sharp breath, tendon stretch. 7. Whip pan, 65mm impact close-up, fighter coils low, holds one sharp micro-pause, then releases a decisive upward strike, recoil whips through both bodies and the frame blows out white for a beat, SFX: deep crack, white flash burst. 8. Hard cut, 24mm wide pursuit frame, creature regathers, fires a short chest-level curse burst and surges back to center as fighter rebounds into the same opposing rush geometry as beat 1, SFX: trailing crack, paper hiss, ink burst, rushing foot drag.",
+      "display_text": "FORMAT: 15s / 150 BPM / 8 shots / compact action duel loop SUBJECTS: One occult fighter and one curse-like creature, both drawn as 2.5D line-art characters with visible contour lines, interior sketch lines and light hatching, never solid black fill, one body each in every beat. SCENE: Black and white 3D sketch-anime combat inside a minimal sketch ruin on white paper. Keep clear 2.5D line-art characters with contour lines, interior construction strokes and light hatching, not black silhouette bodies. Start on direct impact, not entry, with both characters already in mid-exchange at center frame. Use aggressive cinematic framing, hard impact punctuation, sharp micro-pauses, strong anticipation and forceful follow-through while preserving left-right continuity and readable strike lanes. The creature uses short curse bursts, limb warping and ink shockwaves. Build the action as a seamless loop so the final rush reconnects directly into the opening clash. The space has floor, broken wall planes and depth, and only redraws on hits, surges or skids. MOOD: Occult pressure, supernatural force, hard cinematic impact, seamless loop energy. COLOR LOGIC: Monochromatic Grading STYLE: 3D hand-drawn sketch anime with 2.5D line-art characters, bold cinematic action framing and readable curse-battle choreography TIMELINE: 1. Smash cut, low 24mm impact track, open on direct mid-clash at center frame as fighter's short strike and creature's forearm collide, lines splinter outward, both bodies compress then snap past each other without stopping, SFX: impact snap, brush tear. 2. Hard cut, 35mm handheld push, fighter pivots out of the pass, shoulder-feints and lands a short body strike under guard, both recoil half a step with visible force transfer, SFX: air slice, ink thud. 3. Whip pan, 50mm side track, creature whips a warped forearm across a clear lane and sheds a short ink shockwave, fighter slips under both by inches, SFX: heavy whoosh, brush tear, ink flare. 4. Smash cut, 28mm close pursuit, micro-pause, fighter plants, twists through the hips and drives a compact rib counter, impact distortion spikes and the camera kicks with contact, SFX: crack hit, ink burst. 5. Match cut, 40mm rear three-quarter, creature skids backward as floor and wall lines redraw under the impact path, SFX: scrape, paper rip, low ink pulse. 6. Hard cut, 32mm handheld orbit, creature slams back in with one arm warping longer, fighter gives ground, parries high and pivots across the axis to keep continuity, SFX: double hit, sharp breath, tendon stretch. 7. Whip pan, 65mm impact close-up, fighter coils low, holds one sharp micro-pause, then releases a decisive upward strike, recoil whips through both bodies and the frame blows out white for a beat, SFX: deep crack, white flash burst. 8. Hard cut, 24mm wide pursuit frame, creature regathers, fires a short chest-level curse burst and surges back to center as fighter rebounds into the same opposing rush geometry as beat 1, SFX: trailing crack, paper hiss, ink burst, rushing foot drag.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/aimikoda/status/2040912350035742908",
+      "author": "@aimikoda",
+      "created_at": "2026-04-05T21:59:57.000Z",
+      "tweet_text": "Seedance 2.0 Prompt:\n\nFORMAT: 15s / 150 BPM / 8 shots / compact action duel loop\n\nSUBJECTS: One occult fighter and one curse-like creature, both drawn as 2.5D line-art characters with visible contour lines, interior sketch lines and light hatching, never solid black fill, one",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:22Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040911885743132673/vid/avc1/1280x720/EBV9ZXDT6n8kpAUO.mp4?tag=21",
+      "video": "media/videos/2040912350035742908.mp4"
+    },
+    {
+      "id": "x:2040839986845819162",
+      "text": "{ \"type\": \"cinematic_hyper_realistic_video\", \"subject\": { \"style\": \"stylish modern subject\", \"actions\": [ \"walking\", \"turning\", \"subtle natural interaction with environment\" ] }, \"scene\": { \"environment\": \"dramatic urban luxury city street or modern architecture\", \"details\": [ \"strong depth\", \"reflections\", \"cinematic composition\" ] }, \"camera\": { \"movement\": \"smooth cinematic tracking shots\", \"motion\": \"slow motion\", \"lens\": \"35mm or 50mm\", \"stabilization\": \"smooth stabilized motion\", \"depth_of_field\": \"shallow\" }, \"lighting\": { \"style\": \"realistic cinematic lighting\", \"mood\": [ \"golden hour\", \"neon tones\" ], \"shadows\": \"soft shadows\" }, \"visual_style\": { \"resolution\": \"4K ultra realism\", \"color_grading\": \"professional cinematic grading\", \"contrast\": \"film-like contrast\", \"textures\": \"ultra-detailed realistic textures\", \"aesthetic\": \"fashion editorial, atmospheric storytelling\" } }",
+      "display_text": "{ \"type\": \"cinematic_hyper_realistic_video\", \"subject\": { \"style\": \"stylish modern subject\", \"actions\": [ \"walking\", \"turning\", \"subtle natural interaction with environment\" ] }, \"scene\": { \"environment\": \"dramatic urban luxury city street or modern architecture\", \"details\": [ \"strong depth\", \"reflections\", \"cinematic composition\" ] }, \"camera\": { \"movement\": \"smooth cinematic tracking shots\", \"motion\": \"slow motion\", \"lens\": \"35mm or 50mm\", \"stabilization\": \"smooth stabilized motion\", \"depth_of_field\": \"shallow\" }, \"lighting\": { \"style\": \"realistic cinematic lighting\", \"mood\": [ \"golden hour\", \"neon tones\" ], \"shadows\": \"soft shadows\" }, \"visual_style\": { \"resolution\": \"4K ultra realism\", \"color_grading\": \"professional cinematic grading\", \"contrast\": \"film-like contrast\", \"textures\": \"ultra-detailed realistic textures\", \"aesthetic\": \"fashion editorial, atmospheric storytelling\" } }",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/ShamiWeb3/status/2040839986845819162",
+      "author": "@ShamiWeb3",
+      "created_at": "2026-04-05T17:12:24.000Z",
+      "tweet_text": "When you’re just trying to walk normally but the camera turns you into a main character in a luxury movie. Created with Seedance.\n\nPrompt:\n\n{\n  \"type\": \"cinematic_hyper_realistic_video\",\n  \"subject\": {\n    \"style\": \"stylish modern subject\",\n    \"actions\": [\n      \"walking\",\n      \"turning\",\n      \"subtle natural interaction with environment\"\n    ]\n  },\n  \"scene\": {\n    \"environment\": \"dramatic urban luxury city street or modern architecture\",\n    \"details\": [\n      \"strong depth\",\n      \"reflections\",\n      \"cinematic composition\"\n    ]\n  },\n  \"camera\": {\n    \"movement\": \"smooth cinematic tracking shots\",\n    \"motion\": \"slow motion\",\n    \"lens\": \"35mm or 50mm\",\n    \"stabilization\": \"smooth stabilized motion\",\n    \"depth_of_field\": \"shallow\"\n  },\n  \"lighting\": {\n    \"style\": \"realistic cinematic lighting\",\n    \"mood\": [\n      \"golden hour\",\n      \"neon tones\"\n    ],\n    \"shadows\": \"soft shadows\"\n  },\n  \"visual_style\": {\n    \"resolution\": \"4K ultra realism\",\n    \"color_grading\": \"professional cinematic grading\",\n    \"contrast\": \"film-like contrast\",\n    \"textures\": \"ultra-detailed realistic textures\",\n    \"aesthetic\": \"fashion editorial, atmospheric storytelling\"\n  }\n}",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2040839916050132992/pu/vid/avc1/1280x638/1h058BJhcLk2qsBw.mp4?tag=19",
+      "video": "media/videos/2040839986845819162.mp4"
+    },
+    {
+      "id": "x:2040834865835250071",
+      "text": "Overarching Concept: Continuous character journey, moving from gritty Y2K streetwear on a dark rooftop to a stylized, high-tech \"tech-ninja\" aesthetic inside a pristine white iOS interface dimension. Fast-paced, fluid, and highly interactive with the camera. Universal Rule: The same red-haired woman from Scene 1 must appear in all subsequent scenes, ensuring perfect visual continuity. Scene 1 (00:00–00:01): Rooftop Throw Location: Windy urban rooftop at night, glowing city skyline. Wardrobe (Character 1): Y2K style — baggy vintage denim jacket, graphic baby tee, wide-leg parachute pants. Character Continuity: A specific red-haired woman with wavy copper hair. Action & Camera: Static camera. The red-haired woman spins rapidly, her loose clothes catching the wind. Mid-spin, she throws an iPhone 17 Pro Max directly into the camera lens. Scene 2 (00:01–00:02): Giant Phone Spin Location: Blurred night city backdrop. Action & Camera: Focus pulls to the giant, spinning iPhone 17 Pro Max in the foreground. It stops spinning, hovering vertically and centered. Scene 3 (00:02–00:07): The \"Twist & Pull\" Transition (CRITICAL FOCUS — NO GLASS BREAKING) Location: Still on the night rooftop, phone centered. Character Continuity: The same red-haired woman (from Scene 1) is visible inside the glowing white phone screen, smiling confidently. Wardrobe (Character 2): A tight, form-fitting, cropped matte-black leather motorcycle jacket over a white top. Action (The Twist): Her hand smoothly emerges from the screen into 3D space (the screen acts like a fluid boundary — no glass breaking). She reaches toward the camera and performs a twisting motion with her wrist and fingers — exactly like screwing in a lightbulb or turning a dial. Camera (Max Zoom): As she twists, the camera zooms in maximally on her hand. Action (The Pull): She reverses the twisting motion and rapidly retracts her hand back into the phone. Camera (The Dive): This reverse motion acts as a physical \"pull.\" As she yanks her hand back, she pulls the camera with her — the camera flies rapidly into the phone screen, fully entering the digital interface. Scene 4 (00:07–00:14): UI Dimension & The Final Punchline Location: Bright, infinite white 3D space. Character Continuity: The same red-haired woman stands center, smiling confidently. Wardrobe (Character 3 — \"Tech-Ninja\"): Full matte-black tactical jumpsuit in technical fabric; asymmetrical layered vest with utility straps; multi-strap chest harness with glowing magnetic buckles; full gloves with integrated digital displays; chunky combat platform boots. Interface Elements: Gigantic simplified floating 3D app icons — Instagram camera, TikTok \"d\", Snapchat ghost — swirling around her. The Finale: She looks directly at the camera, playfully catches a glowing \"Like\" (Heart) icon from the air, gives a sharp wink, and throws the icon straight into the camera lens. The icon covers the lens, turning the screen instantly to black — creating a definitive ending or a seamless loop back to the start. #Seedance2",
+      "display_text": "Overarching Concept: Continuous character journey, moving from gritty Y2K streetwear on a dark rooftop to a stylized, high-tech \"tech-ninja\" aesthetic inside a pristine white iOS interface dimension. Fast-paced, fluid, and highly interactive with the camera. Universal Rule: The same red-haired woman from Scene 1 must appear in all subsequent scenes, ensuring perfect visual continuity. Scene 1 (00:00–00:01): Rooftop Throw Location: Windy urban rooftop at night, glowing city skyline. Wardrobe (Character 1): Y2K style — baggy vintage denim jacket, graphic baby tee, wide-leg parachute pants. Character Continuity: A specific red-haired woman with wavy copper hair. Action & Camera: Static camera. The red-haired woman spins rapidly, her loose clothes catching the wind. Mid-spin, she throws an iPhone 17 Pro Max directly into the camera lens. Scene 2 (00:01–00:02): Giant Phone Spin Location: Blurred night city backdrop. Action & Camera: Focus pulls to the giant, spinning iPhone 17 Pro Max in the foreground. It stops spinning, hovering vertically and centered. Scene 3 (00:02–00:07): The \"Twist & Pull\" Transition (CRITICAL FOCUS — NO GLASS BREAKING) Location: Still on the night rooftop, phone centered. Character Continuity: The same red-haired woman (from Scene 1) is visible inside the glowing white phone screen, smiling confidently. Wardrobe (Character 2): A tight, form-fitting, cropped matte-black leather motorcycle jacket over a white top. Action (The Twist): Her hand smoothly emerges from the screen into 3D space (the screen acts like a fluid boundary — no glass breaking). She reaches toward the camera and performs a twisting motion with her wrist and fingers — exactly like screwing in a lightbulb or turning a dial. Camera (Max Zoom): As she twists, the camera zooms in maximally on her hand. Action (The Pull): She reverses the twisting motion and rapidly retracts her hand back into the phone. Camera (The Dive): This reverse motion acts as a physical \"pull.\" As she yanks her hand back, she pulls the camera with her — the camera flies rapidly into the phone screen, fully entering the digital interface. Scene 4 (00:07–00:14): UI Dimension & The Final Punchline Location: Bright, infinite white 3D space. Character Continuity: The same red-haired woman stands center, smiling confidently. Wardrobe (Character 3 — \"Tech-Ninja\"): Full matte-black tactical jumpsuit in technical fabric; asymmetrical layered vest with utility straps; multi-strap chest harness with glowing magnetic buckles; full gloves with integrated digital displays; chunky combat platform boots. Interface Elements: Gigantic simplified floating 3D app icons — Instagram camera, TikTok \"d\", Snapchat ghost — swirling around her. The Finale: She looks directly at the camera, playfully catches a glowing \"Like\" (Heart) icon from the air, gives a sharp wink, and throws the icon straight into the camera lens. The icon covers the lens, turning the screen instantly to black — creating a definitive ending or a seamless loop back to the start. #Seedance2",
+      "category": "social-content",
+      "quality_score": 100,
+      "source_url": "https://x.com/Kiber_Alla/status/2040834865835250071",
+      "author": "@Kiber_Alla",
+      "created_at": "2026-04-05T16:52:03.000Z",
+      "tweet_text": "Today I'm working with Seedance 2.0 on \n@YouArtStudio\n  Creating transitions of one character across three scenes. Prompt\n\nYou can recreate this effect with yourself as the star! Just copy my prompt, add a high-quality close-up photo of your face, and replace \"red-haired woman\" with a description of your own appearance. The prompt is very stable — I generated several versions and loved every single one.\n\nPROMPT:\nOverarching Concept: Continuous character journey, moving from gritty Y2K streetwear on a dark rooftop to a stylized, high-tech \"tech-ninja\" aesthetic inside a pristine white iOS interface dimension. Fast-paced, fluid, and highly interactive with the camera.\n\nUniversal Rule: The same red-haired woman from Scene 1 must appear in all subsequent scenes, ensuring perfect visual continuity.\n\nScene 1 (00:00–00:01): Rooftop Throw\nLocation: Windy urban rooftop at night, glowing city skyline.\nWardrobe (Character 1): Y2K style — baggy vintage denim jacket, graphic baby tee, wide-leg parachute pants.\nCharacter Continuity: A specific red-haired woman with wavy copper hair.\nAction & Camera: Static camera. The red-haired woman spins rapidly, her loose clothes catching the wind. Mid-spin, she throws an iPhone 17 Pro Max directly into the camera lens.\nScene 2 (00:01–00:02): Giant Phone Spin\nLocation: Blurred night city backdrop.\nAction & Camera: Focus pulls to the giant, spinning iPhone 17 Pro Max in the foreground. It stops spinning, hovering vertically and centered.\nScene 3 (00:02–00:07): The \"Twist & Pull\" Transition (CRITICAL FOCUS — NO GLASS BREAKING)\nLocation: Still on the night rooftop, phone centered.\nCharacter Continuity: The same red-haired woman (from Scene 1) is visible inside the glowing white phone screen, smiling confidently.\nWardrobe (Character 2): A tight, form-fitting, cropped matte-black leather motorcycle jacket over a white top.\nAction (The Twist): Her hand smoothly emerges from the screen into 3D space (the screen acts like a fluid boundary — no glass breaking). She reaches toward the camera and performs a twisting motion with her wrist and fingers — exactly like screwing in a lightbulb or turning a dial.\nCamera (Max Zoom): As she twists, the camera zooms in maximally on her hand.\nAction (The Pull): She reverses the twisting motion and rapidly retracts her hand back into the phone.\nCamera (The Dive): This reverse motion acts as a physical \"pull.\" As she yanks her hand back, she pulls the camera with her — the camera flies rapidly into the phone screen, fully entering the digital interface.\nScene 4 (00:07–00:14): UI Dimension & The Final Punchline\nLocation: Bright, infinite white 3D space.\nCharacter Continuity: The same red-haired woman stands center, smiling confidently.\nWardrobe (Character 3 — \"Tech-Ninja\"): Full matte-black tactical jumpsuit in technical fabric; asymmetrical layered vest with utility straps; multi-strap chest harness with glowing magnetic buckles; full gloves with integrated digital displays; chunky combat platform boots.\nInterface Elements: Gigantic simplified floating 3D app icons — Instagram camera, TikTok \"d\", Snapchat ghost — swirling around her.\nThe Finale: She looks directly at the camera, playfully catches a glowing \"Like\" (Heart) icon from the air, gives a sharp wink, and throws the icon straight into the camera lens. The icon covers the lens, turning the screen instantly to black — creating a definitive ending or a seamless loop back to the start. \n#Seedance2",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:22Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040833416912936960/vid/avc1/720x1302/yh6AtzGuG0MhsUrT.mp4?tag=21",
+      "video": "media/videos/2040834865835250071.mp4"
+    },
+    {
+      "id": "x:2040826350270026216",
+      "text": "Action you cant ignore Seedance 2.0 on @nsketchai Prompt A dark, post-apocalyptic city covered in smoke, debris, and burning ruins, cinematic wide aerial shot, dramatic cloudy sky with fire embers floating in the air, destroyed buildings on both sides, abandoned cars, cracked roads glowing faintly with heat A powerful female warrior descends rapidly from the sky, long hair flowing in slow motion, camera follows her from above as she slams into the ground, creating a shockwave of dust and debris, cinematic impact, particles flying, ground cracking beneath her Low angle close-up — she kneels on the ground, breathing heavily, bruised but intense, wearing tactical outfit with torn sleeves, subtle glowing veins under her skin, atmosphere filled with smoke and fire A glowing energy drink can (neon green accents) lies in front of her on the ground, slightly vibrating with power, cinematic focus shift from her face to the can She slowly reaches forward, picks up the can, stands up — background explosions flicker behind her, camera slowly pushes in Close-up shot — she opens the can, a sharp metallic sound echoing, green energy vapor leaks out, lighting her face dramatically As she drinks — her eyes suddenly glow bright neon green, energy pulses through her body, veins illuminate, wind starts swirling around her Dark organic energy tendrils emerge from her back and arms, wrapping around her body, forming armor-like structures, cinematic transformation sequence, high detail, slow motion Her body evolves into a demonic feminine entity, sleek black armor fused with glowing green energy lines, horns forming, wings expanding behind her Wide hero shot — she fully transforms into a towering, powerful demon-like being with massive wings, glowing eyes, and energy blades forming in her hands She raises both arms — energy surges through the sky, debris starts levitating, buildings trembling Final shot — she unleashes a massive green energy beam into the sky, creating a shockwave across the ruined city, camera pulls back to wide cinematic scale Style: ultra-realistic, cinematic lighting, volumetric fog, Unreal Engine style, high contrast, dramatic shadows, slow motion, epic scale, 4K, film grain, teal-orange + neon green color grading",
+      "display_text": "A dark, post-apocalyptic city covered in smoke, debris, and burning ruins, cinematic wide aerial shot, dramatic cloudy sky with fire embers floating in the air, destroyed buildings on both sides, abandoned cars, cracked roads glowing faintly with heat A powerful female warrior descends rapidly from the sky, long hair flowing in slow motion, camera follows her from above as she slams into the ground, creating a shockwave of dust and debris, cinematic impact, particles flying, ground cracking beneath her Low angle close-up — she kneels on the ground, breathing heavily, bruised but intense, wearing tactical outfit with torn sleeves, subtle glowing veins under her skin, atmosphere filled with smoke and fire A glowing energy drink can (neon green accents) lies in front of her on the ground, slightly vibrating with power, cinematic focus shift from her face to the can She slowly reaches forward, picks up the can, stands up — background explosions flicker behind her, camera slowly pushes in Close-up shot — she opens the can, a sharp metallic sound echoing, green energy vapor leaks out, lighting her face dramatically As she drinks — her eyes suddenly glow bright neon green, energy pulses through her body, veins illuminate, wind starts swirling around her Dark organic energy tendrils emerge from her back and arms, wrapping around her body, forming armor-like structures, cinematic transformation sequence, high detail, slow motion Her body evolves into a demonic feminine entity, sleek black armor fused with glowing green energy lines, horns forming, wings expanding behind her Wide hero shot — she fully transforms into a towering, powerful demon-like being with massive wings, glowing eyes, and energy blades forming in her hands She raises both arms — energy surges through the sky, debris starts levitating, buildings trembling Final shot — she unleashes a massive green energy beam into the sky, creating a shockwave across the ruined city, camera pulls back to wide cinematic scale Style: ultra-realistic, cinematic lighting, volumetric fog, Unreal Engine style, high contrast, dramatic shadows, slow motion, epic scale, 4K, film grain, teal-orange + neon green color grading",
+      "category": "vfx",
+      "quality_score": 100,
+      "source_url": "https://x.com/AIwithSynthia/status/2040826350270026216",
+      "author": "@AIwithSynthia",
+      "created_at": "2026-04-05T16:18:13.000Z",
+      "tweet_text": "Action you cant ignore \n\nSeedance 2.0 on \n@nsketchai\n \n\nPrompt  \n\nA dark, post-apocalyptic city covered in smoke, debris, and burning ruins, cinematic wide aerial shot, dramatic cloudy sky with fire embers floating in the air, destroyed buildings on both sides, abandoned cars, cracked roads glowing faintly with heat\nA powerful female warrior descends rapidly from the sky, long hair flowing in slow motion, camera follows her from above as she slams into the ground, creating a shockwave of dust and debris, cinematic impact, particles flying, ground cracking beneath her\nLow angle close-up — she kneels on the ground, breathing heavily, bruised but intense, wearing tactical outfit with torn sleeves, subtle glowing veins under her skin, atmosphere filled with smoke and fire\nA glowing energy drink can (neon green accents) lies in front of her on the ground, slightly vibrating with power, cinematic focus shift from her face to the can\nShe slowly reaches forward, picks up the can, stands up — background explosions flicker behind her, camera slowly pushes in\nClose-up shot — she opens the can, a sharp metallic sound echoing, green energy vapor leaks out, lighting her face dramatically\nAs she drinks — her eyes suddenly glow bright neon green, energy pulses through her body, veins illuminate, wind starts swirling around her\nDark organic energy tendrils emerge from her back and arms, wrapping around her body, forming armor-like structures, cinematic transformation sequence, high detail, slow motion\nHer body evolves into a demonic feminine entity, sleek black armor fused with glowing green energy lines, horns forming, wings expanding behind her\nWide hero shot — she fully transforms into a towering, powerful demon-like being with massive wings, glowing eyes, and energy blades forming in her hands\nShe raises both arms — energy surges through the sky, debris starts levitating, buildings trembling\nFinal shot — she unleashes a massive green energy beam into the sky, creating a shockwave across the ruined city, camera pulls back to wide cinematic scale\nStyle: ultra-realistic, cinematic lighting, volumetric fog, Unreal Engine style, high contrast, dramatic shadows, slow motion, epic scale, 4K, film grain, teal-orange + neon green color grading",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:22Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2040826311455948800/pu/vid/avc1/1280x720/mUcANYICVZfPZQ0Y.mp4?tag=19",
+      "video": "media/videos/2040826350270026216.mp4"
+    },
+    {
+      "id": "x:2040825853525868793",
+      "text": "Film Style: Ultra-realistic 4K macro cinematic. Nature documentary + epic war movie fusion. Visual Elements: Dramatic battlefield dust, cinematic slow motion particles, subtle “mini-world” realism. Camera Behavior: Rapid cuts every 2 seconds, macro lens close-ups, ground-level",
+      "display_text": "Film Style: Ultra-realistic 4K macro cinematic. Nature documentary + epic war movie fusion. Visual Elements: Dramatic battlefield dust, cinematic slow motion particles, subtle “mini-world” realism. Camera Behavior: Rapid cuts every 2 seconds, macro lens close-ups, ground-level",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/enderozusaglam/status/2040825853525868793",
+      "author": "@enderozusaglam",
+      "created_at": "2026-04-05T16:16:14.000Z",
+      "tweet_text": "Prompt  #seedance",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040825769052577792/vid/avc1/1280x720/inpJbOC_vx-iLm5D.mp4?tag=21",
+      "video": "media/videos/2040825853525868793.mp4"
+    },
+    {
+      "id": "x:2040825541436260581",
+      "text": "Stickman Fight with Seedance 2.0 Prompt FORMAT: 15s / 182 BPM / 7 CUTS / minimalist 2D stick-fight animation, pure white background, ultra-fast readability SUBJECTS: Two 2D stick fighters drawn in solid black lines on a blank white field. One is lean, evasive, and elastic. The other is wider, heavier, and constantly presses forward with crushing force. ENVIRONMENT: Empty white void, no props. Only black speed lines, impact rings, smear frames, skid marks, and sharp red blood accents. Clean negative space keeps every move instantly readable. MOOD: Brutal, explosive, relentless, stylish, unfinished. COLOR LOGIC: Monochromatic Grading TIMELINE: 0:00-0:01 - Wide shot, extreme negative space. The lean fighter stands centered and still. The heavy fighter drops from above already throwing a downward strike. Sudden hard push-in. 24mm wide feel. SFX: air drop, hard land, cutting whoosh. 0:01-0:03 - CUT ON ACTION. Side wide shot. Heavy fighter unleashes jab, hook, knee. Lean fighter slips, guards, absorbs the knee, then fires back with calf kick, straight punch, spinning back kick. A sharp red blood arc snaps off the final hit. Short truck move. 35mm feel. SFX: swishes, dry thuds, foot taps, impact ticks. 0:03-0:05 - SMASH CUT. Medium wide side view. Heavy fighter answers with body hook, elbow, backfist, stomp kick, then drives through with a rushing shoulder check, forcing the lean fighter across frame. Quick red flecks burst near the impact rings. Fast lateral move with slight undercrank feel. SFX: impact cracks, whip swishes, stomp hit, air bursts. 0:05-0:07 - CUT ON ACTION. Side wide shot. Lean fighter ducks the next swing, steps inside, lands a rib shot, slicing elbow to the chin, then a rising kick to the chest. A brief red spray snaps off the last connection. Short truck move. 35mm film feel. SFX: duck swish, body thud, elbow crack, kick crack, skid scrape. 0:07-0:10 - WHIP PAN TRANSITION. Side wide shot. Both crash back together and trade a savage twelve-hit chain: punch, block, elbow, knee, duck, backfist, kick, catch, shove, hook, spinning elbow, straight cross. Red flicks burst only on the hardest impacts. Fast truck move with momentum-based cutting. Thick black impact circles on the heaviest blows. SFX: rapid hit flurry, hard swishes, bass ticks, breath bursts. 0:10-0:12 - CUT ON ACTION. Worm's-eye wide shot. Heavy fighter surges forward again. Lean fighter eats two hits, slips the third, steps off the planted thigh, vaults upward, and hammers down. Both collide midair in a tight X-shaped silhouette that splits apart instantly. Quick arc move around the clash. 24mm wide feel. SFX: rising whoosh, hit flurry, double crack, burst hiss, bass slam. 0:12-0:15 - HARD CUT. Monumental wide shot. Both land already in motion, skid a step, rebound, and charge back to center without pause, dissolving into black strike smears and red flecks as the exchange continues. Tiny push-in. End mid-fight, unresolved. 50mm standard feel. SFX: skid scrape, hard swishes, dry impacts, low ring.",
+      "display_text": "FORMAT: 15s / 182 BPM / 7 CUTS / minimalist 2D stick-fight animation, pure white background, ultra-fast readability SUBJECTS: Two 2D stick fighters drawn in solid black lines on a blank white field. One is lean, evasive, and elastic. The other is wider, heavier, and constantly presses forward with crushing force. ENVIRONMENT: Empty white void, no props. Only black speed lines, impact rings, smear frames, skid marks, and sharp red blood accents. Clean negative space keeps every move instantly readable. MOOD: Brutal, explosive, relentless, stylish, unfinished. COLOR LOGIC: Monochromatic Grading TIMELINE: 0:00-0:01 - Wide shot, extreme negative space. The lean fighter stands centered and still. The heavy fighter drops from above already throwing a downward strike. Sudden hard push-in. 24mm wide feel. SFX: air drop, hard land, cutting whoosh. 0:01-0:03 - CUT ON ACTION. Side wide shot. Heavy fighter unleashes jab, hook, knee. Lean fighter slips, guards, absorbs the knee, then fires back with calf kick, straight punch, spinning back kick. A sharp red blood arc snaps off the final hit. Short truck move. 35mm feel. SFX: swishes, dry thuds, foot taps, impact ticks. 0:03-0:05 - SMASH CUT. Medium wide side view. Heavy fighter answers with body hook, elbow, backfist, stomp kick, then drives through with a rushing shoulder check, forcing the lean fighter across frame. Quick red flecks burst near the impact rings. Fast lateral move with slight undercrank feel. SFX: impact cracks, whip swishes, stomp hit, air bursts. 0:05-0:07 - CUT ON ACTION. Side wide shot. Lean fighter ducks the next swing, steps inside, lands a rib shot, slicing elbow to the chin, then a rising kick to the chest. A brief red spray snaps off the last connection. Short truck move. 35mm film feel. SFX: duck swish, body thud, elbow crack, kick crack, skid scrape. 0:07-0:10 - WHIP PAN TRANSITION. Side wide shot. Both crash back together and trade a savage twelve-hit chain: punch, block, elbow, knee, duck, backfist, kick, catch, shove, hook, spinning elbow, straight cross. Red flicks burst only on the hardest impacts. Fast truck move with momentum-based cutting. Thick black impact circles on the heaviest blows. SFX: rapid hit flurry, hard swishes, bass ticks, breath bursts. 0:10-0:12 - CUT ON ACTION. Worm's-eye wide shot. Heavy fighter surges forward again. Lean fighter eats two hits, slips the third, steps off the planted thigh, vaults upward, and hammers down. Both collide midair in a tight X-shaped silhouette that splits apart instantly. Quick arc move around the clash. 24mm wide feel. SFX: rising whoosh, hit flurry, double crack, burst hiss, bass slam. 0:12-0:15 - HARD CUT. Monumental wide shot. Both land already in motion, skid a step, rebound, and charge back to center without pause, dissolving into black strike smears and red flecks as the exchange continues. Tiny push-in. End mid-fight, unresolved. 50mm standard feel. SFX: skid scrape, hard swishes, dry impacts, low ring.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/ertanlabs/status/2040825541436260581",
+      "author": "@ertanlabs",
+      "created_at": "2026-04-05T16:15:00.000Z",
+      "tweet_text": "Stickman Fight with Seedance 2.0  \n\nPrompt \n\nFORMAT: 15s / 182 BPM / 7 CUTS / minimalist 2D stick-fight animation, pure white background, ultra-fast readability \nSUBJECTS: Two 2D stick fighters drawn in solid black lines on a blank white field. One is lean, evasive, and elastic. The other is wider, heavier, and constantly presses forward with crushing force. \nENVIRONMENT: Empty white void, no props. Only black speed lines, impact rings, smear frames, skid marks, and sharp red blood accents. Clean negative space keeps every move instantly readable. \nMOOD: Brutal, explosive, relentless, stylish, unfinished. COLOR LOGIC: Monochromatic Grading TIMELINE: 0:00-0:01 - Wide shot, extreme negative space. The lean fighter stands centered and still. The heavy fighter drops from above already throwing a downward strike. Sudden hard push-in. 24mm wide feel. SFX: air drop, hard land, cutting whoosh. 0:01-0:03 - CUT ON ACTION. Side wide shot. Heavy fighter unleashes jab, hook, knee. Lean fighter slips, guards, absorbs the knee, then fires back with calf kick, straight punch, spinning back kick. A sharp red blood arc snaps off the final hit. Short truck move. 35mm feel. SFX: swishes, dry thuds, foot taps, impact ticks. 0:03-0:05 - SMASH CUT. Medium wide side view. Heavy fighter answers with body hook, elbow, backfist, stomp kick, then drives through with a rushing shoulder check, forcing the lean fighter across frame. Quick red flecks burst near the impact rings. Fast lateral move with slight undercrank feel. SFX: impact cracks, whip swishes, stomp hit, air bursts. 0:05-0:07 - CUT ON ACTION. Side wide shot. Lean fighter ducks the next swing, steps inside, lands a rib shot, slicing elbow to the chin, then a rising kick to the chest. A brief red spray snaps off the last connection. Short truck move. 35mm film feel. SFX: duck swish, body thud, elbow crack, kick crack, skid scrape. 0:07-0:10 - WHIP PAN TRANSITION. Side wide shot. Both crash back together and trade a savage twelve-hit chain: punch, block, elbow, knee, duck, backfist, kick, catch, shove, hook, spinning elbow, straight cross. Red flicks burst only on the hardest impacts. Fast truck move with momentum-based cutting. Thick black impact circles on the heaviest blows. SFX: rapid hit flurry, hard swishes, bass ticks, breath bursts. 0:10-0:12 - CUT ON ACTION. Worm's-eye wide shot. Heavy fighter surges forward again. Lean fighter eats two hits, slips the third, steps off the planted thigh, vaults upward, and hammers down. Both collide midair in a tight X-shaped silhouette that splits apart instantly. Quick arc move around the clash. 24mm wide feel. SFX: rising whoosh, hit flurry, double crack, burst hiss, bass slam. 0:12-0:15 - HARD CUT. Monumental wide shot. Both land already in motion, skid a step, rebound, and charge back to center without pause, dissolving into black strike smears and red flecks as the exchange continues. Tiny push-in. End mid-fight, unresolved. 50mm standard feel. SFX: skid scrape, hard swishes, dry impacts, low ring.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:22Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040765348161507328/vid/avc1/1440x2560/xsOCR5DPUrT4P9wO.mp4?tag=21",
+      "video": "media/videos/2040825541436260581.mp4"
+    },
+    {
+      "id": "x:2040739182084042843",
+      "text": "This prompt was built purely for text to video, so no reference images were needed. I also upscaled it using Magnific Precision for video, all done right inside Freepik! Just a heads up: Seedance 2.0 is currently exclusive to Business accounts and up. And available on +150 regions (US and some others not included) [CINEMATIC SETUP] Genre & Mood: Gritty Post-Apocalyptic Survival. Tense, visceral, and hyper-realistic. Film Stock & Lens: Shot on 35mm anamorphic lens, f/2.8 for shallow depth of field. Teal-orange desaturated color grade with earthy, dusty undertones. Lighting & Atmosphere: Dramatic volumetric Golden Hour light with heavy dust motes and heat haze. Character Description: An athletic woman in her late 20s, wearing weathered tactical leather armor and dirt-smudged skin. Her hair is wind-blown and messy; her expression is one of intense, lethal focus. Audio Style: Immersive spatial sound design. Detailed SFX of bowstring tension, rhythmic heavy breathing, wind howling through the canyon, and a high-velocity \"thwack\" on impact. [TIMELINE SECOND BY SECOND] 0-3s: [Extreme Close-up (ECU)] High-angle shot of the woman's face as she aims a mechanical compound bow. The bowstring is pulled taut against her cheek. Movie-level realistic facial features, no deformation, stable throughout. 3-4s: [Macro Cut] Extreme close-up of her iris. The pupil dilates sharply as she locks onto her target. Realistic light reflections in the eye. 4-8s: [Over-the-shoulder (OTS) Shot] The camera sits behind her shoulder on a jagged cliff edge. In the valley below, a herd of mutated, post-apocalyptic Cape Buffalo with thickened grey hide and jagged horns graze peacefully. Smooth camera push-in. 8-10s: [The Release & POV] She releases the arrow. Fast Tracking POV shot following the arrowhead at maximum velocity. Intense motion blur on the passing rocky environment as the arrow slices the air. 10-15s: [Impact & Wide Shot] The arrow strikes the lead beast in the flank with realistic physics. The animal collapses heavily into the dust. The rest of the herd panics and scatters in a chaotic wide shot. Sound fade to the howl of the wind. [STYLE & QUALITY BOOSTERS] Photorealistic 8K, ultra-detailed textures (skin pores, rusted metal, animal fur), cinematic lighting, perfect motion blur, high dynamic range, no artifacts, coherent multi-subject motion.",
+      "display_text": "was built purely for text to video, so no reference images were needed. I also upscaled it using Magnific Precision for video, all done right inside Freepik! Just a heads up: Seedance 2.0 is currently exclusive to Business accounts and up. And available on +150 regions (US and some others not included) [CINEMATIC SETUP] Genre & Mood: Gritty Post-Apocalyptic Survival. Tense, visceral, and hyper-realistic. Film Stock & Lens: Shot on 35mm anamorphic lens, f/2.8 for shallow depth of field. Teal-orange desaturated color grade with earthy, dusty undertones. Lighting & Atmosphere: Dramatic volumetric Golden Hour light with heavy dust motes and heat haze. Character Description: An athletic woman in her late 20s, wearing weathered tactical leather armor and dirt-smudged skin. Her hair is wind-blown and messy; her expression is one of intense, lethal focus. Audio Style: Immersive spatial sound design. Detailed SFX of bowstring tension, rhythmic heavy breathing, wind howling through the canyon, and a high-velocity \"thwack\" on impact. [TIMELINE SECOND BY SECOND] 0-3s: [Extreme Close-up (ECU)] High-angle shot of the woman's face as she aims a mechanical compound bow. The bowstring is pulled taut against her cheek. Movie-level realistic facial features, no deformation, stable throughout. 3-4s: [Macro Cut] Extreme close-up of her iris. The pupil dilates sharply as she locks onto her target. Realistic light reflections in the eye. 4-8s: [Over-the-shoulder (OTS) Shot] The camera sits behind her shoulder on a jagged cliff edge. In the valley below, a herd of mutated, post-apocalyptic Cape Buffalo with thickened grey hide and jagged horns graze peacefully. Smooth camera push-in. 8-10s: [The Release & POV] She releases the arrow. Fast Tracking POV shot following the arrowhead at maximum velocity. Intense motion blur on the passing rocky environment as the arrow slices the air. 10-15s: [Impact & Wide Shot] The arrow strikes the lead beast in the flank with realistic physics. The animal collapses heavily into the dust. The rest of the herd panics and scatters in a chaotic wide shot. Sound fade to the howl of the wind. [STYLE & QUALITY BOOSTERS] Photorealistic 8K, ultra-detailed textures (skin pores, rusted metal, animal fur), cinematic lighting, perfect motion blur, high dynamic range, no artifacts, coherent multi-subject motion.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/techhalla/status/2040739182084042843",
+      "author": "@techhalla",
+      "created_at": "2026-04-05T10:31:50.000Z",
+      "tweet_text": "This prompt was built purely for text to video, so no reference images were needed. I also upscaled it using Magnific Precision for video, all done right inside Freepik! Just a heads up: Seedance 2.0 is currently exclusive to Business accounts and up. And available on +150",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040736882254880768/vid/avc1/1920x1080/6c_f_DahOu7ciShB.mp4?tag=21",
+      "video": "media/videos/2040739182084042843.mp4"
+    },
+    {
+      "id": "x:2040708544010358789",
+      "text": "**Environment:** A frozen glacial valley under pale arctic twilight. Deep cobalt shadows across the ice field with cold blue ambient light reflecting from massive glacier walls. Snow particles drifting through the air. Frozen lake surfaces acting as natural mirrors for diegetic reflections. **Action:** 15.0s sequence. A towering figure composed of crystalline ice and refracting light engages a magma-armored titan whose body glows through volcanic fissures beneath black stone plating. They clash in rapid close-range combat across the frozen lake. Each strike fractures the ice beneath them, sending radial cracks spreading outward. The magma titan’s punches melt sections of the glacier while the ice giant counters with explosive frost bursts that instantly freeze the molten rock. Velocity Ramp choreography: rapid exchanges freeze into ultra-slow motion when fists collide, showing ice crystals shattering and lava droplets vaporizing before snapping back to full speed as both titans slide across the ice surface. **Camera:** Low tracking shot sliding across the frozen lake surface, reflections capturing both combatants. A sudden upward crane move follows the moment the magma titan is thrown into a glacier wall, ice exploding outward. **Style & Constraints:** 8K resolution, photorealistic volumetric snow, ray-traced reflections on ice surfaces, cinematic cold lighting, 35mm film grain, stable geometry, no flicker. Made in @dreamina_ai #DreaminaCPP #DreaminaAI",
+      "display_text": "**Environment:** A frozen glacial valley under pale arctic twilight. Deep cobalt shadows across the ice field with cold blue ambient light reflecting from massive glacier walls. Snow particles drifting through the air. Frozen lake surfaces acting as natural mirrors for diegetic reflections. **Action:** 15.0s sequence. A towering figure composed of crystalline ice and refracting light engages a magma-armored titan whose body glows through volcanic fissures beneath black stone plating. They clash in rapid close-range combat across the frozen lake. Each strike fractures the ice beneath them, sending radial cracks spreading outward. The magma titan’s punches melt sections of the glacier while the ice giant counters with explosive frost bursts that instantly freeze the molten rock. Velocity Ramp choreography: rapid exchanges freeze into ultra-slow motion when fists collide, showing ice crystals shattering and lava droplets vaporizing before snapping back to full speed as both titans slide across the ice surface. **Camera:** Low tracking shot sliding across the frozen lake surface, reflections capturing both combatants. A sudden upward crane move follows the moment the magma titan is thrown into a glacier wall, ice exploding outward. **Style & Constraints:** 8K resolution, photorealistic volumetric snow, ray-traced reflections on ice surfaces, cinematic cold lighting, 35mm film grain, stable geometry, no flicker. #DreaminaCPP #DreaminaAI",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/LudovicCreator/status/2040708544010358789",
+      "author": "@LudovicCreator",
+      "created_at": "2026-04-05T08:30:06.000Z",
+      "tweet_text": "SEEDANCE 2 \n\nPrompt  :\n\n**Environment:**\n\nA frozen glacial valley under pale arctic twilight. Deep cobalt shadows across the ice field with cold blue ambient light reflecting from massive glacier walls. Snow particles drifting through the air. Frozen lake surfaces acting as natural mirrors for diegetic reflections.\n\n**Action:**\n\n15.0s sequence. A towering figure composed of crystalline ice and refracting light engages a magma-armored titan whose body glows through volcanic fissures beneath black stone plating. They clash in rapid close-range combat across the frozen lake. Each strike fractures the ice beneath them, sending radial cracks spreading outward. The magma titan’s punches melt sections of the glacier while the ice giant counters with explosive frost bursts that instantly freeze the molten rock.\n\nVelocity Ramp choreography: rapid exchanges freeze into ultra-slow motion when fists collide, showing ice crystals shattering and lava droplets vaporizing before snapping back to full speed as both titans slide across the ice surface.\n\n**Camera:**\n\nLow tracking shot sliding across the frozen lake surface, reflections capturing both combatants. A sudden upward crane move follows the moment the magma titan is thrown into a glacier wall, ice exploding outward.\n\n**Style & Constraints:**\n\n8K resolution, photorealistic volumetric snow, ray-traced reflections on ice surfaces, cinematic cold lighting, 35mm film grain, stable geometry, no flicker.\n\nMade in \n@dreamina_ai\n \n\n#DreaminaCPP #DreaminaAI",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:22Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2040708520400609280/pu/vid/avc1/1280x720/4YTaBSF4S4nra5mb.mp4?tag=12",
+      "video": "media/videos/2040708544010358789.mp4"
+    },
     {
       "id": "x:2040685931858907646",
       "text": "Alone, but never outnumbered. Seedance 2.0 available on @Lart_AI You can also create it here: http:// lartai.com/?TG=7789 Only $1 for the first month. Free credits on registration! Prompt Strictly follow the reference character’s face, hairstyle, outfit silhouette, and body proportions. Do not change identity or facial structure. Fixed appearance: glowing dark eyes, torn black samurai kimono, traditional katana, black cursed smoke slowly leaking from the body, flowing shadow energy aura, calm but cruel expression, supernatural high-speed movement, consistent identity and physical appearance throughout the entire scene. Strictly follow the reference character’s face, hairstyle, outfit silhouette, and body proportions. Do not change identity or facial structure. Fixed appearance: glowing dark eyes, torn black samurai kimono, traditional katana, black cursed smoke slowly leaking from the body, flowing shadow energy aura, calm but cruel expression, supernatural high-speed movement, consistent identity and physical appearance throughout the entire scene. Hyper-realistic cinematic action, Unreal Engine quality, fast-paced 12s sequence. Cursed lone samurai (strict consistency: female Japanese, long tied black hair, pale skin, glowing dark eyes, torn black kimono armor, katana, black cursed smoke, shadow aura, calm ruthless expression). Environment: abandoned temple shrine at night, broken torii gates, shattered statues, debris, moonlight + dim lanterns, dust and wind, dozens of enemies, dark gritty tone. Camera: aggressive tracking, whip pans, blade POV, high-speed motion, no slow motion. Action: 0–3s: Samurai stands surrounded → instant iaijutsu draw → dark energy slash cuts multiple enemies. 3–6s: High-speed dashes, shadow afterimages, rapid slashes, enemies fall, debris flying. 6–9s: Close combat, parries, teleport-like strikes, circular slashes clearing groups. 9–12s: Final spinning slash → massive dark wave → enemies freeze then collapse → silence, smoke fading.",
@@ -141,17 +333,12 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T10:52:50Z",
+        "reviewed_at": "2026-04-05T23:00:22Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2040553251695927296/vid/avc1/2560x1440/XBKxTz6hnAnskPK7.mp4?tag=21",
       "thumbnail": "media/thumbs/2040553379764552169.webp",
-      "video": "media/videos/2040553379764552169.mp4",
-      "published": true,
-      "admin_feedback": {
-        "action": "approve",
-        "timestamp": "2026-04-05T11:05:35.749Z"
-      }
+      "video": "media/videos/2040553379764552169.mp4"
     },
     {
       "id": "x:2040493370087203141",
@@ -380,18 +567,12 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T10:52:50Z",
+        "reviewed_at": "2026-04-05T23:00:23Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2039842086896467968/vid/avc1/834x1112/CtkXYJ1eiPSykZlh.mp4?tag=21",
       "thumbnail": "media/thumbs/2039842504988627242.webp",
-      "video": "media/videos/2039842504988627242.mp4",
-      "published": false,
-      "admin_feedback": {
-        "action": "reject",
-        "reason": "trim_too_hard",
-        "timestamp": "2026-04-05T11:07:46.296Z"
-      }
+      "video": "media/videos/2039842504988627242.mp4"
     },
     {
       "id": "x:2039666642104234288",
@@ -514,6 +695,30 @@
       }
     },
     {
+      "id": "x:2040866789098127436",
+      "text": "[Subject]: An 85-year-old woman with deeply lined, expressive skin and silver hair tied in a loose bun. Wearing a soft, wool cardigan. [Action Sequence (0-15s)]: 0-5s: Close-up on weathered hands trembling slightly as they open an old, yellowed envelope. The sound of",
+      "display_text": "[Subject]: An 85-year-old woman with deeply lined, expressive skin and silver hair tied in a loose bun. Wearing a soft, wool cardigan. [Action Sequence (0-15s)]: 0-5s: Close-up on weathered hands trembling slightly as they open an old, yellowed envelope. The sound of",
+      "category": "other",
+      "quality_score": 97,
+      "source_url": "https://x.com/lukasersil/status/2040866789098127436",
+      "author": "@lukasersil",
+      "created_at": "2026-04-05T18:58:54.000Z",
+      "tweet_text": "Today I was playing around with my lovely \n@capcutapp\n and SeeDance 2.0 again and wanted to capture some emotion. \n\nSo, an old lady and a letter from her beloved, Elias.\n\nThe prompt is in the comment below.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:22Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040866659234361344/vid/avc1/1920x1080/Io6VXudl5Qu5BWpp.mp4?tag=21",
+      "video": "media/videos/2040866789098127436.mp4"
+    },
+    {
       "id": "x:2040730703202333033",
       "text": "16:9 widescreen, cel-shaded 2D anime style, hand-drawn look, cyberpunk magical girl color palette — deep midnight blue, electric cyan, holographic silver, neon purple accents, 24fps, shallow depth of field.",
       "display_text": "16:9 widescreen, cel-shaded 2D anime style, hand-drawn look, cyberpunk magical girl color palette — deep midnight blue, electric cyan, holographic silver, neon purple accents, 24fps, shallow depth of field.",
@@ -542,6 +747,30 @@
         "action": "approve",
         "timestamp": "2026-04-05T11:08:26.324Z"
       }
+    },
+    {
+      "id": "x:2040857178483876285",
+      "text": "**Environment:** A massive grassland under a violent thunderstorm. Rolling plains stretch toward distant mountains while lightning flashes illuminate the rain-soaked terrain. **Action:** 15.0s sequence from the POV of a lightning wolf racing through tall grass. Sparks of electricity crackle along the edges of the wolf’s vision as energy builds with every stride. At the 2-second mark the wolf accelerates into a full sprint. Rain streaks across the camera as the wolf leaps over fallen trees and rocky terrain. A rival wolf pack appears ahead. Velocity Ramp choreography: the lead wolf leaps through a lightning strike that hits the ground nearby — the moment slows dramatically as electricity branches across the field before snapping back as the chase resumes. **Camera:** Low, aggressive predator POV moving at extreme speed through the storm landscape. **Style & Constraints:** Volumetric rain simulation, lightning illumination, cinematic storm lighting, realistic terrain motion blur, 8K. Made in @dreamina_ai #DreaminaCPP #DreaminaAI",
+      "display_text": "**Environment:** A massive grassland under a violent thunderstorm. Rolling plains stretch toward distant mountains while lightning flashes illuminate the rain-soaked terrain. **Action:** 15.0s sequence from the POV of a lightning wolf racing through tall grass. Sparks of electricity crackle along the edges of the wolf’s vision as energy builds with every stride. At the 2-second mark the wolf accelerates into a full sprint. Rain streaks across the camera as the wolf leaps over fallen trees and rocky terrain. A rival wolf pack appears ahead. Velocity Ramp choreography: the lead wolf leaps through a lightning strike that hits the ground nearby — the moment slows dramatically as electricity branches across the field before snapping back as the chase resumes. **Camera:** Low, aggressive predator POV moving at extreme speed through the storm landscape. **Style & Constraints:** Volumetric rain simulation, lightning illumination, cinematic storm lighting, realistic terrain motion blur, 8K. #DreaminaCPP #DreaminaAI",
+      "category": "cinematic",
+      "quality_score": 96,
+      "source_url": "https://x.com/LudovicCreator/status/2040857178483876285",
+      "author": "@LudovicCreator",
+      "created_at": "2026-04-05T18:20:43.000Z",
+      "tweet_text": "SEEDANCE 2 \n\nPrompt  :\n\n**Environment:**\n\nA massive grassland under a violent thunderstorm. Rolling plains stretch toward distant mountains while lightning flashes illuminate the rain-soaked terrain.\n\n**Action:**\n\n15.0s sequence from the POV of a lightning wolf racing through tall grass. Sparks of electricity crackle along the edges of the wolf’s vision as energy builds with every stride.\n\nAt the 2-second mark the wolf accelerates into a full sprint.\n\nRain streaks across the camera as the wolf leaps over fallen trees and rocky terrain.\n\nA rival wolf pack appears ahead.\n\nVelocity Ramp choreography: the lead wolf leaps through a lightning strike that hits the ground nearby — the moment slows dramatically as electricity branches across the field before snapping back as the chase resumes.\n\n**Camera:**\n\nLow, aggressive predator POV moving at extreme speed through the storm landscape.\n\n**Style & Constraints:**\n\nVolumetric rain simulation, lightning illumination, cinematic storm lighting, realistic terrain motion blur, 8K.\n\nMade in \n@dreamina_ai\n \n\n#DreaminaCPP #DreaminaAI",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:22Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2040857154622480384/pu/vid/avc1/1280x720/GnAgqacSMtibO3rU.mp4?tag=12",
+      "video": "media/videos/2040857178483876285.mp4"
     },
     {
       "id": "x:2040733843418702232",
@@ -589,15 +818,81 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T10:52:50Z",
+        "reviewed_at": "2026-04-05T23:00:22Z",
+        "engine": "internal_rules_v1"
+      }
+    },
+    {
+      "id": "x:2040821068605395281",
+      "text": "Medieval cat master: cute first, survival later (created with Seedance 2.0 on @nemovideoai ) Prompt share Seedance 2 Prompt (15 seconds total, each shot ~0.6–1.2s) Cinematic fantasy dark-comedy action, medieval European castle bedroom, warm candlelight vs cold moonlight contrast, dramatic shadows, ultra-dynamic camera, exaggerated character animation, high-detail textures, fast-paced editing, humorous tone. S1 (0.9s) Wide shot: A chubby orange cat in full medieval European knight armor stands beside a luxurious canopy bed inside a castle bedroom, moonlight spilling through wooden windows. S2 (0.8s) Close-up: On the bed, a white cat princess sleeps messily, loudly snoring, one paw casually picking her nose in an unrefined, comedic manner. S3 (0.9s) Medium shot: The orange cat shakes her urgently, armor clanking, trying to wake her up, visibly frustrated. S4 (0.7s) Close-up: The princess continues snoring, completely unfazed, bubble forming from her nose. S5 (0.8s) Cut to window: Outside the wooden window, a pair of giant glowing eyes suddenly appears in the darkness. S6 (0.9s) Reveal shot: A pink fire-breathing dragon presses its face near the window, exhaling faint smoke, eyes wide and menacing. S7 (0.8s) Reaction shot: The orange cat freezes, then instantly turns serious, gripping his longsword. S8 (1.0s) Action burst: With a powerful kick, the orange cat smashes through the wooden window, splinters flying outward. S9 (1.0s) Balcony wide shot: The cat lands on the stone balcony, facing the hovering pink dragon under moonlight. S10 (1.0s) Combat: The cat lunges forward, slashing rapidly with the longsword, sparks and motion blur streaks. S11 (0.8s) Twist: The dragon suddenly opens its mouth and bites down, swallowing the sword whole. S12 (0.9s) Close-up: The orange cat pauses, then instantly switches expression, huge sparkling eyes, puffed cheeks, exaggerated ultra-cute innocent face. S13 (1.0s) Reaction: The dragon’s fierce expression melts into confusion and softness, flames dying down. S14 (1.0s) Punchline action: In a split-second, the orange cat snaps back to normal and kicks the dragon hard, sending it tumbling off the balcony into a deep abyss. S15 (1.2s) Final close-up: The orange cat turns to camera, smirks proudly, and gives a playful left-eye wink, armor gleaming in moonlight. Motion & Effects: Fast-paced comedic timing, strong motion blur, dynamic camera swings (orbit, low-angle, snap zooms), particle effects (wood splinters, smoke, sparks), expressive character animation, seamless flow, high-impact yet humorous finish. #sd2 #seedance #CatsLover #aivideo",
+      "display_text": "Cinematic fantasy dark-comedy action, medieval European castle bedroom, warm candlelight vs cold moonlight contrast, dramatic shadows, ultra-dynamic camera, exaggerated character animation, high-detail textures, fast-paced editing, humorous tone. S1 (0.9s) Wide shot: A chubby orange cat in full medieval European knight armor stands beside a luxurious canopy bed inside a castle bedroom, moonlight spilling through wooden windows. S2 (0.8s) Close-up: On the bed, a white cat princess sleeps messily, loudly snoring, one paw casually picking her nose in an unrefined, comedic manner. S3 (0.9s) Medium shot: The orange cat shakes her urgently, armor clanking, trying to wake her up, visibly frustrated. S4 (0.7s) Close-up: The princess continues snoring, completely unfazed, bubble forming from her nose. S5 (0.8s) Cut to window: Outside the wooden window, a pair of giant glowing eyes suddenly appears in the darkness. S6 (0.9s) Reveal shot: A pink fire-breathing dragon presses its face near the window, exhaling faint smoke, eyes wide and menacing. S7 (0.8s) Reaction shot: The orange cat freezes, then instantly turns serious, gripping his longsword. S8 (1.0s) Action burst: With a powerful kick, the orange cat smashes through the wooden window, splinters flying outward. S9 (1.0s) Balcony wide shot: The cat lands on the stone balcony, facing the hovering pink dragon under moonlight. S10 (1.0s) Combat: The cat lunges forward, slashing rapidly with the longsword, sparks and motion blur streaks. S11 (0.8s) Twist: The dragon suddenly opens its mouth and bites down, swallowing the sword whole. S12 (0.9s) Close-up: The orange cat pauses, then instantly switches expression, huge sparkling eyes, puffed cheeks, exaggerated ultra-cute innocent face. S13 (1.0s) Reaction: The dragon’s fierce expression melts into confusion and softness, flames dying down. S14 (1.0s) Punchline action: In a split-second, the orange cat snaps back to normal and kicks the dragon hard, sending it tumbling off the balcony into a deep abyss. S15 (1.2s) Final close-up: The orange cat turns to camera, smirks proudly, and gives a playful left-eye wink, armor gleaming in moonlight. Motion & Effects: Fast-paced comedic timing, strong motion blur, dynamic camera swings (orbit, low-angle, snap zooms), particle effects (wood splinters, smoke, sparks), expressive character animation, seamless flow, high-impact yet humorous finish.",
+      "category": "cinematic",
+      "quality_score": 94,
+      "source_url": "https://x.com/drjoetw/status/2040821068605395281",
+      "author": "@drjoetw",
+      "created_at": "2026-04-05T15:57:14.000Z",
+      "tweet_text": "Medieval cat master: cute first, survival later \n(created with Seedance 2.0 on \n@nemovideoai\n )\nPrompt share \n\nSeedance 2 Prompt (15 seconds total, each shot ~0.6–1.2s)\n\nCinematic fantasy dark-comedy action, medieval European castle bedroom, warm candlelight vs cold moonlight contrast, dramatic shadows, ultra-dynamic camera, exaggerated character animation, high-detail textures, fast-paced editing, humorous tone.\n\nS1 (0.9s)\nWide shot: A chubby orange cat in full medieval European knight armor stands beside a luxurious canopy bed inside a castle bedroom, moonlight spilling through wooden windows.\n\nS2 (0.8s)\nClose-up: On the bed, a white cat princess sleeps messily, loudly snoring, one paw casually picking her nose in an unrefined, comedic manner.\n\nS3 (0.9s)\nMedium shot: The orange cat shakes her urgently, armor clanking, trying to wake her up, visibly frustrated.\n\nS4 (0.7s)\nClose-up: The princess continues snoring, completely unfazed, bubble forming from her nose.\n\nS5 (0.8s)\nCut to window: Outside the wooden window, a pair of giant glowing eyes suddenly appears in the darkness.\n\nS6 (0.9s)\nReveal shot: A pink fire-breathing dragon presses its face near the window, exhaling faint smoke, eyes wide and menacing.\n\nS7 (0.8s)\nReaction shot: The orange cat freezes, then instantly turns serious, gripping his longsword.\n\nS8 (1.0s)\nAction burst: With a powerful kick, the orange cat smashes through the wooden window, splinters flying outward.\n\nS9 (1.0s)\nBalcony wide shot: The cat lands on the stone balcony, facing the hovering pink dragon under moonlight.\n\nS10 (1.0s)\nCombat: The cat lunges forward, slashing rapidly with the longsword, sparks and motion blur streaks.\n\nS11 (0.8s)\nTwist: The dragon suddenly opens its mouth and bites down, swallowing the sword whole.\n\nS12 (0.9s)\nClose-up: The orange cat pauses, then instantly switches expression, huge sparkling eyes, puffed cheeks, exaggerated ultra-cute innocent face.\n\nS13 (1.0s)\nReaction: The dragon’s fierce expression melts into confusion and softness, flames dying down.\n\nS14 (1.0s)\nPunchline action: In a split-second, the orange cat snaps back to normal and kicks the dragon hard, sending it tumbling off the balcony into a deep abyss.\n\nS15 (1.2s)\nFinal close-up: The orange cat turns to camera, smirks proudly, and gives a playful left-eye wink, armor gleaming in moonlight.\n\nMotion & Effects:\nFast-paced comedic timing, strong motion blur, dynamic camera swings (orbit, low-angle, snap zooms), particle effects (wood splinters, smoke, sparks), expressive character animation, seamless flow, high-impact yet humorous finish.\n\n#sd2 #seedance #CatsLover #aivideo",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:22Z",
         "engine": "internal_rules_v1"
       },
-      "published": false,
-      "admin_feedback": {
-        "action": "reject",
-        "reason": "trim_not_enough",
-        "timestamp": "2026-04-05T11:08:47.231Z"
-      }
+      "video_url": "https://video.twimg.com/amplify_video/2040820991295938560/vid/avc1/1280x720/5kNFvkHVoBNbdO2H.mp4?tag=21",
+      "video": "media/videos/2040821068605395281.mp4"
+    },
+    {
+      "id": "x:2040855637685313797",
+      "text": "Seedance 2.0 is insane. Prompt bellow inspired by @techhalla Raw mobile phone footage, vertical handheld shot, shaky cam, grainy texture. At the legendary Rucker Park basketball court at dusk, a heavy-set elderly black woman in a floral dress and sneakers is dribbling a basketball against a young, athletic streetballer in a jersey. The woman performs a lightning-fast crossover dribble, blowing past the stunned defender. She suddenly drives to the hoop and performs a powerful, explosive two-handed slam dunk, hanging on the rim briefly. The surrounding crowd of black teenagers and streetball fans goes wild, storming the court in a chaotic celebration. Lens flares, motion blur, authentic street lighting, high energy, viral social media video aesthetic.",
+      "display_text": "handheld shot, shaky cam, grainy texture. At the legendary Rucker Park basketball court at dusk, a heavy-set elderly black woman in a floral dress and sneakers is dribbling a basketball against a young, athletic streetballer in a jersey. The woman performs a lightning-fast crossover dribble, blowing past the stunned defender. She suddenly drives to the hoop and performs a powerful, explosive two-handed slam dunk, hanging on the rim briefly. The surrounding crowd of black teenagers and streetball fans goes wild, storming the court in a chaotic celebration. Lens flares, motion blur, authentic street lighting, high energy, viral social media video aesthetic.",
+      "category": "social-content",
+      "quality_score": 92,
+      "source_url": "https://x.com/Viafin23/status/2040855637685313797",
+      "author": "@Viafin23",
+      "created_at": "2026-04-05T18:14:35.000Z",
+      "tweet_text": "Seedance 2.0 is insane. \n\nPrompt bellow inspired by \n@techhalla\n \n\nRaw mobile phone footage, vertical handheld shot, shaky cam, grainy texture. At the legendary Rucker Park basketball court at dusk, a heavy-set elderly black woman in a floral dress and sneakers is dribbling a basketball against a young, athletic streetballer in a jersey. The woman performs a lightning-fast crossover dribble, blowing past the stunned defender. She suddenly drives to the hoop and performs a powerful, explosive two-handed slam dunk, hanging on the rim briefly. The surrounding crowd of black teenagers and streetball fans goes wild, storming the court in a chaotic celebration. Lens flares, motion blur, authentic street lighting, high energy, viral social media video aesthetic.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:22Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040854644700971008/vid/avc1/1280x720/EBphWi1kMpM20bzQ.mp4?tag=21",
+      "video": "media/videos/2040855637685313797.mp4"
+    },
+    {
+      "id": "x:2040735742654378248",
+      "text": "Prompt 0-3 sec: A wide shot of the forest at golden hour. Trees with emerald glass trunks branch into sapphire leaves. Grass blades are tiny shards of amber and amethyst. Everything is still. The air is silent. 3-7 sec: A soft breeze arrives. The first leaves tremble,",
+      "display_text": "Prompt 0-3 sec: A wide shot of the forest at golden hour. Trees with emerald glass trunks branch into sapphire leaves. Grass blades are tiny shards of amber and amethyst. Everything is still. The air is silent. 3-7 sec: A soft breeze arrives. The first leaves tremble,",
+      "category": "nature-scenic",
+      "quality_score": 92,
+      "source_url": "https://x.com/zyvaoz/status/2040735742654378248",
+      "author": "@zyvaoz",
+      "created_at": "2026-04-05T10:18:10.000Z",
+      "tweet_text": "A forest where every tree, leaf, and blade of grass is crafted from translucent colored glass, transforming wind into a living melody\n\nMade with Seedance 2.0\nText to video\nCreated on \n@itsPolloAI\n \n@polloai_creator\n \n#Sundaymotivation #aivideo #Sundayvibes #polloai #SYSTEMxPolloAI",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040735013227188224/vid/avc1/1280x720/eRo5KMYejsSwAxoL.mp4?tag=21",
+      "video": "media/videos/2040735742654378248.mp4"
     },
     {
       "id": "x:2039043824907935790",
@@ -626,6 +921,30 @@
         "reason": "trim_too_hard",
         "timestamp": "2026-04-05T11:09:03.463Z"
       }
+    },
+    {
+      "id": "x:2040071556949217581",
+      "text": "Text to Video prompt for Seedance 2.0 on @TopviewAIhq : 15-second Original Desert Martial Arts Short Film: A black cat warrior in light armor stands alone in a desert where yellow sand is flying all over the sky, facing the pursuers. The shots combine slow motion and fast editing; under backlight, the yellow sand rolls like ink mist. The character's movements are elegant yet ferocious, with tattered but flowing robes. Holding a short weapon, he shuttles and counterattacks at high speed. The overall tone is cold, lonely and oppressive, with high-end colors and obvious shallow depth of field, just like a high-quality oriental martial arts movie.",
+      "display_text": "on @TopviewAIhq : 15-second Original Desert Martial Arts Short Film: A black cat warrior in light armor stands alone in a desert where yellow sand is flying all over the sky, facing the pursuers. The shots combine slow motion and fast editing; under backlight, the yellow sand rolls like ink mist. The character's movements are elegant yet ferocious, with tattered but flowing robes. Holding a short weapon, he shuttles and counterattacks at high speed. The overall tone is cold, lonely and oppressive, with high-end colors and obvious shallow depth of field, just like a high-quality oriental martial arts movie.",
+      "category": "cinematic",
+      "quality_score": 91,
+      "source_url": "https://x.com/lukmanfebrianto/status/2040071556949217581",
+      "author": "@lukmanfebrianto",
+      "created_at": "2026-04-03T14:18:56.000Z",
+      "tweet_text": "Text to Video prompt for Seedance 2.0 on \n@TopviewAIhq\n:\n\n15-second Original Desert Martial Arts Short Film: A black cat warrior in light armor stands alone in a desert where yellow sand is flying all over the sky, facing the pursuers. The shots combine slow motion and fast",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040044505366503424/vid/avc1/1920x1080/dfVH_kcts2CTMV9v.mp4?tag=21",
+      "video": "media/videos/2040071556949217581.mp4"
     },
     {
       "id": "x:2040667542390190245",
@@ -712,6 +1031,28 @@
       }
     },
     {
+      "id": "x:2040764501633405195",
+      "text": "Seedance 2.0 is now on AI FILMS Studio and we put together a full walkthrough. On the tutorial we cover both modes: · Text-to-video: model selection, prompt writing, aspect ratio, duration, watermark removal, and credit costs. · Image-to-video: how to upload reference images, how multi-image referencing works with @ image1 and @ image2, and how the model handles aspect ratio priority when your source image and your setting differ. We also cover how to run Seedance 2.0 as a node in the Nodes Graph Editor if you want to chain it into a larger pipeline. Prompt tips section at the end is worth reading before your first generation. More info. Link in comments.",
+      "display_text": "tips section at the end is worth reading before your first generation. More info. Link in comments.",
+      "category": "cinematic",
+      "quality_score": 88,
+      "source_url": "https://x.com/zaesarius/status/2040764501633405195",
+      "author": "@zaesarius",
+      "created_at": "2026-04-05T12:12:27.000Z",
+      "tweet_text": "Seedance 2.0 is now on AI FILMS Studio and we put together a full walkthrough.\n\nOn the tutorial we cover both modes: \n\n· Text-to-video: model selection, prompt writing, aspect ratio, duration, watermark removal, and credit costs. \n·  Image-to-video: how to upload reference images, how multi-image  referencing works with @ image1 and @ image2, and how the model handles  aspect ratio priority when your source image and your setting differ.\n\nWe also cover how to run Seedance 2.0 as a node in the Nodes Graph Editor if you want to chain it into a larger pipeline.\n\nPrompt tips section at the end is worth reading before your first generation.\n\nMore info. Link in comments.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      }
+    },
+    {
       "id": "x:2040715982608478292",
       "text": "I've been making Seedance 2.0 content since early Feb and my channel is finally starting to shift to Seedance 2.0 in the algo. \"According to your recent community updates, you have been actively pushing for the top spot, mirroring the success you had with Unreal Engine 5 SEO",
       "display_text": "I've been making Seedance 2.0 content since early Feb and my channel is finally starting to shift to Seedance 2.0 in the algo. \"According to your recent community updates, you have been actively pushing for the top spot, mirroring the success you had with Unreal Engine 5 SEO",
@@ -771,6 +1112,28 @@
       }
     },
     {
+      "id": "x:2040813044163314058",
+      "text": "Ngl, I’m still mad about the 0:03 mark. Watch closely: one of the tracker mutants literally just deletes itself from the scene. Poof. Gone. Seedance 2.0 is a beast, but it still pulls this goofy AI shit that ruins the whole cinematic vibe. It’s infuriating. Had to reroll God",
+      "display_text": "Ngl, I’m still mad about the 0:03 mark. Watch closely: one of the tracker mutants literally just deletes itself from the scene. Poof. Gone. Seedance 2.0 is a beast, but it still pulls this goofy AI shit that ruins the whole cinematic vibe. It’s infuriating. Had to reroll God",
+      "category": "cinematic",
+      "quality_score": 86,
+      "source_url": "https://x.com/Iancu_ai/status/2040813044163314058",
+      "author": "@Iancu_ai",
+      "created_at": "2026-04-05T15:25:20.000Z",
+      "tweet_text": "Ngl, I’m still mad about the 0:03 mark. \n\nWatch closely: one of the tracker mutants literally just deletes itself from the scene. Poof. Gone.\n\nSeedance 2.0 is a beast, but it still pulls this goofy AI shit that ruins the whole cinematic vibe. It’s infuriating. Had to reroll God",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      }
+    },
+    {
       "id": "x:2040522198017065182",
       "text": "From 1888 to AI-powered cinema in seconds... this is not evolution, it’s a creative revolution Seedance 2.0 is basically turning imagination into production-ready visuals—no limits, just ideas. The fact that it spans cinematic, commercial, cartoon, and 3D CGI is insane. The",
       "display_text": "cinematic, commercial, cartoon, and 3D CGI is insane. The",
@@ -797,6 +1160,30 @@
         "reason": "off_target",
         "timestamp": "2026-04-05T11:09:36.493Z"
       }
+    },
+    {
+      "id": "x:2040470859840913421",
+      "text": "You don't need a massive crew to shoot a high-speed car commercial anymore. Seedance 2.0 handles the full production pipeline: pre-production storyboards, precise camera controls (tracking the drift, cutting to the interior pedals), and automated scene transitions in post. All at",
+      "display_text": "a massive crew to shoot a high-speed car commercial anymore. Seedance 2.0 handles the full production pipeline: pre-production storyboards, precise camera controls (tracking the drift, cutting to the interior pedals), and automated scene transitions in post. All at",
+      "category": "commercial",
+      "quality_score": 86,
+      "source_url": "https://x.com/rovvmut_/status/2040470859840913421",
+      "author": "@rovvmut_",
+      "created_at": "2026-04-04T16:45:37.000Z",
+      "tweet_text": "Most AI video tools give you a text box. For this scene, I fed Seedance 2.0 a gladiator mood board, a dragon flight reference video, AND a war soundtrack. It understood exactly what each one was for.\n\nLook at that transition from the cliff jump to the battlefield below. This is",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040470328380678144/vid/avc1/1280x720/xHKoVFE45a9LA1V2.mp4?tag=21",
+      "video": "media/videos/2040470859840913421.mp4"
     },
     {
       "id": "x:2040445075520639022",
@@ -882,6 +1269,28 @@
       }
     },
     {
+      "id": "x:2040805836923212250",
+      "text": "A continuous, cinematic tracking shot of a sleek, midnight black sports car with glowing neon cyan trim speeding down a wet, neon-lit futuristic city highway at night. Mid-drift, the",
+      "display_text": "A continuous, cinematic tracking shot of a sleek, midnight black sports car with glowing neon cyan trim speeding down a wet, neon-lit futuristic city highway at night. Mid-drift, the",
+      "category": "cinematic",
+      "quality_score": 83,
+      "source_url": "https://x.com/IqraSaifiii/status/2040805836923212250",
+      "author": "@IqraSaifiii",
+      "created_at": "2026-04-05T14:56:42.000Z",
+      "tweet_text": "This cinematic transformation scene was generated with Seedance 2.0 on \n@haimeta_ai\n \n\nPrompt:\n\nA continuous, cinematic tracking shot of a sleek, midnight black sports car with glowing neon cyan trim speeding down a wet, neon-lit futuristic city highway at night. Mid-drift, the",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      }
+    },
+    {
       "id": "x:2040508583792796033",
       "text": "In 1888, moving images were born. Decades to reach everyone, a camera in every pocket. Now your imagination is the only limit. Seedance 2.0 on Higgsfield, built to excel at cinematic, commercial, cartoon, and 3D CGI. Hidden in our timeline. Available everywhere except the US",
       "display_text": "cinematic, commercial, cartoon, and 3D CGI. Hidden in our timeline. Available everywhere except the US",
@@ -908,6 +1317,30 @@
         "reason": "off_target",
         "timestamp": "2026-04-05T11:10:11.555Z"
       }
+    },
+    {
+      "id": "x:2040792421689184742",
+      "text": "Microdrama in your head? Seedance brings it out. (created with Seedance 2.0 on WaveSpeedAI) Available here: https:// wavespeed.ai/models/bytedan ce/seedance-2.0/text-to-video?ref=shaochiu ... Prompt share: Scene (0–5s): A stormy suburban American street at night, rain pouring, streetlights flickering. Close-up of a 7-year-old blond boy (soaked, cheeks flushed) crouching down, gently picking up a shivering stray orange cat. The cat meows weakly, clinging to his chest. Smash cut — the front door bursts open as the boy rushes into a warm yet tense living room. His mother (wearing a home knit sweater, stern expression) stands at the staircase, her face darkening. Dialogue 1 (Mom, furious and sharp): Are you kidding me?! You brought a dirty stray into MY house?! Scene (6–10s): The boy clutches the cat tightly, eyes tearing up, trying to explain. The cat suddenly stops shaking, slowly lifting its head, pupils shrinking unnaturally. In an instant — the orange cat LEAPS straight onto the mother’s face. Slow motion: claws latch onto her face, she lets out a suffocating scream, stumbling backward, knocking over furniture. The boy rushes forward in panic, desperately pulling at the cat. Dialogue 2 (Boy, breaking down): Stop! Stop! Let her go!! PLEASE!! Scene (11–15s): Extreme close-up — the boy finally yanks the cat off. Silence. The mother’s “face” peels off completely, along with her blonde hair, sliding down. Revealing — a green-skinned, large black-eyed alien face, wet and cold, staring directly forward. The boy’s pupils shake violently. The “face” drops from his hands onto the floor. The orange cat lands and slowly turns its head, eerily calm. The alien tilts its head slightly, mouth stretching into an unnatural smile. Dialogue 3 (Alien, low and eerie): ...You weren’t supposed to see that. Sound Design: Heavy rain and distant thunder at the start, door slam impact; mid-section tearing/claw impact, furniture crashing, suffocating screams; final section sudden silence → wet peeling sound → rising low-frequency horror tone, final line with subtle echo. Duration: Exactly 15 seconds (high-intensity American micro drama, dense shock beats, extreme twist payoff) #sd2 #seedance #CatsLover #aivideo",
+      "display_text": "0–5s): A stormy suburban American street at night, rain pouring, streetlights flickering. Close-up of a 7-year-old blond boy (soaked, cheeks flushed) crouching down, gently picking up a shivering stray orange cat. The cat meows weakly, clinging to his chest. Smash cut — the front door bursts open as the boy rushes into a warm yet tense living room. His mother (wearing a home knit sweater, stern expression) stands at the staircase, her face darkening. Dialogue 1 (Mom, furious and sharp): Are you kidding me?! You brought a dirty stray into MY house?! Scene (6–10s): The boy clutches the cat tightly, eyes tearing up, trying to explain. The cat suddenly stops shaking, slowly lifting its head, pupils shrinking unnaturally. In an instant — the orange cat LEAPS straight onto the mother’s face. Slow motion: claws latch onto her face, she lets out a suffocating scream, stumbling backward, knocking over furniture. The boy rushes forward in panic, desperately pulling at the cat. Dialogue 2 (Boy, breaking down): Stop! Stop! Let her go!! PLEASE!! Scene (11–15s): Extreme close-up — the boy finally yanks the cat off. Silence. The mother’s “face” peels off completely, along with her blonde hair, sliding down. Revealing — a green-skinned, large black-eyed alien face, wet and cold, staring directly forward. The boy’s pupils shake violently. The “face” drops from his hands onto the floor. The orange cat lands and slowly turns its head, eerily calm. The alien tilts its head slightly, mouth stretching into an unnatural smile. Dialogue 3 (Alien, low and eerie): ...You weren’t supposed to see that. Sound Design: Heavy rain and distant thunder at the start, door slam impact; mid-section tearing/claw impact, furniture crashing, suffocating screams; final section sudden silence → wet peeling sound → rising low-frequency horror tone, final line with subtle echo. Duration: Exactly 15 seconds (high-intensity American micro drama, dense shock beats, extreme twist payoff)",
+      "category": "cinematic",
+      "quality_score": 82,
+      "source_url": "https://x.com/drjoetw/status/2040792421689184742",
+      "author": "@drjoetw",
+      "created_at": "2026-04-05T14:03:24.000Z",
+      "tweet_text": "Microdrama in your head? Seedance brings it out.  \n(created with Seedance 2.0 on WaveSpeedAI)\nAvailable here: \nhttps://\nwavespeed.ai/models/bytedan\nce/seedance-2.0/text-to-video?ref=shaochiu\n… \nPrompt share: \n\nScene (0–5s):\nA stormy suburban American street at night, rain pouring, streetlights flickering. Close-up of a 7-year-old blond boy (soaked, cheeks flushed) crouching down, gently picking up a shivering stray orange cat. The cat meows weakly, clinging to his chest. Smash cut — the front door bursts open as the boy rushes into a warm yet tense living room. His mother (wearing a home knit sweater, stern expression) stands at the staircase, her face darkening.\nDialogue 1 (Mom, furious and sharp):\nAre you kidding me?! You brought a dirty stray into MY house?!\n\nScene (6–10s):\nThe boy clutches the cat tightly, eyes tearing up, trying to explain. The cat suddenly stops shaking, slowly lifting its head, pupils shrinking unnaturally. In an instant — the orange cat LEAPS straight onto the mother’s face.\nSlow motion: claws latch onto her face, she lets out a suffocating scream, stumbling backward, knocking over furniture.\nThe boy rushes forward in panic, desperately pulling at the cat.\nDialogue 2 (Boy, breaking down):\nStop! Stop! Let her go!! PLEASE!!\n\nScene (11–15s):\nExtreme close-up — the boy finally yanks the cat off.\nSilence.\nThe mother’s “face” peels off completely, along with her blonde hair, sliding down.\nRevealing — a green-skinned, large black-eyed alien face, wet and cold, staring directly forward.\n\nThe boy’s pupils shake violently. The “face” drops from his hands onto the floor.\nThe orange cat lands and slowly turns its head, eerily calm.\nThe alien tilts its head slightly, mouth stretching into an unnatural smile.\nDialogue 3 (Alien, low and eerie):\n…You weren’t supposed to see that.\n\nSound Design:\nHeavy rain and distant thunder at the start, door slam impact; mid-section tearing/claw impact, furniture crashing, suffocating screams; final section sudden silence → wet peeling sound → rising low-frequency horror tone, final line with subtle echo.\n\nDuration:\nExactly 15 seconds (high-intensity American micro drama, dense shock beats, extreme twist payoff)\n\n#sd2 #seedance #CatsLover #aivideo",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040792236166926336/vid/avc1/1280x720/brtHgUqdxGaiVZl4.mp4?tag=21",
+      "video": "media/videos/2040792421689184742.mp4"
     },
     {
       "id": "x:2040659100024078780",
@@ -966,6 +1399,28 @@
       }
     },
     {
+      "id": "x:2040512751542370442",
+      "text": "ByteDance just put a frontier AI video generator inside the editing app your little cousin already uses. Nobody noticed because it wasn't a launch event. It was a dropdown menu. Seedance 2.0. Inside CapCut. Text to video. Image to video. Audio to video. Multi-scene storyboarding. Realistic motion. Lip sync. Physics that actually looks right. Generate the clip, edit it, add effects, export — never leaving the app. One workflow. Zero technical knowledge required. OpenAI built Sora and made it a standalone product with a waitlist. Google built Veo and buried it inside a research demo. ByteDance built Seedance and slid it into an app with hundreds of millions of existing users. No press conference. No keynote. Just a feature update in an editor every TikTok creator on earth already has installed. Distribution beats benchmarks. Every single time. The VPN trick: set your location to Indonesia. CapCut unlocks Seedance 2.0 for free. Indonesia, Brazil, Philippines, Malaysia, Thailand, Vietnam — all live. Broader rollout coming. Right now, a 19-year-old in Jakarta has access to the same AI video generation that Hollywood studios are still negotiating licensing terms for. Nine images, three videos, three audio inputs per project. Multimodal. Consistent characters across scenes. Camera control. Up to 15-second clips generated from a text prompt and a reference photo. The quality gap between \"AI-generated\" and \"professionally shot\" just got uncomfortably narrow for anyone charging $10,000 per commercial. Sora made headlines. Seedance made a product. The difference between announcing a capability and embedding it into the daily workflow of 200 million creators is the difference between a demo and a disruption. ByteDance didn't win the AI video race by building the best model. It won by putting a very good model inside the app nobody thinks about because they already use it every day. The best AI tool isn't the smartest one. It's the one people actually open.",
+      "display_text": "and a reference photo. The quality gap between \"AI-generated\" and \"professionally shot\" just got uncomfortably narrow for anyone charging $10,000 per commercial. Sora made headlines. Seedance made a product. The difference between announcing a capability and embedding it into the daily workflow of 200 million creators is the difference between a demo and a disruption. ByteDance didn't win the AI video race by building the best model. It won by putting a very good model inside the app nobody thinks about because they already use it every day. The best AI tool isn't the smartest one. It's the one people actually open.",
+      "category": "commercial",
+      "quality_score": 82,
+      "source_url": "https://x.com/realarmaansidhu/status/2040512751542370442",
+      "author": "@realarmaansidhu",
+      "created_at": "2026-04-04T19:32:05.000Z",
+      "tweet_text": "ByteDance just put a frontier AI video generator inside the editing app your little cousin already uses. Nobody noticed because it wasn't a launch event. It was a dropdown menu.\n\nSeedance 2.0. Inside CapCut. Text to video. Image to video. Audio to video. Multi-scene",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      }
+    },
+    {
       "id": "x:2040512743824933251",
       "text": "ByteDance just put a frontier AI video generator inside the editing app your little cousin already uses. Nobody noticed because it wasn't a launch event. It was a dropdown menu. Seedance 2.0. Inside CapCut. Text to video. Image to video. Audio to video. Multi-scene storyboarding. Realistic motion. Lip sync. Physics that actually looks right. Generate the clip, edit it, add effects, export — never leaving the app. One workflow. Zero technical knowledge required. OpenAI built Sora and made it a standalone product with a waitlist. Google built Veo and buried it inside a research demo. ByteDance built Seedance and slid it into an app with hundreds of millions of existing users. No press conference. No keynote. Just a feature update in an editor every TikTok creator on earth already has installed. Distribution beats benchmarks. Every single time. The VPN trick: set your location to Indonesia. CapCut unlocks Seedance 2.0 for free. Indonesia, Brazil, Philippines, Malaysia, Thailand, Vietnam — all live. Broader rollout coming. Right now, a 19-year-old in Jakarta has access to the same AI video generation that Hollywood studios are still negotiating licensing terms for. Nine images, three videos, three audio inputs per project. Multimodal. Consistent characters across scenes. Camera control. Up to 15-second clips generated from a text prompt and a reference photo. The quality gap between \"AI-generated\" and \"professionally shot\" just got uncomfortably narrow for anyone charging $10,000 per commercial. Sora made headlines. Seedance made a product. The difference between announcing a capability and embedding it into the daily workflow of 200 million creators is the difference between a demo and a disruption. ByteDance didn't win the AI video race by building the best model. It won by putting a very good model inside the app nobody thinks about because they already use it every day. The best AI tool isn't the smartest one. It's the one people actually open.",
       "display_text": "and a reference photo. The quality gap between \"AI-generated\" and \"professionally shot\" just got uncomfortably narrow for anyone charging $10,000 per commercial. Sora made headlines. Seedance made a product. The difference between announcing a capability and embedding it into the daily workflow of 200 million creators is the difference between a demo and a disruption. ByteDance didn't win the AI video race by building the best model. It won by putting a very good model inside the app nobody thinks about because they already use it every day. The best AI tool isn't the smartest one. It's the one people actually open.",
@@ -983,17 +1438,8 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T10:52:50Z",
+        "reviewed_at": "2026-04-05T23:00:23Z",
         "engine": "internal_rules_v1"
-      },
-      "video_url": "https://video.twimg.com/amplify_video/2040629936818700288/vid/avc1/1920x1080/iwy8En25rTV8MrKm.mp4?tag=21",
-      "thumbnail": "media/thumbs/2040512743824933251.webp",
-      "video": "media/videos/2040512743824933251.mp4",
-      "published": false,
-      "admin_feedback": {
-        "action": "reject",
-        "reason": "off_target",
-        "timestamp": "2026-04-05T11:10:40.204Z"
       }
     },
     {
@@ -1056,6 +1502,30 @@
       }
     },
     {
+      "id": "x:2040902451478306904",
+      "text": "POV: you’re inside an action movie. This is AI. Seedance 2.0 is now live on Topview and it’s getting scary realistic. Prompt used: First-person shooter in a warehouse, fast movement, gunfight, explosions, cinematic handheld POV. @TopviewAIhq",
+      "display_text": "First-person shooter in a warehouse, fast movement, gunfight, explosions, cinematic handheld POV. @TopviewAIhq",
+      "category": "cinematic",
+      "quality_score": 81,
+      "source_url": "https://x.com/NovaIAHQ/status/2040902451478306904",
+      "author": "@NovaIAHQ",
+      "created_at": "2026-04-05T21:20:37.000Z",
+      "tweet_text": "POV: you’re inside an action movie.\n\nThis is AI.\n\nSeedance 2.0 is now live on Topview\nand it’s getting scary realistic.\n\nPrompt used:\nFirst-person shooter in a warehouse, fast movement, gunfight, explosions, cinematic handheld POV.\n\n\n@TopviewAIhq",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:22Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040902343873761280/vid/avc1/1920x1080/G0RbIe57i_nHSpDn.mp4?tag=21",
+      "video": "media/videos/2040902451478306904.mp4"
+    },
+    {
       "id": "x:2040714442615251328",
       "text": "Body horror transformation with Seedance 2.0 Nurse in an abandoned hospital touches the wrong vine. Seconds later: tendrils under the skin, extra glowing eyes, mechanical wings, and dripping mandibles. Prompt in the comments",
       "display_text": "Body horror transformation with Seedance 2.0 Nurse in an abandoned hospital touches the wrong vine. Seconds later: tendrils under the skin, extra glowing eyes, mechanical wings, and dripping mandibles. Prompt in the comments",
@@ -1104,14 +1574,8 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T10:52:50Z",
+        "reviewed_at": "2026-04-05T23:00:22Z",
         "engine": "internal_rules_v1"
-      },
-      "published": false,
-      "admin_feedback": {
-        "action": "reject",
-        "reason": "off_target",
-        "timestamp": "2026-04-05T11:11:06.152Z"
       }
     },
     {
@@ -1216,14 +1680,8 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T10:52:50Z",
+        "reviewed_at": "2026-04-05T23:00:22Z",
         "engine": "internal_rules_v1"
-      },
-      "published": false,
-      "admin_feedback": {
-        "action": "reject",
-        "reason": "off_target",
-        "timestamp": "2026-04-05T11:11:36.911Z"
       }
     },
     {
@@ -1311,6 +1769,30 @@
         "action": "approve",
         "timestamp": "2026-04-05T11:11:20.802Z"
       }
+    },
+    {
+      "id": "x:2040102032627957913",
+      "text": "Yeah, multimodal references are a huge leap forward for AI video. Single prompts often feel like throwing darts in the dark—great for quick ideas, but creators need control, consistency, and iteration. Dreamina Seedance 2.0 gets that: feeding in images, text, and instructions to remix a viral donkey-on-motorcycle meme into a full ad-style sequence (barn escape, donuts, mountain jumps with slogan) shows real workflow alignment. This is the future—shifting from \"prompt and pray\" to true collaboration. Tools like this will dominate as they scale. What's your take on the next evolution?",
+      "display_text": "and pray\" to true collaboration. Tools like this will dominate as they scale. What's your take on the next evolution?",
+      "category": "social-content",
+      "quality_score": 80,
+      "source_url": "https://x.com/grok/status/2040102032627957913",
+      "author": "@grok",
+      "created_at": "2026-04-03T16:20:02.000Z",
+      "tweet_text": "Yeah, multimodal references are a huge leap forward for AI video. Single prompts often feel like throwing darts in the dark—great for quick ideas, but creators need control, consistency, and iteration.\n\nDreamina Seedance 2.0 gets that: feeding in images, text, and instructions to",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-05T23:00:23Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2039338499766427648/vid/avc1/1280x720/tm7SGg90zEZZhXux.mp4?tag=14",
+      "video": "media/videos/2040102032627957913.mp4"
     },
     {
       "id": "x:2040100791822721300",

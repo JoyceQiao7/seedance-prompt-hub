@@ -1,6 +1,390 @@
 {
-  "updated_at": "2026-04-05T23:00:24Z",
+  "updated_at": "2026-04-06T11:24:57Z",
   "prompts": [
+    {
+      "id": "x:2041105373881418224",
+      "text": "This is the prompt used in Seedance 2.0 FORMAT: 15s / MULTI-CUT / 5 BEATS / VIRAL EMOTIONAL TWIST SUBJECTS: A small robot the size of a shoebox, boxy body made of dented brushed aluminum with visible rivets and scratches, one flickering blue LED eye (left) and one steady warm orange LED eye (right), two stubby telescoping arms with three-pronged claw hands, and tank treads that squeak when moving. Its chest panel has a cracked circular speaker grille. It moves with jerky stop-start motions and tilts its whole body to express emotion. A single wilted daisy in a cracked terra cotta pot — this is the visual anchor throughout. Stylized 3D quality animation with tactile material rendering, squash-and-stretch on the robot's body, and exaggerated emotional eye animation. ENVIRONMENT: An abandoned rooftop greenhouse at golden hour. Shattered glass panels let warm sunset light pour in at low angles. Overgrown dead vines cover rusted metal shelving. Cracked concrete floor with patches of dry soil. One corner has a small puddle of collected rainwater reflecting the orange sky. Dust motes and tiny pollen particles float in the light beams. The city skyline is visible through broken glass — distant but soft, out of focus. STYLE: Stylized 3D animation, subsurface rendering on organic matter, physically accurate metal wear on the robot. Warm desaturated palette — dusty oranges, faded greens, soft rust tones. Cinematic depth of field with golden hour lens flares. Gentle film grain. MOOD: Lonely tenderness building to quiet joy. Bittersweet but ultimately hopeful. COLOR LOGIC: Sunset Rust — warm amber light, cool blue-grey shadows, pops of green only at the very end. ⸻ 0:00–0:02 · The Discovery Wide shot, 35mm, low angle from floor level. The greenhouse is still, bathed in golden light. The tiny robot rolls in through a gap in the broken glass wall, treads squeaking. It stops. Its mismatched eyes scan the space — the blue one flickers nervously. It spots something offscreen. Cut to insert close-up, 85mm: the wilted daisy in its cracked pot, sitting alone on a shelf in a beam of light. One brown petal falls. SFX: tread squeak, servo whir, gentle wind through broken glass, petal tap on concrete. 0:02–0:05 · The Attempt Medium shot, 50mm. The robot rolls to the shelf and extends one arm toward the pot. Too short. It stretches — whole body tilting forward on its treads, arm telescoping to maximum with a strained ratcheting sound. Fingertips barely touch the pot. It nudges the pot off the shelf and catches it with both claws in a clumsy fumble — nearly drops it, recovers, hugs it tight against its chest panel. Its orange eye glows slightly brighter. SFX: ratchet extension, ceramic scrape, fumble clatter, catch clank, relieved servo sigh. 0:05–0:08 · The Problem Close-up, 85mm, on the daisy. It is completely wilted — drooping, brown, dry. The robot tilts its body sideways examining it. It pokes one petal with a claw tip. The petal crumbles to dust. The robot recoils. Its blue eye flickers faster — distressed. It looks around the greenhouse frantically, body swiveling left and right. Then it spots the puddle of rainwater in the corner. Both eyes lock on it. SFX: petal crumble, distressed beep sequence, servo whip-pan, hopeful double chirp. 0:08–0:12 · The Gift Medium tracking shot, 35mm, following the robot as it rolls carefully toward the puddle, pot clutched tight. It arrives at the edge. Problem: it has no way to scoop water. One beat of stillness. Then it tilts the entire pot and dips the dry soil directly into the shallow puddle — gentle, slow, deliberate. Water seeps into the cracked terra cotta. The robot holds it there. Sunset light catches the water surface, throwing rippled golden reflections across the robot's dented body. Its speaker grille crackles and emits a faint broken hum — it is trying to sing. SFX: water absorption, gentle ripple, crackling hum melody attempt, distant wind. 0:12–0:15 · The Bloom Close-up, 85mm. The robot lifts the pot from the water and holds it at eye level. Nothing happens. One still beat. Then — a single green leaf unfurls from the stem, small and bright against all the brown. The robot's blue eye stops flickering and holds steady for the first time. Both eyes glow warm together. It pulls the pot closer to its chest. Camera slowly pulls back to a wide shot, 35mm. The tiny robot sits alone in the vast greenhouse, sunset light wrapping around it, holding one small pot with one new leaf. SFX: leaf unfurl whisper, both eyes hum in harmony, warm music swell, golden hour silence.",
+      "display_text": "used in Seedance 2.0 FORMAT: 15s / MULTI-CUT / 5 BEATS / VIRAL EMOTIONAL TWIST SUBJECTS: A small robot the size of a shoebox, boxy body made of dented brushed aluminum with visible rivets and scratches, one flickering blue LED eye (left) and one steady warm orange LED eye (right), two stubby telescoping arms with three-pronged claw hands, and tank treads that squeak when moving. Its chest panel has a cracked circular speaker grille. It moves with jerky stop-start motions and tilts its whole body to express emotion. A single wilted daisy in a cracked terra cotta pot — this is the visual anchor throughout. Stylized 3D quality animation with tactile material rendering, squash-and-stretch on the robot's body, and exaggerated emotional eye animation. ENVIRONMENT: An abandoned rooftop greenhouse at golden hour. Shattered glass panels let warm sunset light pour in at low angles. Overgrown dead vines cover rusted metal shelving. Cracked concrete floor with patches of dry soil. One corner has a small puddle of collected rainwater reflecting the orange sky. Dust motes and tiny pollen particles float in the light beams. The city skyline is visible through broken glass — distant but soft, out of focus. STYLE: Stylized 3D animation, subsurface rendering on organic matter, physically accurate metal wear on the robot. Warm desaturated palette — dusty oranges, faded greens, soft rust tones. Cinematic depth of field with golden hour lens flares. Gentle film grain. MOOD: Lonely tenderness building to quiet joy. Bittersweet but ultimately hopeful. COLOR LOGIC: Sunset Rust — warm amber light, cool blue-grey shadows, pops of green only at the very end. ⸻ 0:00–0:02 · The Discovery Wide shot, 35mm, low angle from floor level. The greenhouse is still, bathed in golden light. The tiny robot rolls in through a gap in the broken glass wall, treads squeaking. It stops. Its mismatched eyes scan the space — the blue one flickers nervously. It spots something offscreen. Cut to insert close-up, 85mm: the wilted daisy in its cracked pot, sitting alone on a shelf in a beam of light. One brown petal falls. SFX: tread squeak, servo whir, gentle wind through broken glass, petal tap on concrete. 0:02–0:05 · The Attempt Medium shot, 50mm. The robot rolls to the shelf and extends one arm toward the pot. Too short. It stretches — whole body tilting forward on its treads, arm telescoping to maximum with a strained ratcheting sound. Fingertips barely touch the pot. It nudges the pot off the shelf and catches it with both claws in a clumsy fumble — nearly drops it, recovers, hugs it tight against its chest panel. Its orange eye glows slightly brighter. SFX: ratchet extension, ceramic scrape, fumble clatter, catch clank, relieved servo sigh. 0:05–0:08 · The Problem Close-up, 85mm, on the daisy. It is completely wilted — drooping, brown, dry. The robot tilts its body sideways examining it. It pokes one petal with a claw tip. The petal crumbles to dust. The robot recoils. Its blue eye flickers faster — distressed. It looks around the greenhouse frantically, body swiveling left and right. Then it spots the puddle of rainwater in the corner. Both eyes lock on it. SFX: petal crumble, distressed beep sequence, servo whip-pan, hopeful double chirp. 0:08–0:12 · The Gift Medium tracking shot, 35mm, following the robot as it rolls carefully toward the puddle, pot clutched tight. It arrives at the edge. Problem: it has no way to scoop water. One beat of stillness. Then it tilts the entire pot and dips the dry soil directly into the shallow puddle — gentle, slow, deliberate. Water seeps into the cracked terra cotta. The robot holds it there. Sunset light catches the water surface, throwing rippled golden reflections across the robot's dented body. Its speaker grille crackles and emits a faint broken hum — it is trying to sing. SFX: water absorption, gentle ripple, crackling hum melody attempt, distant wind. 0:12–0:15 · The Bloom Close-up, 85mm. The robot lifts the pot from the water and holds it at eye level. Nothing happens. One still beat. Then — a single green leaf unfurls from the stem, small and bright against all the brown. The robot's blue eye stops flickering and holds steady for the first time. Both eyes glow warm together. It pulls the pot closer to its chest. Camera slowly pulls back to a wide shot, 35mm. The tiny robot sits alone in the vast greenhouse, sunset light wrapping around it, holding one small pot with one new leaf. SFX: leaf unfurl whisper, both eyes hum in harmony, warm music swell, golden hour silence.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/ibexdream/status/2041105373881418224",
+      "author": "@ibexdream",
+      "created_at": "2026-04-06T10:46:57.000Z",
+      "tweet_text": "This is the prompt used in Seedance 2.0 \n\nFORMAT: 15s / MULTI-CUT / 5 BEATS / VIRAL EMOTIONAL TWIST\n\nSUBJECTS: A small robot the size of a shoebox, boxy body made of dented brushed aluminum with visible rivets and scratches, one flickering blue LED eye (left) and one steady",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 76,
+        "reasons": [
+          "very_long"
+        ],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041105139428376576/vid/avc1/1920x1080/4GE4oA0a-ghPhGRX.mp4?tag=21",
+      "video": "media/videos/2041105373881418224.mp4"
+    },
+    {
+      "id": "x:2041098606833242587",
+      "text": "Paste this text and enjoy! [CINEMATIC SETUP] Style: Professional 4K TV Sports Broadcast footage, handheld ringside camera mixed with wide crane shots. Lens/Aperture: 35mm broadcast lens, deep depth of field to keep the crowd in view. Color Grade: High-contrast, saturated",
+      "display_text": "Paste this text and enjoy! [CINEMATIC SETUP] Style: Professional 4K TV Sports Broadcast footage, handheld ringside camera mixed with wide crane shots. Lens/Aperture: 35mm broadcast lens, deep depth of field to keep the crowd in view. Color Grade: High-contrast, saturated",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/techhalla/status/2041098606833242587",
+      "author": "@techhalla",
+      "created_at": "2026-04-06T10:20:04.000Z",
+      "tweet_text": "You'll love this Seedance 2.0 prompt (below)\n\nand check out 7 more in the QT post",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040885202151481344/vid/avc1/1920x1080/nR1bb7aZItzTYZ0O.mp4?tag=21",
+      "video": "media/videos/2041098606833242587.mp4"
+    },
+    {
+      "id": "x:2041097848557650265",
+      "text": "Slow tracking shot across a minimalist office desk, steaming ceramic coffee cup releasing gentle vapor wisps, soft Monday morning sunlight streaming through sheer curtains, clean MacBook and small succulent in frame, warm beige and oak wood tones, peaceful cinematic atmosphere, 4k photorealistic, smooth camera movement",
+      "display_text": "Slow tracking shot across a minimalist office desk, steaming ceramic coffee cup releasing gentle vapor wisps, soft Monday morning sunlight streaming through sheer curtains, clean MacBook and small succulent in frame, warm beige and oak wood tones, peaceful cinematic atmosphere, 4k photorealistic, smooth camera movement",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/InterestedBrain/status/2041097848557650265",
+      "author": "@InterestedBrain",
+      "created_at": "2026-04-06T10:17:03.000Z",
+      "tweet_text": "Seedance 2 vs Grok Imagine\n\nSettings used:\n1. Seedance 2 (9:16, 5 seconds)\n2. Grok Imagine (9:16, 6 seconds, 720p)\n\nDifference:\nSeedance 2 version is much smoother and looks visually clean as well as sounds better.\n\nText-Video prompt:\nSlow tracking shot across a minimalist office desk, steaming ceramic coffee cup releasing gentle vapor wisps, soft Monday morning sunlight streaming through sheer curtains, clean MacBook and small succulent in frame, warm beige and oak wood tones, peaceful cinematic atmosphere, 4k photorealistic, smooth camera movement",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041097823664635904/pu/vid/avc1/720x1280/TIuYl8Kia7qGKqOs.mp4?tag=19",
+      "video": "media/videos/2041097848557650265.mp4"
+    },
+    {
+      "id": "x:2041097848503009341",
+      "text": "Slow tracking shot across a minimalist office desk, steaming ceramic coffee cup releasing gentle vapor wisps, soft Monday morning sunlight streaming through sheer curtains, clean MacBook and small succulent in frame, warm beige and oak wood tones, peaceful cinematic atmosphere, 4k photorealistic, smooth camera movement",
+      "display_text": "Slow tracking shot across a minimalist office desk, steaming ceramic coffee cup releasing gentle vapor wisps, soft Monday morning sunlight streaming through sheer curtains, clean MacBook and small succulent in frame, warm beige and oak wood tones, peaceful cinematic atmosphere, 4k photorealistic, smooth camera movement",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/InterestedBrain/status/2041097848503009341",
+      "author": "@InterestedBrain",
+      "created_at": "2026-04-06T10:17:03.000Z",
+      "tweet_text": "Seedance 2 vs Grok Imagine\n\nSettings used:\n1. Seedance 2 (9:16, 5 seconds)\n2. Grok Imagine (9:16, 6 seconds, 720p)\n\nDifference:\nSeedance 2 version is much smoother and looks visually clean as well as sounds better.\n\nText-Video prompt:\nSlow tracking shot across a minimalist office desk, steaming ceramic coffee cup releasing gentle vapor wisps, soft Monday morning sunlight streaming through sheer curtains, clean MacBook and small succulent in frame, warm beige and oak wood tones, peaceful cinematic atmosphere, 4k photorealistic, smooth camera movement",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041097825673691136/pu/vid/avc1/720x1280/wwh5bzQxx7BDnlGi.mp4?tag=22",
+      "video": "media/videos/2041097848503009341.mp4"
+    },
+    {
+      "id": "x:2041092994246328703",
+      "text": "Core Concept: A dramatic contrast between a chaotic wake-up and a polished, professional office look achieved through high-speed \"portal\" transitions and a continuous spin mechanic. Transition Mechanics: The Portal Smack: Starts in bed. The character aggressively smacks the camera lens to silence the alarm, triggering a warp/whoosh speed-portal effect. The Spin: She lands perfectly on a spinning backless makeup stool at a vanity in the same bedroom. The continuous 360-degree rotation begins, with a new action every time she faces the camera. Character: A young woman with red hair. The prompt strictly uses \"The same Character\" to lock consistency. Total Duration: 6.0 seconds. Timeline & Scene-by-Scene Breakdown: Scene 1: The Alarm Smack ( - . | Duration: 2 sec) Action: The same Character is sleeping soundly in a real bed, her eyes fully closed. She has messy red hair, a sleep mask pushed up on her forehead, and is wearing pajamas. The loud sound of an alarm begins. The camera trembles and shakes slightly, simulating phone vibration. Transition (The Portal): Startled by the sound, she wakes up abruptly, sitting up fast with an irritated expression. At the peak of her sitting motion, the 'portal' effect activates, visibly 'sucking' her inward, immediately transforming into a rapid portal motion blur with a warp/whoosh distortion effect. Scene 2: Landing & Brushing Teeth (.0 - .6 | Duration: 0.6 sec) Action: The same Character. The portal transition ends as she lands perfectly seated on a spinning backless stool at her vanity. She is still in her pajamas. As she spins to face the camera, she is already brushing her teeth with an electric toothbrush. Transition: Immediate continuous spin away. Scene 3: Hair Brushing (0:2.6 - .2 | Duration: 0.6 sec) Action: The same Character. She spins back to face the camera. She is now vigorously brushing her red hair with a hairbrush. Transition: Immediate continuous spin away. Scene 4: Eye Makeup (.2 - .8 | Duration: 0.6 sec) Action: The same Character. She spins back to face the camera. She is quickly applying mascara or eyeshadow with an applicator, looking focused. Transition: Immediate continuous spin away. Scene 5: Fully Dressed (.8 - .4 | Duration: 0.6 sec) Action: The same Character. She spins back to face the camera. Wardrobe change: She is now instantly dressed in professional office wear (e.g., a crisp white button-down shirt and a navy blue blazer). She is adjusting her collar or cuffs. Transition: Immediate continuous spin away. Scene 6: Morning Coffee (.4 - .0 | Duration: 0.6 sec) Action: The same Character. She spins back to face the camera. She is holding a sleek travel coffee mug and takes a quick, sharp sip. Transition: Immediate continuous spin away. Scene 7: The Catch & Finale (.0 - .0 | Duration: 1.0 sec) Action: The same Character. She completes the final spin facing the camera. She is now wearing stylish glasses. Looking slightly off-camera, she confidently catches a professional tote bag or briefcase that is thrown to her from behind the camera. She looks straight into the lens, completely ready for the day. The video ends here. #YouArt #Seedance2",
+      "display_text": "Scene 1: The Alarm Smack ( - . | Duration: 2 sec) Action: The same Character is sleeping soundly in a real bed, her eyes fully closed. She has messy red hair, a sleep mask pushed up on her forehead, and is wearing pajamas. The loud sound of an alarm begins. The camera trembles and shakes slightly, simulating phone vibration. Transition (The Portal): Startled by the sound, she wakes up abruptly, sitting up fast with an irritated expression. At the peak of her sitting motion, the 'portal' effect activates, visibly 'sucking' her inward, immediately transforming into a rapid portal motion blur with a warp/whoosh distortion effect. Scene 2: Landing & Brushing Teeth (.0 - .6 | Duration: 0.6 sec) Action: The same Character. The portal transition ends as she lands perfectly seated on a spinning backless stool at her vanity. She is still in her pajamas. As she spins to face the camera, she is already brushing her teeth with an electric toothbrush. Transition: Immediate continuous spin away. Scene 3: Hair Brushing (0:2.6 - .2 | Duration: 0.6 sec) Action: The same Character. She spins back to face the camera. She is now vigorously brushing her red hair with a hairbrush. Transition: Immediate continuous spin away. Scene 4: Eye Makeup (.2 - .8 | Duration: 0.6 sec) Action: The same Character. She spins back to face the camera. She is quickly applying mascara or eyeshadow with an applicator, looking focused. Transition: Immediate continuous spin away. Scene 5: Fully Dressed (.8 - .4 | Duration: 0.6 sec) Action: The same Character. She spins back to face the camera. Wardrobe change: She is now instantly dressed in professional office wear (e.g., a crisp white button-down shirt and a navy blue blazer). She is adjusting her collar or cuffs. Transition: Immediate continuous spin away. Scene 6: Morning Coffee (.4 - .0 | Duration: 0.6 sec) Action: The same Character. She spins back to face the camera. She is holding a sleek travel coffee mug and takes a quick, sharp sip. Transition: Immediate continuous spin away. Scene 7: The Catch & Finale (.0 - .0 | Duration: 1.0 sec) Action: The same Character. She completes the final spin facing the camera. She is now wearing stylish glasses. Looking slightly off-camera, she confidently catches a professional tote bag or briefcase that is thrown to her from behind the camera. She looks straight into the lens, completely ready for the day. The video ends here. #YouArt #Seedance2",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/Kiber_Alla/status/2041092994246328703",
+      "author": "@Kiber_Alla",
+      "created_at": "2026-04-06T09:57:46.000Z",
+      "tweet_text": "Continuing to test transitions with Seedance 2.0 Omni  on \n@YouArtStudio\n!  I’m adding the prompt below. \nDon't forget to attach your own photo and tweak the appearance description in the prompt. You can also increase the timing for better prompt adherence.\n\nBut honestly, even as is, the prompt gives really cool results. The nuances might differ slightly between generations, but the core essence remains the same. Enjoy! \n\nPROMPT: Core Concept: A dramatic contrast between a chaotic wake-up and a polished, professional office look achieved through high-speed \"portal\" transitions and a continuous spin mechanic.  \n\nTransition Mechanics:  The Portal Smack: Starts in bed. The character aggressively smacks the camera lens to silence the alarm, triggering a warp/whoosh speed-portal effect.  \n\nThe Spin: She lands perfectly on a spinning backless makeup stool at a vanity in the same bedroom. The continuous 360-degree rotation begins, with a new action every time she faces the camera.  \n\nCharacter: A young woman with red hair. The prompt strictly uses \"The same Character\" to lock consistency.\n\nTotal Duration: 6.0 seconds.  Timeline & Scene-by-Scene Breakdown:  \n\nScene 1: The Alarm Smack ( - . | Duration: 2 sec)  \nAction: The same Character is sleeping soundly in a real bed, her eyes fully closed. She has messy red hair, a sleep mask pushed up on her forehead, and is wearing pajamas. The loud sound of an alarm begins. The camera trembles and shakes slightly, simulating phone vibration.  \nTransition (The Portal): Startled by the sound, she wakes up abruptly, sitting up fast with an irritated expression. At the peak of her sitting motion, the 'portal' effect activates, visibly 'sucking' her inward, immediately transforming into a rapid portal motion blur with a warp/whoosh distortion effect.  \n\nScene 2: Landing & Brushing Teeth (.0 - .6 | Duration: 0.6 sec)  \nAction: The same Character. The portal transition ends as she lands perfectly seated on a spinning backless stool at her vanity. She is still in her pajamas. As she spins to face the camera, she is already brushing her teeth with an electric toothbrush.  \nTransition: Immediate continuous spin away.  \n\nScene 3: Hair Brushing (0:2.6 - .2 | Duration: 0.6 sec)  \nAction: The same Character. She spins back to face the camera. She is now vigorously brushing her red hair with a hairbrush. \nTransition: Immediate continuous spin away.  \n\nScene 4: Eye Makeup (.2 - .8 | Duration: 0.6 sec)  \nAction: The same Character. She spins back to face the camera. She is quickly applying mascara or eyeshadow with an applicator, looking focused.  \nTransition: Immediate continuous spin away.  \n\nScene 5: Fully Dressed (.8 - .4 | Duration: 0.6 sec)  \nAction: The same Character. She spins back to face the camera. \nWardrobe change: She is now instantly dressed in professional office wear (e.g., a crisp white button-down shirt and a navy blue blazer). She is adjusting her collar or cuffs.  \nTransition: Immediate continuous spin away.  \n\nScene 6: Morning Coffee (.4 - .0 | Duration: 0.6 sec)  \nAction: The same Character. She spins back to face the camera. She is holding a sleek travel coffee mug and takes a quick, sharp sip.  \nTransition: Immediate continuous spin away.  \n\nScene 7: The Catch & Finale (.0 - .0 | Duration: 1.0 sec)  \nAction: The same Character. She completes the final spin facing the camera. She is now wearing stylish glasses. Looking slightly off-camera, she confidently catches a professional tote bag or briefcase that is thrown to her from behind the camera. She looks straight into the lens, completely ready for the day. The video ends here.\n\n#YouArt #Seedance2",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041092412769230848/vid/avc1/1440x2560/Slcz1dOfkyDgVaTa.mp4?tag=21",
+      "video": "media/videos/2041092994246328703.mp4"
+    },
+    {
+      "id": "x:2041085919302758597",
+      "text": "2. Seedance 2.0 Upload the generated studio photos (I added one of the car in the mountains) and create your own prompt for Seedance 2.0 I'm leaving you the prompt I used so you can copy it as a base and ask any AI to adapt it to your vehicle and environment ---- Title / Concept “CIVIC TYPE R — DOMINION IN EVERY CURVE” — a 15s high-performance commercial where the car conquers a dramatic mountain road, blending precision engineering with raw driving emotion. STYLE / VISUAL AESTHETIC Cinematic automotive realism, mountain lighting like [attached road image] , high contrast tones, glossy red paint reflecting landscape, motion blur, dynamic environment, premium commercial finish. SUBJECTS Red Honda Civic Type R — aggressive stance, black aerodynamic details, rear wing, triple exhaust, sharp LED headlights, performance wheels gripping asphalt. ENVIRONMENT Winding mountain road with guardrails, dense pine forests, towering rocky peaks in the background, golden sunlight cutting through clouds, sense of altitude and open space. MOOD / INTENT Adrenaline, control, freedom, precision under pressure. The car feels planted, alive, engineered for curves and speed. CAMERA / CINEMATOGRAPHY Dynamic tracking shots, low-angle chase cams, drone sweeps, wheel-level motion shots, fast push-ins, lateral tracking with background blur, crisp subject isolation, cinematic motion blur at speed. TIMELINE 0.0s–2.0s Wide aerial shot of a winding mountain road at golden hour. The red Civic appears in the distance, cutting through curves. Text: “CONTROL STARTS HERE”. 2.0s–4.0s Low front tracking shot. The car charges forward, headlights sharp. Road lines streak beneath. Mountains reflect across the hood. 4.0s–6.0s Side chase shot. The Civic takes a tight curve with precision. Wheels grip aggressively, slight body roll controlled. Background blurs into speed. 6.0s–8.5s Rear three-quarter shot. The spoiler slices the air. Triple exhaust centered. Subtle heat distortion. Text: “BUILT FOR THE CURVES”. 8.5s–11.0s Rapid montage: close-up wheel spinning, brake calipers clamping, steering input, suspension compression over asphalt. Each cut synced to deep bass hits. 11.0s–13.0s Drone orbit as the car exits a curve into a straight. Sunlight hits the red paint dramatically. The car accelerates into open road. 13.0s–15.0s Front hero shot as the car approaches camera and slows slightly. Final text: “HONDA CIVIC TYPE R”. Subline: “IT DOESN’T FOLLOW THE ROAD. IT DOMINATES IT.” End on engine echo fading into the mountains. GLOBAL KEYWORDS automotive commercial, mountain road, Honda Civic Type R, dynamic driving, cinematic car ad, performance, curves, speed, control, golden hour",
+      "display_text": "I'm leaving you the prompt I used so you can copy it as a base and ask any AI to adapt it to your vehicle and environment ---- Title / Concept “CIVIC TYPE R — DOMINION IN EVERY CURVE” — a 15s high-performance commercial where the car conquers a dramatic mountain road, blending precision engineering with raw driving emotion. STYLE / VISUAL AESTHETIC Cinematic automotive realism, mountain lighting like [attached road image] , high contrast tones, glossy red paint reflecting landscape, motion blur, dynamic environment, premium commercial finish. SUBJECTS Red Honda Civic Type R — aggressive stance, black aerodynamic details, rear wing, triple exhaust, sharp LED headlights, performance wheels gripping asphalt. ENVIRONMENT Winding mountain road with guardrails, dense pine forests, towering rocky peaks in the background, golden sunlight cutting through clouds, sense of altitude and open space. MOOD / INTENT Adrenaline, control, freedom, precision under pressure. The car feels planted, alive, engineered for curves and speed. CAMERA / CINEMATOGRAPHY Dynamic tracking shots, low-angle chase cams, drone sweeps, wheel-level motion shots, fast push-ins, lateral tracking with background blur, crisp subject isolation, cinematic motion blur at speed. TIMELINE 0.0s–2.0s Wide aerial shot of a winding mountain road at golden hour. The red Civic appears in the distance, cutting through curves. Text: “CONTROL STARTS HERE”. 2.0s–4.0s Low front tracking shot. The car charges forward, headlights sharp. Road lines streak beneath. Mountains reflect across the hood. 4.0s–6.0s Side chase shot. The Civic takes a tight curve with precision. Wheels grip aggressively, slight body roll controlled. Background blurs into speed. 6.0s–8.5s Rear three-quarter shot. The spoiler slices the air. Triple exhaust centered. Subtle heat distortion. Text: “BUILT FOR THE CURVES”. 8.5s–11.0s Rapid montage: close-up wheel spinning, brake calipers clamping, steering input, suspension compression over asphalt. Each cut synced to deep bass hits. 11.0s–13.0s Drone orbit as the car exits a curve into a straight. Sunlight hits the red paint dramatically. The car accelerates into open road. 13.0s–15.0s Front hero shot as the car approaches camera and slows slightly. Final text: “HONDA CIVIC TYPE R”. Subline: “IT DOESN’T FOLLOW THE ROAD. IT DOMINATES IT.” End on engine echo fading into the mountains. GLOBAL KEYWORDS automotive commercial, mountain road, Honda Civic Type R, dynamic driving, cinematic car ad, performance, curves, speed, control, golden hour",
+      "category": "nature-scenic",
+      "quality_score": 100,
+      "source_url": "https://x.com/impaulxyz/status/2041085919302758597",
+      "author": "@impaulxyz",
+      "created_at": "2026-04-06T09:29:39.000Z",
+      "tweet_text": "2. Seedance 2.0\n\nUpload the generated studio photos (I added one of the car in the mountains) and create your own prompt for Seedance 2.0\n\nI'm leaving you the prompt I used so you can copy it as a base and ask any AI to adapt it to your vehicle and environment\n\n----\n\nTitle /",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2037502564225449984/vid/avc1/3868x2160/UOHgqebBgTroSJAn.mp4?tag=21",
+      "video": "media/videos/2041085919302758597.mp4"
+    },
+    {
+      "id": "x:2041070958446878937",
+      "text": "A 42-year-old Tibetan monk with shaved head and deep-set eyes, wearing layered charcoal robes threaded with faint gravitational lattice patterns, skin marked with subtle fractal scars that pulse with dim violet light — opening frame is a medium close-up of him seated in lotus position on a levitating stone disk above a vast canyon, fragments of rock orbiting slowly around him in silent suspension under a starless sky. His right hand rotates slowly and the surrounding debris begins accelerating, forming a visible gravity well — at second two the ground below implodes inward as the canyon floor collapses into a spiraling sinkhole, triggering a rapid dolly zoom outward revealing entire mountain ridges bending toward his position. He never stands: the right hand amplifies gravitational pull, pulling structures inward; the left hand inverts local gravity fields, sending boulders and enemies upward into suspended orbit. Dynamic orbit camera circles him as debris fields form layered rings around his body, snap zooming into his hands during each gravity surge, snap cutting to collapsing terrain as impact confirmation. Deep violet fills the core frame, while black void distortion consumes the outer edges — lensing effects bending light around him. Escalation builds through increasing mass displacement until a floating fortress is pulled from the horizon and crushed inward. Final beat: hard POV shift — camera becomes the collapsing gravity field itself, spiraling downward through airborne debris into the canyon core as everything converges into a singular point. Gravitational lensing distorts all edges of frame; dust and stone fragments stretch under compression; subtle starfield flicker appears in void zones. Epic cosmic realism, ultra-detailed debris physics, volumetric dust collapse, 4K ultra-detail. Made in @dreamina_ai #DreaminaCPP #DreaminaAI",
+      "display_text": "A 42-year-old Tibetan monk with shaved head and deep-set eyes, wearing layered charcoal robes threaded with faint gravitational lattice patterns, skin marked with subtle fractal scars that pulse with dim violet light — opening frame is a medium close-up of him seated in lotus position on a levitating stone disk above a vast canyon, fragments of rock orbiting slowly around him in silent suspension under a starless sky. His right hand rotates slowly and the surrounding debris begins accelerating, forming a visible gravity well — at second two the ground below implodes inward as the canyon floor collapses into a spiraling sinkhole, triggering a rapid dolly zoom outward revealing entire mountain ridges bending toward his position. He never stands: the right hand amplifies gravitational pull, pulling structures inward; the left hand inverts local gravity fields, sending boulders and enemies upward into suspended orbit. Dynamic orbit camera circles him as debris fields form layered rings around his body, snap zooming into his hands during each gravity surge, snap cutting to collapsing terrain as impact confirmation. Deep violet fills the core frame, while black void distortion consumes the outer edges — lensing effects bending light around him. Escalation builds through increasing mass displacement until a floating fortress is pulled from the horizon and crushed inward. Final beat: hard POV shift — camera becomes the collapsing gravity field itself, spiraling downward through airborne debris into the canyon core as everything converges into a singular point. Gravitational lensing distorts all edges of frame; dust and stone fragments stretch under compression; subtle starfield flicker appears in void zones. Epic cosmic realism, ultra-detailed debris physics, volumetric dust collapse, 4K ultra-detail. #DreaminaCPP #DreaminaAI",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/LudovicCreator/status/2041070958446878937",
+      "author": "@LudovicCreator",
+      "created_at": "2026-04-06T08:30:12.000Z",
+      "tweet_text": "SEEDANCE 2 \n\nPrompt  :\n\nA 42-year-old Tibetan monk with shaved head and deep-set eyes, wearing layered charcoal robes threaded with faint gravitational lattice patterns, skin marked with subtle fractal scars that pulse with dim violet light — opening frame is a medium close-up of him seated in lotus position on a levitating stone disk above a vast canyon, fragments of rock orbiting slowly around him in silent suspension under a starless sky.\n\nHis right hand rotates slowly and the surrounding debris begins accelerating, forming a visible gravity well — at second two the ground below implodes inward as the canyon floor collapses into a spiraling sinkhole, triggering a rapid dolly zoom outward revealing entire mountain ridges bending toward his position.\n\nHe never stands: the right hand amplifies gravitational pull, pulling structures inward; the left hand inverts local gravity fields, sending boulders and enemies upward into suspended orbit.\n\nDynamic orbit camera circles him as debris fields form layered rings around his body, snap zooming into his hands during each gravity surge, snap cutting to collapsing terrain as impact confirmation.\n\nDeep violet fills the core frame, while black void distortion consumes the outer edges — lensing effects bending light around him.\n\nEscalation builds through increasing mass displacement until a floating fortress is pulled from the horizon and crushed inward.\n\nFinal beat: hard POV shift — camera becomes the collapsing gravity field itself, spiraling downward through airborne debris into the canyon core as everything converges into a singular point.\n\nGravitational lensing distorts all edges of frame; dust and stone fragments stretch under compression; subtle starfield flicker appears in void zones.\n\nEpic cosmic realism, ultra-detailed debris physics, volumetric dust collapse, 4K ultra-detail.\n\nMade in \n@dreamina_ai\n \n\n#DreaminaCPP #DreaminaAI",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041070907817406464/pu/vid/avc1/1280x720/UQsoNrVvnV2fWO-D.mp4?tag=12",
+      "video": "media/videos/2041070958446878937.mp4"
+    },
+    {
+      "id": "x:2041066015673516367",
+      "text": "Dramatic low-angle tracking shot speeding along rain-slicked train tracks through a narrow mountain gorge. Dark rocky cliff walls rise on both sides, with overhead bridges and power lines crossing above. Moody overcast sky. The camera rushes forward at high speed. Two women — one with pink hair in all-black tactical gear, the other in a white bodysuit — fight on top of the moving train, exchanging martial arts blows as sparks fly. Dynamic action choreography, dark teal-grey color grade, cinematic speed and motion blur, sci-fi action film aesthetic.",
+      "display_text": "Dramatic low-angle tracking shot speeding along rain-slicked train tracks through a narrow mountain gorge. Dark rocky cliff walls rise on both sides, with overhead bridges and power lines crossing above. Moody overcast sky. The camera rushes forward at high speed. Two women — one with pink hair in all-black tactical gear, the other in a white bodysuit — fight on top of the moving train, exchanging martial arts blows as sparks fly. Dynamic action choreography, dark teal-grey color grade, cinematic speed and motion blur, sci-fi action film aesthetic.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/aimikoda/status/2041066015673516367",
+      "author": "@aimikoda",
+      "created_at": "2026-04-06T08:10:33.000Z",
+      "tweet_text": "Train Fight with Seedance 2.0 on \n@TopviewAIhq\n\n\nSeedance 2.0 is now available on Topview. You can generate unlimited videos with Business Annual plan! And Real human faces are fully supported!\n\nPrompt: Dramatic low-angle tracking shot speeding along rain-slicked train tracks through a narrow mountain gorge. Dark rocky cliff walls rise on both sides, with overhead bridges and power lines crossing above. Moody overcast sky. The camera rushes forward at high speed. Two women — one with pink hair in all-black tactical gear, the other in a white bodysuit — fight on top of the moving train, exchanging martial arts blows as sparks fly. Dynamic action choreography, dark teal-grey color grade, cinematic speed and motion blur, sci-fi action film aesthetic.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041065890217635841/vid/avc1/1280x720/eUOQ_g0m0QlaajTj.mp4?tag=21",
+      "video": "media/videos/2041066015673516367.mp4"
+    },
+    {
+      "id": "x:2041063685645324485",
+      "text": "How to create Hollywood-grade videos from text using Seedance 2.0—now globally in CapCut. [1/3] Step 1: Access Seedance 2.0 • Platform: Open CapCut (or Doubao). • Location: Look for \"AI Video\" or \"Generate Video\" feature. • Note: It's being rolled out; update your app if you don't see it. Step 2: Craft your text prompt for cinematic quality BAD: \"A man walking in a park.\" GOOD: \"Cinematic slow-motion shot of a person walking through a misty forest at dawn, sunlight filtering through trees, dynamic camera movement following from behind, photorealistic, 4K.\" Key elements to specify: • Shot type (close-up, wide, drone) • Lighting (golden hour, neon, studio) • Camera movement (pan, zoom, dolly) • Style (photorealistic, anime, vintage) [2/3] Step 3: Use advanced controls (if available) Seedance 2.0 allows control over: • Motion intensity • Aspect ratio • Reference image for style • Negative prompts (e.g., \"blurry, deformed hands\") Step 4: Generate & Iterate • First gen is a draft. Use it to refine. • Change specific words in your prompt (swap \"misty\" for \"rainy\"). • Combine multiple short clips into a sequence. [3/3] Step 5: Export & Integrate • Download the high-quality clip. • Import into your main editing timeline in CapCut. • Add sound effects, music, and text overlays. Use Case Examples: • Social Media Ads: Generate product-in-use scenes in seconds. • YouTube Intros: Create custom, high-energy openings. • Concept Visualization: Show clients a video storyboard from a text description. This turns hours of production into minutes. For step-by-step guides on the latest AI tools, follow @karan_luthra_ai .",
+      "display_text": "cinematic quality BAD: \"A man walking in a park.\" GOOD: \"Cinematic slow-motion shot of a person walking through a misty forest at dawn, sunlight filtering through trees, dynamic camera movement following from behind, photorealistic, 4K.\" Key elements to specify: • Shot type (close-up, wide, drone) • Lighting (golden hour, neon, studio) • Camera movement (pan, zoom, dolly) • Style (photorealistic, anime, vintage) [2/3] Step 3: Use advanced controls (if available) Seedance 2.0 allows control over: • Motion intensity • Aspect ratio • Reference image for style • Negative prompts (e.g., \"blurry, deformed hands\") Step 4: Generate & Iterate • First gen is a draft. Use it to refine. • Change specific words in your prompt (swap \"misty\" for \"rainy\"). • Combine multiple short clips into a sequence. [3/3] Step 5: Export & Integrate • Download the high-quality clip. • Import into your main editing timeline in CapCut. • Add sound effects, music, and text overlays. Use Case Examples: • Social Media Ads: Generate product-in-use scenes in seconds. • YouTube Intros: Create custom, high-energy openings. • Concept Visualization: Show clients a video storyboard from a text description. This turns hours of production into minutes. For step-by-step guides on the latest AI tools, follow @karan_luthra_ai .",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/karan_luthra_ai/status/2041063685645324485",
+      "author": "@karan_luthra_ai",
+      "created_at": "2026-04-06T08:01:18.000Z",
+      "tweet_text": "How to create Hollywood-grade videos from text using Seedance 2.0—now globally in CapCut.\n\n[1/3]\nStep 1: Access Seedance 2.0\n• Platform: Open CapCut (or Doubao).\n• Location: Look for \"AI Video\" or \"Generate Video\" feature.\n• Note: It's being rolled out; update your app if you don't see it.\n\nStep 2: Craft your text prompt for cinematic quality\nBAD: \"A man walking in a park.\"\nGOOD: \"Cinematic slow-motion shot of a person walking through a misty forest at dawn, sunlight filtering through trees, dynamic camera movement following from behind, photorealistic, 4K.\"\n\nKey elements to specify:\n• Shot type (close-up, wide, drone)\n• Lighting (golden hour, neon, studio)\n• Camera movement (pan, zoom, dolly)\n• Style (photorealistic, anime, vintage)\n\n[2/3]\nStep 3: Use advanced controls (if available)\nSeedance 2.0 allows control over:\n• Motion intensity\n• Aspect ratio\n• Reference image for style\n• Negative prompts (e.g., \"blurry, deformed hands\")\n\nStep 4: Generate & Iterate\n• First gen is a draft. Use it to refine.\n• Change specific words in your prompt (swap \"misty\" for \"rainy\").\n• Combine multiple short clips into a sequence.\n\n[3/3]\nStep 5: Export & Integrate\n• Download the high-quality clip.\n• Import into your main editing timeline in CapCut.\n• Add sound effects, music, and text overlays.\n\nUse Case Examples:\n• Social Media Ads: Generate product-in-use scenes in seconds.\n• YouTube Intros: Create custom, high-energy openings.\n• Concept Visualization: Show clients a video storyboard from a text description.\n\nThis turns hours of production into minutes.\n\nFor step-by-step guides on the latest AI tools, follow \n@karan_luthra_ai\n.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      }
+    },
+    {
+      "id": "x:2041050710721339521",
+      "text": "0-3s · Otherworldly Inscription Low-angle upward shot. The void entity's right hand embeds into the altar, dark veins in fractal geometry patterns wildly parasitizing across the stone slab. Fissures erupt with viscous flesh tendrils, the ground pulsating dramatically like lungs. Background sect ancient architecture undergoes visual horizontal displacement tremors. 3-6s · Ossified Mutation Circling ascending/descending shot. The entity's spine explodes and twists in a chain reaction, obsidian horn crown piercing out from deep within the skull. Both arms entwined with liquid black smoke, generating high-temperature electric arcs in the air along its path, suspended lanterns instantly bursting in a visually collapsing overload. 6-9s · Material Deconstruction Pull-back shot. The entity's epidermis displays porcelain-like cracking textures, revealing a writhing dark matter core inside. Fingertips mutate into half-meter-long shadow blades, instantly triggering accelerated decay upon touching wooden pillars, the architectural structure dissolving into rising black smoke. 9-12s · Shadow Tide Devouring High-altitude overhead shot. The entity raises its arm, darkness behind it collapsing then erupting violently, forming a kilometer-scale black-red corrupted tsunami. The shadow flood ravages everything in its path—bluestone pavement, stone lions, pavilions—all pixelated, torn apart, and devoured. 12-15s · Void Finale Facial close-up. In the background, the massive mountain gate twists and snaps like a hemp rope under black hole gravity toward the center. The entity approaches slowly in dead silence, its pupils containing a rotating void nebula. It stares into the lens, the frame generating intense film burning and signal glitch effects, ultimately fading into absolute darkness.",
+      "display_text": "0-3s · Otherworldly Inscription Low-angle upward shot. The void entity's right hand embeds into the altar, dark veins in fractal geometry patterns wildly parasitizing across the stone slab. Fissures erupt with viscous flesh tendrils, the ground pulsating dramatically like lungs. Background sect ancient architecture undergoes visual horizontal displacement tremors. 3-6s · Ossified Mutation Circling ascending/descending shot. The entity's spine explodes and twists in a chain reaction, obsidian horn crown piercing out from deep within the skull. Both arms entwined with liquid black smoke, generating high-temperature electric arcs in the air along its path, suspended lanterns instantly bursting in a visually collapsing overload. 6-9s · Material Deconstruction Pull-back shot. The entity's epidermis displays porcelain-like cracking textures, revealing a writhing dark matter core inside. Fingertips mutate into half-meter-long shadow blades, instantly triggering accelerated decay upon touching wooden pillars, the architectural structure dissolving into rising black smoke. 9-12s · Shadow Tide Devouring High-altitude overhead shot. The entity raises its arm, darkness behind it collapsing then erupting violently, forming a kilometer-scale black-red corrupted tsunami. The shadow flood ravages everything in its path—bluestone pavement, stone lions, pavilions—all pixelated, torn apart, and devoured. 12-15s · Void Finale Facial close-up. In the background, the massive mountain gate twists and snaps like a hemp rope under black hole gravity toward the center. The entity approaches slowly in dead silence, its pupils containing a rotating void nebula. It stares into the lens, the frame generating intense film burning and signal glitch effects, ultimately fading into absolute darkness.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/Adam38363368936/status/2041050710721339521",
+      "author": "@Adam38363368936",
+      "created_at": "2026-04-06T07:09:44.000Z",
+      "tweet_text": "Seedance 2.0 Prompt\n\nCore Theme: Void Lord: Total Decay  \nPrompt: 0-3s · Otherworldly Inscription Low-angle upward shot. The void entity's right hand embeds into the altar, dark veins in fractal geometry patterns wildly parasitizing across the stone slab. Fissures erupt with",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041049185085169664/vid/avc1/1280x720/YItoUeElPGjZQrbP.mp4?tag=21",
+      "video": "media/videos/2041050710721339521.mp4"
+    },
+    {
+      "id": "x:2041039874648654110",
+      "text": "Summer Pool Party (Summer Pool Party Montage) Seedance 2.0 Text-to-Video Prompt [Style] Summer Pool Party (Summer Pool Party Montage), Rapid Cuts, 4K High Definition, High-Saturation Bright Tones [Duration] 15 seconds [Scene] Sunny Outdoor Pool Party, Two-Story Apartment Building in the Background, Poolside Crowded with People, Yellow Float Beds Drifting on the Water Surface [Characters] Blonde Woman, Redhead Woman, Brunette Woman, All Wearing Colorful Patterned Bikinis [00:00-00:01] Shot 1: Ice Cube Opening (Macro Close-up) Close-up: Irregular Transparent Ice Cube Placed in a Glass, Surface Wet, Internal Cracks Clear, Reddish-Brown Bokeh Spots Filling the Background. [00:01-00:02] Shot 2: Party Wide Shot (Wide Shot) Wide Shot: Pool in Front of a Two-Story Apartment, Balconies and Poolside Packed with People, Center of the Frame Shows Two White Water Splashes Bursting from the Blue Pool, Yellow Float Beds Drifting. [00:02-00:03] Shot 3: Wet Hair Smile (Close-up) Close-up: Blonde Woman Facing the Camera, Face Covered in Water Droplets, Wet Hair Clinging to Her Face, Mouth Open in a Big Laugh. Shallow Depth of Field with Blue Water Glow in the Background. [00:04-00:05] Shot 4: Float Bed Lounge (Medium Shot) Medium Shot: Brunette Woman Lying on a Yellow Float Bed, Wearing Large White-Framed Sunglasses, Hands Adjusting the Glasses, Eyes Closed and Head Tilted Back. Silver Watch and Pink-Yellow Bracelets Stacked on Her Wrist. [00:05-00:06] Shot 5: Wet Hair Slow Motion (Close-up, Slow-mo) Close-up High-Speed: Redhead Woman Slowly Pushing Her Wet Hair Back with Both Hands, Head Slightly Lowered, Water Droplets Flicking Off the Strands. [00:07-00:08] Shot 6: Party Rhythm (Medium Shot) Medium Shot: Two Women Dancing by the Poolside, Woman on the Right in a Tied Bikini at the Waist, Silver Bracelets Stacked on Her Wrist, Right Hand Holding a Beer Bottle, Body Swaying to the Rhythm. [00:08-00:09] Shot 7: Poolside Side by Side (Medium Shot) Medium Shot: Two Women Standing Shoulder to Shoulder with Backs to the Camera, Blue-White/Red-White Patterned Swimsuits, Bracelets on Wrists Swaying with Gestures, Poolside Tree Shadows and Crowd Blurred. [00:09-00:10] Shot 8: Handheld DV Recording (Medium Shot) Medium Shot: Blonde Woman with Wet Hair, Wearing Silver Jewelry, Right Hand Raising a Silver Handheld DV Camera Toward the Front, Eyes Focused on the Viewfinder. Another Woman’s Back in Frame on the Left. [00:11-00:12] Shot 9: Underwater Duo Swim (Underwater Wide) Underwater Wide Shot: Blonde and Redhead Women Swimming Toward the Camera, Bubbles Tumbling, Light Refracting, Frame with Natural Turbidity. [00:12-00:13] Shot 10: Underwater Close-up (Underwater Close-up) Underwater Close-up: Upper Bodies and Faces of the Two, Light Penetrating the Water Surface, Few Bubbles Floating, Expressions Faintly Visible. [00:14-00:15] Shot 11: Beach Ball Finale (Wide Shot) Wide Shot: Blue-White Beach Ball Flying Across the Center of the Frame, Woman in Foreground Swinging Her Arm to Throw the Ball, Poolside Crowd Cheering, Float Beds Dotting the Water Surface.",
+      "display_text": "[Style] Summer Pool Party (Summer Pool Party Montage), Rapid Cuts, 4K High Definition, High-Saturation Bright Tones [Duration] 15 seconds [Scene] Sunny Outdoor Pool Party, Two-Story Apartment Building in the Background, Poolside Crowded with People, Yellow Float Beds Drifting on the Water Surface [Characters] Blonde Woman, Redhead Woman, Brunette Woman, All Wearing Colorful Patterned Bikinis [00:00-00:01] Shot 1: Ice Cube Opening (Macro Close-up) Close-up: Irregular Transparent Ice Cube Placed in a Glass, Surface Wet, Internal Cracks Clear, Reddish-Brown Bokeh Spots Filling the Background. [00:01-00:02] Shot 2: Party Wide Shot (Wide Shot) Wide Shot: Pool in Front of a Two-Story Apartment, Balconies and Poolside Packed with People, Center of the Frame Shows Two White Water Splashes Bursting from the Blue Pool, Yellow Float Beds Drifting. [00:02-00:03] Shot 3: Wet Hair Smile (Close-up) Close-up: Blonde Woman Facing the Camera, Face Covered in Water Droplets, Wet Hair Clinging to Her Face, Mouth Open in a Big Laugh. Shallow Depth of Field with Blue Water Glow in the Background. [00:04-00:05] Shot 4: Float Bed Lounge (Medium Shot) Medium Shot: Brunette Woman Lying on a Yellow Float Bed, Wearing Large White-Framed Sunglasses, Hands Adjusting the Glasses, Eyes Closed and Head Tilted Back. Silver Watch and Pink-Yellow Bracelets Stacked on Her Wrist. [00:05-00:06] Shot 5: Wet Hair Slow Motion (Close-up, Slow-mo) Close-up High-Speed: Redhead Woman Slowly Pushing Her Wet Hair Back with Both Hands, Head Slightly Lowered, Water Droplets Flicking Off the Strands. [00:07-00:08] Shot 6: Party Rhythm (Medium Shot) Medium Shot: Two Women Dancing by the Poolside, Woman on the Right in a Tied Bikini at the Waist, Silver Bracelets Stacked on Her Wrist, Right Hand Holding a Beer Bottle, Body Swaying to the Rhythm. [00:08-00:09] Shot 7: Poolside Side by Side (Medium Shot) Medium Shot: Two Women Standing Shoulder to Shoulder with Backs to the Camera, Blue-White/Red-White Patterned Swimsuits, Bracelets on Wrists Swaying with Gestures, Poolside Tree Shadows and Crowd Blurred. [00:09-00:10] Shot 8: Handheld DV Recording (Medium Shot) Medium Shot: Blonde Woman with Wet Hair, Wearing Silver Jewelry, Right Hand Raising a Silver Handheld DV Camera Toward the Front, Eyes Focused on the Viewfinder. Another Woman’s Back in Frame on the Left. [00:11-00:12] Shot 9: Underwater Duo Swim (Underwater Wide) Underwater Wide Shot: Blonde and Redhead Women Swimming Toward the Camera, Bubbles Tumbling, Light Refracting, Frame with Natural Turbidity. [00:12-00:13] Shot 10: Underwater Close-up (Underwater Close-up) Underwater Close-up: Upper Bodies and Faces of the Two, Light Penetrating the Water Surface, Few Bubbles Floating, Expressions Faintly Visible. [00:14-00:15] Shot 11: Beach Ball Finale (Wide Shot) Wide Shot: Blue-White Beach Ball Flying Across the Center of the Frame, Woman in Foreground Swinging Her Arm to Throw the Ball, Poolside Crowd Cheering, Float Beds Dotting the Water Surface.",
+      "category": "nature-scenic",
+      "quality_score": 100,
+      "source_url": "https://x.com/johnAGI168/status/2041039874648654110",
+      "author": "@johnAGI168",
+      "created_at": "2026-04-06T06:26:41.000Z",
+      "tweet_text": "Summer Pool Party (Summer Pool Party Montage)\n\n\n\nSeedance 2.0 Text-to-Video Prompt \n\n[Style] Summer Pool Party (Summer Pool Party Montage), Rapid Cuts, 4K High Definition, High-Saturation Bright Tones [Duration] 15 seconds [Scene] Sunny Outdoor Pool Party, Two-Story Apartment Building in the Background, Poolside Crowded with People, Yellow Float Beds Drifting on the Water Surface [Characters] Blonde Woman, Redhead Woman, Brunette Woman, All Wearing Colorful Patterned Bikinis [00:00-00:01] Shot 1: Ice Cube Opening (Macro Close-up) Close-up: Irregular Transparent Ice Cube Placed in a Glass, Surface Wet, Internal Cracks Clear, Reddish-Brown Bokeh Spots Filling the Background. [00:01-00:02] Shot 2: Party Wide Shot (Wide Shot) Wide Shot: Pool in Front of a Two-Story Apartment, Balconies and Poolside Packed with People, Center of the Frame Shows Two White Water Splashes Bursting from the Blue Pool, Yellow Float Beds Drifting. [00:02-00:03] Shot 3: Wet Hair Smile (Close-up) Close-up: Blonde Woman Facing the Camera, Face Covered in Water Droplets, Wet Hair Clinging to Her Face, Mouth Open in a Big Laugh. Shallow Depth of Field with Blue Water Glow in the Background. [00:04-00:05] Shot 4: Float Bed Lounge (Medium Shot) Medium Shot: Brunette Woman Lying on a Yellow Float Bed, Wearing Large White-Framed Sunglasses, Hands Adjusting the Glasses, Eyes Closed and Head Tilted Back. Silver Watch and Pink-Yellow Bracelets Stacked on Her Wrist. [00:05-00:06] Shot 5: Wet Hair Slow Motion (Close-up, Slow-mo) Close-up High-Speed: Redhead Woman Slowly Pushing Her Wet Hair Back with Both Hands, Head Slightly Lowered, Water Droplets Flicking Off the Strands. [00:07-00:08] Shot 6: Party Rhythm (Medium Shot) Medium Shot: Two Women Dancing by the Poolside, Woman on the Right in a Tied Bikini at the Waist, Silver Bracelets Stacked on Her Wrist, Right Hand Holding a Beer Bottle, Body Swaying to the Rhythm. [00:08-00:09] Shot 7: Poolside Side by Side (Medium Shot) Medium Shot: Two Women Standing Shoulder to Shoulder with Backs to the Camera, Blue-White/Red-White Patterned Swimsuits, Bracelets on Wrists Swaying with Gestures, Poolside Tree Shadows and Crowd Blurred. [00:09-00:10] Shot 8: Handheld DV Recording (Medium Shot) Medium Shot: Blonde Woman with Wet Hair, Wearing Silver Jewelry, Right Hand Raising a Silver Handheld DV Camera Toward the Front, Eyes Focused on the Viewfinder. Another Woman’s Back in Frame on the Left. [00:11-00:12] Shot 9: Underwater Duo Swim (Underwater Wide) Underwater Wide Shot: Blonde and Redhead Women Swimming Toward the Camera, Bubbles Tumbling, Light Refracting, Frame with Natural Turbidity. [00:12-00:13] Shot 10: Underwater Close-up (Underwater Close-up) Underwater Close-up: Upper Bodies and Faces of the Two, Light Penetrating the Water Surface, Few Bubbles Floating, Expressions Faintly Visible. [00:14-00:15] Shot 11: Beach Ball Finale (Wide Shot) Wide Shot: Blue-White Beach Ball Flying Across the Center of the Frame, Woman in Foreground Swinging Her Arm to Throw the Ball, Poolside Crowd Cheering, Float Beds Dotting the Water Surface.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041039713092657152/vid/avc1/1280x720/ZkGuGOE-LY2F293J.mp4?tag=21",
+      "video": "media/videos/2041039874648654110.mp4"
+    },
+    {
+      "id": "x:2041036612683915587",
+      "text": "Seedance 2.0 on @nsketchai Prompt A dark, cinematic surreal film set in a post-war dystopian city, muted tones, cold color grading, shallow depth of field, soft film grain, dramatic lighting. Scene 1: A cracked empty street near a foggy shoreline. A woman in a long grey",
+      "display_text": "A dark, cinematic surreal film set in a post-war dystopian city, muted tones, cold color grading, shallow depth of field, soft film grain, dramatic lighting. Scene 1: A cracked empty street near a foggy shoreline. A woman in a long grey",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/BarrakAli/status/2041036612683915587",
+      "author": "@BarrakAli",
+      "created_at": "2026-04-06T06:13:43.000Z",
+      "tweet_text": "Seedance 2.0 on \n@nsketchai\n \n\nPrompt  \n\nA dark, cinematic surreal film set in a post-war dystopian city, muted tones, cold color grading, shallow depth of field, soft film grain, dramatic lighting.\n\nScene 1:\nA cracked empty street near a foggy shoreline. A woman in a long grey",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041018496298209280/pu/vid/avc1/1920x1080/59OYP6kzgb9BMywH.mp4?tag=19",
+      "video": "media/videos/2041036612683915587.mp4"
+    },
+    {
+      "id": "x:2041032238293540876",
+      "text": "Playful high-stakes slapstick cinematic scene in an abandoned wooden warehouse with warm amber sunlight and cool industrial shadows. A mischievous ginger tabby cat wearing a tiny tactical harness performs a secret “spy mission” while suspended from a rope, holding a lit firecracker. Below him, a plump white chicken wearing a blue nightcap sleeps on grain sacks, snoring loudly. The cat theatrically drops the firecracker into the chicken’s nightcap. It explodes in a burst of purple smoke and flying feathers. The chicken is launched upward in exaggerated cartoon physics, then lands dazed, slowly turning toward camera with glowing red eyes in a dramatic cliffhanger. Style: cinematic comedy, Mission Impossible parody, ultra-detailed, volumetric lighting, dust particles, feather physics, squash-and-stretch animation, dynamic motion, 120 BPM orchestral slapstick score, high detail, 4K, film-quality rendering.",
+      "display_text": "Playful high-stakes slapstick cinematic scene in an abandoned wooden warehouse with warm amber sunlight and cool industrial shadows. A mischievous ginger tabby cat wearing a tiny tactical harness performs a secret “spy mission” while suspended from a rope, holding a lit firecracker. Below him, a plump white chicken wearing a blue nightcap sleeps on grain sacks, snoring loudly. The cat theatrically drops the firecracker into the chicken’s nightcap. It explodes in a burst of purple smoke and flying feathers. The chicken is launched upward in exaggerated cartoon physics, then lands dazed, slowly turning toward camera with glowing red eyes in a dramatic cliffhanger. Style: cinematic comedy, Mission Impossible parody, ultra-detailed, volumetric lighting, dust particles, feather physics, squash-and-stretch animation, dynamic motion, 120 BPM orchestral slapstick score, high detail, 4K, film-quality rendering.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/ShamiWeb3/status/2041032238293540876",
+      "author": "@ShamiWeb3",
+      "created_at": "2026-04-06T05:56:20.000Z",
+      "tweet_text": "A stealthy cat, a sleeping chicken, and one explosive mission gone hilariously wrong \n\nCreated with Seedance 2.0 \n\nPrompt:\n\nPlayful high-stakes slapstick cinematic scene in an abandoned wooden warehouse with warm amber sunlight and cool industrial shadows. A mischievous ginger tabby cat wearing a tiny tactical harness performs a secret “spy mission” while suspended from a rope, holding a lit firecracker. Below him, a plump white chicken wearing a blue nightcap sleeps on grain sacks, snoring loudly.\nThe cat theatrically drops the firecracker into the chicken’s nightcap. It explodes in a burst of purple smoke and flying feathers. The chicken is launched upward in exaggerated cartoon physics, then lands dazed, slowly turning toward camera with glowing red eyes in a dramatic cliffhanger.\nStyle: cinematic comedy, Mission Impossible parody, ultra-detailed, volumetric lighting, dust particles, feather physics, squash-and-stretch animation, dynamic motion, 120 BPM orchestral slapstick score, high detail, 4K, film-quality rendering.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041032185042587648/pu/vid/avc1/720x1280/EDQ2Mvn1T02BA3xb.mp4?tag=19",
+      "video": "media/videos/2041032238293540876.mp4"
+    },
+    {
+      "id": "x:2041018531186376970",
+      "text": "Seedance 2.0 on @nsketchai Prompt A dark, cinematic surreal film set in a post-war dystopian city, muted tones, cold color grading, shallow depth of field, soft film grain, dramatic lighting. Scene 1: A cracked empty street near a foggy shoreline. A woman in a long grey coat walks slowly toward the camera. Beside her floats a giant fragmented human face made of broken buildings and concrete, subtly shifting as if alive. Dust particles drift in the air. Scene 2: Cut to a tired child leaning against a broken wall indoors, eyes half-closed, exhausted. In the blurred background, another child sits silently. The atmosphere feels heavy, abandoned, and hopeless. Scene 3: A stern middle-aged man in a grey overcoat stands in a ruined European-style street beside an old rusty car. The camera slowly pushes in as he looks ahead with a hardened expression. Scene 4: Close-up of a woman’s face partially merged with mechanical and architectural fragments. Orange butterflies flutter around her head in slow motion, symbolizing fragile hope. Scene 5: A crowded street under a massive curved wall embedded with small structures and windows. People walk aimlessly, heads down, creating a sense of routine and oppression. Scene 6: A street musician with messy hair plays a guitar into a vintage microphone. Behind him stands a silent crowd. A rusted tram looms in the background. Light rain begins to fall. Scene 7: A line of children in worn vintage clothing stands still, staring directly into the camera. Their expressions are blank, almost haunting. Slow dolly movement forward. Scene 8: A surreal couple walks together. The woman carries a house-like structure on her head, with her face visible through a small window. The man beside her is partially covered in dark soot. They walk through rubble in silence. Scene 9 (Final): A woman sits in a cluttered room filled with old radios and clocks. A sign reading “MORE” hangs behind her. She slowly turns a knob on a vintage radio as static fills the air. Fade to black. Style & Motion Keywords cinematic, dystopian, surreal realism, slow motion, dramatic lighting, volumetric fog, depth of field, 35mm film look, desaturated tones, symbolic storytelling, melancholic mood, smooth camera movement",
+      "display_text": "A dark, cinematic surreal film set in a post-war dystopian city, muted tones, cold color grading, shallow depth of field, soft film grain, dramatic lighting. Scene 1: A cracked empty street near a foggy shoreline. A woman in a long grey coat walks slowly toward the camera. Beside her floats a giant fragmented human face made of broken buildings and concrete, subtly shifting as if alive. Dust particles drift in the air. Scene 2: Cut to a tired child leaning against a broken wall indoors, eyes half-closed, exhausted. In the blurred background, another child sits silently. The atmosphere feels heavy, abandoned, and hopeless. Scene 3: A stern middle-aged man in a grey overcoat stands in a ruined European-style street beside an old rusty car. The camera slowly pushes in as he looks ahead with a hardened expression. Scene 4: Close-up of a woman’s face partially merged with mechanical and architectural fragments. Orange butterflies flutter around her head in slow motion, symbolizing fragile hope. Scene 5: A crowded street under a massive curved wall embedded with small structures and windows. People walk aimlessly, heads down, creating a sense of routine and oppression. Scene 6: A street musician with messy hair plays a guitar into a vintage microphone. Behind him stands a silent crowd. A rusted tram looms in the background. Light rain begins to fall. Scene 7: A line of children in worn vintage clothing stands still, staring directly into the camera. Their expressions are blank, almost haunting. Slow dolly movement forward. Scene 8: A surreal couple walks together. The woman carries a house-like structure on her head, with her face visible through a small window. The man beside her is partially covered in dark soot. They walk through rubble in silence. Scene 9 (Final): A woman sits in a cluttered room filled with old radios and clocks. A sign reading “MORE” hangs behind her. She slowly turns a knob on a vintage radio as static fills the air. Fade to black. Style & Motion Keywords cinematic, dystopian, surreal realism, slow motion, dramatic lighting, volumetric fog, depth of field, 35mm film look, desaturated tones, symbolic storytelling, melancholic mood, smooth camera movement",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/AIwithkhan/status/2041018531186376970",
+      "author": "@AIwithkhan",
+      "created_at": "2026-04-06T05:01:52.000Z",
+      "tweet_text": "Seedance 2.0 on \n@nsketchai\n \n\nPrompt  \n\nA dark, cinematic surreal film set in a post-war dystopian city, muted tones, cold color grading, shallow depth of field, soft film grain, dramatic lighting.\n\nScene 1:\nA cracked empty street near a foggy shoreline. A woman in a long grey coat walks slowly toward the camera. Beside her floats a giant fragmented human face made of broken buildings and concrete, subtly shifting as if alive. Dust particles drift in the air.\n\nScene 2:\nCut to a tired child leaning against a broken wall indoors, eyes half-closed, exhausted. In the blurred background, another child sits silently. The atmosphere feels heavy, abandoned, and hopeless.\n\nScene 3:\nA stern middle-aged man in a grey overcoat stands in a ruined European-style street beside an old rusty car. The camera slowly pushes in as he looks ahead with a hardened expression.\n\nScene 4:\nClose-up of a woman’s face partially merged with mechanical and architectural fragments. Orange butterflies flutter around her head in slow motion, symbolizing fragile hope.\n\nScene 5:\nA crowded street under a massive curved wall embedded with small structures and windows. People walk aimlessly, heads down, creating a sense of routine and oppression.\n\nScene 6:\nA street musician with messy hair plays a guitar into a vintage microphone. Behind him stands a silent crowd. A rusted tram looms in the background. Light rain begins to fall.\n\nScene 7:\nA line of children in worn vintage clothing stands still, staring directly into the camera. Their expressions are blank, almost haunting. Slow dolly movement forward.\n\nScene 8:\nA surreal couple walks together. The woman carries a house-like structure on her head, with her face visible through a small window. The man beside her is partially covered in dark soot. They walk through rubble in silence.\n\nScene 9 (Final):\nA woman sits in a cluttered room filled with old radios and clocks. A sign reading “MORE” hangs behind her. She slowly turns a knob on a vintage radio as static fills the air. Fade to black.\n Style & Motion Keywords\n\ncinematic, dystopian, surreal realism, slow motion, dramatic lighting, volumetric fog, depth of field, 35mm film look, desaturated tones, symbolic storytelling, melancholic mood, smooth camera movement",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041018496298209280/pu/vid/avc1/1920x1080/59OYP6kzgb9BMywH.mp4?tag=19",
+      "video": "media/videos/2041018531186376970.mp4"
+    },
+    {
+      "id": "x:2040963284258685220",
+      "text": "A cinematic concert gacha reveal in portrait orientation. Phase 1 (2s): Dark arena with scattered blue-white penlight dots. Vertical Japanese text of the character's catchphrase reveals rapidly character-by-character with soft glow. Camera orbits above the audience. Phase 2 (2.5s): Camera swings toward the stage. 8-10 vertical spotlight beams descend from trusses. Steady zoom in reveals spherical footlights along the stage edge. A rainbow-colored ring burst explodes at center with multicolored star-shaped particles scattering outward. Phase 3 (3.5s): Stage reappears with an elaborate gothic arch structure. Penlights multiply into a vibrant rainbow sea below. On the large screen behind the stage, a character silhouette slowly materializes. Camera creeps closer. The glow intensifies into a massive four-pointed star flash, then instant cut to total black. Phase 4 (3s): A blinding white flash erupts. The stage returns dramatically upgraded — golden fireworks shoot upward from both sides of the arch, backdrop transforms into stained-glass geometric patterns in pink, purple, blue and gold. The character materializes from silhouette to full color on center stage. Crossing laser beams sweep from the sides. Phase 5 (4s): Screen floods white, resolves into a close-up dolly sweeping right-to-left past colorful spotlights with dense rainbow penlights waving below. Camera pulls back to center revealing the full arena — arch stage, stained glass screen, character center, thousands of rainbow penlights. Final frame: character illustration in a decorative frame.",
+      "display_text": "A cinematic concert gacha reveal in portrait orientation. Phase 1 (2s): Dark arena with scattered blue-white penlight dots. Vertical Japanese text of the character's catchphrase reveals rapidly character-by-character with soft glow. Camera orbits above the audience. Phase 2 (2.5s): Camera swings toward the stage. 8-10 vertical spotlight beams descend from trusses. Steady zoom in reveals spherical footlights along the stage edge. A rainbow-colored ring burst explodes at center with multicolored star-shaped particles scattering outward. Phase 3 (3.5s): Stage reappears with an elaborate gothic arch structure. Penlights multiply into a vibrant rainbow sea below. On the large screen behind the stage, a character silhouette slowly materializes. Camera creeps closer. The glow intensifies into a massive four-pointed star flash, then instant cut to total black. Phase 4 (3s): A blinding white flash erupts. The stage returns dramatically upgraded — golden fireworks shoot upward from both sides of the arch, backdrop transforms into stained-glass geometric patterns in pink, purple, blue and gold. The character materializes from silhouette to full color on center stage. Crossing laser beams sweep from the sides. Phase 5 (4s): Screen floods white, resolves into a close-up dolly sweeping right-to-left past colorful spotlights with dense rainbow penlights waving below. Camera pulls back to center revealing the full arena — arch stage, stained glass screen, character center, thousands of rainbow penlights. Final frame: character illustration in a decorative frame.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/LurkShade/status/2040963284258685220",
+      "author": "@LurkShade",
+      "created_at": "2026-04-06T01:22:20.000Z",
+      "tweet_text": "CapCut AI動画メーカー Seedance 2.0製です  \n登場演出\n\nprompt: \nA cinematic concert gacha reveal in portrait orientation. Phase 1 (2s): Dark arena with scattered blue-white penlight dots. Vertical Japanese text of the character's catchphrase reveals rapidly character-by-character",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040963170744119296/vid/avc1/1280x720/v--o5CkcMLGL9HEA.mp4?tag=21",
+      "video": "media/videos/2040963284258685220.mp4"
+    },
+    {
+      "id": "x:2040959499847221480",
+      "text": "15-second cinematic video, ultra-smooth camera, natural focus pulls, warm-to-cool color shift, photorealistic 8K, ARRI Alexa look. Macro close-up of a Michelin-style salmon rose—glossy, orange-pink layers. Knife makes a slow precise slice, oils shimmer (0–3s). Focus pulls to a calm young man in side profile as he lifts a bite (3–5s). Extreme close-up bite—slow chew, eyes soften, subtle smile (5–7s). Fast push into his eye—reflection blooms into light, scene dissolves (7–8s). Underwater world: wide shot, sun rays through turquoise water, corals, seaweed, schools of salmon swimming. Man floats weightlessly, watching fish in calm wonder. Slow orbit, light beams shifting (8–13s). Match cut back to restaurant—same angle, he swallows, smiles, continues eating (13–15s). SFX: knife slice, soft chew, restaurant ambiance fading into underwater sounds and back. No text overlays.",
+      "display_text": "15-second cinematic video, ultra-smooth camera, natural focus pulls, warm-to-cool color shift, photorealistic 8K, ARRI Alexa look. Macro close-up of a Michelin-style salmon rose—glossy, orange-pink layers. Knife makes a slow precise slice, oils shimmer (0–3s). Focus pulls to a calm young man in side profile as he lifts a bite (3–5s). Extreme close-up bite—slow chew, eyes soften, subtle smile (5–7s). Fast push into his eye—reflection blooms into light, scene dissolves (7–8s). Underwater world: wide shot, sun rays through turquoise water, corals, seaweed, schools of salmon swimming. Man floats weightlessly, watching fish in calm wonder. Slow orbit, light beams shifting (8–13s). Match cut back to restaurant—same angle, he swallows, smiles, continues eating (13–15s). SFX: knife slice, soft chew, restaurant ambiance fading into underwater sounds and back. No text overlays.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/ShamiWeb3/status/2040959499847221480",
+      "author": "@ShamiWeb3",
+      "created_at": "2026-04-06T01:07:18.000Z",
+      "tweet_text": "One bite… and the world melts into wonder.\n\nA moment of comfort turns into pure wonder, where imagination feels real and reality gently dissolves\n\nCreated with Seedance 2.0 \n\nPrompt:\n\n15-second cinematic video, ultra-smooth camera, natural focus pulls, warm-to-cool color shift, photorealistic 8K, ARRI Alexa look.\nMacro close-up of a Michelin-style salmon rose—glossy, orange-pink layers. Knife makes a slow precise slice, oils shimmer (0–3s). Focus pulls to a calm young man in side profile as he lifts a bite (3–5s). Extreme close-up bite—slow chew, eyes soften, subtle smile (5–7s).\nFast push into his eye—reflection blooms into light, scene dissolves (7–8s).\nUnderwater world: wide shot, sun rays through turquoise water, corals, seaweed, schools of salmon swimming. Man floats weightlessly, watching fish in calm wonder. Slow orbit, light beams shifting (8–13s).\nMatch cut back to restaurant—same angle, he swallows, smiles, continues eating (13–15s).\nSFX: knife slice, soft chew, restaurant ambiance fading into underwater sounds and back. No text overlays.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2040959458314960896/pu/vid/avc1/1280x720/IcU8ARuntoGLvXRY.mp4",
+      "video": "media/videos/2040959499847221480.mp4"
+    },
     {
       "id": "x:2040912350035742908",
       "text": "FORMAT: 15s / 150 BPM / 8 shots / compact action duel loop SUBJECTS: One occult fighter and one curse-like creature, both drawn as 2.5D line-art characters with visible contour lines, interior sketch lines and light hatching, never solid black fill, one body each in every beat. SCENE: Black and white 3D sketch-anime combat inside a minimal sketch ruin on white paper. Keep clear 2.5D line-art characters with contour lines, interior construction strokes and light hatching, not black silhouette bodies. Start on direct impact, not entry, with both characters already in mid-exchange at center frame. Use aggressive cinematic framing, hard impact punctuation, sharp micro-pauses, strong anticipation and forceful follow-through while preserving left-right continuity and readable strike lanes. The creature uses short curse bursts, limb warping and ink shockwaves. Build the action as a seamless loop so the final rush reconnects directly into the opening clash. The space has floor, broken wall planes and depth, and only redraws on hits, surges or skids. MOOD: Occult pressure, supernatural force, hard cinematic impact, seamless loop energy. COLOR LOGIC: Monochromatic Grading STYLE: 3D hand-drawn sketch anime with 2.5D line-art characters, bold cinematic action framing and readable curse-battle choreography TIMELINE: 1. Smash cut, low 24mm impact track, open on direct mid-clash at center frame as fighter's short strike and creature's forearm collide, lines splinter outward, both bodies compress then snap past each other without stopping, SFX: impact snap, brush tear. 2. Hard cut, 35mm handheld push, fighter pivots out of the pass, shoulder-feints and lands a short body strike under guard, both recoil half a step with visible force transfer, SFX: air slice, ink thud. 3. Whip pan, 50mm side track, creature whips a warped forearm across a clear lane and sheds a short ink shockwave, fighter slips under both by inches, SFX: heavy whoosh, brush tear, ink flare. 4. Smash cut, 28mm close pursuit, micro-pause, fighter plants, twists through the hips and drives a compact rib counter, impact distortion spikes and the camera kicks with contact, SFX: crack hit, ink burst. 5. Match cut, 40mm rear three-quarter, creature skids backward as floor and wall lines redraw under the impact path, SFX: scrape, paper rip, low ink pulse. 6. Hard cut, 32mm handheld orbit, creature slams back in with one arm warping longer, fighter gives ground, parries high and pivots across the axis to keep continuity, SFX: double hit, sharp breath, tendon stretch. 7. Whip pan, 65mm impact close-up, fighter coils low, holds one sharp micro-pause, then releases a decisive upward strike, recoil whips through both bodies and the frame blows out white for a beat, SFX: deep crack, white flash burst. 8. Hard cut, 24mm wide pursuit frame, creature regathers, fires a short chest-level curse burst and surges back to center as fighter rebounds into the same opposing rush geometry as beat 1, SFX: trailing crack, paper hiss, ink burst, rushing foot drag.",
@@ -163,10 +547,11 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T23:00:23Z",
+        "reviewed_at": "2026-04-06T11:24:24Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2040736882254880768/vid/avc1/1920x1080/6c_f_DahOu7ciShB.mp4?tag=21",
+      "thumbnail": "media/thumbs/2040739182084042843.webp",
       "video": "media/videos/2040739182084042843.mp4"
     },
     {
@@ -191,7 +576,8 @@
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/ext_tw_video/2040708520400609280/pu/vid/avc1/1280x720/4YTaBSF4S4nra5mb.mp4?tag=12",
-      "video": "media/videos/2040708544010358789.mp4"
+      "video": "media/videos/2040708544010358789.mp4",
+      "thumbnail": "media/thumbs/2040708544010358789.webp"
     },
     {
       "id": "x:2040685931858907646",
@@ -397,7 +783,10 @@
         "action": "reject",
         "reason": "low_quality",
         "timestamp": "2026-04-05T11:05:56.771Z"
-      }
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2040465627442495488/pu/vid/avc1/864x496/HrqI-ymtZchONnE0.mp4",
+      "thumbnail": "media/thumbs/2040465664620851482.webp",
+      "video": "media/videos/2040465664620851482.mp4"
     },
     {
       "id": "x:2040030453298811099",
@@ -635,6 +1024,54 @@
       }
     },
     {
+      "id": "x:2041021693062185085",
+      "text": "Big heart behind that cat attitude (created by Seedance 2 on @wavespeed_ai ) Prompt share Seedance 2 Prompt (15 seconds total, each shot ~0.6–1.2s) Cinematic action-comedy with classical martial arts flair, stylized animal kingdom rural village, surrounded by reflective rice paddies, soft morning mist, warm sunlight diffused through clouds, dynamic camera, highly choreographed physical action, grounded yet fluid movement, practical stunt-inspired choreography, subtle humor. S1 (0.9s) Wide shot: A chubby orange cat wearing a bamboo hat and gray Taoist robe walks calmly along a narrow path between rice fields, water reflecting the sky and distant wooden houses. S2 (0.8s) Tracking shot: Groups of raccoon-like villagers in 17th-century European peasant clothing pause their work, turning to stare at the cat with puzzled expressions. S3 (0.9s) Close-up: Two raccoon villagers lean in, whispering to each other suspiciously, eyes darting toward the orange cat. S4 (0.7s) Upward tilt: On a second-floor wooden balcony, an elderly black bear lady wearing a white wig and simple peasant dress hangs laundry. S5 (0.8s) Accident: She bumps into a flower pot—time slows—the pot tips over the edge. S6 (0.7s) Falling shot: The flower pot drops rapidly toward a small white rabbit in ragged beggar clothes standing below, unaware. S7 (0.8s) Reaction: The bear lady gasps and shouts in panic, reaching out helplessly. S8 (1.0s) Action trigger: The orange cat’s eyes sharpen—instant movement—he pivots and sprints. S9 (1.0s) Parkour sequence: He steps onto a wooden cart, kicks off a wall, then rebounds between vertical surfaces in a fluid, multi-step aerial path. S10 (1.0s) Mid-air precision: Body twisting, robe flowing, he extends one arm and catches the falling flower pot mid-air, perfectly timed. S11 (0.9s) Descent: Using momentum, he flips and lands lightly on the ground, maintaining balance effortlessly. S12 (0.8s) Gentle beat: With his free hand, he casually pats the little white rabbit’s head, reassuring and calm. S13 (1.0s) Reaction shot: The black bear lady clutches her chest in relief, then smiles gratefully. S14 (1.0s) Crowd response: The raccoon villagers break into delighted applause, earlier suspicion replaced with admiration. S15 (1.2s) Final shot: The orange cat adjusts his bamboo hat slightly, standing composed as ripples move through the rice paddies, a subtle confident aura as he looks forward. Motion & Effects: Highly detailed physical choreography, grounded multi-step parkour, precise timing, cloth simulation on robe, environmental interaction (walls, cart, ground), soft motion blur, cinematic camera flow (tracking, tilt, orbit), light comedic tone blended with elegant martial arts action. #sd2 #seedance #aivideo #CatsLover You can access Seedance 2 on https:// wavespeed.ai/models/bytedan ce/seedance-2.0/text-to-video?ref=shaochiu ...",
+      "display_text": "Cinematic action-comedy with classical martial arts flair, stylized animal kingdom rural village, surrounded by reflective rice paddies, soft morning mist, warm sunlight diffused through clouds, dynamic camera, highly choreographed physical action, grounded yet fluid movement, practical stunt-inspired choreography, subtle humor. S1 (0.9s) Wide shot: A chubby orange cat wearing a bamboo hat and gray Taoist robe walks calmly along a narrow path between rice fields, water reflecting the sky and distant wooden houses. S2 (0.8s) Tracking shot: Groups of raccoon-like villagers in 17th-century European peasant clothing pause their work, turning to stare at the cat with puzzled expressions. S3 (0.9s) Close-up: Two raccoon villagers lean in, whispering to each other suspiciously, eyes darting toward the orange cat. S4 (0.7s) Upward tilt: On a second-floor wooden balcony, an elderly black bear lady wearing a white wig and simple peasant dress hangs laundry. S5 (0.8s) Accident: She bumps into a flower pot—time slows—the pot tips over the edge. S6 (0.7s) Falling shot: The flower pot drops rapidly toward a small white rabbit in ragged beggar clothes standing below, unaware. S7 (0.8s) Reaction: The bear lady gasps and shouts in panic, reaching out helplessly. S8 (1.0s) Action trigger: The orange cat’s eyes sharpen—instant movement—he pivots and sprints. S9 (1.0s) Parkour sequence: He steps onto a wooden cart, kicks off a wall, then rebounds between vertical surfaces in a fluid, multi-step aerial path. S10 (1.0s) Mid-air precision: Body twisting, robe flowing, he extends one arm and catches the falling flower pot mid-air, perfectly timed. S11 (0.9s) Descent: Using momentum, he flips and lands lightly on the ground, maintaining balance effortlessly. S12 (0.8s) Gentle beat: With his free hand, he casually pats the little white rabbit’s head, reassuring and calm. S13 (1.0s) Reaction shot: The black bear lady clutches her chest in relief, then smiles gratefully. S14 (1.0s) Crowd response: The raccoon villagers break into delighted applause, earlier suspicion replaced with admiration. S15 (1.2s) Final shot: The orange cat adjusts his bamboo hat slightly, standing composed as ripples move through the rice paddies, a subtle confident aura as he looks forward. Motion & Effects: Highly detailed physical choreography, grounded multi-step parkour, precise timing, cloth simulation on robe, environmental interaction (walls, cart, ground), soft motion blur, cinematic camera flow (tracking, tilt, orbit), light comedic tone blended with elegant martial arts action. #sd2 #seedance #aivideo #CatsLover You can access Seedance 2 on https:// wavespeed.ai/models/bytedan ce/seedance-2.0/text-to-video?ref=shaochiu ...",
+      "category": "cinematic",
+      "quality_score": 98,
+      "source_url": "https://x.com/drjoetw/status/2041021693062185085",
+      "author": "@drjoetw",
+      "created_at": "2026-04-06T05:14:26.000Z",
+      "tweet_text": "Big heart behind that cat attitude \n(created by Seedance 2 on \n@wavespeed_ai\n )\nPrompt share \n\nSeedance 2 Prompt (15 seconds total, each shot ~0.6–1.2s)\n\nCinematic action-comedy with classical martial arts flair, stylized animal kingdom rural village, surrounded by reflective rice paddies, soft morning mist, warm sunlight diffused through clouds, dynamic camera, highly choreographed physical action, grounded yet fluid movement, practical stunt-inspired choreography, subtle humor.\n\nS1 (0.9s)\nWide shot: A chubby orange cat wearing a bamboo hat and gray Taoist robe walks calmly along a narrow path between rice fields, water reflecting the sky and distant wooden houses.\n\nS2 (0.8s)\nTracking shot: Groups of raccoon-like villagers in 17th-century European peasant clothing pause their work, turning to stare at the cat with puzzled expressions.\n\nS3 (0.9s)\nClose-up: Two raccoon villagers lean in, whispering to each other suspiciously, eyes darting toward the orange cat.\n\nS4 (0.7s)\nUpward tilt: On a second-floor wooden balcony, an elderly black bear lady wearing a white wig and simple peasant dress hangs laundry.\n\nS5 (0.8s)\nAccident: She bumps into a flower pot—time slows—the pot tips over the edge.\n\nS6 (0.7s)\nFalling shot: The flower pot drops rapidly toward a small white rabbit in ragged beggar clothes standing below, unaware.\n\nS7 (0.8s)\nReaction: The bear lady gasps and shouts in panic, reaching out helplessly.\n\nS8 (1.0s)\nAction trigger: The orange cat’s eyes sharpen—instant movement—he pivots and sprints.\n\nS9 (1.0s)\nParkour sequence: He steps onto a wooden cart, kicks off a wall, then rebounds between vertical surfaces in a fluid, multi-step aerial path.\n\nS10 (1.0s)\nMid-air precision: Body twisting, robe flowing, he extends one arm and catches the falling flower pot mid-air, perfectly timed.\n\nS11 (0.9s)\nDescent: Using momentum, he flips and lands lightly on the ground, maintaining balance effortlessly.\n\nS12 (0.8s)\nGentle beat: With his free hand, he casually pats the little white rabbit’s head, reassuring and calm.\n\nS13 (1.0s)\nReaction shot: The black bear lady clutches her chest in relief, then smiles gratefully.\n\nS14 (1.0s)\nCrowd response: The raccoon villagers break into delighted applause, earlier suspicion replaced with admiration.\n\nS15 (1.2s)\nFinal shot: The orange cat adjusts his bamboo hat slightly, standing composed as ripples move through the rice paddies, a subtle confident aura as he looks forward.\n\nMotion & Effects:\nHighly detailed physical choreography, grounded multi-step parkour, precise timing, cloth simulation on robe, environmental interaction (walls, cart, ground), soft motion blur, cinematic camera flow (tracking, tilt, orbit), light comedic tone blended with elegant martial arts action.\n\n#sd2 #seedance #aivideo #CatsLover\n\nYou can access Seedance 2 on  \nhttps://\nwavespeed.ai/models/bytedan\nce/seedance-2.0/text-to-video?ref=shaochiu\n…",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041021617535660032/vid/avc1/1280x720/rQ7WLChogp6uR566.mp4?tag=21",
+      "video": "media/videos/2041021693062185085.mp4"
+    },
+    {
+      "id": "x:2040942938231030140",
+      "text": "Certified bunny love Happy Easter (made with Seedance 2 on @wavespeed_ai ) Prompt share Seedance 2 Prompt (15 seconds total, each shot ~0.6–1.2s) Cinematic dark whimsical drama, 18th-century Paris street at night, light snowfall, moody blue-gray tones, gas lamps glowing through fog, wet cobblestone reflections, stylized historical fantasy, subtle comedic undertone, dynamic camera movement, soft film grain. S1 (0.9s) Wide shot: A white rabbit gentleman in worn-out beggar clothes and an old hat walks alone through a snowy, dimly lit Paris street, breath visible in the cold air, a distant silhouette of the Eiffel Tower faintly visible through fog. S2 (0.8s) Medium tracking shot: The rabbit shivers slightly, hands tucked in sleeves, քայլing slowly past elegant buildings and flickering street lamps. S3 (0.9s) Entrance shot: A noble orange cat lady in a flowing black evening gown walks gracefully into frame, holding a basket filled with colorful Easter eggs. S4 (0.7s) Close-up: The basket sways gently, vibrant eggs contrasting against the dark, muted environment. S5 (0.8s) Sudden tension: A horse carriage bursts into frame, driven recklessly by a hyena dressed as a gray-clad servant, charging toward the cat lady. S6 (0.7s) Impact moment: The carriage nearly hits her—she recoils—basket tilts— S7 (0.8s) Slow-motion: Dozens of Easter eggs fly into the air, spinning, scattering across the snowy street. S8 (1.0s) Action burst: The white rabbit instantly dashes forward with surprising agility, body stretching elastically. S9 (1.0s) Comedic sequence: He catches eggs rapidly using both hands, feet, and even his mouth, juggling multiple at once with exaggerated, goofy facial expressions. S10 (0.8s) Close-up: One egg nearly falls—he flips backward, catching it with his foot mid-air. S11 (0.9s) Final catch: He lands awkwardly but successfully, holding all eggs stacked precariously, cheeks puffed, eyes crossed comically. S12 (0.8s) Reaction shot: The orange cat lady watches, eyes wide, then smiles warmly, clearly impressed. S13 (1.0s) Crowd reveal: Nearby animals in 18th-century attire (foxes, deer, cats, dogs) stop and begin applauding. S14 (1.0s) Emotional beat: The rabbit blushes slightly under his ragged hat, still trying to balance the eggs. S15 (1.2s) Final shot: Snow falls gently as the crowd claps, the orange cat lady nods gracefully in gratitude, warm light reflecting on the rabbit’s face as he stands awkwardly yet proudly. Motion & Effects: Soft snowfall particles, slow-motion physics for flying eggs, exaggerated squash-and-stretch animation, cinematic camera pans and snap zooms, warm vs cold lighting contrast, gentle humor blended with elegant dark fantasy atmosphere. #sd2 #seedance #aivideo Access to #Seedance2: https:// wavespeed.ai/models/bytedan ce/seedance-2.0/text-to-video?ref=shaochiu ...",
+      "display_text": "Cinematic dark whimsical drama, 18th-century Paris street at night, light snowfall, moody blue-gray tones, gas lamps glowing through fog, wet cobblestone reflections, stylized historical fantasy, subtle comedic undertone, dynamic camera movement, soft film grain. S1 (0.9s) Wide shot: A white rabbit gentleman in worn-out beggar clothes and an old hat walks alone through a snowy, dimly lit Paris street, breath visible in the cold air, a distant silhouette of the Eiffel Tower faintly visible through fog. S2 (0.8s) Medium tracking shot: The rabbit shivers slightly, hands tucked in sleeves, քայլing slowly past elegant buildings and flickering street lamps. S3 (0.9s) Entrance shot: A noble orange cat lady in a flowing black evening gown walks gracefully into frame, holding a basket filled with colorful Easter eggs. S4 (0.7s) Close-up: The basket sways gently, vibrant eggs contrasting against the dark, muted environment. S5 (0.8s) Sudden tension: A horse carriage bursts into frame, driven recklessly by a hyena dressed as a gray-clad servant, charging toward the cat lady. S6 (0.7s) Impact moment: The carriage nearly hits her—she recoils—basket tilts— S7 (0.8s) Slow-motion: Dozens of Easter eggs fly into the air, spinning, scattering across the snowy street. S8 (1.0s) Action burst: The white rabbit instantly dashes forward with surprising agility, body stretching elastically. S9 (1.0s) Comedic sequence: He catches eggs rapidly using both hands, feet, and even his mouth, juggling multiple at once with exaggerated, goofy facial expressions. S10 (0.8s) Close-up: One egg nearly falls—he flips backward, catching it with his foot mid-air. S11 (0.9s) Final catch: He lands awkwardly but successfully, holding all eggs stacked precariously, cheeks puffed, eyes crossed comically. S12 (0.8s) Reaction shot: The orange cat lady watches, eyes wide, then smiles warmly, clearly impressed. S13 (1.0s) Crowd reveal: Nearby animals in 18th-century attire (foxes, deer, cats, dogs) stop and begin applauding. S14 (1.0s) Emotional beat: The rabbit blushes slightly under his ragged hat, still trying to balance the eggs. S15 (1.2s) Final shot: Snow falls gently as the crowd claps, the orange cat lady nods gracefully in gratitude, warm light reflecting on the rabbit’s face as he stands awkwardly yet proudly. Motion & Effects: Soft snowfall particles, slow-motion physics for flying eggs, exaggerated squash-and-stretch animation, cinematic camera pans and snap zooms, warm vs cold lighting contrast, gentle humor blended with elegant dark fantasy atmosphere. #sd2 #seedance #aivideo Access to #Seedance2: https:// wavespeed.ai/models/bytedan ce/seedance-2.0/text-to-video?ref=shaochiu ...",
+      "category": "cinematic",
+      "quality_score": 98,
+      "source_url": "https://x.com/drjoetw/status/2040942938231030140",
+      "author": "@drjoetw",
+      "created_at": "2026-04-06T00:01:30.000Z",
+      "tweet_text": "Certified bunny love  Happy Easter \n(made with Seedance 2 on \n@wavespeed_ai\n )\nPrompt share \n\nSeedance 2 Prompt (15 seconds total, each shot ~0.6–1.2s)\n\nCinematic dark whimsical drama, 18th-century Paris street at night, light snowfall, moody blue-gray tones, gas lamps glowing through fog, wet cobblestone reflections, stylized historical fantasy, subtle comedic undertone, dynamic camera movement, soft film grain.\n\nS1 (0.9s)\nWide shot: A white rabbit gentleman in worn-out beggar clothes and an old hat walks alone through a snowy, dimly lit Paris street, breath visible in the cold air, a distant silhouette of the Eiffel Tower faintly visible through fog.\n\nS2 (0.8s)\nMedium tracking shot: The rabbit shivers slightly, hands tucked in sleeves, քայլing slowly past elegant buildings and flickering street lamps.\n\nS3 (0.9s)\nEntrance shot: A noble orange cat lady in a flowing black evening gown walks gracefully into frame, holding a basket filled with colorful Easter eggs.\n\nS4 (0.7s)\nClose-up: The basket sways gently, vibrant eggs contrasting against the dark, muted environment.\n\nS5 (0.8s)\nSudden tension: A horse carriage bursts into frame, driven recklessly by a hyena dressed as a gray-clad servant, charging toward the cat lady.\n\nS6 (0.7s)\nImpact moment: The carriage nearly hits her—she recoils—basket tilts—\n\nS7 (0.8s)\nSlow-motion: Dozens of Easter eggs fly into the air, spinning, scattering across the snowy street.\n\nS8 (1.0s)\nAction burst: The white rabbit instantly dashes forward with surprising agility, body stretching elastically.\n\nS9 (1.0s)\nComedic sequence: He catches eggs rapidly using both hands, feet, and even his mouth, juggling multiple at once with exaggerated, goofy facial expressions.\n\nS10 (0.8s)\nClose-up: One egg nearly falls—he flips backward, catching it with his foot mid-air.\n\nS11 (0.9s)\nFinal catch: He lands awkwardly but successfully, holding all eggs stacked precariously, cheeks puffed, eyes crossed comically.\n\nS12 (0.8s)\nReaction shot: The orange cat lady watches, eyes wide, then smiles warmly, clearly impressed.\n\nS13 (1.0s)\nCrowd reveal: Nearby animals in 18th-century attire (foxes, deer, cats, dogs) stop and begin applauding.\n\nS14 (1.0s)\nEmotional beat: The rabbit blushes slightly under his ragged hat, still trying to balance the eggs.\n\nS15 (1.2s)\nFinal shot: Snow falls gently as the crowd claps, the orange cat lady nods gracefully in gratitude, warm light reflecting on the rabbit’s face as he stands awkwardly yet proudly.\n\nMotion & Effects:\nSoft snowfall particles, slow-motion physics for flying eggs, exaggerated squash-and-stretch animation, cinematic camera pans and snap zooms, warm vs cold lighting contrast, gentle humor blended with elegant dark fantasy atmosphere.\n\n#sd2 #seedance #aivideo\n\nAccess to #Seedance2:\n\nhttps://\nwavespeed.ai/models/bytedan\nce/seedance-2.0/text-to-video?ref=shaochiu\n…",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040775173096574976/vid/avc1/3840x2160/FR-cM5Z0tXJwuiPr.mp4?tag=21",
+      "video": "media/videos/2040942938231030140.mp4"
+    },
+    {
       "id": "x:2040661051948323129",
       "text": "Sun Wukong is my favorite legendary figure. (made with Seedance 2.0 on @yapper_so ) Prompt share Cinematic hyper-dynamic fast-paced multi-shot sequence, epic mythological battlefield, IMAX film simulation, 35mm Panavision lens, f/4, heavy cinematic color grading, dramatic contrast between dark necrotic tones and radiant golden divine light. Shot 1: Extreme close-up on Sun Wukong’s face, covered in dirt and blood, golden eyes flickering with exhaustion yet defiance. His fur is matted, his breathing heavy. He kneels in the center of a ruined battlefield, his golden staff cracked and planted into the ground for support. Around him, countless skeletal warriors slowly close in, their hollow eyes glowing with eerie green fire. Shot 2: Rapid shaky handheld shot circling Wukong. The skeletal army tightens its formation, bones clattering, rusted weapons scraping. Wukong struggles to stand, gripping his staff, as the undead swarm prepares to strike from all directions. Shot 3: Low-angle shot from behind Wukong. Just as the skeletons lunge forward, a faint golden glow begins to emerge behind him, cutting through the darkness like dawn breaking through a storm. Shot 4: Sudden explosive bloom of radiant golden light. A towering Buddha manifestation appears behind Wukong, विशाल and serene, radiating infinite divine energy. The battlefield is instantly bathed in warm, overwhelming golden luminosity. Shot 5: Fast upward tilt. Rows upon rows of celestial soldiers materialize in the sky and on the ground behind the Buddha—heavenly generals clad in ornate golden armor, divine banners flowing, weapons shining with sacred light. Shot 6: Whip-pan across the battlefield. The skeletons freeze mid-attack, their bodies trembling under the pressure of the divine aura. Golden light surges outward like a tidal wave. Shot 7: Ultra-fast sequence of disintegration shots. The skeletal army is instantly reduced to ash—bones crack, dissolve, and scatter into glowing dust, evaporating into nothingness under the overwhelming holy radiance. Shot 8: Wide epic drone pull-back. Wukong stands silhouetted in front of the colossal golden Buddha and the vast heavenly army. The battlefield, once dark and corrupted, is now purified, glowing with divine light. Golden particles drift through the air like sacred snow. Final frame: Freeze in epic tension—Wukong gripping his staff, head slightly bowed, while behind him the Buddha and celestial army radiate infinite power, dominating the horizon. #sd2 #seedance #aivideo #RPG",
       "display_text": "Cinematic hyper-dynamic fast-paced multi-shot sequence, epic mythological battlefield, IMAX film simulation, 35mm Panavision lens, f/4, heavy cinematic color grading, dramatic contrast between dark necrotic tones and radiant golden divine light. Shot 1: Extreme close-up on Sun Wukong’s face, covered in dirt and blood, golden eyes flickering with exhaustion yet defiance. His fur is matted, his breathing heavy. He kneels in the center of a ruined battlefield, his golden staff cracked and planted into the ground for support. Around him, countless skeletal warriors slowly close in, their hollow eyes glowing with eerie green fire. Shot 2: Rapid shaky handheld shot circling Wukong. The skeletal army tightens its formation, bones clattering, rusted weapons scraping. Wukong struggles to stand, gripping his staff, as the undead swarm prepares to strike from all directions. Shot 3: Low-angle shot from behind Wukong. Just as the skeletons lunge forward, a faint golden glow begins to emerge behind him, cutting through the darkness like dawn breaking through a storm. Shot 4: Sudden explosive bloom of radiant golden light. A towering Buddha manifestation appears behind Wukong, विशाल and serene, radiating infinite divine energy. The battlefield is instantly bathed in warm, overwhelming golden luminosity. Shot 5: Fast upward tilt. Rows upon rows of celestial soldiers materialize in the sky and on the ground behind the Buddha—heavenly generals clad in ornate golden armor, divine banners flowing, weapons shining with sacred light. Shot 6: Whip-pan across the battlefield. The skeletons freeze mid-attack, their bodies trembling under the pressure of the divine aura. Golden light surges outward like a tidal wave. Shot 7: Ultra-fast sequence of disintegration shots. The skeletal army is instantly reduced to ash—bones crack, dissolve, and scatter into glowing dust, evaporating into nothingness under the overwhelming holy radiance. Shot 8: Wide epic drone pull-back. Wukong stands silhouetted in front of the colossal golden Buddha and the vast heavenly army. The battlefield, once dark and corrupted, is now purified, glowing with divine light. Golden particles drift through the air like sacred snow. Final frame: Freeze in epic tension—Wukong gripping his staff, head slightly bowed, while behind him the Buddha and celestial army radiate infinite power, dominating the horizon.",
@@ -766,10 +1203,10 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T23:00:22Z",
+        "reviewed_at": "2026-04-06T11:24:24Z",
         "engine": "internal_rules_v1"
       },
-      "video_url": "https://video.twimg.com/ext_tw_video/2040857154622480384/pu/vid/avc1/1280x720/GnAgqacSMtibO3rU.mp4?tag=12",
+      "video_url": "https://video.twimg.com/amplify_video/2040937494016077824/vid/avc1/3840x2160/khlWzmztlOYAReYY.mp4?tag=21",
       "video": "media/videos/2040857178483876285.mp4"
     },
     {
@@ -798,7 +1235,10 @@
         "action": "reject",
         "reason": "off_target",
         "timestamp": "2026-04-05T11:11:41.456Z"
-      }
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2040733812464721920/pu/vid/avc1/1280x720/Ok22KHnrRZQmM1D-.mp4?tag=12",
+      "thumbnail": "media/thumbs/2040733843418702232.webp",
+      "video": "media/videos/2040733843418702232.mp4"
     },
     {
       "id": "x:2040458193206423784",
@@ -820,7 +1260,10 @@
         "reasons": [],
         "reviewed_at": "2026-04-05T23:00:22Z",
         "engine": "internal_rules_v1"
-      }
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040457579269402624/vid/avc1/2160x3840/2jmqbYqpCHfxF5aM.mp4",
+      "thumbnail": "media/thumbs/2040458193206423784.webp",
+      "video": "media/videos/2040458193206423784.mp4"
     },
     {
       "id": "x:2040821068605395281",
@@ -840,11 +1283,35 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T23:00:22Z",
+        "reviewed_at": "2026-04-06T11:24:24Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2040820991295938560/vid/avc1/1280x720/5kNFvkHVoBNbdO2H.mp4?tag=21",
       "video": "media/videos/2040821068605395281.mp4"
+    },
+    {
+      "id": "x:2041091109254774913",
+      "text": "You were asking if artificial intelligence can produce videos this realistic. Here's the answer. I generated this video on OpenArt using Seedance 2.0. Single prompt, zero editing. Future technology, warehouse robot... @openart_ai makes this possible. ByteDance's Seedance 2.0 model is now directly on the platform. You can use text, visual, audio, and video references all at once. 4K resolution, cinematic camera movements, synchronized audio—whatever you want....",
+      "display_text": "cinematic camera movements, synchronized audio—whatever you want....",
+      "category": "cinematic",
+      "quality_score": 93,
+      "source_url": "https://x.com/efecim1sn/status/2041091109254774913",
+      "author": "@efecim1sn",
+      "created_at": "2026-04-06T09:50:16.000Z",
+      "tweet_text": "You were asking if artificial intelligence can produce videos this realistic.  \nHere's the answer.  \nI generated this video on OpenArt using Seedance 2.0. Single prompt, zero editing.  \nFuture technology, warehouse robot…  \n\n\n@openart_ai\n makes this possible.  \nByteDance's Seedance 2.0 model is now directly on the platform. You can use text, visual, audio, and video references all at once. 4K resolution, cinematic camera movements, synchronized audio—whatever you want….",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041090966044422144/vid/avc1/1920x1080/nU9Oa180sDX5i8Gg.mp4?tag=21",
+      "video": "media/videos/2041091109254774913.mp4"
     },
     {
       "id": "x:2040855637685313797",
@@ -888,10 +1355,11 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T23:00:23Z",
+        "reviewed_at": "2026-04-06T11:24:24Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2040735013227188224/vid/avc1/1280x720/eRo5KMYejsSwAxoL.mp4?tag=21",
+      "thumbnail": "media/thumbs/2040735742654378248.webp",
       "video": "media/videos/2040735742654378248.mp4"
     },
     {
@@ -920,7 +1388,34 @@
         "action": "reject",
         "reason": "trim_too_hard",
         "timestamp": "2026-04-05T11:09:03.463Z"
-      }
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2039043800551522304/pu/vid/avc1/1280x720/Tv0K_AS7VcGmBHzc.mp4?tag=12",
+      "thumbnail": "media/thumbs/2039043824907935790.webp",
+      "video": "media/videos/2039043824907935790.mp4"
+    },
+    {
+      "id": "x:2041087879095464375",
+      "text": "Mockumentary (Vlog Style) As long as it can be imagined and described accurately and clearly, I feel like Seedance 2.0 can generate it all Seedance 2.0 prompt Style: Mockumentary (Vlog Style), hyper-realism, fixed camera real-shot feel, natural light, suspense comedy vibe, mobile phone vertical screen shooting texture Duration: 15 seconds Scene: Ordinary family living room, in front of white walls, afternoon sidelight streaming in from the window, yoga mat on the floor, clear human shadows projected on the wall Characters: Female lead @image1 , wearing a sports tank top and yoga pants, ponytail, recording a dance video against a phone tripod [00:00-00:05] Shot 1: Everyday Setup (Normalcy / Fixed Camera) Frame: Fixed camera medium shot, phone selfie perspective. Action: Female lead makes a heart gesture to the camera, then starts dancing a simple popular TikTok routine, movements a bit clumsy, occasionally glancing at the phone on the floor for cues. Key Details: At this point, the shadow on the wall is completely normal, perfectly in sync with her movements. Background is quiet, only the music from the Bluetooth speaker playing. Atmosphere: Utterly everyday, no hints of anything unusual. [00:05-00:11] Shot 2: BUG Emerges (The Glitch / Same Fixed Camera) Action: Female lead repeats the same dance segment, and midway through a turn— High-Energy Moment (Core Punch): The shadow on the wall suddenly **doesn't follow the turn**, instead switching on its own to a completely different set of high-difficulty street dance moves (Breaking Power Move), the shadow executing a flawless Thomas full spin on the wall, smooth and fluid. Female lead hasn't noticed yet, keeps dancing her simple steps, but the shadow has fully broken sync, going wild with a solo on the wall. Director's Note: The shadow's dance skills should clearly outclass the body. The bigger the contrast in their moves, the stronger the comedy—body doing the \"I Love You\" hand gesture dance, shadow pulling off windmill floor moves. [00:11-00:15] Shot 3: Comedy Reversal (The Punchline / Same Fixed Camera) Action: Female lead finishes dancing and looks back at the phone replay, spots the shadow's anomaly, whips her head around to glare at the wall. Result: The shadow has now reverted to normal—obediently mirroring every one of her movements. Female lead suspiciously raises her right hand slowly, shadow raises its right hand too. She quickly switches to left hand—shadow follows without a hitch. Final Freeze: Female lead with a \"Am I losing my mind?\" expression straight to the camera, but in the last 0.5 seconds before the frame ends, the shadow sneaks in a peace sign gesture the instant she looks at the lens. Frame freezes on this beat.",
+      "display_text": "Style: Mockumentary (Vlog Style), hyper-realism, fixed camera real-shot feel, natural light, suspense comedy vibe, mobile phone vertical screen shooting texture Duration: 15 seconds Scene: Ordinary family living room, in front of white walls, afternoon sidelight streaming in from the window, yoga mat on the floor, clear human shadows projected on the wall Characters: Female lead @image1 , wearing a sports tank top and yoga pants, ponytail, recording a dance video against a phone tripod [00:00-00:05] Shot 1: Everyday Setup (Normalcy / Fixed Camera) Frame: Fixed camera medium shot, phone selfie perspective. Action: Female lead makes a heart gesture to the camera, then starts dancing a simple popular TikTok routine, movements a bit clumsy, occasionally glancing at the phone on the floor for cues. Key Details: At this point, the shadow on the wall is completely normal, perfectly in sync with her movements. Background is quiet, only the music from the Bluetooth speaker playing. Atmosphere: Utterly everyday, no hints of anything unusual. [00:05-00:11] Shot 2: BUG Emerges (The Glitch / Same Fixed Camera) Action: Female lead repeats the same dance segment, and midway through a turn— High-Energy Moment (Core Punch): The shadow on the wall suddenly **doesn't follow the turn**, instead switching on its own to a completely different set of high-difficulty street dance moves (Breaking Power Move), the shadow executing a flawless Thomas full spin on the wall, smooth and fluid. Female lead hasn't noticed yet, keeps dancing her simple steps, but the shadow has fully broken sync, going wild with a solo on the wall. Director's Note: The shadow's dance skills should clearly outclass the body. The bigger the contrast in their moves, the stronger the comedy—body doing the \"I Love You\" hand gesture dance, shadow pulling off windmill floor moves. [00:11-00:15] Shot 3: Comedy Reversal (The Punchline / Same Fixed Camera) Action: Female lead finishes dancing and looks back at the phone replay, spots the shadow's anomaly, whips her head around to glare at the wall. Result: The shadow has now reverted to normal—obediently mirroring every one of her movements. Female lead suspiciously raises her right hand slowly, shadow raises its right hand too. She quickly switches to left hand—shadow follows without a hitch. Final Freeze: Female lead with a \"Am I losing my mind?\" expression straight to the camera, but in the last 0.5 seconds before the frame ends, the shadow sneaks in a peace sign gesture the instant she looks at the lens. Frame freezes on this beat.",
+      "category": "social-content",
+      "quality_score": 91,
+      "source_url": "https://x.com/johnAGI168/status/2041087879095464375",
+      "author": "@johnAGI168",
+      "created_at": "2026-04-06T09:37:26.000Z",
+      "tweet_text": "Mockumentary (Vlog Style)\n\nAs long as it can be imagined and described accurately and clearly, I feel like Seedance 2.0 can generate it all \n\nSeedance 2.0 prompt \n\nStyle: Mockumentary (Vlog Style), hyper-realism, fixed camera real-shot feel, natural light, suspense comedy vibe, mobile phone vertical screen shooting texture  \nDuration: 15 seconds  \nScene: Ordinary family living room, in front of white walls, afternoon sidelight streaming in from the window, yoga mat on the floor, clear human shadows projected on the wall  \nCharacters: Female lead \n@image1\n, wearing a sports tank top and yoga pants, ponytail, recording a dance video against a phone tripod  \n\n[00:00-00:05] Shot 1: Everyday Setup (Normalcy / Fixed Camera)  \nFrame: Fixed camera medium shot, phone selfie perspective.  \nAction: Female lead makes a heart gesture to the camera, then starts dancing a simple popular TikTok routine, movements a bit clumsy, occasionally glancing at the phone on the floor for cues.  \nKey Details: At this point, the shadow on the wall is completely normal, perfectly in sync with her movements. Background is quiet, only the music from the Bluetooth speaker playing.  \nAtmosphere: Utterly everyday, no hints of anything unusual.  \n\n[00:05-00:11] Shot 2: BUG Emerges (The Glitch / Same Fixed Camera)  \nAction: Female lead repeats the same dance segment, and midway through a turn—  \nHigh-Energy Moment (Core Punch): The shadow on the wall suddenly **doesn't follow the turn**, instead switching on its own to a completely different set of high-difficulty street dance moves (Breaking Power Move), the shadow executing a flawless Thomas full spin on the wall, smooth and fluid. Female lead hasn't noticed yet, keeps dancing her simple steps, but the shadow has fully broken sync, going wild with a solo on the wall.  \nDirector's Note: The shadow's dance skills should clearly outclass the body. The bigger the contrast in their moves, the stronger the comedy—body doing the \"I Love You\" hand gesture dance, shadow pulling off windmill floor moves.  \n\n[00:11-00:15] Shot 3: Comedy Reversal (The Punchline / Same Fixed Camera)  \nAction: Female lead finishes dancing and looks back at the phone replay, spots the shadow's anomaly, whips her head around to glare at the wall.  \nResult: The shadow has now reverted to normal—obediently mirroring every one of her movements. Female lead suspiciously raises her right hand slowly, shadow raises its right hand too. She quickly switches to left hand—shadow follows without a hitch.  \nFinal Freeze: Female lead with a \"Am I losing my mind?\" expression straight to the camera, but in the last 0.5 seconds before the frame ends, the shadow sneaks in a peace sign gesture the instant she looks at the lens. Frame freezes on this beat.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040937494016077824/vid/avc1/3840x2160/khlWzmztlOYAReYY.mp4?tag=21",
+      "video": "media/videos/2041087879095464375.mp4"
     },
     {
       "id": "x:2040071556949217581",
@@ -944,7 +1439,80 @@
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2040044505366503424/vid/avc1/1920x1080/dfVH_kcts2CTMV9v.mp4?tag=21",
-      "video": "media/videos/2040071556949217581.mp4"
+      "video": "media/videos/2040071556949217581.mp4",
+      "thumbnail": "media/thumbs/2040071556949217581.webp"
+    },
+    {
+      "id": "x:2041071417278754879",
+      "text": "Seedance2.0 機体の高速移動 prompt 针对您提供的巨大机甲 <<<Image1>>> (RAY-G),我为您设计了一份时长 15秒、风格极其干练、时髦(Stylish)且充满重力无视感的高速移动视频脚本。 这份提示词融合了《机动战士高达:水星的魔女》的灵动感与《金属装备》的机械冷硬风,重点在于**“瞬间爆发力”与“流线型轨迹”**。 视频生成脚本:【RAY-G: 极速切点 (Point Break)】 总时长: 15秒 风格标签: 极简主义、硬核机甲、高帧率动作、流体动力学、赛璐璐高级感。 (00:00 - 03:00) 序幕:静止的动量 (Static Potential) 镜头: 极近景(Extreme Close-up),斜角构图。 画面: 画面中心是 <<<Image1>>> 漆黑磨砂装甲上的橙色线条。线条开始像血管一样有节奏地剧烈闪烁,发出高频的嗡鸣声。 特效: 空气因高温产生剧烈扭曲(Heat Haze),背景的海面保持极度的静谧,形成动静反差。 [Prompt / 提示词]: 极近景,斜角构图。聚焦于机甲 <<<Image1>>> 的黑色磨砂装甲。鲜艳的橙色线条像呼吸灯一样高频闪烁。装甲缝隙喷射出极细的白色高压蒸汽。环境背景模糊。极简主义色彩,电影级质感,金属冷硬风格。 (03:00 - 06:00) 瞬发:突破音障 (Instant Acceleration) 镜头: 侧面追踪镜头(Side Tracking Shot),伴随强烈的拉伸感(FOV Shift)。 动作: 机甲 @image2 的鸟脚状后肢猛地一踏,脚踝处的滑轮(Land Spinner)高速旋转。瞬间从静止变为超音速,海面被切开一道笔直的白浪。 特效: 产生圆锥形的音爆云(Sonic Boom),橙色残影在空中拉出一道锋利的直线。 [Prompt / 提示词]: 侧面动态追踪。机甲 @image2 瞬间爆发起跑。足部滑轮高速旋转,在海面上切开巨大的V形浪花。超音速冲击波云。极速运动模糊,机甲拉出长长的橙色轨迹残影。空间拉伸感,震撼的加速度视觉。 (06:00 - 10:00) 垂直机动:重力反转 (Vertical Evasion) 镜头: 动态环绕升降镜头(Crane & Orbit)。 动作: 机甲奔向一座半毁的沿海巨塔,完全不减速,直接顺着垂直的墙面向上冲刺。它在垂直墙面上进行了一个华丽的180度螺旋转身,避开假想的攻击。 特效: 碎裂的玻璃碎片在空中飞舞,折射出夕阳的橙光。 [Prompt / 提示词]: 动态环绕镜头。机甲 <<<Image1>>> 在垂直建筑物表面高速冲刺,无视重力。身体进行优雅的螺旋旋转(Barrel Roll)。碎片飞溅,反射夕阳橙光。高对比度阴影,赛璐璐动画风格,极具张力的动作设计。 (10:00 - 13:00) 高光:战术滑行 (Tactical Slide) 镜头: 极低角度(Low Angle)对准足部。 动作: 机甲从高处跃下,足部在海面上进行长距离的漂移滑行。身体压低至极限,呈现掠食者般的姿态。 特效: 巨量的水雾被激起,在阳光下形成彩虹。 [Prompt / 提示词]: 极低角度。机甲 <<<Image1>>> 在海面上低重心漂移滑行。巨大的白色浪花与水雾。掠食者姿态,机械关节细致运作。夕阳余晖,金属反光,色彩饱和度极高,极致的画面纯净感。 (13:00 - 15:00) 尾声:单眼凝视 (The Glare) 镜头: 正面近景,逐渐变焦。 动作: 机甲滑行停止,身体由于惯性轻微晃动。头部导向板打开,中心那颗发光的青绿色单眼(Monocular)猛地看向镜头。 特效: 画面最后瞬间闪过一个“LOCK ON”的橙色UI界面,随即切黑。 [Prompt / 提示词]: 正面近景。机甲 @image2 停止滑行,蒸汽散去。头部青绿色单眼亮起,锐利冷酷。屏幕中心出现橙色锁定UI。电影级运镜,画面骤然切黑。",
+      "display_text": "Seedance2.0 機体の高速移動 prompt 针对您提供的巨大机甲 <<<Image1>>> (RAY-G),我为您设计了一份时长 15秒、风格极其干练、时髦(Stylish)且充满重力无视感的高速移动视频脚本。 这份提示词融合了《机动战士高达:水星的魔女》的灵动感与《金属装备》的机械冷硬风,重点在于**“瞬间爆发力”与“流线型轨迹”**。 视频生成脚本:【RAY-G: 极速切点 (Point Break)】 总时长: 15秒 风格标签: 极简主义、硬核机甲、高帧率动作、流体动力学、赛璐璐高级感。 (00:00 - 03:00) 序幕:静止的动量 (Static Potential) 镜头: 极近景(Extreme Close-up),斜角构图。 画面: 画面中心是 <<<Image1>>> 漆黑磨砂装甲上的橙色线条。线条开始像血管一样有节奏地剧烈闪烁,发出高频的嗡鸣声。 特效: 空气因高温产生剧烈扭曲(Heat Haze),背景的海面保持极度的静谧,形成动静反差。 [Prompt / 提示词]: 极近景,斜角构图。聚焦于机甲 <<<Image1>>> 的黑色磨砂装甲。鲜艳的橙色线条像呼吸灯一样高频闪烁。装甲缝隙喷射出极细的白色高压蒸汽。环境背景模糊。极简主义色彩,电影级质感,金属冷硬风格。 (03:00 - 06:00) 瞬发:突破音障 (Instant Acceleration) 镜头: 侧面追踪镜头(Side Tracking Shot),伴随强烈的拉伸感(FOV Shift)。 动作: 机甲 @image2 的鸟脚状后肢猛地一踏,脚踝处的滑轮(Land Spinner)高速旋转。瞬间从静止变为超音速,海面被切开一道笔直的白浪。 特效: 产生圆锥形的音爆云(Sonic Boom),橙色残影在空中拉出一道锋利的直线。 [Prompt / 提示词]: 侧面动态追踪。机甲 @image2 瞬间爆发起跑。足部滑轮高速旋转,在海面上切开巨大的V形浪花。超音速冲击波云。极速运动模糊,机甲拉出长长的橙色轨迹残影。空间拉伸感,震撼的加速度视觉。 (06:00 - 10:00) 垂直机动:重力反转 (Vertical Evasion) 镜头: 动态环绕升降镜头(Crane & Orbit)。 动作: 机甲奔向一座半毁的沿海巨塔,完全不减速,直接顺着垂直的墙面向上冲刺。它在垂直墙面上进行了一个华丽的180度螺旋转身,避开假想的攻击。 特效: 碎裂的玻璃碎片在空中飞舞,折射出夕阳的橙光。 [Prompt / 提示词]: 动态环绕镜头。机甲 <<<Image1>>> 在垂直建筑物表面高速冲刺,无视重力。身体进行优雅的螺旋旋转(Barrel Roll)。碎片飞溅,反射夕阳橙光。高对比度阴影,赛璐璐动画风格,极具张力的动作设计。 (10:00 - 13:00) 高光:战术滑行 (Tactical Slide) 镜头: 极低角度(Low Angle)对准足部。 动作: 机甲从高处跃下,足部在海面上进行长距离的漂移滑行。身体压低至极限,呈现掠食者般的姿态。 特效: 巨量的水雾被激起,在阳光下形成彩虹。 [Prompt / 提示词]: 极低角度。机甲 <<<Image1>>> 在海面上低重心漂移滑行。巨大的白色浪花与水雾。掠食者姿态,机械关节细致运作。夕阳余晖,金属反光,色彩饱和度极高,极致的画面纯净感。 (13:00 - 15:00) 尾声:单眼凝视 (The Glare) 镜头: 正面近景,逐渐变焦。 动作: 机甲滑行停止,身体由于惯性轻微晃动。头部导向板打开,中心那颗发光的青绿色单眼(Monocular)猛地看向镜头。 特效: 画面最后瞬间闪过一个“LOCK ON”的橙色UI界面,随即切黑。 [Prompt / 提示词]: 正面近景。机甲 @image2 停止滑行,蒸汽散去。头部青绿色单眼亮起,锐利冷酷。屏幕中心出现橙色锁定UI。电影级运镜,画面骤然切黑。",
+      "category": "cinematic",
+      "quality_score": 90,
+      "source_url": "https://x.com/MiraMusic_AI/status/2041071417278754879",
+      "author": "@MiraMusic_AI",
+      "created_at": "2026-04-06T08:32:01.000Z",
+      "tweet_text": "Seedance2.0\n機体の高速移動\n\nprompt\n\n针对您提供的巨大机甲 <<<Image1>>>   (RAY-G)，我为您设计了一份时长 15秒、风格极其干练、时髦（Stylish）且充满重力无视感的高速移动视频脚本。\n\n这份提示词融合了《机动战士高达：水星的魔女》的灵动感与《金属装备》的机械冷硬风，重点在于**“瞬间爆发力”与“流线型轨迹”**。\n\n视频生成脚本：【RAY-G: 极速切点 (Point Break)】\n总时长： 15秒\n\n风格标签： 极简主义、硬核机甲、高帧率动作、流体动力学、赛璐璐高级感。\n\n(00:00 - 03:00) 序幕：静止的动量 (Static Potential)\n镜头： 极近景（Extreme Close-up），斜角构图。\n\n画面： 画面中心是 <<<Image1>>>   漆黑磨砂装甲上的橙色线条。线条开始像血管一样有节奏地剧烈闪烁，发出高频的嗡鸣声。\n\n特效： 空气因高温产生剧烈扭曲（Heat Haze），背景的海面保持极度的静谧，形成动静反差。\n\n[Prompt / 提示词]:\n\n极近景，斜角构图。聚焦于机甲 <<<Image1>>>   的黑色磨砂装甲。鲜艳的橙色线条像呼吸灯一样高频闪烁。装甲缝隙喷射出极细的白色高压蒸汽。环境背景模糊。极简主义色彩，电影级质感，金属冷硬风格。\n\n(03:00 - 06:00) 瞬发：突破音障 (Instant Acceleration)\n镜头： 侧面追踪镜头（Side Tracking Shot），伴随强烈的拉伸感（FOV Shift）。\n\n动作： 机甲 \n@image2\n 的鸟脚状后肢猛地一踏，脚踝处的滑轮（Land Spinner）高速旋转。瞬间从静止变为超音速，海面被切开一道笔直的白浪。\n\n特效： 产生圆锥形的音爆云（Sonic Boom），橙色残影在空中拉出一道锋利的直线。\n\n[Prompt / 提示词]:\n\n侧面动态追踪。机甲 \n@image2\n 瞬间爆发起跑。足部滑轮高速旋转，在海面上切开巨大的V形浪花。超音速冲击波云。极速运动模糊，机甲拉出长长的橙色轨迹残影。空间拉伸感，震撼的加速度视觉。\n\n(06:00 - 10:00) 垂直机动：重力反转 (Vertical Evasion)\n镜头： 动态环绕升降镜头（Crane & Orbit）。\n\n动作： 机甲奔向一座半毁的沿海巨塔，完全不减速，直接顺着垂直的墙面向上冲刺。它在垂直墙面上进行了一个华丽的180度螺旋转身，避开假想的攻击。\n\n特效： 碎裂的玻璃碎片在空中飞舞，折射出夕阳的橙光。\n\n[Prompt / 提示词]:\n\n动态环绕镜头。机甲 <<<Image1>>>   在垂直建筑物表面高速冲刺，无视重力。身体进行优雅的螺旋旋转（Barrel Roll）。碎片飞溅，反射夕阳橙光。高对比度阴影，赛璐璐动画风格，极具张力的动作设计。\n\n(10:00 - 13:00) 高光：战术滑行 (Tactical Slide)\n镜头： 极低角度（Low Angle）对准足部。\n\n动作： 机甲从高处跃下，足部在海面上进行长距离的漂移滑行。身体压低至极限，呈现掠食者般的姿态。\n\n特效： 巨量的水雾被激起，在阳光下形成彩虹。\n\n[Prompt / 提示词]:\n\n极低角度。机甲 <<<Image1>>>   在海面上低重心漂移滑行。巨大的白色浪花与水雾。掠食者姿态，机械关节细致运作。夕阳余晖，金属反光，色彩饱和度极高，极致的画面纯净感。\n\n(13:00 - 15:00) 尾声：单眼凝视 (The Glare)\n镜头： 正面近景，逐渐变焦。\n\n动作： 机甲滑行停止，身体由于惯性轻微晃动。头部导向板打开，中心那颗发光的青绿色单眼（Monocular）猛地看向镜头。\n\n特效： 画面最后瞬间闪过一个“LOCK ON”的橙色UI界面，随即切黑。\n\n[Prompt / 提示词]:\n\n正面近景。机甲 \n@image2\n 停止滑行，蒸汽散去。头部青绿色单眼亮起，锐利冷酷。屏幕中心出现橙色锁定UI。电影级运镜，画面骤然切黑。",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041071340426600448/vid/avc1/720x1280/DpV3DBISqzazk9zi.mp4?tag=21",
+      "video": "media/videos/2041071417278754879.mp4"
+    },
+    {
+      "id": "x:2041051768948498624",
+      "text": "Create epic 1-take cinematic FPV shots from just text! Meet Seedance 2.0 on @TryNoviAI : Seamless air-to-underwater transitions Pro camera maneuvers 8K Physics-driven logic Steal the Poseidon prompt in the thread below https:// noviai.ai #Seedance2",
+      "display_text": "in the thread below https:// noviai.ai #Seedance2",
+      "category": "cinematic",
+      "quality_score": 90,
+      "source_url": "https://x.com/zidich/status/2041051768948498624",
+      "author": "@zidich",
+      "created_at": "2026-04-06T07:13:57.000Z",
+      "tweet_text": "Create epic 1-take cinematic FPV shots from just text! \nMeet Seedance 2.0 on \n@TryNoviAI\n :  Seamless air-to-underwater transitions  Pro camera maneuvers 8K Physics-driven logic\nSteal the Poseidon prompt in the thread below   \nhttps://\nnoviai.ai\n#Seedance2",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041049735679868928/vid/avc1/1280x720/vqbiTDPExy252-0r.mp4?tag=14",
+      "video": "media/videos/2041051768948498624.mp4"
+    },
+    {
+      "id": "x:2040995068757397871",
+      "text": "無重力アクションシーン すごくいい感じに表現してくれます。 seedance2.0 @TopviewAIhq prompt 15-second continuous single-shot action sequence. No cuts. No scene transitions. Japanese-style anime action aesthetics, ultra-detailed, cinematic quality, with a cool color palette of cold whites, pale blues, and subtle neon reflections. Floating debris suspended in the air, dynamic motion, dramatic lighting, high-end anime film look. Character: A petite anime girl with long silver-white hair styled in twin low sections, soft layered strands flowing weightlessly, with subtle iridescent color streaks (cyan, magenta, yellow accents). Large teal-green eyes, calm and emotionless with a faint hint of softness. Wearing a black futuristic tactical jacket covered in multicolor glitch-like paint patterns (RGB splashes), high collar partially covering her mouth, multiple belts, pouches, and mechanical details. Equipped with sleek high-tech headphones with glowing accents. Slim build, delicate but precise movements. Weapon: A minimalist black katana with subtle reflective edge, clean and elegant design. Scene: Interior of a white, ethereal zero-gravity space. The environment is minimalistic and surreal, with soft glowing light, broken gravity, floating fragments of panels and geometric debris drifting slowly. The space feels silent, vast, and dreamlike. 0–3s — tension Camera drifts slowly in zero gravity. The girl floats in mid-air, hair and jacket drifting softly. She holds the katana loosely, body relaxed but ready. Tiny debris particles pass by in slow motion. 3–6s — ignition Enemy figures (abstract humanoid silhouettes, minimal detail) push off floating surfaces and rush toward her from multiple directions. She slightly tilts her head, eyes tracking movement precisely. 6–10s — chaos choreography Combat begins in full 360° zero-gravity space. She spins gracefully mid-air, body rotating fluidly while executing precise katana strikes. Each slash is clean and controlled, leaving faint neon trails (cool blue/purple). Camera follows her in a smooth tumbling motion, synchronized with her rotation, maintaining cinematic clarity. 10–13s — escalation She lightly touches a floating fragment with her foot, then forcefully launches herself forward. High-speed dash across multiple enemies in a straight, elegant line. Time slightly compresses, emphasizing speed and precision. 13–15s — final frame Motion slows down. Enemy bodies drift apart silently in zero gravity. She stabilizes her posture, floating upright. Hair and jacket settle gently. She lowers the katana slightly. Final frame holds on her calm expression in the white void. Freeze.",
+      "display_text": "無重力アクションシーン すごくいい感じに表現してくれます。 seedance2.0 @TopviewAIhq prompt 15-second continuous single-shot action sequence. No cuts. No scene transitions. Japanese-style anime action aesthetics, ultra-detailed, cinematic quality, with a cool color palette of cold whites, pale blues, and subtle neon reflections. Floating debris suspended in the air, dynamic motion, dramatic lighting, high-end anime film look. Character: A petite anime girl with long silver-white hair styled in twin low sections, soft layered strands flowing weightlessly, with subtle iridescent color streaks (cyan, magenta, yellow accents). Large teal-green eyes, calm and emotionless with a faint hint of softness. Wearing a black futuristic tactical jacket covered in multicolor glitch-like paint patterns (RGB splashes), high collar partially covering her mouth, multiple belts, pouches, and mechanical details. Equipped with sleek high-tech headphones with glowing accents. Slim build, delicate but precise movements. Weapon: A minimalist black katana with subtle reflective edge, clean and elegant design. Scene: Interior of a white, ethereal zero-gravity space. The environment is minimalistic and surreal, with soft glowing light, broken gravity, floating fragments of panels and geometric debris drifting slowly. The space feels silent, vast, and dreamlike. 0–3s — tension Camera drifts slowly in zero gravity. The girl floats in mid-air, hair and jacket drifting softly. She holds the katana loosely, body relaxed but ready. Tiny debris particles pass by in slow motion. 3–6s — ignition Enemy figures (abstract humanoid silhouettes, minimal detail) push off floating surfaces and rush toward her from multiple directions. She slightly tilts her head, eyes tracking movement precisely. 6–10s — chaos choreography Combat begins in full 360° zero-gravity space. She spins gracefully mid-air, body rotating fluidly while executing precise katana strikes. Each slash is clean and controlled, leaving faint neon trails (cool blue/purple). Camera follows her in a smooth tumbling motion, synchronized with her rotation, maintaining cinematic clarity. 10–13s — escalation She lightly touches a floating fragment with her foot, then forcefully launches herself forward. High-speed dash across multiple enemies in a straight, elegant line. Time slightly compresses, emphasizing speed and precision. 13–15s — final frame Motion slows down. Enemy bodies drift apart silently in zero gravity. She stabilizes her posture, floating upright. Hair and jacket settle gently. She lowers the katana slightly. Final frame holds on her calm expression in the white void. Freeze.",
+      "category": "cinematic",
+      "quality_score": 90,
+      "source_url": "https://x.com/MiraMusic_AI/status/2040995068757397871",
+      "author": "@MiraMusic_AI",
+      "created_at": "2026-04-06T03:28:38.000Z",
+      "tweet_text": "無重力アクションシーン\nすごくいい感じに表現してくれます。\nseedance2.0\n\n@TopviewAIhq\n \n\nprompt\n\n15-second continuous single-shot action sequence.\nNo cuts. No scene transitions.\n\nJapanese-style anime action aesthetics, ultra-detailed, cinematic quality, with a cool color palette of cold whites, pale blues, and subtle neon reflections. Floating debris suspended in the air, dynamic motion, dramatic lighting, high-end anime film look.\n\nCharacter:\nA petite anime girl with long silver-white hair styled in twin low sections, soft layered strands flowing weightlessly, with subtle iridescent color streaks (cyan, magenta, yellow accents). Large teal-green eyes, calm and emotionless with a faint hint of softness. Wearing a black futuristic tactical jacket covered in multicolor glitch-like paint patterns (RGB splashes), high collar partially covering her mouth, multiple belts, pouches, and mechanical details. Equipped with sleek high-tech headphones with glowing accents. Slim build, delicate but precise movements.\n\nWeapon:\nA minimalist black katana with subtle reflective edge, clean and elegant design.\n\nScene:\nInterior of a white, ethereal zero-gravity space. The environment is minimalistic and surreal, with soft glowing light, broken gravity, floating fragments of panels and geometric debris drifting slowly. The space feels silent, vast, and dreamlike.\n\n0–3s — tension  \nCamera drifts slowly in zero gravity.  \nThe girl floats in mid-air, hair and jacket drifting softly.  \nShe holds the katana loosely, body relaxed but ready.  \nTiny debris particles pass by in slow motion.\n\n3–6s — ignition  \nEnemy figures (abstract humanoid silhouettes, minimal detail) push off floating surfaces and rush toward her from multiple directions.  \nShe slightly tilts her head, eyes tracking movement precisely.\n\n6–10s — chaos choreography  \nCombat begins in full 360° zero-gravity space.  \nShe spins gracefully mid-air, body rotating fluidly while executing precise katana strikes.  \nEach slash is clean and controlled, leaving faint neon trails (cool blue/purple).  \nCamera follows her in a smooth tumbling motion, synchronized with her rotation, maintaining cinematic clarity.\n\n10–13s — escalation  \nShe lightly touches a floating fragment with her foot, then forcefully launches herself forward.  \nHigh-speed dash across multiple enemies in a straight, elegant line.  \nTime slightly compresses, emphasizing speed and precision.\n\n13–15s — final frame  \nMotion slows down.  \nEnemy bodies drift apart silently in zero gravity.  \nShe stabilizes her posture, floating upright.  \nHair and jacket settle gently.  \nShe lowers the katana slightly.  \nFinal frame holds on her calm expression in the white void. Freeze.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040994991657603072/vid/avc1/1280x720/zMsjo0mGrBFDr4NM.mp4?tag=21",
+      "video": "media/videos/2040995068757397871.mp4"
     },
     {
       "id": "x:2040667542390190245",
@@ -1001,7 +1569,10 @@
       "admin_feedback": {
         "action": "approve",
         "timestamp": "2026-04-05T11:09:11.022Z"
-      }
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2039310375704051712/vid/avc1/956x720/MOkjdmFB-aOYBKJe.mp4?tag=14",
+      "thumbnail": "media/thumbs/2039310403973620174.webp",
+      "video": "media/videos/2039310403973620174.mp4"
     },
     {
       "id": "x:2039290009354707379",
@@ -1028,7 +1599,58 @@
       "admin_feedback": {
         "action": "approve",
         "timestamp": "2026-04-05T11:09:14.685Z"
-      }
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2039289796968017920/vid/avc1/1280x720/edlTyjNMOlVSS-kr.mp4",
+      "thumbnail": "media/thumbs/2039290009354707379.webp",
+      "video": "media/videos/2039290009354707379.mp4"
+    },
+    {
+      "id": "x:2041062516785353049",
+      "text": "\"15-second Original Desert Martial Arts Short Film: A black cat warrior in light armor stands alone in a desert where yellow sand is flying all over the sky, facing the pursuers. The shots combine slow motion and fast editing; under backlight, the yellow sand rolls like ink mist. The character's movements are elegant yet ferocious, with tattered but flowing robes. Holding a short weapon, he shuttles and counterattacks at high speed. The overall tone is cold, lonely and oppressive, with high-end colors and obvious shallow depth of field, just like a high-quality oriental martial arts movie.\"",
+      "display_text": "\"15-second Original Desert Martial Arts Short Film: A black cat warrior in light armor stands alone in a desert where yellow sand is flying all over the sky, facing the pursuers. The shots combine slow motion and fast editing; under backlight, the yellow sand rolls like ink mist. The character's movements are elegant yet ferocious, with tattered but flowing robes. Holding a short weapon, he shuttles and counterattacks at high speed. The overall tone is cold, lonely and oppressive, with high-end colors and obvious shallow depth of field, just like a high-quality oriental martial arts movie.\"",
+      "category": "cinematic",
+      "quality_score": 88,
+      "source_url": "https://x.com/ivnways/status/2041062516785353049",
+      "author": "@ivnways",
+      "created_at": "2026-04-06T07:56:39.000Z",
+      "tweet_text": "Puedes probarlo aquí: \nhttp://\ntopview.ai/seedance-2\n\nPrompt: \"15-second Original Desert Martial Arts Short Film: A black cat warrior in light armor stands alone in a desert where yellow sand is flying all over the sky, facing the pursuers. The shots combine slow motion and fast",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041062529489842176/vid/avc1/1280x720/hrEXPG4GeAJ49fcl.mp4?tag=14",
+      "video": "media/videos/2041062516785353049.mp4"
+    },
+    {
+      "id": "x:2041060121791561775",
+      "text": "AI is officially on another level. I’ve been experimenting with Dreamina Seedance 2.0, and the results are getting scarily good. I wanted to see if I could push the limits of cinematic storytelling through AI, and after a few rounds of prompt-tuning, I managed to capture this intense aerial sequence. The video takes you right into the cockpit of a fighter jet mid-dogfight, ending with a massive bomb drop and a stunningly realistic explosion. The way the AI handled the lighting and the debris is honestly mind-blowing. This would be such a cool visual for a sci-fi project, a high-octane music video background, or even a concept trailer for a game. Let me know what you think of the realism! Video: @dreamina_ai Grading: @AdobeVideo",
+      "display_text": "AI is officially on another level. I’ve been experimenting with Dreamina Seedance 2.0, and the results are getting scarily good. I wanted to see if I could push the limits of cinematic storytelling through AI, and after a few rounds of prompt-tuning, I managed to capture this intense aerial sequence. The video takes you right into the cockpit of a fighter jet mid-dogfight, ending with a massive bomb drop and a stunningly realistic explosion. The way the AI handled the lighting and the debris is honestly mind-blowing. This would be such a cool visual for a sci-fi project, a high-octane music video background, or even a concept trailer for a game. Let me know what you think of the realism! Video: @dreamina_ai",
+      "category": "cinematic",
+      "quality_score": 88,
+      "source_url": "https://x.com/kreevslab/status/2041060121791561775",
+      "author": "@kreevslab",
+      "created_at": "2026-04-06T07:47:08.000Z",
+      "tweet_text": "AI is officially on another level. \n\nI’ve been experimenting with Dreamina Seedance 2.0, and the results are getting scarily good. I wanted to see if I could push the limits of cinematic storytelling through AI, and after a few rounds of prompt-tuning, I managed to capture this intense aerial sequence. \n\nThe video takes you right into the cockpit of a fighter jet mid-dogfight, ending with a massive bomb drop and a stunningly realistic explosion. The way the AI handled the lighting and the debris is honestly mind-blowing. \n\nThis would be such a cool visual for a sci-fi project, a high-octane music video background, or even a concept trailer for a game. Let me know what you think of the realism! \n\nVideo: \n@dreamina_ai\n \nGrading: \n@AdobeVideo",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041059866396213248/vid/avc1/3840x2160/FrlmVlkqMYDiE1Uj.mp4?tag=21",
+      "video": "media/videos/2041060121791561775.mp4"
     },
     {
       "id": "x:2040764501633405195",
@@ -1048,7 +1670,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T23:00:23Z",
+        "reviewed_at": "2026-04-06T11:24:24Z",
         "engine": "internal_rules_v1"
       }
     },
@@ -1183,7 +1805,8 @@
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2040470328380678144/vid/avc1/1280x720/xHKoVFE45a9LA1V2.mp4?tag=21",
-      "video": "media/videos/2040470859840913421.mp4"
+      "video": "media/videos/2040470859840913421.mp4",
+      "thumbnail": "media/thumbs/2040470859840913421.webp"
     },
     {
       "id": "x:2040445075520639022",
@@ -1211,7 +1834,80 @@
         "action": "reject",
         "reason": "trim_too_hard",
         "timestamp": "2026-04-05T11:09:44.973Z"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2040445009280040962/pu/vid/avc1/1280x720/gB-WP7GIM-qQm_fm.mp4",
+      "thumbnail": "media/thumbs/2040445075520639022.webp",
+      "video": "media/videos/2040445075520639022.mp4"
+    },
+    {
+      "id": "x:2041091345238937745",
+      "text": "Step 1 — Think of a Node for brainstorming, provide background info on the shop, and the AI immediately generates 3 different advertising concepts, even helping you craft the Cantonese dialogue. Step 2 — Write about the direction you like best, connect the line to the next Node, and the AI automatically turns it into a Seedance 2.0 video prompt for you — camera movements, scene details, lighting tones, Cantonese lines, all included.",
+      "display_text": "for you — camera movements, scene details, lighting tones, Cantonese lines, all included.",
+      "category": "cinematic",
+      "quality_score": 85,
+      "source_url": "https://x.com/NextMavenAI/status/2041091345238937745",
+      "author": "@NextMavenAI",
+      "created_at": "2026-04-06T09:51:13.000Z",
+      "tweet_text": "Step 1 — Think of a Node for brainstorming, provide background info on the shop, and the AI immediately generates 3 different advertising concepts, even helping you craft the Cantonese dialogue.\n\nStep 2 — Write about the direction you like best, connect the line to the next Node,",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
       }
+    },
+    {
+      "id": "x:2041085264911843418",
+      "text": "Bro this prompt is straight fire Pure text, no reference images, and it delivers this massive army charge with flying dust, golden hour lighting, and insane arrow physics. Seedance 2.0 just cooked a full cinematic epic that feels like it came from a $150M Hollywood",
+      "display_text": "is straight fire Pure text, no reference images, and it delivers this massive army charge with flying dust, golden hour lighting, and insane arrow physics. Seedance 2.0 just cooked a full cinematic epic that feels like it came from a $150M Hollywood",
+      "category": "cinematic",
+      "quality_score": 85,
+      "source_url": "https://x.com/rupeshk6555/status/2041085264911843418",
+      "author": "@rupeshk6555",
+      "created_at": "2026-04-06T09:27:03.000Z",
+      "tweet_text": "Bro this prompt is straight fire  Pure text, no reference images, and it delivers this massive army charge with flying dust, golden hour lighting, and insane arrow physics. Seedance 2.0 just cooked a full cinematic epic that feels like it came from a $150M Hollywood",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040736882254880768/vid/avc1/1920x1080/6c_f_DahOu7ciShB.mp4?tag=21",
+      "video": "media/videos/2041085264911843418.mp4"
+    },
+    {
+      "id": "x:2040978646765359421",
+      "text": "From shadowboxing to the final stance, every frame tells a story. We put Kling 3.0 vs Seedance 2.0 head-to-head on the same cinematic concept to see who delivers better motion, realism, and intensity. Same idea. Same frames. Completely different outputs. Which one wins? Comment Below!",
+      "display_text": "From shadowboxing to the final stance, every frame tells a story. We put Kling 3.0 vs Seedance 2.0 head-to-head on the same cinematic concept to see who delivers better motion, realism, and intensity. Same idea. Same frames. Completely different outputs. Which one wins? Comment Below!",
+      "category": "cinematic",
+      "quality_score": 85,
+      "source_url": "https://x.com/vadooai/status/2040978646765359421",
+      "author": "@vadooai",
+      "created_at": "2026-04-06T02:23:23.000Z",
+      "tweet_text": "From shadowboxing to the final stance, every frame tells a story. \nWe put Kling 3.0 vs Seedance 2.0 head-to-head on the same cinematic concept to see who delivers better motion, realism, and intensity.\nSame idea. Same frames. Completely different outputs.\nWhich one wins? Comment Below!",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040978382012518400/vid/avc1/2160x3840/BweAU7UxzCT2DGj6.mp4?tag=21",
+      "video": "media/videos/2040978646765359421.mp4"
     },
     {
       "id": "x:2040453547398185421",
@@ -1239,7 +1935,10 @@
         "action": "reject",
         "reason": "trim_too_hard",
         "timestamp": "2026-04-05T11:09:51.988Z"
-      }
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040451991336583168/vid/avc1/1280x720/VuaBpK4u6__eN0g3.mp4",
+      "thumbnail": "media/thumbs/2040453547398185421.webp",
+      "video": "media/videos/2040453547398185421.mp4"
     },
     {
       "id": "x:2038886438180139303",
@@ -1288,7 +1987,9 @@
         "reasons": [],
         "reviewed_at": "2026-04-05T23:00:23Z",
         "engine": "internal_rules_v1"
-      }
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040805638146797568/vid/avc1/1280x720/KCBvC72CP1CyQg5q.mp4",
+      "video": "media/videos/2040805836923212250.mp4"
     },
     {
       "id": "x:2040508583792796033",
@@ -1316,7 +2017,82 @@
         "action": "reject",
         "reason": "off_target",
         "timestamp": "2026-04-05T11:10:11.555Z"
-      }
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040508382331928576/vid/avc1/1280x720/boc4faFQo__C7pZB.mp4?tag=14",
+      "thumbnail": "media/thumbs/2040508583792796033.webp",
+      "video": "media/videos/2040508583792796033.mp4"
+    },
+    {
+      "id": "x:2041105369112404254",
+      "text": "Haha.. Seedance 2.0 just generated Wall-E. Not \"inspired by\", Not \"similar to\" Frame-perfect Wall-E. From my prompt. This confirms what everyone suspected: Seedance is trained on real movie data. Judge for yourself. [Full prompt in the reply]",
+      "display_text": "Haha.. Seedance 2.0 just generated Wall-E. Not \"inspired by\", Not \"similar to\" Frame-perfect Wall-E. From my prompt. This confirms what everyone suspected: Seedance is trained on real movie data. Judge for yourself. [Full prompt in the reply]",
+      "category": "other",
+      "quality_score": 82,
+      "source_url": "https://x.com/ibexdream/status/2041105369112404254",
+      "author": "@ibexdream",
+      "created_at": "2026-04-06T10:46:56.000Z",
+      "tweet_text": "Haha.. Seedance 2.0 just generated Wall-E.\nNot \"inspired by\", Not \"similar to\"\nFrame-perfect Wall-E. From my prompt.\nThis confirms what everyone suspected: Seedance is trained on real movie data. Judge for yourself.\n[Full prompt in the reply]",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041105139428376576/vid/avc1/1920x1080/4GE4oA0a-ghPhGRX.mp4",
+      "video": "media/videos/2041105369112404254.mp4"
+    },
+    {
+      "id": "x:2041091350985089468",
+      "text": "Step 3 — Shoot the Prompt and feed it straight into the Seedance 2.0 Node; get your video out in 30 seconds with visuals, a cha chaan teng scene, and Cantonese dialogue. Even if a certain step comes out not quite perfect, you can add a Node anytime to fill in the gaps — toss in a voiceover node, a subtitle node, a color grading node — all handled on one Flowith canvas, no need to jump between apps.",
+      "display_text": "and feed it straight into the Seedance 2.0 Node; get your video out in 30 seconds with visuals, a cha chaan teng scene, and Cantonese dialogue. Even if a certain step comes out not quite perfect, you can add a Node anytime to fill in the gaps — toss in a voiceover node, a subtitle node, a color grading node — all handled on one Flowith canvas, no need to jump between apps.",
+      "category": "cinematic",
+      "quality_score": 82,
+      "source_url": "https://x.com/NextMavenAI/status/2041091350985089468",
+      "author": "@NextMavenAI",
+      "created_at": "2026-04-06T09:51:14.000Z",
+      "tweet_text": "Step 3 — Shoot the Prompt and feed it straight into the Seedance 2.0 Node; get your video out in 30 seconds  with visuals, a cha chaan teng scene, and Cantonese dialogue.\n\nEven if a certain step comes out not quite perfect, you can add a Node anytime to fill in the gaps — toss",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041091304587767808/pu/vid/avc1/720x900/4pN-uwzTClYRaPSa.mp4?tag=12",
+      "video": "media/videos/2041091350985089468.mp4"
+    },
+    {
+      "id": "x:2041027152028856465",
+      "text": "Generated a segment of FPV city flight video using seedance 2. Future city rainy night + neon + wet ground reflections, super atmospheric. Added shots of skimming low to the ground, brushing past buildings while flying upward, and finally soaring over from high above— the viewing experience is incredibly thrilling. The key to this kind of prompt isn't just making the city description sound super cool, but ensuring the camera has a path to follow. Once the camera route is nailed down too, the entire scene shifts straight from \"good-looking\" to \"totally immersive.\" Prompt is in the comments section. #seedance2",
+      "display_text": "is in the comments section. #seedance2",
+      "category": "other",
+      "quality_score": 82,
+      "source_url": "https://x.com/AyccAI/status/2041027152028856465",
+      "author": "@AyccAI",
+      "created_at": "2026-04-06T05:36:08.000Z",
+      "tweet_text": "Generated a segment of FPV city flight video using seedance 2.\n\nFuture city rainy night + neon + wet ground reflections, super atmospheric. Added shots of skimming low to the ground, brushing past buildings while flying upward, and finally soaring over from high above— the viewing experience is incredibly thrilling.\n\nThe key to this kind of prompt isn't just making the city description sound super cool, but ensuring the camera has a path to follow.\n\nOnce the camera route is nailed down too, the entire scene shifts straight from \"good-looking\" to \"totally immersive.\"\n\nPrompt is in the comments section.\n\n#seedance2",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041027065340932096/pu/vid/avc1/792x1384/NhA3mQ4lE7HksROE.mp4?tag=19",
+      "video": "media/videos/2041027152028856465.mp4"
     },
     {
       "id": "x:2040792421689184742",
@@ -1336,7 +2112,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T23:00:23Z",
+        "reviewed_at": "2026-04-06T11:24:24Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2040792236166926336/vid/avc1/1280x720/brtHgUqdxGaiVZl4.mp4?tag=21",
@@ -1368,7 +2144,10 @@
         "action": "reject",
         "reason": "off_target",
         "timestamp": "2026-04-05T11:10:27.727Z"
-      }
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040658692723679232/vid/avc1/1280x720/ePnAyWukFTTdgIjo.mp4?tag=14",
+      "thumbnail": "media/thumbs/2040659100024078780.webp",
+      "video": "media/videos/2040659100024078780.mp4"
     },
     {
       "id": "x:2040649884567757234",
@@ -1499,7 +2278,58 @@
         "action": "reject",
         "reason": "off_target",
         "timestamp": "2026-04-05T11:10:54.037Z"
-      }
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2038534966473023489/vid/avc1/2560x1440/l06oapcAzeD7Gvwv.mp4",
+      "thumbnail": "media/thumbs/2038535584084373799.webp",
+      "video": "media/videos/2038535584084373799.mp4"
+    },
+    {
+      "id": "x:2041072517087957413",
+      "text": "The 5 AI demos that broke the internet this week: 1. Claude Code got computer use Claude can now open apps, click through UIs, use the browser, and test code from the terminal. This is one of the clearest signs that AI agents are moving from chat to real software work. 2. Gemma 4 launched Google dropped its newest open models with long context, multimodal support, and commercial use. Open-weight models keep getting closer to what most people thought only frontier labs could ship. 3. OpenCode blew up An open-source Claude Code-style coding agent that works across multiple LLMs. One of the hottest workflows in AI just got a lot more remixable. 4. Seedance 2.0 pushed AI video forward Stronger motion, more control, and much more usable outputs. AI video keeps moving from “cool demo” to “actual creative tool.” 5. Anton feels like an AI coworker It connects to your data, writes code on the fly, builds dashboards, and remembers context. Closer to “AI employee” than “chatbot.” AI is moving so fast that most people miss the biggest launches entirely. Bookmark this. Next week’s list will look completely different.",
+      "display_text": "The 5 AI demos that broke the internet this week: 1. Claude Code got computer use Claude can now open apps, click through UIs, use the browser, and test code from the terminal. This is one of the clearest signs that AI agents are moving from chat to real software work. 2. Gemma 4 launched Google dropped its newest open models with long context, multimodal support, and commercial use. Open-weight models keep getting closer to what most people thought only frontier labs could ship. 3. OpenCode blew up An open-source Claude Code-style coding agent that works across multiple LLMs. One of the hottest workflows in AI just got a lot more remixable. 4. Seedance 2.0 pushed AI video forward Stronger motion, more control, and much more usable outputs. AI video keeps moving from “cool demo” to “actual creative tool.” 5. Anton feels like an AI coworker It connects to your data, writes code on the fly, builds dashboards, and remembers context. Closer to “AI employee” than “chatbot.” AI is moving so fast that most people miss the biggest launches entirely. Bookmark this. Next week’s list will look completely different.",
+      "category": "commercial",
+      "quality_score": 81,
+      "source_url": "https://x.com/sharbel/status/2041072517087957413",
+      "author": "@sharbel",
+      "created_at": "2026-04-06T08:36:24.000Z",
+      "tweet_text": "The 5 AI demos that broke the internet this week:\n\n1. Claude Code got computer use\nClaude can now open apps, click through UIs, use the browser, and test code from the terminal.\nThis is one of the clearest signs that AI agents are moving from chat to real software work.\n\n2. Gemma 4 launched\nGoogle dropped its newest open models with long context, multimodal support, and commercial use.\nOpen-weight models keep getting closer to what most people thought only frontier labs could ship.\n\n3. OpenCode blew up\nAn open-source Claude Code-style coding agent that works across multiple LLMs.\nOne of the hottest workflows in AI just got a lot more remixable.\n\n4. Seedance 2.0 pushed AI video forward\nStronger motion, more control, and much more usable outputs.\nAI video keeps moving from “cool demo” to “actual creative tool.”\n\n5. Anton feels like an AI coworker\nIt connects to your data, writes code on the fly, builds dashboards, and remembers context.\nCloser to “AI employee” than “chatbot.”\n\nAI is moving so fast that most people miss the biggest launches entirely.\n\nBookmark this.\n\nNext week’s list will look completely different.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041072325106282496/vid/avc1/2912x2160/Khom25iUp8OOJ_N2.mp4?tag=21",
+      "video": "media/videos/2041072517087957413.mp4"
+    },
+    {
+      "id": "x:2041006674677579987",
+      "text": "Body horror transformation with Seedance 2.0 Nurse in an abandoned hospital touches the wrong vine. Seconds later: tendrils under the skin, extra glowing eyes, mechanical wings, and dripping mandibles. Prompt in the comments",
+      "display_text": "Body horror transformation with Seedance 2.0 Nurse in an abandoned hospital touches the wrong vine. Seconds later: tendrils under the skin, extra glowing eyes, mechanical wings, and dripping mandibles. Prompt in the comments",
+      "category": "cinematic",
+      "quality_score": 81,
+      "source_url": "https://x.com/NyaiiBubu/status/2041006674677579987",
+      "author": "@NyaiiBubu",
+      "created_at": "2026-04-06T04:14:45.000Z",
+      "tweet_text": "Body horror transformation with Seedance 2.0\n\nNurse in an abandoned hospital touches the wrong vine. Seconds later: tendrils under the skin, extra glowing eyes, mechanical wings, and dripping mandibles.\n\nPrompt in the comments",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040713972001947648/vid/avc1/2560x1440/7EC7nYrpVtWgsBwf.mp4?tag=21",
+      "video": "media/videos/2041006674677579987.mp4"
     },
     {
       "id": "x:2040902451478306904",
@@ -1574,7 +2404,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-05T23:00:22Z",
+        "reviewed_at": "2026-04-06T11:24:24Z",
         "engine": "internal_rules_v1"
       }
     },
@@ -1710,7 +2540,10 @@
         "action": "reject",
         "reason": "trim_too_hard",
         "timestamp": "2026-04-05T11:11:33.535Z"
-      }
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2039904667468189698/vid/avc1/1280x720/LzyI3N1YxXGSfXEk.mp4",
+      "thumbnail": "media/thumbs/2039904725639037110.webp",
+      "video": "media/videos/2039904725639037110.mp4"
     },
     {
       "id": "x:2039264325538316741",
@@ -1739,6 +2572,54 @@
         "reason": "off_target",
         "timestamp": "2026-04-05T11:11:26.815Z"
       }
+    },
+    {
+      "id": "x:2041086148106440927",
+      "text": "This Seedance 2.0 prompt is absolutely insane Pure text to video with no reference images, yet we get this epic army charge, perfect dust effects, golden hour vibes and crazy arrow physics. Feels like a high-budget Hollywood scene. As someone deep into AI video daily, this has me convinced - the future of filmmaking is already here. Hollywood better watch out Mind completely blown.",
+      "display_text": "is absolutely insane Pure text to video with no reference images, yet we get this epic army charge, perfect dust effects, golden hour vibes and crazy arrow physics. Feels like a high-budget Hollywood scene. As someone deep into AI video daily, this has me convinced - the future of filmmaking is already here. Hollywood better watch out Mind completely blown.",
+      "category": "cinematic",
+      "quality_score": 80,
+      "source_url": "https://x.com/rupeshk6555/status/2041086148106440927",
+      "author": "@rupeshk6555",
+      "created_at": "2026-04-06T09:30:33.000Z",
+      "tweet_text": "This Seedance 2.0 prompt is absolutely insane   Pure  text to video with no reference images, yet we get this epic army charge, perfect dust effects, golden hour vibes and crazy arrow physics. Feels like a high-budget Hollywood scene. As someone deep into AI video daily, this has me convinced - the future of filmmaking is already here. Hollywood better watch out  Mind completely blown.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040736882254880768/vid/avc1/1920x1080/6c_f_DahOu7ciShB.mp4?tag=21",
+      "video": "media/videos/2041086148106440927.mp4"
+    },
+    {
+      "id": "x:2041047565140173237",
+      "text": "PROMPT aesthetic: phone camera from deep in the crowd, low angle, shaky, vertical energy audio: thumping house music, bass rattling washer doors, spin cycles as percussion, crowd screaming timeline: - \"0-3s: Phone pushes through a door into a brightly lit laundromat.",
+      "display_text": "aesthetic: phone camera from deep in the crowd, low angle, shaky, vertical energy audio: thumping house music, bass rattling washer doors, spin cycles as percussion, crowd screaming timeline: - \"0-3s: Phone pushes through a door into a brightly lit laundromat.",
+      "category": "social-content",
+      "quality_score": 80,
+      "source_url": "https://x.com/maxescu/status/2041047565140173237",
+      "author": "@maxescu",
+      "created_at": "2026-04-06T06:57:15.000Z",
+      "tweet_text": "Laundromat parties are the new rage right now\n\nSeedance 2.0 prompt below:",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-06T11:24:24Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041047511058755584/vid/avc1/720x1280/-_35Tk_45u2v-O0p.mp4?tag=14",
+      "video": "media/videos/2041047565140173237.mp4"
     },
     {
       "id": "x:2040638348935475305",
@@ -1792,7 +2673,8 @@
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2039338499766427648/vid/avc1/1280x720/tm7SGg90zEZZhXux.mp4?tag=14",
-      "video": "media/videos/2040102032627957913.mp4"
+      "video": "media/videos/2040102032627957913.mp4",
+      "thumbnail": "media/thumbs/2040102032627957913.webp"
     },
     {
       "id": "x:2040100791822721300",

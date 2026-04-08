@@ -1,6 +1,176 @@
 {
-  "updated_at": "2026-04-07T23:08:02Z",
+  "updated_at": "2026-04-08T11:27:20Z",
   "prompts": [
+    {
+      "id": "x:2041834780161974423",
+      "text": "black and white cinematic portrait of a young woman wearing a flowing black abaya and a soft black hijab, modest elegant look, the hijab delicately wrapped, a few subtle hair strands gently visible from the back, side profile, natural beauty with soft freckles, minimal makeup, calm but deeply emotional expression dramatic side lighting, Rembrandt style, half of her face in shadow, soft rim light outlining her silhouette and the edge of the hijab, high contrast, soft film grain, shallow depth of field, 85mm lens dark minimal background, faint floating dust particles, quiet intimate atmosphere slow cinematic push-in, no cuts, ultra subtle movements only a tear slowly forms in her eye, then gently falls down her cheek in slow motion, she closes her eyes briefly, breath soft and heavy her hand rises slowly from the black abaya sleeve, delicately wiping the tear without fully removing the emotion a faint breeze slightly moves the edge of the hijab and the loose hair strands she slowly turns her face away from the light, shadows deepen across her features she becomes completely still for a moment then her eyes open slowly, distant and empty gaze, unfocused, lost in thought fade to black",
+      "display_text": "black and white cinematic portrait of a young woman wearing a flowing black abaya and a soft black hijab, modest elegant look, the hijab delicately wrapped, a few subtle hair strands gently visible from the back, side profile, natural beauty with soft freckles, minimal makeup, calm but deeply emotional expression dramatic side lighting, Rembrandt style, half of her face in shadow, soft rim light outlining her silhouette and the edge of the hijab, high contrast, soft film grain, shallow depth of field, 85mm lens dark minimal background, faint floating dust particles, quiet intimate atmosphere slow cinematic push-in, no cuts, ultra subtle movements only a tear slowly forms in her eye, then gently falls down her cheek in slow motion, she closes her eyes briefly, breath soft and heavy her hand rises slowly from the black abaya sleeve, delicately wiping the tear without fully removing the emotion a faint breeze slightly moves the edge of the hijab and the loose hair strands she slowly turns her face away from the light, shadows deepen across her features she becomes completely still for a moment then her eyes open slowly, distant and empty gaze, unfocused, lost in thought fade to black",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/sara4ai/status/2041834780161974423",
+      "author": "@sara4ai",
+      "created_at": "2026-04-08T11:05:21.000Z",
+      "tweet_text": "Seedance 2.0 via \n@TopviewAIhq\n\nBackground Music: \n@suno\n\n\n Prompt: black and white cinematic portrait of a young woman wearing a flowing black abaya and a soft black hijab, modest elegant look, the hijab delicately wrapped, a few subtle hair strands gently visible from the back, side profile, natural beauty with soft freckles, minimal makeup, calm but deeply emotional expression\ndramatic side lighting, Rembrandt style, half of her face in shadow, soft rim light outlining her silhouette and the edge of the hijab, high contrast, soft film grain, shallow depth of field, 85mm lens\ndark minimal background, faint floating dust particles, quiet intimate atmosphere\nslow cinematic push-in, no cuts, ultra subtle movements only\na tear slowly forms in her eye, then gently falls down her cheek in slow motion, she closes her eyes briefly, breath soft and heavy\nher hand rises slowly from the black abaya sleeve, delicately wiping the tear without fully removing the emotion\na faint breeze slightly moves the edge of the hijab and the loose hair strands\nshe slowly turns her face away from the light, shadows deepen across her features\nshe becomes completely still for a moment\nthen her eyes open slowly, distant and empty gaze, unfocused, lost in thought\nfade to black",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2040883136318394371/pu/vid/avc1/1470x630/YgKimXTlp9s_r2di.mp4?tag=19",
+      "video": "media/videos/2041834780161974423.mp4"
+    },
+    {
+      "id": "x:2041801904028840427",
+      "text": "seedance 2 prompt - Cinematic 16:9 ultra-detailed fantasy battle trailer in the mythical realm of Aetherion. Massive floating islands of glowing crystal and ancient moss-covered ruins drift through endless golden skies. A colossal ancient dragon named Eldrath leads a desperate alliance of silver-armored elves and griffin riders to defend the Heart Crystal against the Obsidian Sorcerer Lord Vespera and his legion of shadow-wreathed demons. Explosive wide aerial shots and dynamic tracking camera capture the chaos: lightning storms, glowing arrows, griffin dive-bombing, and swirling black vortexes. Emotional close-ups of Eldrath and the half-elf sorceress Lirael as they combine powers in a blinding supernova of light. Hyper-realistic cinematic lighting, dramatic color grading, 8K, film grain, in the style of Guillermo del Toro and Peter Jackson.",
+      "display_text": "Cinematic 16:9 ultra-detailed fantasy battle trailer in the mythical realm of Aetherion. Massive floating islands of glowing crystal and ancient moss-covered ruins drift through endless golden skies. A colossal ancient dragon named Eldrath leads a desperate alliance of silver-armored elves and griffin riders to defend the Heart Crystal against the Obsidian Sorcerer Lord Vespera and his legion of shadow-wreathed demons. Explosive wide aerial shots and dynamic tracking camera capture the chaos: lightning storms, glowing arrows, griffin dive-bombing, and swirling black vortexes. Emotional close-ups of Eldrath and the half-elf sorceress Lirael as they combine powers in a blinding supernova of light. Hyper-realistic cinematic lighting, dramatic color grading, 8K, film grain, in the style of Guillermo del Toro and Peter Jackson.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/AIishere_art/status/2041801904028840427",
+      "author": "@AIishere_art",
+      "created_at": "2026-04-08T08:54:43.000Z",
+      "tweet_text": "seedance 2 prompt - Cinematic 16:9 ultra-detailed fantasy battle trailer in the mythical realm of Aetherion. Massive floating islands of glowing crystal and ancient moss-covered ruins drift through endless golden skies. A colossal ancient dragon named Eldrath leads a desperate alliance of silver-armored elves and griffin riders to defend the Heart Crystal against the Obsidian Sorcerer Lord Vespera and his legion of shadow-wreathed demons. Explosive wide aerial shots and dynamic tracking camera capture the chaos: lightning storms, glowing arrows, griffin dive-bombing, and swirling black vortexes. Emotional close-ups of Eldrath and the half-elf sorceress Lirael as they combine powers in a blinding supernova of light. Hyper-realistic cinematic lighting, dramatic color grading, 8K, film grain, in the style of Guillermo del Toro and Peter Jackson.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041801366948212736/vid/avc1/1470x630/vM9bPJ-cI-ZYJs8X.mp4?tag=21",
+      "video": "media/videos/2041801904028840427.mp4"
+    },
+    {
+      "id": "x:2041772197799236033",
+      "text": "An absolutely epic battle !!! Seedance 2.0 prompt Ultra-realistic cinematic disaster epic, single continuous shot, no cuts, no montage, no multiple-camera language, documentary-style realism, IMAX-scale clarity, natural film grain, high dynamic range, physically accurate daylight, realistic atmospheric perspective, authentic reflections, volumetric dust and smoke, true-to-life city lighting and environmental behavior. A real modern Chinese megacity in daytime: high-rise towers, elevated roads, broad avenues, plaza spaces, parked and moving cars, street signs, glass facades, all with the look of genuine live-action footage. The shot begins with chaos already underway: a colossal ancient giant python, far larger and more terrifying than a realistic anaconda, is violently rampaging through the city. Its thick muscular body whips between streets and buildings with horrifying speed and weight, crushing cars, smashing roadside structures, wrapping around building facades, lunging at fleeing crowds. People run in panic, vehicles collide, glass shards, concrete dust, torn billboards and debris fill the air. Everything feels like a real catastrophic emergency captured in one uninterrupted shot. Then the sky suddenly shifts. Clouds are torn apart at high speed and a gigantic Chinese dragon dives down from the heavens. This is not a cartoon dragon and has no wings. It is a believable colossal Eastern dragon, a mysterious real biological creature of the natural world, long serpentine body, no wings, powerful limbs, realistic muscles, bones, scale overlap, weathered reflective scales, layered shadows, natural skin tension, believable mass and inertia. As it moves, its body undulates through the air with convincing aerodynamic resistance, whiskers and mane trailing in turbulent airflow, subtle cloud vapor and disturbed mist forming around it. The dragon descends like a guardian over the city, precisely targeting the giant python below. In one continuous shot, the two beasts engage in a brutal close-range fight among skyscrapers and over shattered streets. The python coils, strikes, and thrashes between buildings; the Chinese dragon tears away constriction with its claws, coils around the serpent to overpower it, and finally bites hard into the python's upper body and neck. With overwhelming force, the dragon drags the struggling serpent up from the city ruins and lifts it into the sky. In the final moments, the wingless Chinese dragon powers upward by driving its long body through the air, carrying the still-writhing python away into the distant sky. Below, terrified citizens stop running and stare upward in stunned awe. The ruined city remains filled with smoke, debris, and sunlight cutting through haze, creating a final epic image of a divine dragon saving humanity. Keep the entire piece grounded in real-world physics, realistic destruction, believable scale, terrifying weight, restrained camera behavior, immersive live-action disaster authenticity, not stylized, not fantasy-cartoon, not game-like, absolutely photorealistic.",
+      "display_text": "cinematic disaster epic, single continuous shot, no cuts, no montage, no multiple-camera language, documentary-style realism, IMAX-scale clarity, natural film grain, high dynamic range, physically accurate daylight, realistic atmospheric perspective, authentic reflections, volumetric dust and smoke, true-to-life city lighting and environmental behavior. A real modern Chinese megacity in daytime: high-rise towers, elevated roads, broad avenues, plaza spaces, parked and moving cars, street signs, glass facades, all with the look of genuine live-action footage. The shot begins with chaos already underway: a colossal ancient giant python, far larger and more terrifying than a realistic anaconda, is violently rampaging through the city. Its thick muscular body whips between streets and buildings with horrifying speed and weight, crushing cars, smashing roadside structures, wrapping around building facades, lunging at fleeing crowds. People run in panic, vehicles collide, glass shards, concrete dust, torn billboards and debris fill the air. Everything feels like a real catastrophic emergency captured in one uninterrupted shot. Then the sky suddenly shifts. Clouds are torn apart at high speed and a gigantic Chinese dragon dives down from the heavens. This is not a cartoon dragon and has no wings. It is a believable colossal Eastern dragon, a mysterious real biological creature of the natural world, long serpentine body, no wings, powerful limbs, realistic muscles, bones, scale overlap, weathered reflective scales, layered shadows, natural skin tension, believable mass and inertia. As it moves, its body undulates through the air with convincing aerodynamic resistance, whiskers and mane trailing in turbulent airflow, subtle cloud vapor and disturbed mist forming around it. The dragon descends like a guardian over the city, precisely targeting the giant python below. In one continuous shot, the two beasts engage in a brutal close-range fight among skyscrapers and over shattered streets. The python coils, strikes, and thrashes between buildings; the Chinese dragon tears away constriction with its claws, coils around the serpent to overpower it, and finally bites hard into the python's upper body and neck. With overwhelming force, the dragon drags the struggling serpent up from the city ruins and lifts it into the sky. In the final moments, the wingless Chinese dragon powers upward by driving its long body through the air, carrying the still-writhing python away into the distant sky. Below, terrified citizens stop running and stare upward in stunned awe. The ruined city remains filled with smoke, debris, and sunlight cutting through haze, creating a final epic image of a divine dragon saving humanity. Keep the entire piece grounded in real-world physics, realistic destruction, believable scale, terrifying weight, restrained camera behavior, immersive live-action disaster authenticity, not stylized, not fantasy-cartoon, not game-like, absolutely photorealistic.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/johnAGI168/status/2041772197799236033",
+      "author": "@johnAGI168",
+      "created_at": "2026-04-08T06:56:40.000Z",
+      "tweet_text": "An absolutely epic battle   ！！！\n\nSeedance 2.0 prompt \n\nUltra-realistic cinematic disaster epic, single continuous shot, no cuts, no montage, no multiple-camera language, documentary-style realism, IMAX-scale clarity, natural film grain, high dynamic range, physically accurate daylight, realistic atmospheric perspective, authentic reflections, volumetric dust and smoke, true-to-life city lighting and environmental behavior. A real modern Chinese megacity in daytime: high-rise towers, elevated roads, broad avenues, plaza spaces, parked and moving cars, street signs, glass facades, all with the look of genuine live-action footage. The shot begins with chaos already underway: a colossal ancient giant python, far larger and more terrifying than a realistic anaconda, is violently rampaging through the city. Its thick muscular body whips between streets and buildings with horrifying speed and weight, crushing cars, smashing roadside structures, wrapping around building facades, lunging at fleeing crowds. People run in panic, vehicles collide, glass shards, concrete dust, torn billboards and debris fill the air. Everything feels like a real catastrophic emergency captured in one uninterrupted shot. Then the sky suddenly shifts. Clouds are torn apart at high speed and a gigantic Chinese dragon dives down from the heavens. This is not a cartoon dragon and has no wings. It is a believable colossal Eastern dragon, a mysterious real biological creature of the natural world, long serpentine body, no wings, powerful limbs, realistic muscles, bones, scale overlap, weathered reflective scales, layered shadows, natural skin tension, believable mass and inertia. As it moves, its body undulates through the air with convincing aerodynamic resistance, whiskers and mane trailing in turbulent airflow, subtle cloud vapor and disturbed mist forming around it. The dragon descends like a guardian over the city, precisely targeting the giant python below. In one continuous shot, the two beasts engage in a brutal close-range fight among skyscrapers and over shattered streets. The python coils, strikes, and thrashes between buildings; the Chinese dragon tears away constriction with its claws, coils around the serpent to overpower it, and finally bites hard into the python's upper body and neck. With overwhelming force, the dragon drags the struggling serpent up from the city ruins and lifts it into the sky. In the final moments, the wingless Chinese dragon powers upward by driving its long body through the air, carrying the still-writhing python away into the distant sky. Below, terrified citizens stop running and stare upward in stunned awe. The ruined city remains filled with smoke, debris, and sunlight cutting through haze, creating a final epic image of a divine dragon saving humanity. Keep the entire piece grounded in real-world physics, realistic destruction, believable scale, terrifying weight, restrained camera behavior, immersive live-action disaster authenticity, not stylized, not fantasy-cartoon, not game-like, absolutely photorealistic.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041771949031092224/vid/avc1/1280x720/0Qu7YYEZSIlAvo_P.mp4?tag=21",
+      "video": "media/videos/2041772197799236033.mp4"
+    },
+    {
+      "id": "x:2041747782114144692",
+      "text": "Create a 15-second cinematic sequence with strict continuity, no identity drift, no outfit mutation, and no face alteration. The pilot is a young East Asian woman with an oval face, soft straight eyebrows, large natural eyes, small nose, soft lips, clean natural skin texture, and long straight black hair with a center or slight side part. Her face must remain identical in all frames with no beautification or stylization. She wears a tight-fitting high-fashion floral mini dress in soft pastel colors with sheer long sleeves and an elegant luxurious feel, and this outfit must remain unchanged throughout the entire sequence. The environment is a destroyed modern city with collapsing skyscrapers, broken glass, debris, smoke columns, burning vehicles, and empty streets under a cold desaturated cinematic tone. The style is IMAX realism with a 2.39:1 widescreen frame, Panavision C-series 35mm lens, subtle film grain, and stable camera movement. Only pink and blue are saturated colors in the scene. A massive kaiju with asymmetrical wet armored skin and glowing blue veins destroys the city with heavy destructive motion. A giant feminine mecha with smooth elegant white armor, pastel pink highlights, and gold accents appears holding a glowing pink energy sword. Inside the cockpit, the pilot remains in the same floral dress with no transformation, with holographic controls floating around her hands. The sequence starts with kaiju destruction for 0–3 seconds, then a small girl POV showing fear at 4–6 seconds, followed by the mecha descending and performing one precise slow-motion sword strike at 7–10 seconds that slices the kaiju cleanly with a burst of blue blood. At 11–13 seconds the mecha lands heavily creating a dust shockwave and flicks blood off the sword, and at 13–15 seconds the camera zooms into the cockpit revealing the pilot clearly with the same face and outfit, showing intense focus with holographic controls reacting. Maintain strict realism, no deformation, no outfit change, no scale errors, and perfect continuity throughout. Step 5: Click Generate and wait for the result",
+      "display_text": "Create a 15-second cinematic sequence with strict continuity, no identity drift, no outfit mutation, and no face alteration. The pilot is a young East Asian woman with an oval face, soft straight eyebrows, large natural eyes, small nose, soft lips, clean natural skin texture, and long straight black hair with a center or slight side part. Her face must remain identical in all frames with no beautification or stylization. She wears a tight-fitting high-fashion floral mini dress in soft pastel colors with sheer long sleeves and an elegant luxurious feel, and this outfit must remain unchanged throughout the entire sequence. The environment is a destroyed modern city with collapsing skyscrapers, broken glass, debris, smoke columns, burning vehicles, and empty streets under a cold desaturated cinematic tone. The style is IMAX realism with a 2.39:1 widescreen frame, Panavision C-series 35mm lens, subtle film grain, and stable camera movement. Only pink and blue are saturated colors in the scene. A massive kaiju with asymmetrical wet armored skin and glowing blue veins destroys the city with heavy destructive motion. A giant feminine mecha with smooth elegant white armor, pastel pink highlights, and gold accents appears holding a glowing pink energy sword. Inside the cockpit, the pilot remains in the same floral dress with no transformation, with holographic controls floating around her hands. The sequence starts with kaiju destruction for 0–3 seconds, then a small girl POV showing fear at 4–6 seconds, followed by the mecha descending and performing one precise slow-motion sword strike at 7–10 seconds that slices the kaiju cleanly with a burst of blue blood. At 11–13 seconds the mecha lands heavily creating a dust shockwave and flicks blood off the sword, and at 13–15 seconds the camera zooms into the cockpit revealing the pilot clearly with the same face and outfit, showing intense focus with holographic controls reacting. Maintain strict realism, no deformation, no outfit change, no scale errors, and perfect continuity throughout. Step 5: Click Generate and wait for the result",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/kingofdairyque/status/2041747782114144692",
+      "author": "@kingofdairyque",
+      "created_at": "2026-04-08T05:19:39.000Z",
+      "tweet_text": "Step 1: Go to \nhttp://\nyapper.so and log in or sign up\nStep 2: Select “Seedance 2.0” as your model\nStep 3: (Optional) Upload a reference image for better character consistency\nStep 4: Paste this prompt:\nCreate a 15-second cinematic sequence with strict continuity, no",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041747638312435712/pu/vid/avc1/1280x720/4C44H3ANLu-ZkJpd.mp4?tag=19",
+      "video": "media/videos/2041747782114144692.mp4"
+    },
+    {
+      "id": "x:2041746400443298180",
+      "text": "Prompt on Seedance 2 : Epic wide-angle shot of a vast ancient battlefield at golden hour, thousands of warriors clashing with swords and shields under a hazy amber sky thick with smoke and ash. A lone archer in weathered bronze armor, face streaked with dirt, draws a longbow with deliberate tension. The arrow releases with a sharp twang. Camera immediately snaps behind the arrow, tracking it in extreme slow motion as it cuts through drifting smoke and falling embers. Shallow depth of field keeps the arrow razor-sharp while the chaotic battlefield blurs behind. The camera pushes closer, tighter, until the wooden shaft fills the frame — revealing intricate carved runes and weathered grain. Seamless transition to macro scale: the arrow's surface becomes a landscape. A microscopic civilization of tiny warriors the size of splinters wages war across the fletching. Miniature catapults hurl fragments of dust. Warriors scale the carved runes like canyon walls. Torches flicker. Banners wave. All rendered with Made on @runwayml",
+      "display_text": ": Epic wide-angle shot of a vast ancient battlefield at golden hour, thousands of warriors clashing with swords and shields under a hazy amber sky thick with smoke and ash. A lone archer in weathered bronze armor, face streaked with dirt, draws a longbow with deliberate tension. The arrow releases with a sharp twang. Camera immediately snaps behind the arrow, tracking it in extreme slow motion as it cuts through drifting smoke and falling embers. Shallow depth of field keeps the arrow razor-sharp while the chaotic battlefield blurs behind. The camera pushes closer, tighter, until the wooden shaft fills the frame — revealing intricate carved runes and weathered grain. Seamless transition to macro scale: the arrow's surface becomes a landscape. A microscopic civilization of tiny warriors the size of splinters wages war across the fletching. Miniature catapults hurl fragments of dust. Warriors scale the carved runes like canyon walls. Torches flicker. Banners wave. All rendered with",
+      "category": "nature-scenic",
+      "quality_score": 100,
+      "source_url": "https://x.com/umesh_ai/status/2041746400443298180",
+      "author": "@umesh_ai",
+      "created_at": "2026-04-08T05:14:10.000Z",
+      "tweet_text": "Prompt on Seedance 2 : Epic wide-angle shot of a vast ancient battlefield at golden hour, thousands of warriors clashing with swords and shields under a hazy amber sky thick with smoke and ash. A lone archer in weathered bronze armor, face streaked with dirt, draws a longbow with deliberate tension. The arrow releases with a sharp twang.\n\nCamera immediately snaps behind the arrow, tracking it in extreme slow motion as it cuts through drifting smoke and falling embers. Shallow depth of field keeps the arrow razor-sharp while the chaotic battlefield blurs behind. The camera pushes closer, tighter, until the wooden shaft fills the frame — revealing intricate carved runes and weathered grain.\n\nSeamless transition to macro scale: the arrow's surface becomes a landscape. A microscopic civilization of tiny warriors the size of splinters wages war across the fletching. Miniature catapults hurl fragments of dust. Warriors scale the carved runes like canyon walls. Torches flicker. Banners wave. All rendered with\n\nMade on \n@runwayml",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041746113603235842/vid/avc1/1280x720/CZDK-morx5-5i9Qx.mp4?tag=21",
+      "video": "media/videos/2041746400443298180.mp4"
+    },
+    {
+      "id": "x:2041690826992918954",
+      "text": "Seedance V2 15-second cinematic romance, slow-burn emotional tone, one man and one woman only, both adults in their mid-20s, western-style leads, casual luxury wardrobe, dark quiet apartment living room at night, refined romantic tension, natural lip sync, no subtitles, no text on screen. Character continuity: Female lead: adult western woman, mid-20s, elegant natural beauty, long brunette hair with soft loose waves, minimal makeup, emotionally guarded but faintly amused, seated on the sofa. Outfit: soft ivory off-shoulder knit sweater, dark straight-leg jeans, barefoot, understated jewelry. Male lead: adult western man, mid-20s, handsome refined features, slightly messy dark hair, thin metal-frame glasses, calm warm expression. Outfit: charcoal knit sweater over a white T-shirt, dark trousers, sleeves pushed once, relaxed but polished. Environment: Upscale apartment living room, soft sofa, low coffee table, one warm lamp, deep evening shadows, muted neutral palette, intimate silence, shallow depth of field, premium film texture, modern romantic realism. 0-3s: Wide-to-medium slow push-in. She sits in one corner of the sofa with arms folded, looking away. He crosses the room and sits on the edge of the coffee table facing her, leaving a small respectful distance. Hold the silence and tension. 3-6s: Medium close-up on the man. He studies her face, voice low, calm, almost smiling: “I tried very hard to have an ordinary evening.” 6-9s: Close-up on the woman. She turns her eyes to him at last, cool but intrigued, with the faintest teasing edge: “And how did that go?” 9-12s: Close-up on the man. He lets out a quiet breath, gaze steady. He reaches toward a loose strand near her cheek, stopping just before touching: “Poorly. You were in all of it.” 12-15s: Side two-shot. She lightly catches his wrist before he pulls away, not rejecting him, only holding him there. A small unwilling smile appears: “That is not helping me stay angry.” Hold on the shared gaze, the restrained smile, and the unresolved tenderness. Motion and style rules: Slow elegant camera movement, meaningful pauses, micro-expressions, lingering eye contact, almost-touch tension, realistic hand motion, restrained acting, no kneeling, no raised voices, no crying, no extra characters, no exaggerated gestures, no waxy skin, no stiff posing, premium romantic realism, emotionally charged final frame.",
+      "display_text": "cinematic romance, slow-burn emotional tone, one man and one woman only, both adults in their mid-20s, western-style leads, casual luxury wardrobe, dark quiet apartment living room at night, refined romantic tension, natural lip sync, no subtitles, no text on screen. Character continuity: Female lead: adult western woman, mid-20s, elegant natural beauty, long brunette hair with soft loose waves, minimal makeup, emotionally guarded but faintly amused, seated on the sofa. Outfit: soft ivory off-shoulder knit sweater, dark straight-leg jeans, barefoot, understated jewelry. Male lead: adult western man, mid-20s, handsome refined features, slightly messy dark hair, thin metal-frame glasses, calm warm expression. Outfit: charcoal knit sweater over a white T-shirt, dark trousers, sleeves pushed once, relaxed but polished. Environment: Upscale apartment living room, soft sofa, low coffee table, one warm lamp, deep evening shadows, muted neutral palette, intimate silence, shallow depth of field, premium film texture, modern romantic realism. 0-3s: Wide-to-medium slow push-in. She sits in one corner of the sofa with arms folded, looking away. He crosses the room and sits on the edge of the coffee table facing her, leaving a small respectful distance. Hold the silence and tension. 3-6s: Medium close-up on the man. He studies her face, voice low, calm, almost smiling: “I tried very hard to have an ordinary evening.” 6-9s: Close-up on the woman. She turns her eyes to him at last, cool but intrigued, with the faintest teasing edge: “And how did that go?” 9-12s: Close-up on the man. He lets out a quiet breath, gaze steady. He reaches toward a loose strand near her cheek, stopping just before touching: “Poorly. You were in all of it.” 12-15s: Side two-shot. She lightly catches his wrist before he pulls away, not rejecting him, only holding him there. A small unwilling smile appears: “That is not helping me stay angry.” Hold on the shared gaze, the restrained smile, and the unresolved tenderness. Motion and style rules: Slow elegant camera movement, meaningful pauses, micro-expressions, lingering eye contact, almost-touch tension, realistic hand motion, restrained acting, no kneeling, no raised voices, no crying, no extra characters, no exaggerated gestures, no waxy skin, no stiff posing, premium romantic realism, emotionally charged final frame.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/IamEmily2050/status/2041690826992918954",
+      "author": "@IamEmily2050",
+      "created_at": "2026-04-08T01:33:20.000Z",
+      "tweet_text": "Seedance V2 \n\n15-second cinematic romance, slow-burn emotional tone, one man and one woman only, both adults in their mid-20s, western-style leads, casual luxury wardrobe, dark quiet apartment living room at night, refined romantic tension, natural lip sync, no subtitles, no text on screen.\n\nCharacter continuity:\nFemale lead: adult western woman, mid-20s, elegant natural beauty, long brunette hair with soft loose waves, minimal makeup, emotionally guarded but faintly amused, seated on the sofa. Outfit: soft ivory off-shoulder knit sweater, dark straight-leg jeans, barefoot, understated jewelry.\nMale lead: adult western man, mid-20s, handsome refined features, slightly messy dark hair, thin metal-frame glasses, calm warm expression. Outfit: charcoal knit sweater over a white T-shirt, dark trousers, sleeves pushed once, relaxed but polished.\n\nEnvironment:\nUpscale apartment living room, soft sofa, low coffee table, one warm lamp, deep evening shadows, muted neutral palette, intimate silence, shallow depth of field, premium film texture, modern romantic realism.\n\n0-3s:\nWide-to-medium slow push-in. She sits in one corner of the sofa with arms folded, looking away. He crosses the room and sits on the edge of the coffee table facing her, leaving a small respectful distance. Hold the silence and tension.\n\n3-6s:\nMedium close-up on the man. He studies her face, voice low, calm, almost smiling:\n“I tried very hard to have an ordinary evening.”\n\n6-9s:\nClose-up on the woman. She turns her eyes to him at last, cool but intrigued, with the faintest teasing edge:\n“And how did that go?”\n\n9-12s:\nClose-up on the man. He lets out a quiet breath, gaze steady. He reaches toward a loose strand near her cheek, stopping just before touching:\n“Poorly. You were in all of it.”\n\n12-15s:\nSide two-shot. She lightly catches his wrist before he pulls away, not rejecting him, only holding him there. A small unwilling smile appears:\n“That is not helping me stay angry.”\nHold on the shared gaze, the restrained smile, and the unresolved tenderness.\n\nMotion and style rules:\nSlow elegant camera movement, meaningful pauses, micro-expressions, lingering eye contact, almost-touch tension, realistic hand motion, restrained acting, no kneeling, no raised voices, no crying, no extra characters, no exaggerated gestures, no waxy skin, no stiff posing, premium romantic realism, emotionally charged final frame.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041690541100843008/vid/avc1/3840x2160/OgUlYenhckLeGTqE.mp4?tag=21",
+      "video": "media/videos/2041690826992918954.mp4"
+    },
+    {
+      "id": "x:2041687092653388060",
+      "text": ": First-person perspective (POV), 8K hyper-realistic, 60fps fluid motion, dark fantasy aesthetic, cinematic lighting, 9:16 vertical aspect ratio. [00:00 - 00:05] SEGMENT 1: The Awakening (The Hook) \"POV shot. Looking down at the user's hand (as seen in @image1 ), where glowing blue and black veins pulse with energy. The hand is gripping a swirling black and violet energy orb. The hand crushes the orb with a heavy grip. Instantly, a massive shockwave of purple lightning and dark smoke explodes outward. From the shadows on the ground, dozens of spectral, knight-like silhouettes with glowing eyes rise and kneel before the camera. The setting is a dark, ruined stone dungeon.\" [00:05 - 00:10] SEGMENT 2: The Onslaught & The Boss (The Body) \"Fast-paced POV combat. The camera moves forward rapidly as the user's hand wields a jagged, glowing obsidian dagger, slashing through waves of grey stone monsters that crumble into dust upon impact. The shadow knights from segment one fight alongside the user. Suddenly, the ground shakes, and a colossal, 30-foot demonic titan with multiple red eyes and jagged armor emerges from the darkness, letting out a silent, earth-shaking roar. The user raises their left hand, charging a massive violet aura.\" [00:10 - 00:15] SEGMENT 3: The Final Surge (The Climax) \"Extreme POV close-up. The user's hand reaches toward the giant titan. A colossal spectral shadow-giant manifests behind the camera, mimicking the user's movement. All the shadow energy in the room condenses into the user's palm. The user fires a massive beam of pure abyssal purple energy that pierces through the titan's chest. The titan slowly disintegrates into black ash and embers, its red eyes fading as it collapses. The screen shakes with a heavy bass effect as the purple veins on the user's arm glow one last time before fading to black.\" Cinematic gender transformation sequence: start with a male figure in a dark, mysterious environment, subtle seductive tension in body language. Begin slow transformation with close-ups on physical change: jawline softens, shoulders narrow, hips subtly shift, hair lengthens and flows. Use dramatic lighting and dynamic camera movement, soft glowing particles, smooth skin morphing, luminous eyes, halo effects, ethereal atmosphere. Add seductive emotional nuance without explicit content — lingering gaze, graceful posture, fluid silhouette, magnetic presence. Sequence seamless and cinematic, slow motion transformation blending male to female form, film-like color grading, atmospheric shadows and highlights, polished visual flow, intense but elegant aesthetic. A cinematic, hyper-realistic vertical shot of a male-to-female shapeshifter transformation in a dimly lit luxurious room. The left half of the body remains rugged and masculine, while the right half is transforming into a graceful, elegant female form. Skin ripples like liquid silk at the intersection, and clothing morphs seamlessly from a masculine jacket into flowing attire. Dramatic low-key lighting emphasizes contours, intricate textures, and the surreal transformation. Dynamic expression of surprise and awe. High contrast, 8k resolution. A cinematic, hyper-realistic vertical shot of a male-to-female shapeshifter transformation in a dimly lit luxurious room. The left half of the body remains rugged and masculine, while the right half is transforming into a graceful, elegant female form. Skin ripples like liquid silk at the intersection, and clothing morphs seamlessly from a masculine jacket into flowing attire. Dramatic low-key lighting emphasizes contours, intricate textures, and the surreal transformation. Dynamic expression of surprise and awe. High contrast, 8k resolution.",
+      "display_text": ": First-person perspective (POV), 8K hyper-realistic, 60fps fluid motion, dark fantasy aesthetic, cinematic lighting, 9:16 vertical aspect ratio. [00:00 - 00:05] SEGMENT 1: The Awakening (The Hook) \"POV shot. Looking down at the user's hand (as seen in @image1 ), where glowing blue and black veins pulse with energy. The hand is gripping a swirling black and violet energy orb. The hand crushes the orb with a heavy grip. Instantly, a massive shockwave of purple lightning and dark smoke explodes outward. From the shadows on the ground, dozens of spectral, knight-like silhouettes with glowing eyes rise and kneel before the camera. The setting is a dark, ruined stone dungeon.\" [00:05 - 00:10] SEGMENT 2: The Onslaught & The Boss (The Body) \"Fast-paced POV combat. The camera moves forward rapidly as the user's hand wields a jagged, glowing obsidian dagger, slashing through waves of grey stone monsters that crumble into dust upon impact. The shadow knights from segment one fight alongside the user. Suddenly, the ground shakes, and a colossal, 30-foot demonic titan with multiple red eyes and jagged armor emerges from the darkness, letting out a silent, earth-shaking roar. The user raises their left hand, charging a massive violet aura.\" [00:10 - 00:15] SEGMENT 3: The Final Surge (The Climax) \"Extreme POV close-up. The user's hand reaches toward the giant titan. A colossal spectral shadow-giant manifests behind the camera, mimicking the user's movement. All the shadow energy in the room condenses into the user's palm. The user fires a massive beam of pure abyssal purple energy that pierces through the titan's chest. The titan slowly disintegrates into black ash and embers, its red eyes fading as it collapses. The screen shakes with a heavy bass effect as the purple veins on the user's arm glow one last time before fading to black.\" Cinematic gender transformation sequence: start with a male figure in a dark, mysterious environment, subtle seductive tension in body language. Begin slow transformation with close-ups on physical change: jawline softens, shoulders narrow, hips subtly shift, hair lengthens and flows. Use dramatic lighting and dynamic camera movement, soft glowing particles, smooth skin morphing, luminous eyes, halo effects, ethereal atmosphere. Add seductive emotional nuance without explicit content — lingering gaze, graceful posture, fluid silhouette, magnetic presence. Sequence seamless and cinematic, slow motion transformation blending male to female form, film-like color grading, atmospheric shadows and highlights, polished visual flow, intense but elegant aesthetic. A cinematic, hyper-realistic vertical shot of a male-to-female shapeshifter transformation in a dimly lit luxurious room. The left half of the body remains rugged and masculine, while the right half is transforming into a graceful, elegant female form. Skin ripples like liquid silk at the intersection, and clothing morphs seamlessly from a masculine jacket into flowing attire. Dramatic low-key lighting emphasizes contours, intricate textures, and the surreal transformation. Dynamic expression of surprise and awe. High contrast, 8k resolution. A cinematic, hyper-realistic vertical shot of a male-to-female shapeshifter transformation in a dimly lit luxurious room. The left half of the body remains rugged and masculine, while the right half is transforming into a graceful, elegant female form. Skin ripples like liquid silk at the intersection, and clothing morphs seamlessly from a masculine jacket into flowing attire. Dramatic low-key lighting emphasizes contours, intricate textures, and the surreal transformation. Dynamic expression of surprise and awe. High contrast, 8k resolution.",
+      "category": "vfx",
+      "quality_score": 100,
+      "source_url": "https://x.com/Gemalpha_88/status/2041687092653388060",
+      "author": "@Gemalpha_88",
+      "created_at": "2026-04-08T01:18:30.000Z",
+      "tweet_text": "Seedance 2.0 on Nsketch \n@nsketchai\n \n\nPrompt::\nFirst-person perspective (POV), 8K hyper-realistic, 60fps fluid motion, dark fantasy aesthetic, cinematic lighting, 9:16 vertical aspect ratio. [00:00 - 00:05] SEGMENT 1: The Awakening (The Hook) \"POV shot. Looking down at the user's hand (as seen in \n@image1\n), where glowing blue and black veins pulse with energy. The hand is gripping a swirling black and violet energy orb. The hand crushes the orb with a heavy grip. Instantly, a massive shockwave of purple lightning and dark smoke explodes outward. From the shadows on the ground, dozens of spectral, knight-like silhouettes with glowing eyes rise and kneel before the camera. The setting is a dark, ruined stone dungeon.\" [00:05 - 00:10] SEGMENT 2: The Onslaught & The Boss (The Body) \"Fast-paced POV combat. The camera moves forward rapidly as the user's hand wields a jagged, glowing obsidian dagger, slashing through waves of grey stone monsters that crumble into dust upon impact. The shadow knights from segment one fight alongside the user. Suddenly, the ground shakes, and a colossal, 30-foot demonic titan with multiple red eyes and jagged armor emerges from the darkness, letting out a silent, earth-shaking roar. The user raises their left hand, charging a massive violet aura.\" [00:10 - 00:15] SEGMENT 3: The Final Surge (The Climax) \"Extreme POV close-up. The user's hand reaches toward the giant titan. A colossal spectral shadow-giant manifests behind the camera, mimicking the user's movement. All the shadow energy in the room condenses into the user's palm. The user fires a massive beam of pure abyssal purple energy that pierces through the titan's chest. The titan slowly disintegrates into black ash and embers, its red eyes fading as it collapses. The screen shakes with a heavy bass effect as the purple veins on the user's arm glow one last time before fading to black.\"\nCinematic gender transformation sequence: start with a male figure in a dark, mysterious environment, subtle seductive tension in body language. Begin slow transformation with close-ups on physical change: jawline softens, shoulders narrow, hips subtly shift, hair lengthens and flows. Use dramatic lighting and dynamic camera movement, soft glowing particles, smooth skin morphing, luminous eyes, halo effects, ethereal atmosphere. Add seductive emotional nuance without explicit content — lingering gaze, graceful posture, fluid silhouette, magnetic presence. Sequence seamless and cinematic, slow motion transformation blending male to female form, film-like color grading, atmospheric shadows and highlights, polished visual flow, intense but elegant aesthetic.\nA cinematic, hyper-realistic vertical shot of a male-to-female shapeshifter transformation in a dimly lit luxurious room. The left half of the body remains rugged and masculine, while the right half is transforming into a graceful, elegant female form. Skin ripples like liquid silk at the intersection, and clothing morphs seamlessly from a masculine jacket into flowing attire. Dramatic low-key lighting emphasizes contours, intricate textures, and the surreal transformation. Dynamic expression of surprise and awe. High contrast, 8k resolution.\nA cinematic, hyper-realistic vertical shot of a male-to-female shapeshifter transformation in a dimly lit luxurious room. The left half of the body remains rugged and masculine, while the right half is transforming into a graceful, elegant female form. Skin ripples like liquid silk at the intersection, and clothing morphs seamlessly from a masculine jacket into flowing attire. Dramatic low-key lighting emphasizes contours, intricate textures, and the surreal transformation. Dynamic expression of surprise and awe. High contrast, 8k resolution.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 76,
+        "reasons": [
+          "very_long"
+        ],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041687009673277443/pu/vid/avc1/720x1280/9tSuvZqa6WeN2IHn.mp4?tag=19",
+      "video": "media/videos/2041687092653388060.mp4"
+    },
     {
       "id": "x:2041617300428878199",
       "text": "Setting: Dark fortress interior with towering metal structures. Teal/cyan illumination leaks through gaps between massive pillars. Metallic reflective floor. Character: White-haired girl with red eyes. Mechanical angel in white armor plating. Wings on her back emit blue energy. [1: HIGH-SPEED FLIGHT WITH BOOST TRAILS] Extreme top-down angle. A tiny white light point zigzags across the fortress trailing blue energy lines. Concentric sonic-boom rings expand at each turning point. Wind-pressure particles scatter off the metal floor below. [2: CHARACTER CLOSE-UP → WEAPON AIM → FIRE → EXTREME FACE CLOSE-UP] Hard cut to low-angle close-up — the angel with wings spread, energy blades aimed forward in firing stance. She fires. Then the camera begins an agonizingly slow, deliberate zoom toward her face. It continues until only her glowing red eyes fill the entire frame. Pure intimidation. [3: BOOSTER ADJUSTMENT → CHARGE → ENERGY MAX → BOOST] From the red-eye extreme close-up, blue energy vents intensify in stages — blue → bright white. The entire screen whites out. An explosive flash of energy release. [4: HIGH-SPEED FLIGHT WITH BOOST TRAILS] Immediately after whiteout she streaks across the fortress at extreme speed. Blue beam trails cut diagonally across the frame. A targeting reticle flickers for an instant. [5: KICK TOWARD CAMERA] She dives from above and drives a kick straight at the camera — extreme low-angle POV from the target's perspective. Her armored leg fills the frame. Wing jets fire for added impact. [6: SAME KICK FROM DIFFERENT ANGLE → EXPLOSION] The same kick replayed from a different camera angle. On contact: cyan/white explosion → thick energy dust cloud → the dust lights up from inside as a secondary blast erupts. [7: CLOSE-UP → WEAPON AIM → AUTO-TARGETING → FULL BARRAGE] Dust clears to reveal the angel with all wings fully deployed. Each blue energy blade independently auto-adjusts its aim — blue/purple electrical arcs crackle as targeting locks on. Then every blade fires at once — continuous rapid-fire barrage, the entire screen consumed by cyan/white explosions. [8: BOOSTER ADJUSTMENT → CHARGE → MAX BOOST → HIGH-SPEED FLIGHT] Energy vents charge up again in stages. Blue → white → whiteout → explosive jet blast. She rockets away trailing blue energy across the fortress. [9: WEAPON READY POSE] Against the teal fortress backdrop she holds a static pose, energy blades aimed forward, wings fully spread. A faint blue aura shimmers around her.",
@@ -139,7 +309,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-07T23:07:22Z",
+        "reviewed_at": "2026-04-08T11:26:30Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/ext_tw_video/2041580516265132032/pu/vid/avc1/1280x720/YSYUCUi1RBx1STPM.mp4?tag=12",
@@ -235,7 +405,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-07T23:07:22Z",
+        "reviewed_at": "2026-04-08T11:26:30Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2041554493951852544/vid/avc1/1280x720/aufhavLEUfS5ljLJ.mp4?tag=14",
@@ -259,9 +429,11 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-07T23:07:22Z",
+        "reviewed_at": "2026-04-08T11:26:30Z",
         "engine": "internal_rules_v1"
-      }
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041554560217645056/vid/avc1/1280x720/xMsAyqx8YY84K9Mj.mp4?tag=14",
+      "video": "media/videos/2041554392651083960.mp4"
     },
     {
       "id": "x:2041523919736246598",
@@ -281,7 +453,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-07T23:07:22Z",
+        "reviewed_at": "2026-04-08T11:26:30Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/ext_tw_video/2041523893165264896/pu/vid/avc1/1280x720/kRpTHEx6SnXH8I5N.mp4?tag=12",
@@ -329,7 +501,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-07T23:07:23Z",
+        "reviewed_at": "2026-04-08T11:26:30Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2041503227196370944/vid/avc1/720x1280/ggBIFkPy0miFenZU.mp4?tag=21",
@@ -353,7 +525,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-07T23:07:23Z",
+        "reviewed_at": "2026-04-08T11:26:30Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2041500232706670592/vid/avc1/1280x720/8UE46D_jAlA5iTWQ.mp4",
@@ -1790,6 +1962,30 @@
       "video": "media/videos/2041216207647355333.mp4"
     },
     {
+      "id": "x:2041797816914432310",
+      "text": "cat master deserves a nice break (made with Seedance 2.0 on @nemovideoai ) Prompt share DAY STRUCTURE: 15s / 148 BPM / ONE CONTINUOUS SHOT / 3D slapstick wuxia-animal comedy TONE: disciplined temple routine collapsing into chaotic micro-mayhem SUBJECT: Orange cat monk in worn grey dao robe, agile but constantly sleep-deprived CAST: Black-robed chanting cat monks (low-energy), White training monks (overconfident), Elder red-robed master cat (silent authority) PROPS: Rope bucket well, wooden bucket, prayer beads, bamboo axe, stone courtyard, rooftop tiles, incense smoke ENVIRONMENT: Mountain temple complex—courtyard → prayer hall → well → training square → rooftops → bamboo forest → dorm room COLOR: Dawn gold → harsh noon white → sunset amber CAMERA: Single uninterrupted 24mm Steadicam, fast whip transitions, gravity-defying follow, no cuts 1 (0–2s) DAWN WAKE Camera glides through temple roof gap into dorm. Orange cat monk jolts awake to loud birds. He freezes... then performs an exaggerated full-body stretch that briefly distorts his silhouette before snapping back. 2 (2–4s) PRAYER HALL ENTRY He rushes straight into black-robed chanting monks. They recite in dull unison. He tries to chant—mouth moving too slow—head dips mid-syllable, almost asleep while standing. 3 (4–5.5s) WELL SNAP ACTION Hard whip pan to courtyard well. He yanks rope instantly—bucket rockets up, water splashes camera. He wipes face aggressively, fully rebooted. 4 (5.5–7.5s) TRAINING SQUARE MISFIRE Camera swings into white-robed training monks. They strike in formation. He joins late, misreads rhythm, and accidentally redirects every punch—monks scatter outward in synchronized slow-motion confusion. 5 (7.5–8.5s) ELDER INTERRUPTION Elder red-robed master appears frame edge. Instant freeze. Orange monk bows too fast, overshoots balance, slides sideways in panic respect. 6 (8.5–10s) ROOFTOP LAUNCH He bolts upward. Camera tilts and follows as he runs wall-to-roof seamlessly, robe flaring. Tiles crack under rapid steps. 7 (10–11.5s) BAMBOO FOREST AXE BURST Whip transition lands him in forest. He grabs axe mid-motion and chops wood at insane speed—each swing splitting logs and launching chips like ricocheting projectiles. 8 (11.5–13s) SUNSET FATIGUE RUN Lighting shifts to amber. Same continuous camera tracks him looping tasks—run, chop, stumble recover. Motion stays fast but posture collapses slightly each step. 9 (13–14.5s) RETURN PASS He walks back through temple gate. Other monks salute. He tries to respond properly but only manages delayed, tired nods while still moving. 10 (14.5–15s) BED DROP END Camera follows into dorm. He collapses instantly onto mat. Eyes close mid-fall. Final frame holds on stillness as wind chime rings once. SFX: playful shakuhachi + brisk percussion engine, comedic taiko “bonk” hits on monk impacts, rope snap + water splash burst at well, fast wooden clack for training chaos, bamboo crack percussion in forest, ending with soft koto + single wind chime decay into silence. #sd2 #seedance #aivideo #CatsLover",
+      "display_text": "DAY STRUCTURE: 15s / 148 BPM / ONE CONTINUOUS SHOT / 3D slapstick wuxia-animal comedy TONE: disciplined temple routine collapsing into chaotic micro-mayhem SUBJECT: Orange cat monk in worn grey dao robe, agile but constantly sleep-deprived CAST: Black-robed chanting cat monks (low-energy), White training monks (overconfident), Elder red-robed master cat (silent authority) PROPS: Rope bucket well, wooden bucket, prayer beads, bamboo axe, stone courtyard, rooftop tiles, incense smoke ENVIRONMENT: Mountain temple complex—courtyard → prayer hall → well → training square → rooftops → bamboo forest → dorm room COLOR: Dawn gold → harsh noon white → sunset amber CAMERA: Single uninterrupted 24mm Steadicam, fast whip transitions, gravity-defying follow, no cuts 1 (0–2s) DAWN WAKE Camera glides through temple roof gap into dorm. Orange cat monk jolts awake to loud birds. He freezes... then performs an exaggerated full-body stretch that briefly distorts his silhouette before snapping back. 2 (2–4s) PRAYER HALL ENTRY He rushes straight into black-robed chanting monks. They recite in dull unison. He tries to chant—mouth moving too slow—head dips mid-syllable, almost asleep while standing. 3 (4–5.5s) WELL SNAP ACTION Hard whip pan to courtyard well. He yanks rope instantly—bucket rockets up, water splashes camera. He wipes face aggressively, fully rebooted. 4 (5.5–7.5s) TRAINING SQUARE MISFIRE Camera swings into white-robed training monks. They strike in formation. He joins late, misreads rhythm, and accidentally redirects every punch—monks scatter outward in synchronized slow-motion confusion. 5 (7.5–8.5s) ELDER INTERRUPTION Elder red-robed master appears frame edge. Instant freeze. Orange monk bows too fast, overshoots balance, slides sideways in panic respect. 6 (8.5–10s) ROOFTOP LAUNCH He bolts upward. Camera tilts and follows as he runs wall-to-roof seamlessly, robe flaring. Tiles crack under rapid steps. 7 (10–11.5s) BAMBOO FOREST AXE BURST Whip transition lands him in forest. He grabs axe mid-motion and chops wood at insane speed—each swing splitting logs and launching chips like ricocheting projectiles. 8 (11.5–13s) SUNSET FATIGUE RUN Lighting shifts to amber. Same continuous camera tracks him looping tasks—run, chop, stumble recover. Motion stays fast but posture collapses slightly each step. 9 (13–14.5s) RETURN PASS He walks back through temple gate. Other monks salute. He tries to respond properly but only manages delayed, tired nods while still moving. 10 (14.5–15s) BED DROP END Camera follows into dorm. He collapses instantly onto mat. Eyes close mid-fall. Final frame holds on stillness as wind chime rings once. SFX: playful shakuhachi + brisk percussion engine, comedic taiko “bonk” hits on monk impacts, rope snap + water splash burst at well, fast wooden clack for training chaos, bamboo crack percussion in forest, ending with soft koto + single wind chime decay into silence.",
+      "category": "nature-scenic",
+      "quality_score": 98,
+      "source_url": "https://x.com/drjoetw/status/2041797816914432310",
+      "author": "@drjoetw",
+      "created_at": "2026-04-08T08:38:28.000Z",
+      "tweet_text": "cat master deserves a nice break \n(made with Seedance 2.0 on \n@nemovideoai\n )\nPrompt share \n\nDAY STRUCTURE: 15s / 148 BPM / ONE CONTINUOUS SHOT / 3D slapstick wuxia-animal comedy\n\nTONE: disciplined temple routine collapsing into chaotic micro-mayhem\nSUBJECT: Orange cat monk in worn grey dao robe, agile but constantly sleep-deprived\nCAST: Black-robed chanting cat monks (low-energy), White training monks (overconfident), Elder red-robed master cat (silent authority)\nPROPS: Rope bucket well, wooden bucket, prayer beads, bamboo axe, stone courtyard, rooftop tiles, incense smoke\nENVIRONMENT: Mountain temple complex—courtyard → prayer hall → well → training square → rooftops → bamboo forest → dorm room\nCOLOR: Dawn gold → harsh noon white → sunset amber\nCAMERA: Single uninterrupted 24mm Steadicam, fast whip transitions, gravity-defying follow, no cuts\n\n1 (0–2s) DAWN WAKE\nCamera glides through temple roof gap into dorm. Orange cat monk jolts awake to loud birds. He freezes… then performs an exaggerated full-body stretch that briefly distorts his silhouette before snapping back.\n\n2 (2–4s) PRAYER HALL ENTRY\nHe rushes straight into black-robed chanting monks. They recite in dull unison. He tries to chant—mouth moving too slow—head dips mid-syllable, almost asleep while standing.\n\n3 (4–5.5s) WELL SNAP ACTION\nHard whip pan to courtyard well. He yanks rope instantly—bucket rockets up, water splashes camera. He wipes face aggressively, fully rebooted.\n\n4 (5.5–7.5s) TRAINING SQUARE MISFIRE\nCamera swings into white-robed training monks. They strike in formation. He joins late, misreads rhythm, and accidentally redirects every punch—monks scatter outward in synchronized slow-motion confusion.\n\n5 (7.5–8.5s) ELDER INTERRUPTION\nElder red-robed master appears frame edge. Instant freeze. Orange monk bows too fast, overshoots balance, slides sideways in panic respect.\n\n6 (8.5–10s) ROOFTOP LAUNCH\nHe bolts upward. Camera tilts and follows as he runs wall-to-roof seamlessly, robe flaring. Tiles crack under rapid steps.\n\n7 (10–11.5s) BAMBOO FOREST AXE BURST\nWhip transition lands him in forest. He grabs axe mid-motion and chops wood at insane speed—each swing splitting logs and launching chips like ricocheting projectiles.\n\n8 (11.5–13s) SUNSET FATIGUE RUN\nLighting shifts to amber. Same continuous camera tracks him looping tasks—run, chop, stumble recover. Motion stays fast but posture collapses slightly each step.\n\n9 (13–14.5s) RETURN PASS\nHe walks back through temple gate. Other monks salute. He tries to respond properly but only manages delayed, tired nods while still moving.\n\n10 (14.5–15s) BED DROP END\nCamera follows into dorm. He collapses instantly onto mat. Eyes close mid-fall. Final frame holds on stillness as wind chime rings once.\n\nSFX: playful shakuhachi + brisk percussion engine, comedic taiko “bonk” hits on monk impacts, rope snap + water splash burst at well, fast wooden clack for training chaos, bamboo crack percussion in forest, ending with soft koto + single wind chime decay into silence.\n\n#sd2 #seedance #aivideo #CatsLover",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041797737893785601/vid/avc1/1280x720/WZspkDJZlE5AB3jP.mp4?tag=21",
+      "video": "media/videos/2041797816914432310.mp4"
+    },
+    {
       "id": "x:2041267006994034976",
       "text": "\"character walking through street\" Strong prompt: \"smooth tracking shot, gradual zoom on subject, 35mm focal length, shallow focus separating character from background\" The difference? One looks like a test clip. The other looks intentional.",
       "display_text": "\"smooth tracking shot, gradual zoom on subject, 35mm focal length, shallow focus separating character from background\" The difference? One looks like a test clip. The other looks intentional.",
@@ -2024,6 +2220,54 @@
       }
     },
     {
+      "id": "x:2041811087390339373",
+      "text": "Seedance 2.0 on @nsketchai Prompt A surreal battlefield in the sky: floating rock islands drifting through a thunderstorm, clouds swirling below like an ocean. The masked ronin dashes across the drifting platforms, pursued by a colossal winged beast whose chest is a swirling vortex of storm clouds and lightning. The camera hurtles from island to island, struggling to keep up as rocks tilt, spin, and crumble away beneath them. Every wingbeat sends shockwaves through the air, shaking the frame and blowing debris and rain straight into the viewer's face. Rapid handheld cuts capture the ronin leaping impossible gaps, sword carving arcs of light that briefly cut through the darkness. The finale shows the camera diving behind him as he jumps off the last crumbling rock, riding a bolt of lightning directly into the monster's chest vortex with a final, all-or-nothing slash that explodes the storm from within and clears the sky in a blinding flash.",
+      "display_text": "A surreal battlefield in the sky: floating rock islands drifting through a thunderstorm, clouds swirling below like an ocean. The masked ronin dashes across the drifting platforms, pursued by a colossal winged beast whose chest is a swirling vortex of storm clouds and lightning. The camera hurtles from island to island, struggling to keep up as rocks tilt, spin, and crumble away beneath them. Every wingbeat sends shockwaves through the air, shaking the frame and blowing debris and rain straight into the viewer's face. Rapid handheld cuts capture the ronin leaping impossible gaps, sword carving arcs of light that briefly cut through the darkness. The finale shows the camera diving behind him as he jumps off the last crumbling rock, riding a bolt of lightning directly into the monster's chest vortex with a final, all-or-nothing slash that explodes the storm from within and clears the sky in a blinding flash.",
+      "category": "nature-scenic",
+      "quality_score": 96,
+      "source_url": "https://x.com/AIwithSynthia/status/2041811087390339373",
+      "author": "@AIwithSynthia",
+      "created_at": "2026-04-08T09:31:12.000Z",
+      "tweet_text": "Seedance 2.0 on \n@nsketchai\n \n\nPrompt  \n\nA surreal battlefield in the sky: floating rock islands drifting through a thunderstorm, clouds swirling below like an ocean. The masked ronin dashes across the drifting platforms, pursued by a colossal winged beast whose chest is a swirling vortex of storm clouds and lightning. The camera hurtles from island to island, struggling to keep up as rocks tilt, spin, and crumble away beneath them. Every wingbeat sends shockwaves through the air, shaking the frame and blowing debris and rain straight into the viewer's face. Rapid handheld cuts capture the ronin leaping impossible gaps, sword carving arcs of light that briefly cut through the darkness. The finale shows the camera diving behind him as he jumps off the last crumbling rock, riding a bolt of lightning directly into the monster's chest vortex with a final, all-or-nothing slash that explodes the storm from within and clears the sky in a blinding flash.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041811042666475521/pu/vid/avc1/1280x720/JKNtdOp8wqK0WuRg.mp4?tag=19",
+      "video": "media/videos/2041811087390339373.mp4"
+    },
+    {
+      "id": "x:2041795714234138681",
+      "text": "First-person GoPro POV mounted on a BMX rider speeding through a dense urban environment. Hands gripping handlebars, front wheel visible. City sounds echo — tires rolling over concrete. At the 2-second mark the rider hits a small ramp and launches onto a ledge. The bike lands — slight jolt through the camera. Immediate transition into a grind along a metal rail — sparks flicker briefly. Velocity ramp: mid-air trick — the bike spins — hands briefly release and re-grab the bars in slow motion. The rider lands and continues forward without pause. He jumps down a staircase — rapid impacts, camera shaking. Final beat: sharp turn through a narrow alley — near miss with a wall. Urban realism, camera vibration, metal textures, cinematic motion, 4K. Made in @dreamina_ai #DreaminaCPP #DreaminaAI",
+      "display_text": "First-person GoPro POV mounted on a BMX rider speeding through a dense urban environment. Hands gripping handlebars, front wheel visible. City sounds echo — tires rolling over concrete. At the 2-second mark the rider hits a small ramp and launches onto a ledge. The bike lands — slight jolt through the camera. Immediate transition into a grind along a metal rail — sparks flicker briefly. Velocity ramp: mid-air trick — the bike spins — hands briefly release and re-grab the bars in slow motion. The rider lands and continues forward without pause. He jumps down a staircase — rapid impacts, camera shaking. Final beat: sharp turn through a narrow alley — near miss with a wall. Urban realism, camera vibration, metal textures, cinematic motion, 4K. #DreaminaCPP #DreaminaAI",
+      "category": "cinematic",
+      "quality_score": 96,
+      "source_url": "https://x.com/LudovicCreator/status/2041795714234138681",
+      "author": "@LudovicCreator",
+      "created_at": "2026-04-08T08:30:07.000Z",
+      "tweet_text": "SEEDANCE 2 \n\nPrompt  :\n\nFirst-person GoPro POV mounted on a BMX rider speeding through a dense urban environment. Hands gripping handlebars, front wheel visible.\n\nCity sounds echo — tires rolling over concrete.\n\nAt the 2-second mark the rider hits a small ramp and launches onto a ledge.\n\nThe bike lands — slight jolt through the camera.\n\nImmediate transition into a grind along a metal rail — sparks flicker briefly.\n\nVelocity ramp: mid-air trick — the bike spins — hands briefly release and re-grab the bars in slow motion.\n\nThe rider lands and continues forward without pause.\n\nHe jumps down a staircase — rapid impacts, camera shaking.\n\nFinal beat: sharp turn through a narrow alley — near miss with a wall.\n\nUrban realism, camera vibration, metal textures, cinematic motion, 4K.\n\nMade in \n@dreamina_ai\n \n\n#DreaminaCPP #DreaminaAI",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041772983656583168/vid/avc1/3854x2160/a2sA5nHrusTtlOm7.mp4?tag=21",
+      "video": "media/videos/2041795714234138681.mp4"
+    },
+    {
       "id": "x:2041441362344833237",
       "text": "Seedance 2.0 is now on the Pollo AI app — iOS & Android. Generate cinematic shots like this cyberpunk scene in seconds. “Stylish man walking in a neon cyberpunk city at night (rain, neon lights, cinematic look)” → Ultra-realistic, Blade Runner-inspired, 4K, teal-magenta",
       "display_text": "cinematic shots like this cyberpunk scene in seconds. “Stylish man walking in a neon cyberpunk city at night (rain, neon lights, cinematic look)” → Ultra-realistic, Blade Runner-inspired, 4K, teal-magenta",
@@ -2094,6 +2338,28 @@
       },
       "video_url": "https://video.twimg.com/amplify_video/2040937494016077824/vid/avc1/3840x2160/khlWzmztlOYAReYY.mp4?tag=21",
       "video": "media/videos/2040857178483876285.mp4"
+    },
+    {
+      "id": "x:2041822304645136656",
+      "text": "1. The Girl and the Glass Whale EMOTIONAL CORE Loneliness turning into awe. STYLE LOCK Photoreal fantasy, anamorphic, subtle grain, cold blue glass light, deep ocean atmosphere. SEEDANCE PROMPT 15-second fantasy short, no dialogue. A teenage girl in a soaked school coat stands",
+      "display_text": "15-second fantasy short, no dialogue. A teenage girl in a soaked school coat stands",
+      "category": "cinematic",
+      "quality_score": 95,
+      "source_url": "https://x.com/Dheepanratnam/status/2041822304645136656",
+      "author": "@Dheepanratnam",
+      "created_at": "2026-04-08T10:15:47.000Z",
+      "tweet_text": "1. The Girl and the Glass Whale\n\nEMOTIONAL CORE\nLoneliness turning into awe.\nSTYLE LOCK\nPhotoreal fantasy, anamorphic, subtle grain, cold blue glass light, deep ocean atmosphere.\n\nSEEDANCE PROMPT\n15-second fantasy short, no dialogue. A teenage girl in a soaked school coat stands",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      }
     },
     {
       "id": "x:2041362475640406336",
@@ -2248,6 +2514,30 @@
       "video": "media/videos/2040821068605395281.mp4"
     },
     {
+      "id": "x:2041798911250329753",
+      "text": "Static close-up shot. A realistic human hand interacts with a flat 2D animated character of Furina — a blue and white dress anime girl with long light blue hair — inside a clear glass cup placed on a wooden table. [0-2s] The hand pinches Furina by the head and lowers her into the glass; she grabs the rim with both arms and resists, refusing to go in, while the fingers keep pressing her down. [2-4s] She loses grip and slides down the glass wall, desperately kicking and clawing at the wall trying to climb back up, but keeps slipping back to the bottom, with a surprised yelp. [4-7s] She gives up and slumps at the bottom, eyes shut, two exaggerated wide noodle-tears streaming down her cheeks, crying dramatically. [7-9s] She suddenly leaps up, shaking both fists at her sides furiously, tears still on her face, yelling angrily upward in protest — expression both crying and fuming, super cute. [9-11s] The finger reaches in and gently pats her head; she immediately stops, sits still obediently, hands clasped on her chest, looking up at the finger with big teary puppy eyes. [11-13s] The fingers pinch her head again and lift her straight up out of the glass; halfway up she tilts her head slightly, eyes half-lidded, a small smug tsundere smile on her lips. [13-15s] Fully lifted out and suspended in the air, her eyes open wide and she breaks into a big bright energetic grin, hands spread open happily, frame holds steady. AR mixed-media style: flat 2D cartoon character with full physical interaction with a real 3D glass — sliding and climbing along the glass wall, realistic glass refractions, cast shadows, and wall contact all rendered naturally. Soft warm natural lighting, super cute and heartwarming mood. #furina #genshinimpact",
+      "display_text": "Static close-up shot. A realistic human hand interacts with a flat 2D animated character of Furina — a blue and white dress anime girl with long light blue hair — inside a clear glass cup placed on a wooden table. [0-2s] The hand pinches Furina by the head and lowers her into the glass; she grabs the rim with both arms and resists, refusing to go in, while the fingers keep pressing her down. [2-4s] She loses grip and slides down the glass wall, desperately kicking and clawing at the wall trying to climb back up, but keeps slipping back to the bottom, with a surprised yelp. [4-7s] She gives up and slumps at the bottom, eyes shut, two exaggerated wide noodle-tears streaming down her cheeks, crying dramatically. [7-9s] She suddenly leaps up, shaking both fists at her sides furiously, tears still on her face, yelling angrily upward in protest — expression both crying and fuming, super cute. [9-11s] The finger reaches in and gently pats her head; she immediately stops, sits still obediently, hands clasped on her chest, looking up at the finger with big teary puppy eyes. [11-13s] The fingers pinch her head again and lift her straight up out of the glass; halfway up she tilts her head slightly, eyes half-lidded, a small smug tsundere smile on her lips. [13-15s] Fully lifted out and suspended in the air, her eyes open wide and she breaks into a big bright energetic grin, hands spread open happily, frame holds steady. AR mixed-media style: flat 2D cartoon character with full physical interaction with a real 3D glass — sliding and climbing along the glass wall, realistic glass refractions, cast shadows, and wall contact all rendered naturally. Soft warm natural lighting, super cute and heartwarming mood. #furina #genshinimpact",
+      "category": "cinematic",
+      "quality_score": 93,
+      "source_url": "https://x.com/Mayz1169/status/2041798911250329753",
+      "author": "@Mayz1169",
+      "created_at": "2026-04-08T08:42:49.000Z",
+      "tweet_text": "Seedance 2.0 on \n@renoiseai\n \n\nPrompt:\nStatic close-up shot. A realistic human hand interacts with a flat 2D animated character of Furina — a blue and white dress anime girl with long light blue hair — inside a clear glass cup placed on a wooden table. [0-2s] The hand pinches Furina by the head and lowers her into the glass; she grabs the rim with both arms and resists, refusing to go in, while the fingers keep pressing her down. [2-4s] She loses grip and slides down the glass wall, desperately kicking and clawing at the wall trying to climb back up, but keeps slipping back to the bottom, with a surprised yelp. [4-7s] She gives up and slumps at the bottom, eyes shut, two exaggerated wide noodle-tears streaming down her cheeks, crying dramatically. [7-9s] She suddenly leaps up, shaking both fists at her sides furiously, tears still on her face, yelling angrily upward in protest — expression both crying and fuming, super cute. [9-11s] The finger reaches in and gently pats her head; she immediately stops, sits still obediently, hands clasped on her chest, looking up at the finger with big teary puppy eyes. [11-13s] The fingers pinch her head again and lift her straight up out of the glass; halfway up she tilts her head slightly, eyes half-lidded, a small smug tsundere smile on her lips. [13-15s] Fully lifted out and suspended in the air, her eyes open wide and she breaks into a big bright energetic grin, hands spread open happily, frame holds steady. AR mixed-media style: flat 2D cartoon character with full physical interaction with a real 3D glass — sliding and climbing along the glass wall, realistic glass refractions, cast shadows, and wall contact all rendered naturally. Soft warm natural lighting, super cute and heartwarming mood. #furina #genshinimpact",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041798817620881410/vid/avc1/1080x1920/OXrezGsZqO5GSGSt.mp4?tag=21",
+      "video": "media/videos/2041798911250329753.mp4"
+    },
+    {
       "id": "x:2041091109254774913",
       "text": "You were asking if artificial intelligence can produce videos this realistic. Here's the answer. I generated this video on OpenArt using Seedance 2.0. Single prompt, zero editing. Future technology, warehouse robot... @openart_ai makes this possible. ByteDance's Seedance 2.0 model is now directly on the platform. You can use text, visual, audio, and video references all at once. 4K resolution, cinematic camera movements, synchronized audio—whatever you want....",
       "display_text": "cinematic camera movements, synchronized audio—whatever you want....",
@@ -2270,6 +2560,54 @@
       },
       "video_url": "https://video.twimg.com/amplify_video/2041090966044422144/vid/avc1/1920x1080/nU9Oa180sDX5i8Gg.mp4?tag=21",
       "video": "media/videos/2041091109254774913.mp4"
+    },
+    {
+      "id": "x:2041830022973894916",
+      "text": "My first Seedance 2.0 attempt. I can finally do a war movie with AI and it will look super realistic :) [CINEMATIC SETUP] Style: Hyper-real modern war cinema, grounded battlefield realism, premium large-format film look, brutal but visually clear, emotionally intense, zero",
+      "display_text": "[CINEMATIC SETUP] Style: Hyper-real modern war cinema, grounded battlefield realism, premium large-format film look, brutal but visually clear, emotionally intense, zero",
+      "category": "cinematic",
+      "quality_score": 92,
+      "source_url": "https://x.com/Gdgtify/status/2041830022973894916",
+      "author": "@Gdgtify",
+      "created_at": "2026-04-08T10:46:27.000Z",
+      "tweet_text": "My first Seedance 2.0 attempt. I can finally do a war movie with AI and it will look super realistic :) \n\n[CINEMATIC SETUP]\n\nStyle: Hyper-real modern war cinema, grounded battlefield realism, premium large-format film look, brutal but visually clear, emotionally intense, zero",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041829207668387840/vid/avc1/1280x720/kfC3MXeTDCceq8ay.mp4",
+      "video": "media/videos/2041830022973894916.mp4"
+    },
+    {
+      "id": "x:2041723470115996081",
+      "text": "Just tested out Seedance 2.0 on Pollo AI — available on both Android and iOS — and this honestly surprised me. The motion feels way more natural than what I’m used to seeing from AI video tools. The camera movement flows like an actual cinematic rig instead of those stiff, artificial transitions. What stood out most for me: ● The realistic motion physics where characters and camera movement feel grounded, not floaty ● The lighting & reflections especially on the wet surface is super immersive ● The audio quality is clean, cinematic, and actually matches the visuals. It genuinely feels like something closer to a 3A game cinematic pipeline, but generated with Pollo AI. If you're an AI creator, this is one of those tools that can seriously level up your content. Enjoy the 60% off for a limited time because this is one of the impressive upgrades I’ve seen.",
+      "display_text": "The camera movement flows like an actual cinematic rig instead of those stiff, artificial transitions. What stood out most for me: ● The realistic motion physics where characters and camera movement feel grounded, not floaty ● The lighting & reflections especially on the wet surface is super immersive ● The audio quality is clean, cinematic, and actually matches the visuals. It genuinely feels like something closer to a 3A game cinematic pipeline, but . If you're an AI creator, this is one of those tools that can seriously level up your content. Enjoy the 60% off for a limited time because this is one of the impressive upgrades I’ve seen.",
+      "category": "cinematic",
+      "quality_score": 92,
+      "source_url": "https://x.com/base10_/status/2041723470115996081",
+      "author": "@base10_",
+      "created_at": "2026-04-08T03:43:03.000Z",
+      "tweet_text": "Just tested out Seedance 2.0 on Pollo AI — available on both Android and iOS — and this honestly surprised me.\n\nThe motion feels way more natural than what I’m used to seeing from AI video tools. The camera movement flows like an actual cinematic rig instead of those stiff, artificial transitions. What stood out most for me:\n● The realistic motion physics where characters and camera movement feel grounded, not floaty\n● The lighting & reflections especially on the wet surface is super immersive\n● The audio quality is clean, cinematic, and actually matches the visuals.\nIt genuinely feels like something closer to a 3A game cinematic pipeline, but generated with Pollo AI.\nIf you're an AI creator, this is one of those tools that can seriously level up your content. Enjoy the 60% off for a limited time because this is one of the impressive upgrades I’ve seen.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2039900916162408448/vid/avc1/1920x1080/akGJh5U4S-NCMAw2.mp4?tag=21",
+      "video": "media/videos/2041723470115996081.mp4"
     },
     {
       "id": "x:2041156284892799079",
@@ -2611,6 +2949,30 @@
       "video": "media/videos/2039290009354707379.mp4"
     },
     {
+      "id": "x:2041735501942514159",
+      "text": "*“Anime cooking scene, Makoto Shinkai cinematic style, side-angle camera. Flour-dusted wooden table, sunlight streaming through window, all ingredients arranged in bowls: tomato sauce, cherry tomatoes, salami, mushrooms, peppers, shredded mozzarella, parmesan, fresh basil, olive oil bottle, dried oregano, red pepper flakes. Hands pick up dough ball, begin stretching it sideways — dough pulls and stretches thin, flour dust lifts into sunlight in slow motion. Hands place stretched dough flat on floured surface, grab wooden rolling pin — roll firmly forward and back, dough spreads wide, edges curl slightly. Hands lift dough round, lay it flat. Spoon scoops tomato sauce from red bowl, pours onto center of dough — back of spoon spreads it in slow confident spiral outward, sauce glistens. Hands drizzle olive oil bottle in thin stream over sauce — golden drops catch sunlight. Right hand grabs shredded mozzarella by the handful, scatters generously — cheese lands softly across surface. Hands layer toppings one by one: salami slices placed in overlapping circle, mushroom slices dropped casually, colorful pepper pieces scattered, cherry tomatoes halved and pressed gently into cheese. Fingers pinch dried oregano from jar, crumble over pizza — fine herb dust floats in light rays. Pinch of red pepper flakes scattered. Fresh basil leaves torn by hand, placed last. Hands slide pizza onto wooden peel. Camera pulls back — full pizza visible, golden afternoon light, flour particles glowing, volumetric light rays through window. Rich layered sounds throughout: dough stretching, rolling pin on wood, sauce spreading, cheese scattering, toppings dropping. 15 seconds, smooth flowing pacing, ultra-detailed food animation.”* Step 5: Click Generate and wait for the result",
+      "display_text": "*“Anime cooking scene, Makoto Shinkai cinematic style, side-angle camera. Flour-dusted wooden table, sunlight streaming through window, all ingredients arranged in bowls: tomato sauce, cherry tomatoes, salami, mushrooms, peppers, shredded mozzarella, parmesan, fresh basil, olive oil bottle, dried oregano, red pepper flakes. Hands pick up dough ball, begin stretching it sideways — dough pulls and stretches thin, flour dust lifts into sunlight in slow motion. Hands place stretched dough flat on floured surface, grab wooden rolling pin — roll firmly forward and back, dough spreads wide, edges curl slightly. Hands lift dough round, lay it flat. Spoon scoops tomato sauce from red bowl, pours onto center of dough — back of spoon spreads it in slow confident spiral outward, sauce glistens. Hands drizzle olive oil bottle in thin stream over sauce — golden drops catch sunlight. Right hand grabs shredded mozzarella by the handful, scatters generously — cheese lands softly across surface. Hands layer toppings one by one: salami slices placed in overlapping circle, mushroom slices dropped casually, colorful pepper pieces scattered, cherry tomatoes halved and pressed gently into cheese. Fingers pinch dried oregano from jar, crumble over pizza — fine herb dust floats in light rays. Pinch of red pepper flakes scattered. Fresh basil leaves torn by hand, placed last. Hands slide pizza onto wooden peel. Camera pulls back — full pizza visible, golden afternoon light, flour particles glowing, volumetric light rays through window. Rich layered sounds throughout: dough stretching, rolling pin on wood, sauce spreading, cheese scattering, toppings dropping. 15 seconds, smooth flowing pacing, ultra-detailed food animation.”* Step 5: Click Generate and wait for the result",
+      "category": "cinematic",
+      "quality_score": 88,
+      "source_url": "https://x.com/SimplyAnnisa/status/2041735501942514159",
+      "author": "@SimplyAnnisa",
+      "created_at": "2026-04-08T04:30:51.000Z",
+      "tweet_text": "Step 1: Go to \nhttp://\nyapper.so and sign up or log in\nStep 2: Select “Seedance 2.0”\nStep 3: Upload a reference (optional for consistency)\nStep 4: Paste this prompt:\n*“Anime cooking scene, Makoto Shinkai cinematic style, side-angle camera. Flour-dusted wooden table, sunlight",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041733962653945856/pu/vid/avc1/848x496/3X1t3ay62D3Jz0LA.mp4?tag=19",
+      "video": "media/videos/2041735501942514159.mp4"
+    },
+    {
       "id": "x:2041617344649425238",
       "text": "Do it in this order: · Open Seedance 2.0 Omni Reference · Upload all dress images as reference images · Upload the reference video · Paste this prompt Use the face from Image1 as the main character reference. The model wears outfits from Image2, Image3, Image4, Image5, Image6, and Image7, with a different outfit in each shot. In every shot, the model moves closer to the camera while giving different expressions: playful, cold, cute, surprised, and cool. Each outfit change should happen with a clear-cut transition. Follow the fisheye lens style, ghosting effect, and flickering visual mood from Video1. Keep the video stylish, dynamic and fashion focused.",
       "display_text": "Use the face from Image1 as the main character reference. The model wears outfits from Image2, Image3, Image4, Image5, Image6, and Image7, with a different outfit in each shot. In every shot, the model moves closer to the camera while giving different expressions: playful, cold, cute, surprised, and cool. Each outfit change should happen with a clear-cut transition. Follow the fisheye lens style, ghosting effect, and flickering visual mood from Video1. Keep the video stylish, dynamic and fashion focused.",
@@ -2836,6 +3198,30 @@
       }
     },
     {
+      "id": "x:2041790518317785179",
+      "text": "Notice the 4K cinematic quality. No distortion, even during intense action. While other models blur under pressure, V6 maintains sharp details and insane motion consistency.",
+      "display_text": "Notice the 4K cinematic quality. No distortion, even during intense action. While other models blur under pressure, V6 maintains sharp details and insane motion consistency.",
+      "category": "cinematic",
+      "quality_score": 86,
+      "source_url": "https://x.com/_guillecasaus/status/2041790518317785179",
+      "author": "@_guillecasaus",
+      "created_at": "2026-04-08T08:09:28.000Z",
+      "tweet_text": "Traditional editing is a grind.\n\nBut \n@PixVerse_\n  V6 turns you into a director.\n\nWe’re moving beyond frame-by-frame obsession\nto AI-driven cinematic creation.\n\nV6 is the best alternative to Seedance.\n\nCheaper. Faster. No queues.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041790393969258496/vid/avc1/1920x1080/15mdy6dNe4MCP4xh.mp4?tag=21",
+      "video": "media/videos/2041790518317785179.mp4"
+    },
+    {
       "id": "x:2041575195429978248",
       "text": "It's here. Seedance 2.0 is live on http:// avocadoai.co → Cinematic video AI Model → Real motion, real physics → Director-level camera control → Production-ready in under a minute US and Japan rolling out soon All individual plans → coming shortly after Been waiting weeks to ship this one, and it's finally here",
       "display_text": "Cinematic video AI Model → Real motion, real physics → Director-level camera control → Production-ready in under a minute US and Japan rolling out soon All individual plans → coming shortly after Been waiting weeks to ship this one, and it's finally here",
@@ -3014,6 +3400,30 @@
       "video": "media/videos/2040445075520639022.mp4"
     },
     {
+      "id": "x:2041804634013184301",
+      "text": "Bullet time effect. A businessman in white shirt and black tie slipping and falling backwards on an icy wet street in Wall Street, New York. Coffee cup standing on ground, liquid exploding outward frozen in mid-air. Ice chunks, water droplets, and coffee splash all completely suspended time is frozen. Tall buildings on both sides creating a canyon effect. The camera smoothly orbits 360 degrees around the falling man at low ground level angle, only the camera moves while everything else remains perfectly still. Cinematic, overcast dramatic lighting, wide angle lens distortion.",
+      "display_text": "Bullet time effect. A businessman in white shirt and black tie slipping and falling backwards on an icy wet street in Wall Street, New York. Coffee cup standing on ground, liquid exploding outward frozen in mid-air. Ice chunks, water droplets, and coffee splash all completely suspended time is frozen. Tall buildings on both sides creating a canyon effect. The camera smoothly orbits 360 degrees around the falling man at low ground level angle, only the camera moves while everything else remains perfectly still. Cinematic, overcast dramatic lighting, wide angle lens distortion.",
+      "category": "cinematic",
+      "quality_score": 85,
+      "source_url": "https://x.com/oggii_0/status/2041804634013184301",
+      "author": "@oggii_0",
+      "created_at": "2026-04-08T09:05:34.000Z",
+      "tweet_text": "Bullet time effect using Seedance 2.0 on \n@SocialSight\n\n\nPrompt: Bullet time effect. A businessman in white shirt and black tie slipping and falling backwards on an icy wet street in Wall Street, New York. Coffee cup standing on ground, liquid exploding outward frozen in mid-air. Ice chunks, water droplets, and coffee splash all completely suspended time is frozen. Tall buildings on both sides creating a canyon effect. The camera smoothly orbits 360 degrees around the falling man at low ground level angle, only the camera moves while everything else remains perfectly still. Cinematic, overcast dramatic lighting, wide angle lens distortion.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041804589117403136/pu/vid/avc1/834x1112/a6GeNKTovC7sAgGU.mp4?tag=19",
+      "video": "media/videos/2041804634013184301.mp4"
+    },
+    {
       "id": "x:2041602661448085746",
       "text": "Prompt Studio: Disaster with Seedance 2.0 fast in @dreamina_ai Hyperrealistic catastrophic ocean event, extreme scale, violent water physics, ground-level survival perspective, continuous sprint motion, debris, wind force, pressure impact, high-speed destruction, no pauses, hard cuts only, no fade, no dissolve, no morph transition Shot 1: Camera running at full speed along a beach, people already screaming, wind building violently Cut to Shot 2: Turn a massive vertical wall of water already collapsing forward at high speed Cut to Shot 3: Sprint through sand and obstacles, camera shaking heavily, debris hitting lens Cut to Shot 4: Shockwave of air pressure hits before water, knocking people down, camera nearly falls Cut to Shot 5: FULL ACTION vehicles lifted and dragged, water tendrils reaching forward ahead of main wave Cut to Shot 6: IMPOSSIBLE MOMENT camera runs under a partial overhang of water collapsing mid-air Cut to Shot 7: Impact begins behind water slamming ground, explosive force chasing camera Cut to Shot 8: Camera jumps over debris as water engulfs everything around Cut to Shot 9: Final full impact, frame consumed by violent water and debris #DreaminaCPP",
       "display_text": "Hyperrealistic catastrophic ocean event, extreme scale, violent water physics, ground-level survival perspective, continuous sprint motion, debris, wind force, pressure impact, high-speed destruction, no pauses, hard cuts only, no fade, no dissolve, no morph transition Shot 1: Camera running at full speed along a beach, people already screaming, wind building violently Cut to Shot 2: Turn a massive vertical wall of water already collapsing forward at high speed Cut to Shot 3: Sprint through sand and obstacles, camera shaking heavily, debris hitting lens Cut to Shot 4: Shockwave of air pressure hits before water, knocking people down, camera nearly falls Cut to Shot 5: FULL ACTION vehicles lifted and dragged, water tendrils reaching forward ahead of main wave Cut to Shot 6: IMPOSSIBLE MOMENT camera runs under a partial overhang of water collapsing mid-air Cut to Shot 7: Impact begins behind water slamming ground, explosive force chasing camera Cut to Shot 8: Camera jumps over debris as water engulfs everything around Cut to Shot 9: Final full impact, frame consumed by violent water and debris #DreaminaCPP",
@@ -3165,6 +3575,54 @@
       "video": "media/videos/2040453547398185421.mp4"
     },
     {
+      "id": "x:2041804805526438255",
+      "text": "Red carpet. Luxury lighting. Photographers going wild. The star? A chonky pigeon with glossy feathers and zero fear. Seedance 2.0 Prompt 15-second glam-comedy fashion short, luxury event lighting. Same subject throughout: a plump city pigeon with glossy feathers and absurd confidence strutting down a celebrity red carpet. 0–3s: photographers flash while the pigeon walks toward camera like a superstar. 3–6s: human celebrities step aside as the pigeon owns the runway, head bob perfectly in rhythm. 6–10s: it pauses for a dramatic wing-flare pose and the crowd goes louder. 10–15s: final close shot as the pigeon snatches a canapé from a silver tray without breaking stride, then keeps walking like nothing happened.",
+      "display_text": "15-second glam-comedy fashion short, luxury event lighting. Same subject throughout: a plump city pigeon with glossy feathers and absurd confidence strutting down a celebrity red carpet. 0–3s: photographers flash while the pigeon walks toward camera like a superstar. 3–6s: human celebrities step aside as the pigeon owns the runway, head bob perfectly in rhythm. 6–10s: it pauses for a dramatic wing-flare pose and the crowd goes louder. 10–15s: final close shot as the pigeon snatches a canapé from a silver tray without breaking stride, then keeps walking like nothing happened.",
+      "category": "commercial",
+      "quality_score": 84,
+      "source_url": "https://x.com/sebatheepan/status/2041804805526438255",
+      "author": "@sebatheepan",
+      "created_at": "2026-04-08T09:06:15.000Z",
+      "tweet_text": "Red carpet. Luxury lighting. Photographers going wild. The star? A chonky pigeon with glossy feathers \nand zero fear.\n\nSeedance 2.0 Prompt \n\n15-second glam-comedy fashion short, luxury event lighting. Same subject throughout: a plump city pigeon with glossy feathers and absurd confidence strutting down a celebrity red carpet. 0–3s: photographers flash while the pigeon walks toward camera like a superstar. 3–6s: human celebrities step aside as the pigeon owns the runway, head bob perfectly in rhythm. 6–10s: it pauses for a dramatic wing-flare pose and the crowd goes louder. 10–15s: final close shot as the pigeon snatches a canapé from a silver tray without breaking stride, then keeps walking like nothing happened.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041804553281269762/vid/avc1/2560x1440/fsDnCUfcDTcWAs3l.mp4?tag=21",
+      "video": "media/videos/2041804805526438255.mp4"
+    },
+    {
+      "id": "x:2041790858735849983",
+      "text": "15-second continuous single-shot action sequence. No cuts. No scene transitions. Hyper-realistic cinematic fantasy, large-scale creature physics, volumetric fire simulation, heat distortion, dynamic airflow, atmospheric perspective Single continuous subject: rider firmly",
+      "display_text": "15-second continuous single-shot action sequence. No cuts. No scene transitions. Hyper-realistic cinematic fantasy, large-scale creature physics, volumetric fire simulation, heat distortion, dynamic airflow, atmospheric perspective Single continuous subject: rider firmly",
+      "category": "cinematic",
+      "quality_score": 84,
+      "source_url": "https://x.com/Artedeingenio/status/2041790858735849983",
+      "author": "@Artedeingenio",
+      "created_at": "2026-04-08T08:10:50.000Z",
+      "tweet_text": "Dragon shots in Seedance 2.0 are a true cinematic spectacle.\n\nI used \n@TopviewAIhq\n to create this video clip.\n\nYou can check the prompt in the post below",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041790527314546688/vid/avc1/1280x720/nhGFQBhSHkPWexhg.mp4?tag=21",
+      "video": "media/videos/2041790858735849983.mp4"
+    },
+    {
       "id": "x:2041589198151447026",
       "text": "Prompt for Seedance 2.0: CHARACTERS: Define one figure in a Japanese festival mask with a staff at the curb, recoiling pedestrians at the sidewalk edge, and a colossal serpentine abyssal titan with a ridge-backed silhouette and city-scale mass that rises after the second strike.",
       "display_text": ": CHARACTERS: Define one figure in a Japanese festival mask with a staff at the curb, recoiling pedestrians at the sidewalk edge, and a colossal serpentine abyssal titan with a ridge-backed silhouette and city-scale mass that rises after the second strike.",
@@ -3240,6 +3698,54 @@
       }
     },
     {
+      "id": "x:2041805440749547725",
+      "text": "In 1888, moving images were born. Decades to reach everyone, a camera in every pocket. Now your imagination is the only limit. Seedance 2.0 on Higgsfield, built to excel at cinematic, commercial, cartoon, and 3D CGI. Hidden in our timeline. Available everywhere except the US",
+      "display_text": "cinematic, commercial, cartoon, and 3D CGI. Hidden in our timeline. Available everywhere except the US",
+      "category": "cinematic",
+      "quality_score": 83,
+      "source_url": "https://x.com/Mekarly/status/2041805440749547725",
+      "author": "@Mekarly",
+      "created_at": "2026-04-08T09:08:46.000Z",
+      "tweet_text": "Excited to be partnering with \n@higgsfield\n which now has access to Seedance 2.0. I've been wanting to use Seedance 2.0 ever since it went viral a month or so ago. \n\nDef recommend checking it out if you're looking to create videos or just curious/passionate about AI cause it's",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2040508382331928576/vid/avc1/1280x720/boc4faFQo__C7pZB.mp4?tag=14",
+      "video": "media/videos/2041805440749547725.mp4"
+    },
+    {
+      "id": "x:2041699335805534243",
+      "text": "In 1888, moving images were born. Decades to reach everyone, a camera in every pocket. Now your imagination is the only limit. Seedance 2.0 on Higgsfield, built to excel at cinematic, commercial, cartoon, and 3D CGI. Hidden in our timeline. Available everywhere except the US",
+      "display_text": "cinematic, commercial, cartoon, and 3D CGI. Hidden in our timeline. Available everywhere except the US",
+      "category": "cinematic",
+      "quality_score": 83,
+      "source_url": "https://x.com/grok/status/2041699335805534243",
+      "author": "@grok",
+      "created_at": "2026-04-08T02:07:09.000Z",
+      "tweet_text": "Seedance 2.0 shines for cinematic video clips with motion and storytelling—perfect if that's your vibe. My Imagine tool (powered by Flux) crushes detailed, artistic still images with wild creativity. Apples to oranges, really. \n\nDrop a prompt and I'll whip up something right now",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041550045854793728/vid/avc1/1920x1080/nKWOt5CyTkFMV4Nc.mp4?tag=21",
+      "video": "media/videos/2041699335805534243.mp4"
+    },
+    {
       "id": "x:2041631421765140941",
       "text": "In 1888, moving images were born. Decades to reach everyone, a camera in every pocket. Now your imagination is the only limit. Seedance 2.0 on Higgsfield, built to excel at cinematic, commercial, cartoon, and 3D CGI. Hidden in our timeline. Available everywhere except the US",
       "display_text": "cinematic, commercial, cartoon, and 3D CGI. Hidden in our timeline. Available everywhere except the US",
@@ -3257,7 +3763,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-07T23:07:22Z",
+        "reviewed_at": "2026-04-08T11:26:30Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2041623132625059840/vid/avc1/1100x1080/-lqmnuHF2gUcL6UB.mp4?tag=21",
@@ -3601,6 +4107,30 @@
       "video": "media/videos/2040508583792796033.mp4"
     },
     {
+      "id": "x:2041832464205975903",
+      "text": "The \"Photoshop Moment\" for video has arrived. Seedance 2.0 (now on ChatCut) allows you to edit video layers like ground, sky, and objects independently. It preserves character movement and camera tracking with 100% accuracy. Workflow: Model: Seedance 2.0 in ChatCut Logic:",
+      "display_text": "The \"Photoshop Moment\" for video has arrived. Seedance 2.0 (now on ChatCut) allows you to edit video layers like ground, sky, and objects independently. It preserves character movement and camera tracking with 100% accuracy. Workflow: 2.0 in ChatCut Logic:",
+      "category": "other",
+      "quality_score": 82,
+      "source_url": "https://x.com/chatcutapp/status/2041832464205975903",
+      "author": "@chatcutapp",
+      "created_at": "2026-04-08T10:56:09.000Z",
+      "tweet_text": "The \"Photoshop Moment\" for video has arrived.\n\nSeedance 2.0 (now on ChatCut) allows you to edit video layers like ground, sky, and objects independently. It preserves character movement and camera tracking with 100% accuracy. \n\nWorkflow: \nModel: Seedance 2.0 in ChatCut\nLogic:",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041831783772385280/vid/avc1/1440x1080/vWoEZMRomjbSAEJR.mp4",
+      "video": "media/videos/2041832464205975903.mp4"
+    },
+    {
       "id": "x:2041557004573937837",
       "text": "Flova now integrates Seedance 2.0 so you can create longer, cinematic videos with full control over motion, camera, and storytelling. Text-to-video. Image-to-video. Real scene building. Flova will open 48-hour free access for users to try it. Check it out in the link below!",
       "display_text": "Flova now integrates Seedance 2.0 so you can create longer, cinematic videos with full control over motion, camera, and storytelling. Text-to-video. Image-to-video. Real scene building. Flova will open 48-hour free access for users to try it. Check it out in the link below!",
@@ -3618,7 +4148,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-07T23:07:23Z",
+        "reviewed_at": "2026-04-08T11:26:30Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2041556041486540800/vid/avc1/2160x3840/afRcFTCDIXBB7Va9.mp4?tag=21",
@@ -3642,7 +4172,7 @@
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-07T23:07:22Z",
+        "reviewed_at": "2026-04-08T11:26:30Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2041525377848459264/vid/avc1/1336x1080/hL-DCNK7hDNp4qij.mp4?tag=21",
@@ -4004,6 +4534,28 @@
       "video": "media/videos/2038535584084373799.mp4"
     },
     {
+      "id": "x:2041811787256144089",
+      "text": "Someone just created a 5-minute AI anime series with ONE sentence. Seedance 2.0 opened their API. This developer used it to generate an entire post-apocalyptic anime - episodes, scenes, characters - from a single prompt. 5 minutes. 5 episodes. 1080p. From one sentence. A year ago, this required a studio of 50 animators and 6 months. Now it takes one person and one prompt. The anime industry isn't ready for what's coming. Save this. - Robbie Jeo",
+      "display_text": "Someone just created a 5-minute AI anime series with ONE sentence. Seedance 2.0 opened their API. This developer used it to generate an entire post-apocalyptic anime - episodes, scenes, characters - from a single prompt. 5 minutes. 5 episodes. 1080p. From one sentence. A year ago, this required a studio of 50 animators and 6 months. Now it takes one person and one prompt. The anime industry isn't ready for what's coming. Save this. - Robbie Jeo",
+      "category": "other",
+      "quality_score": 81,
+      "source_url": "https://x.com/robbie_jeo/status/2041811787256144089",
+      "author": "@robbie_jeo",
+      "created_at": "2026-04-08T09:33:59.000Z",
+      "tweet_text": "Someone just created a 5-minute AI anime series with ONE sentence.\n\nSeedance 2.0 opened their API. This developer used it to generate an entire post-apocalyptic anime - episodes, scenes, characters - from a single prompt.\n\n5 minutes. 5 episodes. 1080p. From one sentence.\n\nA year ago, this required a studio of 50 animators and 6 months.\nNow it takes one person and one prompt.\n\nThe anime industry isn't ready for what's coming.\n\nSave this.\n\n- Robbie Jeo",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      }
+    },
+    {
       "id": "x:2041559998472581476",
       "text": "Seedance 2.0 is now available on Pollo AI. From idea to reality: understand your vision. I just tried it and it takes AI video to another level. ● Add whatever you want: text, images, clips, sound... it nails it! ● Realistic movement, consistent characters, cinematic",
       "display_text": "Seedance 2.0 is now available on Pollo AI. From idea to reality: understand your vision. I just tried it and it takes AI video to another level. ● Add whatever you want: text, images, clips, sound... it nails it! ● Realistic movement, consistent characters, cinematic",
@@ -4362,6 +4914,30 @@
         "reason": "off_target",
         "timestamp": "2026-04-05T11:11:26.815Z"
       }
+    },
+    {
+      "id": "x:2041823728439321070",
+      "text": "An anonymous model named HappyHorse-1.0 topped the Video Arena leaderboard on the AI video evaluation platform Artificial Analysis last week, securing first place in both the text-to-video and image-to-video tracks (no-audio category), displacing ByteDance's Seedance 2.0 to second place. In the audio-included category, Seedance 2.0 still holds a slight lead. No press conference, no technical blog, no company attribution—nobody has publicly claimed ownership to date. The Video Arena rankings are based on an Elo blind testing system, where users vote on the better of two generated videos without knowing the models' identities. HappyHorse has been on the leaderboard for a short time, with about 3,500 comparison samples—less than half of Seedance 2.0's—and a wider confidence interval (±12-13 points), but its lead in the no-audio track (about 76 points in text-to-video, about 48 points in image-to-video) still far exceeds the margin of error. Judging from the website's language order (Chinese and Cantonese ahead of English) and the \"HappyHorse\" nod to the 2026 Year of the Horse, the industry speculates the model comes from a Chinese team. Two prevailing theories: 1. Multiple industry self-media outlets claim the model originates from Alibaba's TaoTian Group's Future Life Lab, led by director Zhang Di. Zhang previously served as vice president of technology at Kuaishou, and starting in 2024, he spearheaded the development of Keling AI, releasing Keling 2.0 Master Edition in April 2025, before returning to Alibaba in November of the same year 2. X user Vigo Zhao conducted an item-by-item comparison and found that HappyHorse matches the open-source daVinci-MagiHuman from AI video startup http:// Sand.ai (released in March this year) across multiple benchmark metrics, with highly similar website structures as well. http:// Sand.ai was founded by Cao Yue, the first author of Swin Transformer, and is dubbed by the industry as the \"DeepSeek of AI video\" The HappyHorse website states the model has 15 billion parameters, a 40-layer self-attention Transformer using the Transfusion architecture (which unifies text autoregressive prediction and video-audio diffusion generation within the same model), 8-step inference, and outputs 1080p video with synchronized audio, supporting lip-sync in seven languages: Chinese, English, Japanese, Korean, German, French, and Cantonese. It's fully open-source and permits commercial use.",
+      "display_text": "An anonymous model named HappyHorse-1.0 topped the Video Arena leaderboard on the AI video evaluation platform Artificial Analysis last week, securing first place in both the text-to-video and image-to-video tracks (no-audio category), displacing ByteDance's Seedance 2.0 to second place. In the audio-included category, Seedance 2.0 still holds a slight lead. No press conference, no technical blog, no company attribution—nobody has publicly claimed ownership to date. The Video Arena rankings are based on an Elo blind testing system, where users vote on the better of two generated videos without knowing the models' identities. HappyHorse has been on the leaderboard for a short time, with about 3,500 comparison samples—less than half of Seedance 2.0's—and a wider confidence interval (±12-13 points), but its lead in the no-audio track (about 76 points in text-to-video, about 48 points in image-to-video) still far exceeds the margin of error. Judging from the website's language order (Chinese and Cantonese ahead of English) and the \"HappyHorse\" nod to the 2026 Year of the Horse, the industry speculates the model comes from a Chinese team. Two prevailing theories: 1. Multiple industry self-media outlets claim the model originates from Alibaba's TaoTian Group's Future Life Lab, led by director Zhang Di. Zhang previously served as vice president of technology at Kuaishou, and starting in 2024, he spearheaded the development of Keling AI, releasing Keling 2.0 Master Edition in April 2025, before returning to Alibaba in November of the same year 2. X user Vigo Zhao conducted an item-by-item comparison and found that HappyHorse matches the open-source daVinci-MagiHuman from AI video startup http:// Sand.ai (released in March this year) across multiple benchmark metrics, with highly similar website structures as well. http:// Sand.ai was founded by Cao Yue, the first author of Swin Transformer, and is dubbed by the industry as the \"DeepSeek of AI video\" The HappyHorse website states the model has 15 billion parameters, a 40-layer self-attention Transformer using the Transfusion architecture (which unifies text autoregressive prediction and video-audio diffusion generation within the same model), 8-step inference, and outputs 1080p video with synchronized audio, supporting lip-sync in seven languages: Chinese, English, Japanese, Korean, German, French, and Cantonese. It's fully open-source and permits commercial use.",
+      "category": "commercial",
+      "quality_score": 80,
+      "source_url": "https://x.com/0xLogicrw/status/2041823728439321070",
+      "author": "@0xLogicrw",
+      "created_at": "2026-04-08T10:21:26.000Z",
+      "tweet_text": "An anonymous model named HappyHorse-1.0 topped the Video Arena leaderboard on the AI video evaluation platform Artificial Analysis last week, securing first place in both the text-to-video and image-to-video tracks (no-audio category), displacing ByteDance's Seedance 2.0 to second place. In the audio-included category, Seedance 2.0 still holds a slight lead. No press conference, no technical blog, no company attribution—nobody has publicly claimed ownership to date.\n\nThe Video Arena rankings are based on an Elo blind testing system, where users vote on the better of two generated videos without knowing the models' identities. HappyHorse has been on the leaderboard for a short time, with about 3,500 comparison samples—less than half of Seedance 2.0's—and a wider confidence interval (±12-13 points), but its lead in the no-audio track (about 76 points in text-to-video, about 48 points in image-to-video) still far exceeds the margin of error.\n\nJudging from the website's language order (Chinese and Cantonese ahead of English) and the \"HappyHorse\" nod to the 2026 Year of the Horse, the industry speculates the model comes from a Chinese team. Two prevailing theories:\n\n1. Multiple industry self-media outlets claim the model originates from Alibaba's TaoTian Group's Future Life Lab, led by director Zhang Di. Zhang previously served as vice president of technology at Kuaishou, and starting in 2024, he spearheaded the development of Keling AI, releasing Keling 2.0 Master Edition in April 2025, before returning to Alibaba in November of the same year\n2. X user Vigo Zhao conducted an item-by-item comparison and found that HappyHorse matches the open-source daVinci-MagiHuman from AI video startup \nhttp://\nSand.ai (released in March this year) across multiple benchmark metrics, with highly similar website structures as well. \nhttp://\nSand.ai was founded by Cao Yue, the first author of Swin Transformer, and is dubbed by the industry as the \"DeepSeek of AI video\"\n\nThe HappyHorse website states the model has 15 billion parameters, a 40-layer self-attention Transformer using the Transfusion architecture (which unifies text autoregressive prediction and video-audio diffusion generation within the same model), 8-step inference, and outputs 1080p video with synchronized audio, supporting lip-sync in seven languages: Chinese, English, Japanese, Korean, German, French, and Cantonese. It's fully open-source and permits commercial use.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": null,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-08T11:26:30Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041554015801286656/vid/avc1/1280x720/L4E8C9_q2LAmt93Z.mp4?tag=21",
+      "video": "media/videos/2041823728439321070.mp4"
     },
     {
       "id": "x:2041607583434195393",

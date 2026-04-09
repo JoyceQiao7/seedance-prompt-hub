@@ -11,12 +11,13 @@ import json
 import os
 import re
 from pathlib import Path
-from typing import Any
+import time
+from typing import Any, Callable
 from urllib.parse import quote_plus
 
 import urllib.request
 
-from crawler.envutil import env_float, env_int
+from crawler.envutil import env_bool, env_float, env_int
 from crawler.models import RawPost
 
 
@@ -118,17 +119,18 @@ def _parse_articles(page: Any) -> list[dict[str, Any]]:
     return out
 
 
-def _fetch_video_via_syndication(tid: str) -> str | None:
-    """Use X's syndication API to get the video URL — no browser needed."""
-    url = f"https://cdn.syndication.twimg.com/tweet-result?id={tid}&lang=en&token=0"
+def _syndication_fetch_json(tweet_id: str) -> dict[str, Any] | None:
+    """Public tweet-result JSON (video URLs, favorite_count, etc.)."""
+    url = f"https://cdn.syndication.twimg.com/tweet-result?id={tweet_id}&lang=en&token=0"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
         with urllib.request.urlopen(req, timeout=15) as r:
-            data = json.loads(r.read())
+            return json.loads(r.read())
     except Exception:  # noqa: BLE001
         return None
 
-    # Look in mediaDetails for video variants
+
+def _video_url_from_syndication_data(data: dict[str, Any]) -> str | None:
     best_url: str | None = None
     best_bitrate = 0
     for media in data.get("mediaDetails", []):
@@ -141,16 +143,116 @@ def _fetch_video_via_syndication(tid: str) -> str | None:
             if bitrate > best_bitrate:
                 best_bitrate = bitrate
                 best_url = variant.get("url")
-
-    # Also check top-level "video" field
     if not best_url:
         video = data.get("video", {})
         for variant in video.get("variants", []):
             if variant.get("type") == "video/mp4" or ".mp4" in variant.get("src", ""):
                 best_url = variant.get("src")
                 break
-
     return best_url
+
+
+def _metrics_from_syndication_data(data: dict[str, Any]) -> dict[str, int]:
+    """Map syndication fields to RawPost.metrics keys."""
+    out: dict[str, int] = {}
+    fc = data.get("favorite_count")
+    if fc is not None:
+        out["like_count"] = int(fc)
+    rc = data.get("retweet_count")
+    if rc is not None:
+        out["retweet_count"] = int(rc)
+    return out
+
+
+def _syndication_status_nodes(data: dict[str, Any] | None) -> list[tuple[str, str]]:
+    """Leaf-first (reply → parent → …) ids with screen_name from syndication JSON."""
+    out: list[tuple[str, str]] = []
+    if not data:
+        return out
+    cur: Any = data
+    n = 0
+    while isinstance(cur, dict) and n < _MAX_SYNDICATION_PARENT_WALK:
+        n += 1
+        tid = (cur.get("id_str") or "").strip()
+        user = cur.get("user")
+        sn = ""
+        if isinstance(user, dict):
+            sn = (user.get("screen_name") or "").strip()
+        if tid:
+            out.append((tid, sn))
+        cur = cur.get("parent")
+    return out
+
+
+def _longest_syndication_text_in_tree(data: dict[str, Any] | None) -> str:
+    """Best-effort full-ish text from nested parent objects (often still truncated)."""
+    best = ""
+    cur: Any = data
+    while isinstance(cur, dict):
+        tx = (cur.get("text") or "").strip()
+        if len(tx) > len(best):
+            best = tx
+        cur = cur.get("parent")
+    return best
+
+
+def _vxtwitter_text(screen_name: str, tweet_id: str) -> str | None:
+    """Third-party mirror of X JSON — returns long-form note-tweet text syndication omits."""
+    if not screen_name:
+        return None
+    url = _VXTWITTER_URL.format(screen_name=screen_name, tweet_id=tweet_id)
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            payload = json.loads(r.read())
+    except Exception:  # noqa: BLE001
+        return None
+    if not isinstance(payload, dict):
+        return None
+    text = (payload.get("text") or "").strip()
+    return text or None
+
+
+def fetch_best_tweet_text_from_syndication_json(
+    syn_data: dict[str, Any] | None,
+    *,
+    username_hint: str = "",
+) -> str | None:
+    """
+    Prefer the longest text across the reply chain (parent tweets) using public APIs.
+    vxtwitter is optional (X_VXTWITTER_TEXT=0 to disable) for air-gapped runs.
+    """
+    if not syn_data:
+        return None
+    best = _longest_syndication_text_in_tree(syn_data)
+    if not env_bool("X_VXTWITTER_TEXT", True):
+        return best.strip() or None
+
+    nodes = _syndication_status_nodes(syn_data)
+    pause = env_float("X_VXTWITTER_PAUSE_S", 0.12)
+    for tid, sn in nodes:
+        uname = sn or username_hint
+        if not uname:
+            continue
+        vt = _vxtwitter_text(uname, tid)
+        if vt and len(vt) > len(best):
+            best = vt
+        time.sleep(pause)
+    return best.strip() or None
+
+
+def fetch_best_public_tweet_text(tweet_id: str, username: str = "") -> str | None:
+    """Resolve tweet id to the longest available body (thread-aware when using vxtwitter)."""
+    syn = _syndication_fetch_json(tweet_id)
+    return fetch_best_tweet_text_from_syndication_json(
+        syn, username_hint=username
+    )
+
+
+def _fetch_video_via_syndication(tid: str) -> str | None:
+    """Use X's syndication API to get the video URL — no browser needed."""
+    data = _syndication_fetch_json(tid)
+    return _video_url_from_syndication_data(data) if data else None
 
 
 def _pick_best_video(urls: list[str]) -> str | None:
@@ -167,7 +269,8 @@ def _pick_best_video(urls: list[str]) -> str | None:
     return max(urls, key=_res_score)
 
 
-_MAX_REPLIES = 5
+_MAX_SYNDICATION_PARENT_WALK = 16
+_VXTWITTER_URL = "https://api.vxtwitter.com/{screen_name}/status/{tweet_id}"
 
 
 def _try_trigger_video(page: Any, captured: list[str]) -> None:
@@ -274,6 +377,16 @@ def _fetch_tweet_detail(
         page.goto(url, wait_until="domcontentloaded", timeout=30_000)
         page.wait_for_timeout(3500)
 
+        try:
+            for _ in range(4):
+                more = page.query_selector('[data-testid="tweet-text-show-more-link"]')
+                if not more:
+                    break
+                more.click(timeout=8000)
+                page.wait_for_timeout(700)
+        except Exception:  # noqa: BLE001
+            pass
+
         # Check if there's a video player on the page
         has_player = page.query_selector(
             '[data-testid="videoPlayer"], [data-testid="videoComponent"], video'
@@ -283,15 +396,17 @@ def _fetch_tweet_detail(
         if has_player and not captured_videos:
             _try_trigger_video(page, captured_videos)
 
-        # Scroll to load replies
-        page.evaluate("window.scrollBy(0, 600)")
-        page.wait_for_timeout(1500)
+        # Scroll the conversation so lazy-loaded thread / self-replies appear
+        for _ in range(7):
+            page.evaluate("window.scrollBy(0, Math.floor(window.innerHeight * 1.2))")
+            page.wait_for_timeout(1100)
 
         all_text_els = page.query_selector_all('[data-testid="tweetText"]')
         if all_text_els:
             text = all_text_els[0].inner_text().strip() or None
 
-        for el in all_text_els[1 : 1 + _MAX_REPLIES]:
+        max_extra = env_int("X_MAX_THREAD_TEXTS", 12)
+        for el in all_text_els[1 : 1 + max_extra]:
             candidate = el.inner_text().strip()
             if candidate and len(candidate) > 20:
                 replies.append(candidate)
@@ -310,11 +425,7 @@ def _fetch_tweet_detail(
         except Exception:  # noqa: BLE001
             pass
 
-    # Last resort: syndication API (works without browser rendering)
     video = _pick_best_video(captured_videos)
-    if not video:
-        video = _fetch_video_via_syndication(tid)
-
     return text, video, replies
 
 
@@ -351,6 +462,42 @@ def backfill_video_urls(
             print(f"  … {i + 1}/{len(to_backfill)} ({updated} captured)", flush=True)
 
     print(f"Video backfill: captured {updated}/{len(to_backfill)} videos.", flush=True)
+    return updated
+
+
+def backfill_likes_from_syndication(
+    prompts: list[dict[str, Any]],
+    *,
+    predicate: Callable[[dict[str, Any]], bool] | None = None,
+    pause_s: float = 0.12,
+) -> int:
+    """Set ``likes`` / ``retweets`` from syndication JSON (no browser)."""
+    pred = predicate or (lambda _p: True)
+    updated = 0
+    seen = 0
+    for prompt in prompts:
+        if not pred(prompt):
+            continue
+        url = prompt.get("source_url", "")
+        if not url.startswith("https://x.com/"):
+            continue
+        m = _STATUS_PATH.search(url)
+        if not m:
+            continue
+        tid = m.group(2)
+        seen += 1
+        data = _syndication_fetch_json(tid)
+        if data:
+            met = _metrics_from_syndication_data(data)
+            if "like_count" in met:
+                prompt["likes"] = met["like_count"]
+                updated += 1
+            if "retweet_count" in met:
+                prompt["retweets"] = met["retweet_count"]
+        time.sleep(pause_s)
+        if seen % 40 == 0:
+            print(f"  … likes backfill {seen} requests ({updated} with counts)", flush=True)
+    print(f"Likes backfill: fetched metrics for {seen} posts; {updated} now have like counts.", flush=True)
     return updated
 
 
@@ -441,15 +588,26 @@ def scrape_x_searches(
                 flush=True,
             )
         for i, stub in enumerate(stubs):
+            tid = stub["id"]
+            syn_data = _syndication_fetch_json(tid)
             full_text, video_url, replies = _fetch_tweet_detail(
-                page, stub["username"], stub["id"]
+                page, stub["username"], tid
             )
-            if full_text and len(full_text) > len(stub["text"]):
-                stub["text"] = full_text
+            merged = fetch_best_tweet_text_from_syndication_json(
+                syn_data, username_hint=stub["username"]
+            )
+            candidates = [s for s in (stub["text"], full_text, merged) if s]
+            if candidates:
+                stub["text"] = max(candidates, key=len)
+            if not video_url and syn_data:
+                video_url = _video_url_from_syndication_data(syn_data)
+            elif not video_url:
+                video_url = _fetch_video_via_syndication(tid)
             if video_url:
                 stub["video_url"] = video_url
             if replies:
                 stub["replies"] = replies
+            stub["metrics"] = _metrics_from_syndication_data(syn_data) if syn_data else {}
             if (i + 1) % 25 == 0:
                 print(f"  … {i + 1}/{len(stubs)}", flush=True)
 
@@ -466,7 +624,7 @@ def scrape_x_searches(
                 username=s["username"],
                 source_url=f"https://x.com/{s['username']}/status/{s['id']}",
                 network="x",
-                metrics={},
+                metrics=s.get("metrics") or {},
                 video_url=s.get("video_url"),
                 replies=s.get("replies") or [],
             )

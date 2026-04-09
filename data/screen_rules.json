@@ -1,5 +1,77 @@
 {
   "non_prompt_substrings": [],
-  "off_target_fingerprints": [],
-  "feedback_log": []
+  "off_target_fingerprints": [
+    "005f6f9ecc6f3be9acbee80be2a33e80",
+    "050a4408a5a0234414748bbb1650846e",
+    "0f5996628c164cbe9aa02e48c854b50c",
+    "17fb14f3a28855918774346ec4f1120f",
+    "20249a42f66d0657cac7975ca524b137",
+    "20925b4aab1a7fd049fa847f498541c8",
+    "27747d0f50486aee6794b87b94fe2a99",
+    "2cb2a77fd2bdaf20efa86715ea483001",
+    "2e1b89c367e2f67a95e4bdce303cfd2f",
+    "3333adada36881fcd89b2ea4bb7d7740",
+    "342dbe61ae32b98007e89cf771bef4a1",
+    "41cb8e769d9ad06c84260a767c1d2f1d",
+    "4a38900467577e56a60e944adc86b707",
+    "4ed938b16ad7f1bd9e54fb2ed16ce411",
+    "5a92d954a4990c343a0a78b075a3442f",
+    "65467dcdfb013a9921a43486f6755172",
+    "661c07338e70601df2dfeba906f32f09",
+    "6699c228fbfaa73e6d9a6416882d249e",
+    "679d5ac553548ddb6a5397623433ab44",
+    "6949f4e35a03c94cf41186a4a69aaca9",
+    "76a164a692c98d783a9627edde2edb7f",
+    "7860ca843a78f720a326eb0dee57a77e",
+    "78db12cd07626327d620586a1eac85fe",
+    "7fbfb0fe49a94fadabe8fbb0d17d920c",
+    "83a7e5cc254fdd280c332ea17844730d",
+    "8c122e20dfa8327ce7d65e86b4683f3f",
+    "8e28955334a8617e7a78d32423a57188",
+    "93ad791860112565506c0b9920514a2b",
+    "95dc7a1050716e3da2dc4ac1fc971689",
+    "9ed7c21e9ecc3a3d049e64d25118c5ee",
+    "a42a62eed655fbe3078c89c4dde797c4",
+    "ab8f11fd2dfa82431ed8e5e453b76b63",
+    "abeb4945f3e43347089eacedd7f0bcb2",
+    "ba0a0d65793956d5965c9b4127f73d6c",
+    "c452a96dfd3cff0795318e46a416a6fd",
+    "cfb75c6df0558a1a7a7694c9b8ec7e71",
+    "d621e3bcf6917d00c478c4f64c78be1d",
+    "d6946c09c9c122ba5bdabbc826b589e8",
+    "dd1d16d01bca1a75d62e593ca8d14918",
+    "e51b48242fb48ff4675839780168565d",
+    "f169c2e73260751b0e68476cccacbbe1",
+    "f450bdefd358cc64010f36ce369bda0e",
+    "f8e5b3ea06390e4021b0f18127d930a8",
+    "fc339b740b8010e45b17d3685cb51504",
+    "fd7a750923198f03cf474932da67bcc6"
+  ],
+  "feedback_log": [
+    {
+      "timestamp": "2026-04-09T13:58:30Z",
+      "new_non_prompt_substrings": 0,
+      "new_fingerprints": 15
+    },
+    {
+      "timestamp": "2026-04-09T14:03:50Z",
+      "new_non_prompt_substrings": 0,
+      "new_fingerprints": 1
+    },
+    {
+      "timestamp": "2026-04-09T14:34:27Z",
+      "new_non_prompt_substrings": 0,
+      "new_fingerprints": 3
+    },
+    {
+      "timestamp": "2026-04-09T14:36:30Z",
+      "new_non_prompt_substrings": 0,
+      "new_fingerprints": 4
+    },
+    {
+      "timestamp": "2026-04-09T14:40:38Z",
+      "new_non_prompt_substrings": 0,
+      "new_fingerprints": 22
+    }
+  ]
 }

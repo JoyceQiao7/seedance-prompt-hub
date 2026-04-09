@@ -1,6 +1,27 @@
 {
-  "commercial_handles": [],
+  "commercial_handles": [
+    "image",
+    "image2",
+    "karan_luthra_ai",
+    "topviewaihq"
+  ],
   "strip_phrases": [],
-  "protected_phrases": [],
-  "feedback_log": []
+  "protected_phrases": [
+    "We have released Seedance 2.0. https:// promptsref.com/tool/AI-Video- Generator ",
+    "【Seedance2】影との共演 以下、プロンプト"
+  ],
+  "feedback_log": [
+    {
+      "timestamp": "2026-04-09T13:58:30Z",
+      "new_rules": 4
+    },
+    {
+      "timestamp": "2026-04-09T14:31:24Z",
+      "new_rules": 1
+    },
+    {
+      "timestamp": "2026-04-09T14:36:30Z",
+      "new_rules": 1
+    }
+  ]
 }

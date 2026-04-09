@@ -33,6 +33,22 @@ def save_store(store: dict[str, Any]) -> None:
         f.write("\n")
 
 
+def _merge_prompt_record(prev: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    """Keep admin state and downloaded media when the crawler re-ingests the same tweet."""
+    out = dict(incoming)
+    if "published" in prev:
+        out["published"] = prev["published"]
+    if "admin_feedback" in prev:
+        out["admin_feedback"] = prev["admin_feedback"]
+    for key in ("video_url", "thumbnail", "video"):
+        if not out.get(key) and prev.get(key):
+            out[key] = prev[key]
+    for key in ("likes", "retweets"):
+        if out.get(key) is None and prev.get(key) is not None:
+            out[key] = prev[key]
+    return out
+
+
 def merge_items(
     existing: list[dict[str, Any]],
     incoming: list[dict[str, Any]],
@@ -43,8 +59,10 @@ def merge_items(
         if not pid:
             continue
         prev = by_id.get(pid)
-        if prev is None or (p.get("quality_score", 0) >= prev.get("quality_score", 0)):
+        if prev is None:
             by_id[pid] = p
+        elif p.get("quality_score", 0) >= prev.get("quality_score", 0):
+            by_id[pid] = _merge_prompt_record(prev, p)
 
     merged = list(by_id.values())
     merged.sort(

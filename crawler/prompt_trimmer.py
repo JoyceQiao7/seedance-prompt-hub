@@ -1,9 +1,11 @@
 """Strip social-media preamble, commercial content, and trailing noise.
 
-The trimmer operates in three layers:
-1. Built-in rules  — hardcoded patterns compiled at import time.
-2. Learned rules   — loaded from data/trim_rules.json (written by admin feedback).
-3. Inline cleaning — removes commercial @handles and brand mentions anywhere.
+The trimmer operates in layers:
+1. Tail noise      — thread spam, trailing #hashtag runs, promo tails.
+2. Commercial      — known AI-video tool @handles, brand phrases, promo #tags
+                     (whole lines/sentences removed when they only promote).
+3. Learned rules   — data/trim_rules.json from admin feedback.
+4. Label / preamble — extract the actual prompt body.
 """
 
 from __future__ import annotations
@@ -13,71 +15,27 @@ import re
 from pathlib import Path
 from typing import Any
 
+from crawler.promo_vocab import (
+    AI_VIDEO_BRAND_PHRASES,
+    AI_VIDEO_TOOL_HANDLES,
+    PROMO_HASHTAG_STEMS,
+)
+
 # ── Paths ────────────────────────────────────────────────────────────────────
 _ROOT = Path(__file__).resolve().parents[1]
 _RULES_PATH = _ROOT / "data" / "trim_rules.json"
 
-# ── Built-in AI-tool handles (lowercased, without @) ────────────────────────
-# Comprehensive seed list — extended automatically by admin feedback.
-_BUILTIN_COMMERCIAL_HANDLES: set[str] = {
-    "lumalabsai", "lumaai", "runwayml", "runwayapp",
-    "pixaborai", "pixverseai", "pixverse_ai", "pixverse",
-    "kaborai", "kaboraai", "klingai", "kling_ai",
-    "hailuoai", "hailuoai_official", "miniabormax", "minimax_ai",
-    "martiniai", "martiniart_", "martiniai_",
-    "paborika_app", "pikapikapika", "pika_labs",
-    "genmoai", "genmo_ai",
-    "viduofficial", "vidu_ai",
-    "morphstudioai", "morph_ai",
-    "domoai", "domo_ai",
-    "leonardoai", "leonardo_ai",
-    "midaborjourney", "midjourney",
-    "openai", "openai_",
-    "staaborility_ai", "stabilityai",
-    "adobe", "adobefirefly",
-    "canva", "capcut", "capcutapp",
-    "invaborideoai", "invideo_ai",
-    "synthaboresia", "synthesia_io",
-    "heygen_official", "heygenofficial",
-    "d_id_", "d_id_official",
-    "topaborazlabs", "topazorlabs",
-    "magnific_ai", "magnaborific",
-    "ideaborogram", "ideogram_ai",
-    "fluxai", "flux_ai",
-    "seedance", "seedanceai",
-    "bytedance", "bytedanceai",
-    "polloai", "pollo_ai",
-    "higgsfield", "higgsfield_ai",
-    "lart_ai", "lartai",
-    "haiper_ai", "haiperofficial",
-    "dreamina_ai", "dreamina",
-    "noisee_ai", "noiseeai",
-    "suno_ai_", "sunomusic",
-    "udiomusic",
-    "elevenaborlabs", "elevenlabs",
-}
+# Handles / brands — large seed list in promo_vocab; admin feedback extends handles.
+_BUILTIN_COMMERCIAL_HANDLES: set[str] = set(AI_VIDEO_TOOL_HANDLES)
+_BUILTIN_COMMERCIAL_BRANDS: set[str] = set(AI_VIDEO_BRAND_PHRASES)
 
-# ── Built-in commercial brand names (for inline sentence matching) ───────────
-_BUILTIN_COMMERCIAL_BRANDS: set[str] = {
-    "luma", "luma labs", "runway", "runway ml",
-    "pixverse", "kling", "kling ai",
-    "hailuo", "hailuo ai", "minimax",
-    "martini art", "martiniai",
-    "pika", "pika labs",
-    "genmo", "vidu",
-    "morph studio", "domo ai",
-    "leonardo ai", "midjourney",
-    "stability ai", "stable diffusion",
-    "adobe firefly", "canva", "capcut",
-    "invideo", "synthesia", "heygen", "d-id",
-    "topaz labs", "magnific",
-    "ideogram", "flux",
-    "seedance", "bytedance",
-    "pollo ai", "higgsfield",
-    "lart ai", "haiper",
-    "dreamina", "noisee",
-    "suno", "udio", "eleven labs",
-}
+# Exact-match-only hashtag stems (too ambiguous for prefix match).
+_PROMO_HASHTAG_EXACT: frozenset[str] = frozenset(
+    s for s in PROMO_HASHTAG_STEMS if len(s) <= 3
+)
+_PROMO_HASHTAG_PREFIX: frozenset[str] = frozenset(
+    s for s in PROMO_HASHTAG_STEMS if len(s) > 3
+)
 
 # ── Learned rules cache ─────────────────────────────────────────────────────
 _learned: dict[str, Any] | None = None
@@ -131,9 +89,15 @@ _TAIL_NOISE: list[re.Pattern[str]] = [
     re.compile(r"(?i)\bSign up\b.*$", re.S),
     re.compile(r"(?i)\bGr[ea]ding\s*[:：]?\s*@\w+.*$", re.S),
     re.compile(r"(?i)\s*[—–-]\s*(?:made\s+)?(?:on|with|by|via)?\s*@\w+\s*$"),
-    re.compile(r"(?:(?:\s*#\w+){3,})\s*$"),
     re.compile(r"(?:\s*@\w+){3,}\s*$"),
 ]
+
+# One or more trailing social #hashtags (any tag); handled in _strip_trailing_hashtag_block.
+_TRAILING_HASHTAG_RUN = re.compile(r"(?:\s+#[\w\u00c0-\u024f]+)+\s*$", re.UNICODE)
+_LINE_ONLY_HASHTAGS = re.compile(
+    r"^(?:#[\w\u00c0-\u024f]+)(?:\s+#[\w\u00c0-\u024f]+)*$",
+    re.UNICODE,
+)
 
 # ── Prompt-label patterns ───────────────────────────────────────────────────
 _LABEL_RE: list[re.Pattern[str]] = [
@@ -233,6 +197,95 @@ def _build_commercial_sentence_re(handles: set[str], brands: set[str]) -> re.Pat
     )
 
 
+def _build_commercial_inline_re(handles: set[str]) -> re.Pattern[str]:
+    escaped = sorted((re.escape(h) for h in handles), key=len, reverse=True)
+    handle_alt = "|".join(escaped)
+    return re.compile(rf"(?i)@(?:{handle_alt})\b")
+
+
+def _sentence_has_promo_hashtag(sentence: str) -> bool:
+    for m in re.finditer(r"#([\w\u00c0-\u024f]+)", sentence):
+        raw = m.group(1).lower()
+        if raw in _PROMO_HASHTAG_EXACT:
+            return True
+        for stem in _PROMO_HASHTAG_PREFIX:
+            if raw == stem or raw.startswith(stem):
+                return True
+    return False
+
+
+def _strip_trailing_hashtag_block(text: str) -> str:
+    """Remove trailing #hashtag runs and final lines that are only hashtags."""
+    result = text
+    while True:
+        prev = result
+        result = _TRAILING_HASHTAG_RUN.sub("", result)
+        lines = result.split("\n")
+        while lines:
+            last_stripped = lines[-1].strip()
+            if not last_stripped:
+                lines.pop()
+                continue
+            if _LINE_ONLY_HASHTAGS.fullmatch(last_stripped):
+                lines.pop()
+                continue
+            break
+        result = "\n".join(lines)
+        if result == prev:
+            break
+    return result
+
+
+def _strip_promotional_units(
+    text: str,
+    handles: set[str],
+    protected_lower: set[str],
+) -> str:
+    """Drop whole lines or sentences that exist only to promote tools / tags."""
+    at_re = _build_commercial_inline_re(handles)
+    out_lines: list[str] = []
+
+    for raw_line in text.split("\n"):
+        stripped = raw_line.strip()
+        if not stripped:
+            out_lines.append("")
+            continue
+        low = stripped.lower()
+        if any(p in low for p in protected_lower):
+            out_lines.append(stripped)
+            continue
+        if _LINE_ONLY_HASHTAGS.fullmatch(stripped):
+            continue
+
+        parts = re.split(r"(?<=[.!?])\s+", stripped)
+        if len(parts) <= 1:
+            unit = stripped
+            if at_re.search(unit) and len(unit.split()) <= 48:
+                continue
+            if _sentence_has_promo_hashtag(unit) and len(unit.split()) <= 44:
+                continue
+            out_lines.append(stripped)
+            continue
+
+        kept: list[str] = []
+        for sent in parts:
+            s = sent.strip()
+            if not s:
+                continue
+            slow = s.lower()
+            if any(p in slow for p in protected_lower):
+                kept.append(sent)
+                continue
+            if at_re.search(s):
+                continue
+            if _sentence_has_promo_hashtag(s):
+                continue
+            kept.append(sent)
+        out_lines.append(" ".join(kept) if kept else "")
+
+    return "\n".join(out_lines)
+
+
 def _strip_commercial(text: str) -> str:
     """Remove commercial content from anywhere in the text."""
     handles = _all_commercial_handles()
@@ -258,11 +311,14 @@ def _strip_commercial(text: str) -> str:
             words = stripped.split()
             # Only remove if the line is short (promotional) not a long prompt line
             # that happens to mention a tool
-            if len(words) <= 20:
+            if len(words) <= 40:
                 continue
         cleaned_lines.append(line)
 
     result = "\n".join(cleaned_lines)
+
+    # Phase 1b: drop promo-only sentences / short lines with tool @ or marketing #tags
+    result = _strip_promotional_units(result, handles, protected)
 
     # Phase 2: Strip inline promotional sentence fragments
     sent_re = _build_commercial_sentence_re(handles, brands)
@@ -365,4 +421,5 @@ def _strip_tail(text: str) -> str:
     result = text
     for pat in _TAIL_NOISE:
         result = pat.sub("", result)
+    result = _strip_trailing_hashtag_block(result)
     return result.strip()

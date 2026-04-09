@@ -49,6 +49,32 @@ function mediaUrl(relPath: string): string {
   return new URL(relPath, window.location.origin + import.meta.env.BASE_URL).toString();
 }
 
+/** Local path under public/ or absolute CDN URL from the dataset. */
+function absoluteMediaRef(ref: string): string {
+  const s = ref.trim();
+  if (/^https?:\/\//i.test(s)) return s;
+  return mediaUrl(s);
+}
+
+function PlayOverlayIcon() {
+  return (
+    <div className="play-overlay" aria-label="Play video">
+      <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+        <circle cx="24" cy="24" r="24" fill="rgba(0,0,0,0.55)" />
+        <path d="M19 14l16 10-16 10V14z" fill="#fff" />
+      </svg>
+    </div>
+  );
+}
+
+function rowHasVideoPreview(p: PromptRow): boolean {
+  return !!(
+    (p.thumbnail && p.thumbnail.trim()) ||
+    (p.video && p.video.trim()) ||
+    (p.video_url && p.video_url.trim())
+  );
+}
+
 /* ── Modal ── */
 
 function PromptModal({
@@ -62,8 +88,14 @@ function PromptModal({
   const [copied, setCopied] = useState(false);
   const backdropRef = useRef<HTMLDivElement>(null);
 
-  const hasThumb = !!p.thumbnail;
-  const hasVideo = !!p.video;
+  const hasThumb = !!(p.thumbnail && p.thumbnail.trim());
+  const playSrc =
+    p.video && p.video.trim()
+      ? absoluteMediaRef(p.video)
+      : p.video_url && p.video_url.trim()
+        ? absoluteMediaRef(p.video_url)
+        : null;
+  const hasModalMedia = hasThumb || !!playSrc;
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -97,12 +129,12 @@ function PromptModal({
           ✕
         </button>
         <div className="modal-body">
-          {(hasThumb || hasVideo) && (
+          {hasModalMedia && (
             <div className="modal-media">
-              {hasVideo ? (
+              {playSrc ? (
                 <video
-                  src={mediaUrl(p.video!)}
-                  poster={hasThumb ? mediaUrl(p.thumbnail!) : undefined}
+                  src={playSrc}
+                  poster={hasThumb ? absoluteMediaRef(p.thumbnail!) : undefined}
                   controls
                   autoPlay
                   playsInline
@@ -110,7 +142,7 @@ function PromptModal({
                 />
               ) : (
                 <img
-                  src={mediaUrl(p.thumbnail!)}
+                  src={absoluteMediaRef(p.thumbnail!)}
                   alt={`Preview for ${p.category} prompt by ${p.author}`}
                 />
               )}
@@ -158,32 +190,56 @@ function PromptCard({
     ? displayText.slice(0, PROMPT_PREVIEW_LEN).trimEnd() + "…"
     : displayText;
 
-  const hasThumb = !!p.thumbnail;
-  const hasVideo = !!p.video;
+  const hasThumb = !!(p.thumbnail && p.thumbnail.trim());
+  const hasLocalVideo = !!(p.video && p.video.trim());
+  const hasRemoteVideo = !!(p.video_url && p.video_url.trim());
+  const showPlay = hasLocalVideo || hasRemoteVideo;
+  const previewLabel = `Preview for ${p.category} prompt by ${p.author}`;
 
   return (
     <article className="card" onClick={onOpen}>
-      {hasThumb && (
-        <figure className="card-media">
-          <img
-            src={mediaUrl(p.thumbnail!)}
-            alt={`Preview for ${p.category} prompt by ${p.author}`}
-            width={640}
-            height={360}
-            loading="lazy"
-            decoding="async"
-            fetchPriority="low"
-          />
-          {hasVideo && (
-            <div className="play-overlay" aria-label="Play video">
-              <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                <circle cx="24" cy="24" r="24" fill="rgba(0,0,0,0.55)" />
-                <path d="M19 14l16 10-16 10V14z" fill="#fff" />
-              </svg>
-            </div>
-          )}
-        </figure>
-      )}
+      <figure className="card-media">
+        {hasThumb ? (
+          <>
+            <img
+              src={absoluteMediaRef(p.thumbnail!)}
+              alt={previewLabel}
+              width={640}
+              height={360}
+              loading="lazy"
+              decoding="async"
+              fetchPriority="low"
+            />
+            {showPlay ? <PlayOverlayIcon /> : null}
+          </>
+        ) : hasLocalVideo ? (
+          <>
+            <video
+              src={`${absoluteMediaRef(p.video!)}#t=0.001`}
+              muted
+              playsInline
+              preload="metadata"
+              width={640}
+              height={360}
+              aria-label={previewLabel}
+            />
+            <PlayOverlayIcon />
+          </>
+        ) : (
+          <>
+            <video
+              src={`${absoluteMediaRef(p.video_url!)}#t=0.001`}
+              muted
+              playsInline
+              preload="metadata"
+              width={640}
+              height={360}
+              aria-label={previewLabel}
+            />
+            <PlayOverlayIcon />
+          </>
+        )}
+      </figure>
       <div className="card-head">
         <span className="badge cat mono">
           {CATEGORY_LABELS[p.category] ?? p.category}
@@ -204,7 +260,7 @@ export default function App() {
   const { data, error } = usePromptStore();
   const [q, setQ] = useState("");
   const [cat, setCat] = useState<(typeof CATEGORIES)[number]>("all");
-  const [sort, setSort] = useState<"relevance" | "date">("relevance");
+  const [sort, setSort] = useState<"trending" | "date">("trending");
   const [activePrompt, setActivePrompt] = useState<PromptRow | null>(null);
 
   const filtered = useMemo(() => {
@@ -212,18 +268,19 @@ export default function App() {
     const needle = q.trim().toLowerCase();
     let out: PromptRow[] = rows.filter((p) => {
       if (p.published !== true) return false;
+      if (!rowHasVideoPreview(p)) return false;
       if (cat !== "all" && p.category !== cat) return false;
       if (!needle) return true;
       const hay = `${p.display_text ?? p.text} ${p.author} ${p.category}`.toLowerCase();
       return hay.includes(needle);
     });
     out = [...out].sort((a, b) => {
-      if (sort === "relevance") {
-        const dq = (b.quality_score ?? 0) - (a.quality_score ?? 0);
-        if (dq !== 0) return dq;
+      if (sort === "trending") {
+        const likeDiff = (b.likes ?? 0) - (a.likes ?? 0);
+        if (likeDiff !== 0) return likeDiff;
       }
       const da = (a.created_at ?? "").localeCompare(b.created_at ?? "");
-      return sort === "date" ? -da : da;
+      return -da;
     });
     return out;
   }, [data, q, cat, sort]);
@@ -275,9 +332,9 @@ export default function App() {
           <select
             id="sort"
             value={sort}
-            onChange={(e) => setSort(e.target.value as "relevance" | "date")}
+            onChange={(e) => setSort(e.target.value as "trending" | "date")}
           >
-            <option value="relevance">Most relevant</option>
+            <option value="trending">Most trending</option>
             <option value="date">Newest first</option>
           </select>
         </div>

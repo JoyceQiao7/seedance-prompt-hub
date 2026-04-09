@@ -31,23 +31,16 @@ PORT = int(os.environ.get("ADMIN_PORT", "8090"))
 sys.path.insert(0, str(ROOT))
 from crawler.prompt_trimmer import reload_learned, trim_to_prompt_body  # noqa: E402
 from crawler.screen_rules import learn_screen_rules_from_store  # noqa: E402
+from crawler.x_scrape_playwright import fetch_best_public_tweet_text  # noqa: E402
 
 
 def _now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def _fetch_full_tweet_text(tweet_id: str) -> str | None:
-    """Fetch the full tweet text from X's syndication API."""
-    import urllib.request
-    url = f"https://cdn.syndication.twimg.com/tweet-result?id={tweet_id}&lang=en&token=0"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=15) as r:
-            data = json.loads(r.read())
-        return (data.get("text") or "").strip() or None
-    except Exception:  # noqa: BLE001
-        return None
+def _fetch_full_tweet_text(tweet_id: str, username: str = "") -> str | None:
+    """Longest tweet body: syndication tree + optional vxtwitter chain (see X_VXTWITTER_TEXT)."""
+    return fetch_best_public_tweet_text(tweet_id, username)
 
 
 def _load() -> dict:
@@ -165,7 +158,8 @@ def _retrim_from_feedback(store: dict) -> int:
             import re as _re
             m = _re.search(r"/status/(\d+)", source_url)
             if m:
-                full_text = _fetch_full_tweet_text(m.group(1))
+                author = (p.get("author") or "").lstrip("@")
+                full_text = _fetch_full_tweet_text(m.group(1), author)
                 if full_text and len(full_text) > len(original):
                     p["text"] = full_text
                     p["tweet_text"] = full_text

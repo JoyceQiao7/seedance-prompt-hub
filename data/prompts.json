@@ -1,6 +1,194 @@
 {
-  "updated_at": "2026-04-09T23:37:57Z",
+  "updated_at": "2026-04-10T11:51:28Z",
   "prompts": [
+    {
+      "id": "x:2042559142448029732",
+      "text": "Seedance 2 is out globally on Freepik! 🎸 And now you got to learn how to prompt for it. So I went ahead and made a Spaces workflow for you - link below. And here's a prompt for you to kick off: [STYLE] Ultra-high detail Pixar-quality cinematic animation, 8K, soft global illumination, individual hair and fur strands, realistic fabric simulation, shallow depth of field, warm cozy lighting [FORMAT] 16:9, cinematic multi-shot scene, slow tension build [SCENE] Cozy bedroom at night with strong 80s personality, colorful retro posters on walls, desk with glowing computer, warm lamp. [CHARACTERS] A young man with short dense curly blonde hair forming soft rounded clumps, pale skin, slightly tired blue eyes, wearing a black hoodie A golden retriever with thick light golden fur and expressive eyes. [CAMERA SYSTEM] Smooth cinematic camera, slow push-ins, medium and close shots, no jitter. A scene showing the guy coding. The dog wakes up from some noise. the guy asks what's up. the dog walk to across the room to a closed closet door. noise coming from inside. the guy walks up and gets ready to open the door and calms the dog.",
+      "display_text": "[STYLE] Ultra-high detail Pixar-quality cinematic animation, 8K, soft global illumination, individual hair and fur strands, realistic fabric simulation, shallow depth of field, warm cozy lighting [FORMAT] 16:9, cinematic multi-shot scene, slow tension build [SCENE] Cozy bedroom at night with strong 80s personality, colorful retro posters on walls, desk with glowing computer, warm lamp. [CHARACTERS] A young man with short dense curly blonde hair forming soft rounded clumps, pale skin, slightly tired blue eyes, wearing a black hoodie A golden retriever with thick light golden fur and expressive eyes. [CAMERA SYSTEM] Smooth cinematic camera, slow push-ins, medium and close shots, no jitter. A scene showing the guy coding. The dog wakes up from some noise. the guy asks what's up. the dog walk to across the room to a closed closet door. noise coming from inside. the guy walks up and gets ready to open the door and calms the dog.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/AlcekAI/status/2042559142448029732",
+      "author": "@AlcekAI",
+      "created_at": "2026-04-10T11:03:43.000Z",
+      "tweet_text": "Seedance 2 is out globally on Freepik! 🎸\n\nAnd now you got to learn how to prompt for it.\n\nSo I went ahead and made a Spaces workflow for you - link below.\n\nAnd here's a prompt for you to kick off:\n\n[STYLE]\n\nUltra-high detail Pixar-quality cinematic animation, 8K, soft global illumination, individual hair and fur strands, realistic fabric simulation, shallow depth of field, warm cozy lighting\n\n[FORMAT]\n\n16:9, cinematic multi-shot scene, slow tension build\n\n[SCENE]\n\nCozy bedroom at night with strong 80s personality, colorful retro posters on walls, desk with glowing computer, warm lamp.\n\n[CHARACTERS]\n\nA young man with short dense curly blonde hair forming soft rounded clumps, pale skin, slightly tired blue eyes, wearing a black hoodie\n\nA golden retriever with thick light golden fur and expressive eyes.\n\n[CAMERA SYSTEM]\n\nSmooth cinematic camera, slow push-ins, medium and close shots, no jitter.\n\nA scene showing the guy coding. The dog wakes up from some noise. the guy asks what's up. the dog walk to across the room to a closed closet door. noise coming from inside. the guy walks up and gets ready to open the door and calms the dog.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      }
+    },
+    {
+      "id": "x:2042555707296485839",
+      "text": "SUBJECTS: A male street dance expert, white buzz cut, wearing small gold hoop earrings and a gold rope chain. Dressed in a dark brown hoodie, a pure white crew neck shirt underneath, dark brown loose pants, and white sneakers. ENVIRONMENT: Pure seamless background, slightly cool gray tone, clean space with no distractions. STYLE: cinematic realism, studio dance film, high contrast clean lighting Timeline 0:00-0:02: Full body, 24mm, low-angle fast push-in The dancer bursts directly into motion at high speed, right foot stomping the ground while the body performs a powerful rotation, left leg sweeping wide to create large spatial displacement, upper body hits and releases in sync 0:02-0:03: Full body, 28mm, tracking side move He performs continuous large cross steps and sliding combinations, feet rapidly crossing while driving lateral movement, the jacket swings with strong inertia from the motion 0:03-0:05: Full body, 28mm, orbit He transitions into continuous rotating footwork, rapidly switching pivot points with both feet to achieve multiple directional changes, forming an arcing trajectory in space 0:05-0:06: Low angle, 24mm, forward pressure He suddenly drops low, one hand touching the ground for support, quickly transitioning into floor movement 0:06-0:07: Low near-ground angle, 24mm, tracking Both legs sweep rapidly to complete a full power sweep rotation, the body forming a high-speed circular motion around the supporting arm, then using the momentum to spring back up 0:07-0:08: Full body, 28mm, tilt up He explosively rises from the ground, landing on both feet and immediately executing a full-body wave, while continuing to move forward 0:08-0:10: Half body to full body, 35mm, forward tracking He enters a high-speed pop locking sequence, upper body locking precisely on beats while the footwork continues to move and shift directions, increasing motion density 0:10-0:12: Full body, 28mm, pull back to open space He transitions into larger groove and jumping step combinations, steps becoming wider while still precisely on beat, body remains fully extended 0:12-0:14: Low angle, 24mm, fast push-in He suddenly accelerates, stomps the ground with his right foot to launch upward, performing a fast aerial rotation while fully extending his limbs 0:14-0:15: Full body fully in frame, 35mm, slight push-in lock He enters a one-hand support freeze mid-air while maintaining motion inertia, body fully extended horizontally, legs stretched into clean lines, the entire figure fully visible in the frame",
+      "display_text": "SUBJECTS: A male street dance expert, white buzz cut, wearing small gold hoop earrings and a gold rope chain. Dressed in a dark brown hoodie, a pure white crew neck shirt underneath, dark brown loose pants, and white sneakers. ENVIRONMENT: Pure seamless background, slightly cool gray tone, clean space with no distractions. STYLE: cinematic realism, studio dance film, high contrast clean lighting Timeline 0:00-0:02: Full body, 24mm, low-angle fast push-in The dancer bursts directly into motion at high speed, right foot stomping the ground while the body performs a powerful rotation, left leg sweeping wide to create large spatial displacement, upper body hits and releases in sync 0:02-0:03: Full body, 28mm, tracking side move He performs continuous large cross steps and sliding combinations, feet rapidly crossing while driving lateral movement, the jacket swings with strong inertia from the motion 0:03-0:05: Full body, 28mm, orbit He transitions into continuous rotating footwork, rapidly switching pivot points with both feet to achieve multiple directional changes, forming an arcing trajectory in space 0:05-0:06: Low angle, 24mm, forward pressure He suddenly drops low, one hand touching the ground for support, quickly transitioning into floor movement 0:06-0:07: Low near-ground angle, 24mm, tracking Both legs sweep rapidly to complete a full power sweep rotation, the body forming a high-speed circular motion around the supporting arm, then using the momentum to spring back up 0:07-0:08: Full body, 28mm, tilt up He explosively rises from the ground, landing on both feet and immediately executing a full-body wave, while continuing to move forward 0:08-0:10: Half body to full body, 35mm, forward tracking He enters a high-speed pop locking sequence, upper body locking precisely on beats while the footwork continues to move and shift directions, increasing motion density 0:10-0:12: Full body, 28mm, pull back to open space He transitions into larger groove and jumping step combinations, steps becoming wider while still precisely on beat, body remains fully extended 0:12-0:14: Low angle, 24mm, fast push-in He suddenly accelerates, stomps the ground with his right foot to launch upward, performing a fast aerial rotation while fully extending his limbs 0:14-0:15: Full body fully in frame, 35mm, slight push-in lock He enters a one-hand support freeze mid-air while maintaining motion inertia, body fully extended horizontally, legs stretched into clean lines, the entire figure fully visible in the frame",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/0xbisc/status/2042555707296485839",
+      "author": "@0xbisc",
+      "created_at": "2026-04-10T10:50:04.000Z",
+      "tweet_text": "Time to Dance\n\nSeedance 2.0 Prompt shared below https://t.co/hlMb0Cj5sU",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 6,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042551202412699648/vid/avc1/1280x720/Vlv8MEyT_3mk04hO.mp4?tag=21",
+      "video": "media/videos/2042555707296485839.mp4"
+    },
+    {
+      "id": "x:2042540546791555340",
+      "text": "Seedance 2.0 prompt ----------------------- 15-second cinematic horror short, ultra-realistic VFX, IMAX-style cinematography, perfect deep focus and massive scale contrast, photorealistic, no dialogue. A luxurious cruise ship dinner party at night. Warm amber lighting from crystal chandeliers, white tablecloths, silverware, elegantly dressed passengers chatting and raising glasses, a pianist playing soft music. Suddenly, subtle tremors begin. Shot-by-shot: [0:00-0:04] Medium tracking shot inside the elegant banquet hall. Guests are laughing and toasting. Red wine in glasses starts forming concentric ripples. The crystal chandelier sways very slightly. No one notices yet. A second, stronger vibration — water splashes from glasses, a lady’s spoon slides out of her bowl. People start exchanging uneasy glances. [0:04-0:08] Wide shot pulling toward the large windows. The ship tilts noticeably to the left. Cutlery slides and clatters across tables. Passengers grab onto tables and chairs. Everyone turns to look out the windows. The black ocean surface begins to glow with deep blue-green bioluminescence spreading from the depths below, illuminating a huge area around the ship. The light pulses slowly, matching a human heartbeat. [0:08-0:12] Rapid close-up montage: The pianist’s fingers freeze above the keys as he sees the glow reflected in the piano lid. A young child presses their face against the glass — outside, an enormous eye slowly rises, its iris arc alone filling the entire panoramic window. Cut to exterior side view: the massive cruise ship is reduced to a tiny white line compared to the glowing silhouette of a colossal creature ten times longer than the ship lurking beneath the surface. [0:12-0:15] Epic high-angle aerial pull-back shot. The entire cruise ship becomes a minuscule glowing dot on the dark ocean. Around it, massive glowing curves emerge from the abyss, forming a giant ring-shaped pattern — an enormous eye looking up from the depths, with the ship positioned exactly in the center of the pupil. The scale is mind-bending. The bioluminescent pulses slowly fade, the light disappears, and the ocean returns to complete blackness. The ship stabilizes. Final freeze frame on the terrified faces inside the hall. Everyone knows it’s still down there. Global style: Ultra-photorealistic deep-sea horror, IMAX cinematic quality, perfect deep focus, dramatic scale contrast between the tiny ship and the gigantic creature, warm amber interior lighting versus cold deep blue bioluminescence, subtle volumetric god rays in water, realistic water physics and ship movement, flawless VFX integration, high emotional tension, no text or deformities.",
+      "display_text": "cinematic horror short, ultra-realistic VFX, IMAX-style cinematography, perfect deep focus and massive scale contrast, photorealistic, no dialogue. A luxurious cruise ship dinner party at night. Warm amber lighting from crystal chandeliers, white tablecloths, silverware, elegantly dressed passengers chatting and raising glasses, a pianist playing soft music. Suddenly, subtle tremors begin. Shot-by-shot: [0:00-0:04] Medium tracking shot inside the elegant banquet hall. Guests are laughing and toasting. Red wine in glasses starts forming concentric ripples. The crystal chandelier sways very slightly. No one notices yet. A second, stronger vibration — water splashes from glasses, a lady’s spoon slides out of her bowl. People start exchanging uneasy glances. [0:04-0:08] Wide shot pulling toward the large windows. The ship tilts noticeably to the left. Cutlery slides and clatters across tables. Passengers grab onto tables and chairs. Everyone turns to look out the windows. The black ocean surface begins to glow with deep blue-green bioluminescence spreading from the depths below, illuminating a huge area around the ship. The light pulses slowly, matching a human heartbeat. [0:08-0:12] Rapid close-up montage: The pianist’s fingers freeze above the keys as he sees the glow reflected in the piano lid. A young child presses their face against the glass — outside, an enormous eye slowly rises, its iris arc alone filling the entire panoramic window. Cut to exterior side view: the massive cruise ship is reduced to a tiny white line compared to the glowing silhouette of a colossal creature ten times longer than the ship lurking beneath the surface. [0:12-0:15] Epic high-angle aerial pull-back shot. The entire cruise ship becomes a minuscule glowing dot on the dark ocean. Around it, massive glowing curves emerge from the abyss, forming a giant ring-shaped pattern — an enormous eye looking up from the depths, with the ship positioned exactly in the center of the pupil. The scale is mind-bending. The bioluminescent pulses slowly fade, the light disappears, and the ocean returns to complete blackness. The ship stabilizes. Final freeze frame on the terrified faces inside the hall. Everyone knows it’s still down there. Global style: Ultra-photorealistic deep-sea horror, IMAX cinematic quality, perfect deep focus, dramatic scale contrast between the tiny ship and the gigantic creature, warm amber interior lighting versus cold deep blue bioluminescence, subtle volumetric god rays in water, realistic water physics and ship movement, flawless VFX integration, high emotional tension, no text or deformities.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/sebatheepan/status/2042540546791555340",
+      "author": "@sebatheepan",
+      "created_at": "2026-04-10T09:49:49.000Z",
+      "tweet_text": "Seedance 2.0 prompt \n-----------------------\n15-second cinematic horror short, ultra-realistic VFX, IMAX-style cinematography, perfect deep focus and massive scale contrast, photorealistic, no dialogue.\n\nA luxurious cruise ship dinner party at night. Warm amber lighting from crystal chandeliers, white tablecloths, silverware, elegantly dressed passengers chatting and raising glasses, a pianist playing soft music. Suddenly, subtle tremors begin.\n\nShot-by-shot:\n[0:00-0:04] Medium tracking shot inside the elegant banquet hall. Guests are laughing and toasting. Red wine in glasses starts forming concentric ripples. The crystal chandelier sways very slightly. No one notices yet. A second, stronger vibration — water splashes from glasses, a lady’s spoon slides out of her bowl. People start exchanging uneasy glances.\n\n[0:04-0:08] Wide shot pulling toward the large windows. The ship tilts noticeably to the left. Cutlery slides and clatters across tables. Passengers grab onto tables and chairs. Everyone turns to look out the windows. The black ocean surface begins to glow with deep blue-green bioluminescence spreading from the depths below, illuminating a huge area around the ship. The light pulses slowly, matching a human heartbeat.\n\n[0:08-0:12] Rapid close-up montage: The pianist’s fingers freeze above the keys as he sees the glow reflected in the piano lid. A young child presses their face against the glass — outside, an enormous eye slowly rises, its iris arc alone filling the entire panoramic window. Cut to exterior side view: the massive cruise ship is reduced to a tiny white line compared to the glowing silhouette of a colossal creature ten times longer than the ship lurking beneath the surface.\n\n[0:12-0:15] Epic high-angle aerial pull-back shot. The entire cruise ship becomes a minuscule glowing dot on the dark ocean. Around it, massive glowing curves emerge from the abyss, forming a giant ring-shaped pattern — an enormous eye looking up from the depths, with the ship positioned exactly in the center of the pupil. The scale is mind-bending. The bioluminescent pulses slowly fade, the light disappears, and the ocean returns to complete blackness. The ship stabilizes. Final freeze frame on the terrified faces inside the hall. Everyone knows it’s still down there.\n\nGlobal style: Ultra-photorealistic deep-sea horror, IMAX cinematic quality, perfect deep focus, dramatic scale contrast between the tiny ship and the gigantic creature, warm amber interior lighting versus cold deep blue bioluminescence, subtle volumetric god rays in water, realistic water physics and ship movement, flawless VFX integration, high emotional tension, no text or deformities.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 1,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 63,
+        "reasons": [
+          "repeated_characters"
+        ],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042539947538714624/vid/avc1/2560x1440/szUeVixxmDo3HOKR.mp4?tag=21",
+      "video": "media/videos/2042540546791555340.mp4"
+    },
+    {
+      "id": "x:2042531026438885789",
+      "text": "Premium ad for [your product] on [your background setting]. A macro close-up opens on [product detail], extreme detail on the texture and surface. Cinematic grazing light glides slowly across [product surface], revealing every craftsmanship detail. The camera executes an ultra-smooth push move toward [key product feature]. A bullet-time moment captures the [product] mid-rotation in zero gravity. The camera performs a high-speed 360-degree orbital move while [product] rotates in near stillness. Background seamlessly transitions - [scene 1], [scene 2], [scene 3]. Finally the camera pulls back into a perfect centered hero frame with volumetric spotlight. 4K photorealistic textures, ray-traced reflections, extremely shallow depth of field, dark luxury aesthetic.",
+      "display_text": "Premium ad for [your product] on [your background setting]. A macro close-up opens on [product detail], extreme detail on the texture and surface. Cinematic grazing light glides slowly across [product surface], revealing every craftsmanship detail. The camera executes an ultra-smooth push move toward [key product feature]. A bullet-time moment captures the [product] mid-rotation in zero gravity. The camera performs a high-speed 360-degree orbital move while [product] rotates in near stillness. Background seamlessly transitions - [scene 1], [scene 2], [scene 3]. Finally the camera pulls back into a perfect centered hero frame with volumetric spotlight. 4K photorealistic textures, ray-traced reflections, extremely shallow depth of field, dark luxury aesthetic.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/nrqa__/status/2042531026438885789",
+      "author": "@nrqa__",
+      "created_at": "2026-04-10T09:11:59.000Z",
+      "tweet_text": "everyone's gonna ask.. so here it is:\n\n\"Premium ad for [your product] on [your background setting]. A macro close-up opens on [product detail], extreme detail on the texture and surface. Cinematic grazing light glides slowly across [product surface], revealing every craftsmanship detail. The camera executes an ultra-smooth push move toward [key product feature]. A bullet-time moment captures the [product] mid-rotation in zero gravity. The camera performs a high-speed 360-degree orbital move while [product] rotates in near stillness. Background seamlessly transitions - [scene 1], [scene 2], [scene 3]. Finally the camera pulls back into a perfect centered hero frame with volumetric spotlight. 4K photorealistic textures, ray-traced reflections, extremely shallow depth of field, dark luxury aesthetic.\"\n\nadjust. paste it. thank me later.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 1,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042530967513124864/vid/avc1/1280x720/1VkRkedtYZriAL_O.mp4?tag=14",
+      "video": "media/videos/2042531026438885789.mp4"
+    },
+    {
+      "id": "x:2042530479266844846",
+      "text": "Cinematic horror-fantasy sequence at a brightly lit night carnival. Starts with a close-up of a cute, small, fluffy blue cotton candy monster looking shocked. Cut to several young children greedily eating blue cotton candy. Back to the small monster looking furious as its eyes glow. The monster then explodes into a massive cloud of blue smoke that towers over the fairgrounds, transforming into a giant, terrifying, ethereal blue smoke behemoth with glowing eyes and sharp teeth. The giant monster roars and begins destroying the carnival as people flee in panic. Hyper-realistic, 8k, volumetric lighting, vibrant neon colors against a dark night sky, high-octane action, masterpiece.\"",
+      "display_text": "Cinematic horror-fantasy sequence at a brightly lit night carnival. Starts with a close-up of a cute, small, fluffy blue cotton candy monster looking shocked. Cut to several young children greedily eating blue cotton candy. Back to the small monster looking furious as its eyes glow. The monster then explodes into a massive cloud of blue smoke that towers over the fairgrounds, transforming into a giant, terrifying, ethereal blue smoke behemoth with glowing eyes and sharp teeth. The giant monster roars and begins destroying the carnival as people flee in panic. Hyper-realistic, 8k, volumetric lighting, vibrant neon colors against a dark night sky, high-octane action, masterpiece.\"",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/ChillaiKalan__/status/2042530479266844846",
+      "author": "@ChillaiKalan__",
+      "created_at": "2026-04-10T09:09:49.000Z",
+      "tweet_text": "Seedance 2.0 on @nsketchai \n\nPrompt:\nCinematic horror-fantasy sequence at a brightly lit night carnival. Starts with a close-up of a cute, small, fluffy blue cotton candy monster looking shocked. Cut to several young children greedily eating blue cotton candy. Back to the small monster looking furious as its eyes glow. The monster then explodes into a massive cloud of blue smoke that towers over the fairgrounds, transforming into a giant, terrifying, ethereal blue smoke behemoth with glowing eyes and sharp teeth. The giant monster roars and begins destroying the carnival as people flee in panic. Hyper-realistic, 8k, volumetric lighting, vibrant neon colors against a dark night sky, high-octane action, masterpiece.\"",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 20,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2042530431464280065/pu/vid/avc1/1280x720/JFC0uYJSXtpQvEar.mp4",
+      "video": "media/videos/2042530479266844846.mp4"
+    },
+    {
+      "id": "x:2042520618692940092",
+      "text": "Premium ad for [your product] on [your background setting]. A macro close-up opens on [product detail], extreme detail on the texture and surface. Cinematic grazing light glides slowly across [product surface], revealing every craftsmanship detail. The camera executes an ultra-smooth push move toward [key product feature]. A bullet-time moment captures the [product] mid-rotation in zero gravity. The camera performs a high-speed 360-degree orbital move while [product] rotates in near stillness. Background seamlessly transitions - [scene 1], [scene 2], [scene 3]. Finally the camera pulls back into a perfect centered hero frame with volumetric spotlight. 4K photorealistic textures, ray-traced reflections, extremely shallow depth of field, dark luxury aesthetic.",
+      "display_text": "Premium ad for [your product] on [your background setting]. A macro close-up opens on [product detail], extreme detail on the texture and surface. Cinematic grazing light glides slowly across [product surface], revealing every craftsmanship detail. The camera executes an ultra-smooth push move toward [key product feature]. A bullet-time moment captures the [product] mid-rotation in zero gravity. The camera performs a high-speed 360-degree orbital move while [product] rotates in near stillness. Background seamlessly transitions - [scene 1], [scene 2], [scene 3]. Finally the camera pulls back into a perfect centered hero frame with volumetric spotlight. 4K photorealistic textures, ray-traced reflections, extremely shallow depth of field, dark luxury aesthetic.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/nrqa__/status/2042520618692940092",
+      "author": "@nrqa__",
+      "created_at": "2026-04-10T08:30:38.000Z",
+      "tweet_text": "everyone's gonna ask.. so here it is:\n\n\"Premium ad for [your product] on [your background setting]. A macro close-up opens on [product detail], extreme detail on the texture and surface. Cinematic grazing light glides slowly across [product surface], revealing every craftsmanship detail. The camera executes an ultra-smooth push move toward [key product feature]. A bullet-time moment captures the [product] mid-rotation in zero gravity. The camera performs a high-speed 360-degree orbital move while [product] rotates in near stillness. Background seamlessly transitions - [scene 1], [scene 2], [scene 3]. Finally the camera pulls back into a perfect centered hero frame with volumetric spotlight. 4K photorealistic textures, ray-traced reflections, extremely shallow depth of field, dark luxury aesthetic.\"\n\nadjust. paste it. thank me later.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 1,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042520558357876743/vid/avc1/1280x720/Aqz5-keOGx7JqRgu.mp4?tag=14",
+      "video": "media/videos/2042520618692940092.mp4"
+    },
+    {
+      "id": "x:2042480595306233917",
+      "text": "Seedance 2 is out globally on Freepik! 🎸 And now you got to learn how to prompt for it. So I went ahead and made a Spaces workflow for you - link below. And here's a prompt for you to kick off: [STYLE] Ultra-high detail Pixar-quality cinematic animation, 8K, soft global illumination, individual hair and fur strands, realistic fabric simulation, shallow depth of field, warm cozy lighting [FORMAT] 16:9, cinematic multi-shot scene, slow tension build [SCENE] Cozy bedroom at night with strong 80s personality, colorful retro posters on walls, desk with glowing computer, warm lamp. [CHARACTERS] A young man with short dense curly blonde hair forming soft rounded clumps, pale skin, slightly tired blue eyes, wearing a black hoodie A golden retriever with thick light golden fur and expressive eyes. [CAMERA SYSTEM] Smooth cinematic camera, slow push-ins, medium and close shots, no jitter. A scene showing the guy coding. The dog wakes up from some noise. the guy asks what's up. the dog walk to across the room to a closed closet door. noise coming from inside. the guy walks up and gets ready to open the door and calms the dog.",
+      "display_text": "[STYLE] Ultra-high detail Pixar-quality cinematic animation, 8K, soft global illumination, individual hair and fur strands, realistic fabric simulation, shallow depth of field, warm cozy lighting [FORMAT] 16:9, cinematic multi-shot scene, slow tension build [SCENE] Cozy bedroom at night with strong 80s personality, colorful retro posters on walls, desk with glowing computer, warm lamp. [CHARACTERS] A young man with short dense curly blonde hair forming soft rounded clumps, pale skin, slightly tired blue eyes, wearing a black hoodie A golden retriever with thick light golden fur and expressive eyes. [CAMERA SYSTEM] Smooth cinematic camera, slow push-ins, medium and close shots, no jitter. A scene showing the guy coding. The dog wakes up from some noise. the guy asks what's up. the dog walk to across the room to a closed closet door. noise coming from inside. the guy walks up and gets ready to open the door and calms the dog.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/CryptoSanky/status/2042480595306233917",
+      "author": "@CryptoSanky",
+      "created_at": "2026-04-10T05:51:36.000Z",
+      "tweet_text": "Seedance 2 is out globally on Freepik! 🎸\n\nAnd now you got to learn how to prompt for it.\n\nSo I went ahead and made a Spaces workflow for you - link below.\n\nAnd here's a prompt for you to kick off:\n\n[STYLE]\n\nUltra-high detail Pixar-quality cinematic animation, 8K, soft global illumination, individual hair and fur strands, realistic fabric simulation, shallow depth of field, warm cozy lighting\n\n[FORMAT]\n\n16:9, cinematic multi-shot scene, slow tension build\n\n[SCENE]\n\nCozy bedroom at night with strong 80s personality, colorful retro posters on walls, desk with glowing computer, warm lamp.\n\n[CHARACTERS]\n\nA young man with short dense curly blonde hair forming soft rounded clumps, pale skin, slightly tired blue eyes, wearing a black hoodie\n\nA golden retriever with thick light golden fur and expressive eyes.\n\n[CAMERA SYSTEM]\n\nSmooth cinematic camera, slow push-ins, medium and close shots, no jitter.\n\nA scene showing the guy coding. The dog wakes up from some noise. the guy asks what's up. the dog walk to across the room to a closed closet door. noise coming from inside. the guy walks up and gets ready to open the door and calms the dog.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      }
+    },
+    {
+      "id": "x:2042436482229842119",
+      "text": "A seamless 15-second luxury fragrance commercial for Aurum Summer EDP. Do not show the storyboard — use scenes only as reference. Scene 1 (0–3s): slow cinematic push-in on the gold Aurum Summer bottle standing on white desert sand, golden hour light wrapping around the glass, long shadow stretching forward. Scene 2 (3–6s): macro close-up of perfume mist spraying from the nozzle, golden particles suspended mid-air against warm backlight, slow motion. Scene 3 (6–9s): aerial drift shot — bottle resting on sand surrounded by scattered jasmine petals and dried orange peel, camera slowly rotating overhead. Scene 4 (9–12s): elegant hand with warm skin tone raises the bottle against a blurred Dubai skyline horizon, sun flaring softly behind the cap. Scene 5 (12–15s): cinematic final — bottle on a stone ledge, desert wind softly scattering petals, \"Aurum Summer\" fades in center frame in thin gold serif, \"Made in Dubai\" appears below in smaller text. Transitions: slow dissolve between every scene. Camera movement: smooth slow push-ins and drifts throughout, no cuts — fluid motion. Lighting: consistent warm golden hour throughout, amber and gold palette. Audio: deep oud-influenced ambient score with subtle modern electronic undertone, prestigious and cinematic. Male voiceover — deep Saudi Arabian English accent, slow authoritative delivery: \"Born from the desert. Crafted in Dubai. Aurum Summer — by Ajal.\" Mood: prestige, warmth, Middle Eastern luxury, aspirational.",
+      "display_text": "A seamless 15-second luxury fragrance commercial for Aurum Summer EDP. Do not show the storyboard — use scenes only as reference. Scene 1 (0–3s): slow cinematic push-in on the gold Aurum Summer bottle standing on white desert sand, golden hour light wrapping around the glass, long shadow stretching forward. Scene 2 (3–6s): macro close-up of perfume mist spraying from the nozzle, golden particles suspended mid-air against warm backlight, slow motion. Scene 3 (6–9s): aerial drift shot — bottle resting on sand surrounded by scattered jasmine petals and dried orange peel, camera slowly rotating overhead. Scene 4 (9–12s): elegant hand with warm skin tone raises the bottle against a blurred Dubai skyline horizon, sun flaring softly behind the cap. Scene 5 (12–15s): cinematic final — bottle on a stone ledge, desert wind softly scattering petals, \"Aurum Summer\" fades in center frame in thin gold serif, \"Made in Dubai\" appears below in smaller text. Transitions: slow dissolve between every scene. Camera movement: smooth slow push-ins and drifts throughout, no cuts — fluid motion. Lighting: consistent warm golden hour throughout, amber and gold palette. Audio: deep oud-influenced ambient score with subtle modern electronic undertone, prestigious and cinematic. Male voiceover — deep Saudi Arabian English accent, slow authoritative delivery: \"Born from the desert. Crafted in Dubai. Aurum Summer — by Ajal.\" Mood: prestige, warmth, Middle Eastern luxury, aspirational.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/ViralOps_/status/2042436482229842119",
+      "author": "@ViralOps_",
+      "created_at": "2026-04-10T02:56:18.000Z",
+      "tweet_text": "you need a storyboard scene sequence of your product like this image, \n\nand submit it with this prompt.\n\nit's that simple!\n\nseedance 2 prompt:\n\nA seamless 15-second luxury fragrance commercial for Aurum Summer EDP. Do not show the storyboard — use scenes only as reference. Scene 1 (0–3s): slow cinematic push-in on the gold Aurum Summer bottle standing on white desert sand, golden hour light wrapping around the glass, long shadow stretching forward. Scene 2 (3–6s): macro close-up of perfume mist spraying from the nozzle, golden particles suspended mid-air against warm backlight, slow motion. Scene 3 (6–9s): aerial drift shot — bottle resting on sand surrounded by scattered jasmine petals and dried orange peel, camera slowly rotating overhead. Scene 4 (9–12s): elegant hand with warm skin tone raises the bottle against a blurred Dubai skyline horizon, sun flaring softly behind the cap. Scene 5 (12–15s): cinematic final — bottle on a stone ledge, desert wind softly scattering petals, \"Aurum Summer\" fades in center frame in thin gold serif, \"Made in Dubai\" appears below in smaller text. Transitions: slow dissolve between every scene. Camera movement: smooth slow push-ins and drifts throughout, no cuts — fluid motion. Lighting: consistent warm golden hour throughout, amber and gold palette. Audio: deep oud-influenced ambient score with subtle modern electronic undertone, prestigious and cinematic. Male voiceover — deep Saudi Arabian English accent, slow authoritative delivery: \"Born from the desert. Crafted in Dubai. Aurum Summer — by Ajal.\" Mood: prestige, warmth, Middle Eastern luxury, aspirational.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      }
+    },
     {
       "id": "x:2042372897801716036",
       "text": "Daytime, ancient Roman coliseum arena. YOUR IMAGE - based on uploaded photo, face fully visible throughout. Body oiled, dust and sand streaked across skin, minimal chest armor plate leaving arms and shoulders bare, leather bracers, sandaled feet. Low-angle wide shot: fifty thousand spectators, heat haze rising. He stands at center, chest heaving, weapon raised. Opposite iron gate creaks open. Silence drops. A massive saber-tooth tiger steps into sunlight—muscular, prehistoric, curved ivory fangs gleaming. They lock eyes. The crowd erupts. The tiger launches—explosive speed, devouring distance. Side tracking shot parallel to both at full sprint. He waits—last moment—drops into a low roll. Claws slice inches from his face, sand blasting outward. He rises to one knee. First blood: a clean scratch across his forearm. He looks. Then up. The tiger leaps at his chest—bullet time. Full 360 orbital rotation mid-air: fangs extended, sand frozen, sweat beads suspended, his body twisting into a desperate counterstrike. Time snaps back—violent impact. Both thrown apart. He crashes, rolls, staggers up. The crowd surges. Ramp motion. The tiger circles. He mirrors it. Tight close-up: sand on cheek, breath controlled, eyes locked. Feint left—he holds. Feint right—he steps in, forearm jammed against its jaw, gripping its neck, full weight driving it down for a brutal second. Muscles strain. Roars collide. He breaks free, spins away, stands tall—arms out—faces the crowd. Wide pull-back: both twenty feet apart. Both bleeding. Arena torn. Silence. He lowers his weapon. Lifts his chin—defiance toward the crowd. Hard freeze frame. Title-card energy. High drama, realistic, no animation.",
@@ -111,13 +299,13 @@
       "tweet_text": "Seedance 2 is out globally on Freepik! 🎸\n\nAnd now you got to learn how to prompt for it.\n\nSo I went ahead and made a Spaces workflow for you - link below.\n\nAnd here's a prompt for you to kick off:\n\n[STYLE]\n\nUltra-high detail Pixar-quality cinematic animation, 8K, soft global illumination, individual hair and fur strands, realistic fabric simulation, shallow depth of field, warm cozy lighting\n\n[FORMAT]\n\n16:9, cinematic multi-shot scene, slow tension build\n\n[SCENE]\n\nCozy bedroom at night with strong 80s personality, colorful retro posters on walls, desk with glowing computer, warm lamp.\n\n[CHARACTERS]\n\nA young man with short dense curly blonde hair forming soft rounded clumps, pale skin, slightly tired blue eyes, wearing a black hoodie\n\nA golden retriever with thick light golden fur and expressive eyes.\n\n[CAMERA SYSTEM]\n\nSmooth cinematic camera, slow push-ins, medium and close shots, no jitter.\n\nA scene showing the guy coding. The dog wakes up from some noise. the guy asks what's up. the dog walk to across the room to a closed closet door. noise coming from inside. the guy walks up and gets ready to open the door and calms the dog.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 196,
+      "likes": 1165,
       "retweets": null,
       "screen": {
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-09T23:36:19Z",
+        "reviewed_at": "2026-04-10T11:50:36Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2042335591598092288/vid/avc1/2160x2530/X1a05vjJB2fgpc2k.mp4?tag=21",
@@ -3104,6 +3292,54 @@
       }
     },
     {
+      "id": "x:2042512159566102847",
+      "text": "Timelapse prompt on Seedance 2 : Locked-off aerial timelapse of the exact same landscape across centuries, with the camera completely fixed and the landforms, road position, tree line, and overall composition always intact. The transformation must feel gradual, seamless, and continuous, as if generations are passing in a single uninterrupted shot. Start with a simple dirt crossroads cutting through open farmland, a few modest cottages, thin chimney smoke, and occasional horse carts. Over time, the dirt paths subtly compact and refine into clearer roads, cottages slowly expand into sturdier homes, small market activity appears, and the settlement becomes more organized without ever feeling like a sudden replacement. As decades pass, more houses fill nearby gaps, roads harden, rails and utility poles emerge carefully along existing routes, and industry grows naturally at the edges. Then the surfaces slowly shift into asphalt, vehicles replace carts in a smooth progression, buildings rise incrementally rather than appearing instantly, and the central tree matures beside a small café. In the final stage, the same streets now carry electric cars and bicycles, lighting becomes modern, rooftops gain greenery and solar panels, yet the original crossroads structure, spatial layout, and visual identity of the place remain clearly recognizable throughout, like a true generational timelapse of one living location.",
+      "display_text": "aerial timelapse of the exact same landscape across centuries, with the camera completely fixed and the landforms, road position, tree line, and overall composition always intact. The transformation must feel gradual, seamless, and continuous, as if generations are passing in a single uninterrupted shot. Start with a simple dirt crossroads cutting through open farmland, a few modest cottages, thin chimney smoke, and occasional horse carts. Over time, the dirt paths subtly compact and refine into clearer roads, cottages slowly expand into sturdier homes, small market activity appears, and the settlement becomes more organized without ever feeling like a sudden replacement. As decades pass, more houses fill nearby gaps, roads harden, rails and utility poles emerge carefully along existing routes, and industry grows naturally at the edges. Then the surfaces slowly shift into asphalt, vehicles replace carts in a smooth progression, buildings rise incrementally rather than appearing instantly, and the central tree matures beside a small café. In the final stage, the same streets now carry electric cars and bicycles, lighting becomes modern, rooftops gain greenery and solar panels, yet the original crossroads structure, spatial layout, and visual identity of the place remain clearly recognizable throughout, like a true generational timelapse of one living location.",
+      "category": "nature-scenic",
+      "quality_score": 97,
+      "source_url": "https://x.com/umesh_ai/status/2042512159566102847",
+      "author": "@umesh_ai",
+      "created_at": "2026-04-10T07:57:01.000Z",
+      "tweet_text": "Timelapse prompt on Seedance 2 : Locked-off aerial timelapse of the exact same landscape across centuries, with the camera completely fixed and the landforms, road position, tree line, and overall composition always intact. The transformation must feel gradual, seamless, and continuous, as if generations are passing in a single uninterrupted shot. Start with a simple dirt crossroads cutting through open farmland, a few modest cottages, thin chimney smoke, and occasional horse carts. Over time, the dirt paths subtly compact and refine into clearer roads, cottages slowly expand into sturdier homes, small market activity appears, and the settlement becomes more organized without ever feeling like a sudden replacement. As decades pass, more houses fill nearby gaps, roads harden, rails and utility poles emerge carefully along existing routes, and industry grows naturally at the edges. Then the surfaces slowly shift into asphalt, vehicles replace carts in a smooth progression, buildings rise incrementally rather than appearing instantly, and the central tree matures beside a small café. In the final stage, the same streets now carry electric cars and bicycles, lighting becomes modern, rooftops gain greenery and solar panels, yet the original crossroads structure, spatial layout, and visual identity of the place remain clearly recognizable throughout, like a true generational timelapse of one living location.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 97,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042511599987232770/vid/avc1/3840x2160/m3t9srLPfiQtCA3b.mp4?tag=21",
+      "video": "media/videos/2042512159566102847.mp4"
+    },
+    {
+      "id": "x:2042481009174987240",
+      "text": "Timelapse prompt on Seedance 2 : Locked-off aerial timelapse of the exact same landscape across centuries, with the camera completely fixed and the landforms, road position, tree line, and overall composition always intact. The transformation must feel gradual, seamless, and continuous, as if generations are passing in a single uninterrupted shot. Start with a simple dirt crossroads cutting through open farmland, a few modest cottages, thin chimney smoke, and occasional horse carts. Over time, the dirt paths subtly compact and refine into clearer roads, cottages slowly expand into sturdier homes, small market activity appears, and the settlement becomes more organized without ever feeling like a sudden replacement. As decades pass, more houses fill nearby gaps, roads harden, rails and utility poles emerge carefully along existing routes, and industry grows naturally at the edges. Then the surfaces slowly shift into asphalt, vehicles replace carts in a smooth progression, buildings rise incrementally rather than appearing instantly, and the central tree matures beside a small café. In the final stage, the same streets now carry electric cars and bicycles, lighting becomes modern, rooftops gain greenery and solar panels, yet the original crossroads structure, spatial layout, and visual identity of the place remain clearly recognizable throughout, like a true generational timelapse of one living location.",
+      "display_text": "aerial timelapse of the exact same landscape across centuries, with the camera completely fixed and the landforms, road position, tree line, and overall composition always intact. The transformation must feel gradual, seamless, and continuous, as if generations are passing in a single uninterrupted shot. Start with a simple dirt crossroads cutting through open farmland, a few modest cottages, thin chimney smoke, and occasional horse carts. Over time, the dirt paths subtly compact and refine into clearer roads, cottages slowly expand into sturdier homes, small market activity appears, and the settlement becomes more organized without ever feeling like a sudden replacement. As decades pass, more houses fill nearby gaps, roads harden, rails and utility poles emerge carefully along existing routes, and industry grows naturally at the edges. Then the surfaces slowly shift into asphalt, vehicles replace carts in a smooth progression, buildings rise incrementally rather than appearing instantly, and the central tree matures beside a small café. In the final stage, the same streets now carry electric cars and bicycles, lighting becomes modern, rooftops gain greenery and solar panels, yet the original crossroads structure, spatial layout, and visual identity of the place remain clearly recognizable throughout, like a true generational timelapse of one living location.",
+      "category": "nature-scenic",
+      "quality_score": 97,
+      "source_url": "https://x.com/umesh_ai/status/2042481009174987240",
+      "author": "@umesh_ai",
+      "created_at": "2026-04-10T05:53:14.000Z",
+      "tweet_text": "If you can describe what you want, AI will take care of the rest.\n\nMade with Seedance 2 on @runwayml \n\nPrompt : An adventurer descends from one towering cliff edge to another far below, forging a path downward where none exists, each step creating the way.\n\nHe stands at the brink, boots inches from the drop, staring down at a distant ledge barely visible through the swirling mist. Without hesitation, he steps forward into the void. As his foot lowers, a stone tile coils into existence from the air below, locking into place just in time. He descends. Another step, another tile, appears beneath him with a faint swirl of mist and light.\n\nThe camera hovers beside and slightly above him, then slowly spirals around, revealing the full vertical drop. The cliff he departed from looms above; the one he’s heading toward waits below, still shrouded in fog. With each footfall, a narrow staircase forms downward in midair, impossibly suspended, leading him deeper into the abyss. The mist shifts with his movement, catching glimpses of the descending path as it assembles, silent and surreal.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 74,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042480763527184385/vid/avc1/3840x2160/Mtqq9jb4tjFo94qA.mp4?tag=21",
+      "video": "media/videos/2042481009174987240.mp4"
+    },
+    {
       "id": "x:2042164252228640844",
       "text": "Here's the prompt! As you can see, it references 3 images and also the audio with my voice for total consistency! Ah, Japanese fams, I know the translation isn't a literal match... lol! [CINEMATIC SETUP] Film Stock: Gritty 1970s Japanese 35mm film, heavy grain, visible dust",
       "display_text": "[CINEMATIC SETUP] Film Stock: Gritty 1970s Japanese 35mm film, heavy grain, visible dust",
@@ -4155,6 +4391,30 @@
       "video": "media/videos/2039043824907935790.mp4"
     },
     {
+      "id": "x:2042547592866013478",
+      "text": "Cat master’s mom said “no funny business” 😼 (made with Seedance 2 on @nemovideoai ) Prompt share ✏️👇 The Homework Cat vs the Ultimate Distraction A cinematic chaotic comedy short. An orange cat in a white short-sleeve shirt and dark blue shorts sits at a cluttered desk in a small bedroom, frowning at a mountain of homework. He fidgets, sighs dramatically, and keeps sneaking glances at his glowing phone. His opponent is not a monster—but an unstoppable force of distraction, laziness, and bad decisions. The setting flows from messy study desk → bedroom doorway → time-skipping waiting scene → chaotic living room → back to desk → messy bed finale. 0–3 seconds: Close-up: pencil tapping rapidly. The orange cat groans, slumps, then secretly slides his phone out under the desk. Door creaks open—cut to the white cat mother in pink home pajamas, holding a steaming can of cat food like a sacred offering. The orange cat instantly jolts upright, panic face, thumbs still mid-scroll. Quick cuts: glowing phone screen, suspicious mom eyes, drifting steam from the can. 3–6 seconds: The orange cat springs up awkwardly, blurting an excuse—points toward the hallway. He speed-walks out stiffly. The mom slowly sits at the desk, placing the steaming can down. Silence. Cut to wall clock: 18:00. Rapid comedic time-lapse—clock hands spinning violently to 19:30. Close-up: mom’s face shifts from calm → confused → annoyed → eye twitch. 6–9 seconds: The mom stands abruptly and marches out. Hard cut to living room: chaos explosion. The orange cat is on the floor, fully immersed, playing with a robot toy battle—sound effects, exaggerated movements. Wide shot: toys scattered everywhere like a battlefield. Close-ups: spinning robot arm, cat’s excited grin, tiny explosion toy effect. The mom enters frame—FREEZE moment—then erupts in anger. 9–12 seconds: Rapid cuts: mom shouting, finger pointing, orange cat shrinking. The orange cat trudges back to the room, shoulders slumped in defeat. He sits at the desk, stares blankly at a multiple-choice worksheet (YES / NO questions). Suddenly—evil genius spark. He grabs pencil and starts ticking ALL YES at lightning speed. Close-ups: furious checkmarks, mischievous grin, paper filling instantly. 12–15 seconds: Victory moment—he leaps onto the bed with the canned food. Messy feast: food splattering, crumbs everywhere, total chaos. Slow-motion comedic chewing, absolute satisfaction. Door creaks—mom peeks through a tiny gap. She sees EVERYTHING: messy bed, unfinished logic, food disaster. She pauses... then just sighs and shakes her head. Final shot: A single worksheet page on the desk—every answer marked YES. A drop of sauce falls onto it. #sd2 #seedance #aivideo #CatsLover",
+      "display_text": "cinematic chaotic comedy short. An orange cat in a white short-sleeve shirt and dark blue shorts sits at a cluttered desk in a small bedroom, frowning at a mountain of homework. He fidgets, sighs dramatically, and keeps sneaking glances at his glowing phone. His opponent is not a monster—but an unstoppable force of distraction, laziness, and bad decisions. The setting flows from messy study desk → bedroom doorway → time-skipping waiting scene → chaotic living room → back to desk → messy bed finale. 0–3 seconds: Close-up: pencil tapping rapidly. The orange cat groans, slumps, then secretly slides his phone out under the desk. Door creaks open—cut to the white cat mother in pink home pajamas, holding a steaming can of cat food like a sacred offering. The orange cat instantly jolts upright, panic face, thumbs still mid-scroll. Quick cuts: glowing phone screen, suspicious mom eyes, drifting steam from the can. 3–6 seconds: The orange cat springs up awkwardly, blurting an excuse—points toward the hallway. He speed-walks out stiffly. The mom slowly sits at the desk, placing the steaming can down. Silence. Cut to wall clock: 18:00. Rapid comedic time-lapse—clock hands spinning violently to 19:30. Close-up: mom’s face shifts from calm → confused → annoyed → eye twitch. 6–9 seconds: The mom stands abruptly and marches out. Hard cut to living room: chaos explosion. The orange cat is on the floor, fully immersed, playing with a robot toy battle—sound effects, exaggerated movements. Wide shot: toys scattered everywhere like a battlefield. Close-ups: spinning robot arm, cat’s excited grin, tiny explosion toy effect. The mom enters frame—FREEZE moment—then erupts in anger. 9–12 seconds: Rapid cuts: mom shouting, finger pointing, orange cat shrinking. The orange cat trudges back to the room, shoulders slumped in defeat. He sits at the desk, stares blankly at a multiple-choice worksheet (YES / NO questions). Suddenly—evil genius spark. He grabs pencil and starts ticking ALL YES at lightning speed. Close-ups: furious checkmarks, mischievous grin, paper filling instantly. 12–15 seconds: Victory moment—he leaps onto the bed with the canned food. Messy feast: food splattering, crumbs everywhere, total chaos. Slow-motion comedic chewing, absolute satisfaction. Door creaks—mom peeks through a tiny gap. She sees EVERYTHING: messy bed, unfinished logic, food disaster. She pauses... then just sighs and shakes her head. Final shot: A single worksheet page on the desk—every answer marked YES. A drop of sauce falls onto it.",
+      "category": "cinematic",
+      "quality_score": 91,
+      "source_url": "https://x.com/drjoetw/status/2042547592866013478",
+      "author": "@drjoetw",
+      "created_at": "2026-04-10T10:17:49.000Z",
+      "tweet_text": "Cat master’s mom said “no funny business” 😼\n(made with Seedance 2 on @nemovideoai  )\nPrompt share ✏️👇\n\nThe Homework Cat vs the Ultimate Distraction\nA cinematic chaotic comedy short.\n\nAn orange cat in a white short-sleeve shirt and dark blue shorts sits at a cluttered desk in a small bedroom, frowning at a mountain of homework. He fidgets, sighs dramatically, and keeps sneaking glances at his glowing phone. His opponent is not a monster—but an unstoppable force of distraction, laziness, and bad decisions.\n\nThe setting flows from messy study desk → bedroom doorway → time-skipping waiting scene → chaotic living room → back to desk → messy bed finale.\n\n0–3 seconds:\nClose-up: pencil tapping rapidly. The orange cat groans, slumps, then secretly slides his phone out under the desk.\nDoor creaks open—cut to the white cat mother in pink home pajamas, holding a steaming can of cat food like a sacred offering.\nThe orange cat instantly jolts upright, panic face, thumbs still mid-scroll.\nQuick cuts: glowing phone screen, suspicious mom eyes, drifting steam from the can.\n\n3–6 seconds:\nThe orange cat springs up awkwardly, blurting an excuse—points toward the hallway.\nHe speed-walks out stiffly.\nThe mom slowly sits at the desk, placing the steaming can down. Silence.\nCut to wall clock: 18:00.\nRapid comedic time-lapse—clock hands spinning violently to 19:30.\nClose-up: mom’s face shifts from calm → confused → annoyed → eye twitch.\n\n6–9 seconds:\nThe mom stands abruptly and marches out.\nHard cut to living room: chaos explosion.\nThe orange cat is on the floor, fully immersed, playing with a robot toy battle—sound effects, exaggerated movements.\nWide shot: toys scattered everywhere like a battlefield.\nClose-ups: spinning robot arm, cat’s excited grin, tiny explosion toy effect.\nThe mom enters frame—FREEZE moment—then erupts in anger.\n\n9–12 seconds:\nRapid cuts: mom shouting, finger pointing, orange cat shrinking.\nThe orange cat trudges back to the room, shoulders slumped in defeat.\nHe sits at the desk, stares blankly at a multiple-choice worksheet (YES / NO questions).\nSuddenly—evil genius spark.\nHe grabs pencil and starts ticking ALL YES at lightning speed.\nClose-ups: furious checkmarks, mischievous grin, paper filling instantly.\n\n12–15 seconds:\nVictory moment—he leaps onto the bed with the canned food.\nMessy feast: food splattering, crumbs everywhere, total chaos.\nSlow-motion comedic chewing, absolute satisfaction.\nDoor creaks—mom peeks through a tiny gap.\nShe sees EVERYTHING: messy bed, unfinished logic, food disaster.\nShe pauses… then just sighs and shakes her head.\n\nFinal shot:\nA single worksheet page on the desk—every answer marked YES.\nA drop of sauce falls onto it.\n\n#sd2 #seedance #aivideo #CatsLover",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042547515824967681/vid/avc1/1280x720/e8mgjYVjY2UKBliT.mp4?tag=21",
+      "video": "media/videos/2042547592866013478.mp4"
+    },
+    {
       "id": "x:2042360139865604240",
       "text": "Seedance 2 is actually insane. Hollywood is cooked. Made this in 2 minutes with ONE prompt. No edits. No cuts. No VFX team. Just text. We are so early it's unfair. Prompt 👇 \"Ramen Samurai\" — Studio Ghibli AnimeTop-down bird's-eye view of a steaming bowl of ramen on a wooden table at a rainy Tokyo night stall. Camera crash-zooms INTO the bowl — we plunge through broth, noodles become rivers, the egg yolk becomes a setting sun, and a tiny samurai made of seaweed rides a noodle-wave. Whip pan up to reveal the old chef smiling, steam curling like dragons around him. Hand-drawn, warm amber palette, painterly rain, Joe Hisaishi piano, ambient ramen slurps.",
       "display_text": "a tiny samurai made of seaweed rides a noodle-wave. Whip pan up to reveal the old chef smiling, steam curling like dragons around him. Hand-drawn, warm amber palette, painterly rain, Joe Hisaishi piano, ambient ramen slurps.",
@@ -4166,13 +4426,13 @@
       "tweet_text": "Seedance 2 is actually insane. Hollywood is cooked.\nMade this in 2 minutes with ONE prompt. \n\nNo edits. No cuts. No VFX team. Just text.\n\nWe are so early it's unfair. Prompt 👇\n\"Ramen Samurai\" — Studio Ghibli AnimeTop-down bird's-eye view of a steaming bowl of ramen on a wooden table at a rainy Tokyo night stall. Camera crash-zooms INTO the bowl — we plunge through broth, noodles become rivers, the egg yolk becomes a setting sun, and a tiny samurai made of seaweed rides a noodle-wave. Whip pan up to reveal the old chef smiling, steam curling like dragons around him. Hand-drawn, warm amber palette, painterly rain, Joe Hisaishi piano, ambient ramen slurps.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 0,
+      "likes": 5,
       "retweets": null,
       "screen": {
         "approved": true,
         "score": 88,
         "reasons": [],
-        "reviewed_at": "2026-04-09T23:36:19Z",
+        "reviewed_at": "2026-04-10T11:50:36Z",
         "engine": "internal_rules_v1"
       },
       "video_url": "https://video.twimg.com/amplify_video/2042359957056528384/vid/avc1/1280x720/tCNnspvJElxHOy2b.mp4?tag=21",
@@ -4201,6 +4461,36 @@
       },
       "video_url": "https://video.twimg.com/amplify_video/2042315615675752448/vid/avc1/1280x720/MfeAGgnaP4wOO4A6.mp4?tag=21",
       "video": "media/videos/2042315708646789599.mp4"
+    },
+    {
+      "id": "x:2042120110966485082",
+      "text": "My Template Maestro (Copy it and use it): • Subject: [ ] • Action (step by step): [ ] • Scenario: [ ] • Lens/Camera: [Pan/Zoom/Steady] • Light: [Cinematic/Soft] • Restrictions: No morphing, no text. Try it out and tag me in your results!",
+      "display_text": "[Cinematic/Soft] • Restrictions: No morphing, no text. Try it out and tag me in your results!",
+      "category": "cinematic",
+      "quality_score": 91,
+      "source_url": "https://x.com/CamilaReyes_IA/status/2042120110966485082",
+      "author": "@CamilaReyes_IA",
+      "created_at": "2026-04-09T05:59:09.000Z",
+      "tweet_text": "Dejen de 'chatear' con la IA si quieren videos nivel cine.\n\nDespués de horas testeando Seedance 2.0, entendí que el secreto no es el prompt, es la MENTALIDAD DE DIRECTOR.\n\nHe resumido mi flujo de trabajo para que dejen de sacar videos deformes y empiecen a crear arte.\n#Seedance2 https://t.co/nroU6mVojY",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042118642381312000/vid/avc1/1280x720/wgkeB80Bxb74ulrx.mp4?tag=14",
+      "published": false,
+      "admin_feedback": {
+        "action": "reject",
+        "reason": "off_target",
+        "timestamp": "2026-04-09T14:39:57.134Z"
+      },
+      "video": "media/videos/2042120110966485082.mp4"
     },
     {
       "id": "x:2041260792000160185",
@@ -4289,6 +4579,54 @@
         "action": "approve",
         "timestamp": "2026-04-09T14:36:01.368Z"
       }
+    },
+    {
+      "id": "x:2042550037771882815",
+      "text": "Extreme close-up from low angle. The torso twists away from the draw side — the left shoulder drops forward, the right shoulder pulls back, weight loading into the rear hip. Magenta energy arcs swirl around the torso, building intensity. A bright flash ignites at the sword hilt.The body uncoils — explosive rush directly toward the camera with heavy motion blur and diagonal speed streaks. The face fills the frame for one instant, eyes locked forward — then the drawn blade sweeps past in a magenta flash and the figure is already behind the camera, shrinking to a distant silhouette against the dark horizon.The sky erupts with criss-crossing sword flash lines — each slash cuts diagonally across the full width of the sky, intersecting other slashes at random angles. Each line appears as a thick bright beam — white-blue core with magenta edges — then gradually thins and fades to a thin pink trace. New lines continuously appear while older ones dissipate. The layered effect builds to peak density before slowly subsiding.The camera rushes forward to catch up. A glowing blade trail sweeps across the lens. The figure stands in noto posture — right hand raised above the left shoulder holding the sword at a diagonal, left hand at waist level guiding the blade toward the scabbard opening.The blade gleams with a bright star-burst sparkle at its midpoint. Inch by inch over several seconds, the right hand lowers — the glowing sword descends in a slow, deliberate arc toward the waiting left hand. The gleam intensifies at the point where blade meets scabbard.The instant the blade seats — a massive magenta-white explosion of light detonates from behind. Radial beams shoot outward in every direction. The figure becomes a pure silhouette against the overwhelming brightness.Within the light burst, the kanji 斬 materializes in bold calligraphic brushstrokes — dark ink against the blinding glow. Ink-splash drip effects trail from the base of each stroke. A bright horizontal magenta beam slices through the center of the kanji, and the character fragments along the cut line — upper strokes drift upward, lower strokes drift downward, as if space itself has been bisected. The magenta glow gradually dims. The fractured kanji holds its split position as the light fades to a twilight afterglow.",
+      "display_text": "Extreme close-up from low angle. The torso twists away from the draw side — the left shoulder drops forward, the right shoulder pulls back, weight loading into the rear hip. Magenta energy arcs swirl around the torso, building intensity. A bright flash ignites at the sword hilt.The body uncoils — explosive rush directly toward the camera with heavy motion blur and diagonal speed streaks. The face fills the frame for one instant, eyes locked forward — then the drawn blade sweeps past in a magenta flash and the figure is already behind the camera, shrinking to a distant silhouette against the dark horizon.The sky erupts with criss-crossing sword flash lines — each slash cuts diagonally across the full width of the sky, intersecting other slashes at random angles. Each line appears as a thick bright beam — white-blue core with magenta edges — then gradually thins and fades to a thin pink trace. New lines continuously appear while older ones dissipate. The layered effect builds to peak density before slowly subsiding.The camera rushes forward to catch up. A glowing blade trail sweeps across the lens. The figure stands in noto posture — right hand raised above the left shoulder holding the sword at a diagonal, left hand at waist level guiding the blade toward the scabbard opening.The blade gleams with a bright star-burst sparkle at its midpoint. Inch by inch over several seconds, the right hand lowers — the glowing sword descends in a slow, deliberate arc toward the waiting left hand. The gleam intensifies at the point where blade meets scabbard.The instant the blade seats — a massive magenta-white explosion of light detonates from behind. Radial beams shoot outward in every direction. The figure becomes a pure silhouette against the overwhelming brightness.Within the light burst, the kanji 斬 materializes in bold calligraphic brushstrokes — dark ink against the blinding glow. Ink-splash drip effects trail from the base of each stroke. A bright horizontal magenta beam slices through the center of the kanji, and the character fragments along the cut line — upper strokes drift upward, lower strokes drift downward, as if space itself has been bisected. The magenta glow gradually dims. The fractured kanji holds its split position as the light fades to a twilight afterglow.",
+      "category": "vfx",
+      "quality_score": 90,
+      "source_url": "https://x.com/LurkShade/status/2042550037771882815",
+      "author": "@LurkShade",
+      "created_at": "2026-04-10T10:27:32.000Z",
+      "tweet_text": "CapCutAI動画メーカー Seedance 2.0で作りました\n別絵バージョンです\n \nprompt:  \nExtreme close-up from low angle. The torso twists away from the draw side — the left shoulder drops forward, the right shoulder pulls back, weight loading into the rear hip. Magenta energy arcs swirl around the torso, building intensity. A bright flash ignites at the sword hilt.The body uncoils — explosive rush directly toward the camera with heavy motion blur and diagonal speed streaks. The face fills the frame for one instant, eyes locked forward — then the drawn blade sweeps past in a magenta flash and the figure is already behind the camera, shrinking to a distant silhouette against the dark horizon.The sky erupts with criss-crossing sword flash lines — each slash cuts diagonally across the full width of the sky, intersecting other slashes at random angles. Each line appears as a thick bright beam — white-blue core with magenta edges — then gradually thins and fades to a thin pink trace. New lines continuously appear while older ones dissipate. The layered effect builds to peak density before slowly subsiding.The camera rushes forward to catch up. A glowing blade trail sweeps across the lens. The figure stands in noto posture — right hand raised above the left shoulder holding the sword at a diagonal, left hand at waist level guiding the blade toward the scabbard opening.The blade gleams with a bright star-burst sparkle at its midpoint. Inch by inch over several seconds, the right hand lowers — the glowing sword descends in a slow, deliberate arc toward the waiting left hand. The gleam intensifies at the point where blade meets scabbard.The instant the blade seats — a massive magenta-white explosion of light detonates from behind. Radial beams shoot outward in every direction. The figure becomes a pure silhouette against the overwhelming brightness.Within the light burst, the kanji 斬 materializes in bold calligraphic brushstrokes — dark ink against the blinding glow. Ink-splash drip effects trail from the base of each stroke. A bright horizontal magenta beam slices through the center of the kanji, and the character fragments along the cut line — upper strokes drift upward, lower strokes drift downward, as if space itself has been bisected. The magenta glow gradually dims. The fractured kanji holds its split position as the light fades to a twilight afterglow.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 15,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042551799861915648/vid/avc1/1880x736/IjeXuwqwC6GDzfJL.mp4?tag=21",
+      "video": "media/videos/2042550037771882815.mp4"
+    },
+    {
+      "id": "x:2042547964657439181",
+      "text": "Extreme close-up from low angle. The torso twists away from the draw side — the left shoulder drops forward, the right shoulder pulls back, weight loading into the rear hip. Magenta energy arcs swirl around the torso, building intensity. A bright flash ignites at the sword hilt.The body uncoils — explosive rush directly toward the camera with heavy motion blur and diagonal speed streaks. The face fills the frame for one instant, eyes locked forward — then the drawn blade sweeps past in a magenta flash and the figure is already behind the camera, shrinking to a distant silhouette against the dark horizon.The sky erupts with criss-crossing sword flash lines — each slash cuts diagonally across the full width of the sky, intersecting other slashes at random angles. Each line appears as a thick bright beam — white-blue core with magenta edges — then gradually thins and fades to a thin pink trace. New lines continuously appear while older ones dissipate. The layered effect builds to peak density before slowly subsiding.The camera rushes forward to catch up. A glowing blade trail sweeps across the lens. The figure stands in noto posture — right hand raised above the left shoulder holding the sword at a diagonal, left hand at waist level guiding the blade toward the scabbard opening.The blade gleams with a bright star-burst sparkle at its midpoint. Inch by inch over several seconds, the right hand lowers — the glowing sword descends in a slow, deliberate arc toward the waiting left hand. The gleam intensifies at the point where blade meets scabbard.The instant the blade seats — a massive magenta-white explosion of light detonates from behind. Radial beams shoot outward in every direction. The figure becomes a pure silhouette against the overwhelming brightness.Within the light burst, the kanji 斬 materializes in bold calligraphic brushstrokes — dark ink against the blinding glow. Ink-splash drip effects trail from the base of each stroke. A bright horizontal magenta beam slices through the center of the kanji, and the character fragments along the cut line — upper strokes drift upward, lower strokes drift downward, as if space itself has been bisected. The magenta glow gradually dims. The fractured kanji holds its split position as the light fades to a twilight afterglow.",
+      "display_text": "Extreme close-up from low angle. The torso twists away from the draw side — the left shoulder drops forward, the right shoulder pulls back, weight loading into the rear hip. Magenta energy arcs swirl around the torso, building intensity. A bright flash ignites at the sword hilt.The body uncoils — explosive rush directly toward the camera with heavy motion blur and diagonal speed streaks. The face fills the frame for one instant, eyes locked forward — then the drawn blade sweeps past in a magenta flash and the figure is already behind the camera, shrinking to a distant silhouette against the dark horizon.The sky erupts with criss-crossing sword flash lines — each slash cuts diagonally across the full width of the sky, intersecting other slashes at random angles. Each line appears as a thick bright beam — white-blue core with magenta edges — then gradually thins and fades to a thin pink trace. New lines continuously appear while older ones dissipate. The layered effect builds to peak density before slowly subsiding.The camera rushes forward to catch up. A glowing blade trail sweeps across the lens. The figure stands in noto posture — right hand raised above the left shoulder holding the sword at a diagonal, left hand at waist level guiding the blade toward the scabbard opening.The blade gleams with a bright star-burst sparkle at its midpoint. Inch by inch over several seconds, the right hand lowers — the glowing sword descends in a slow, deliberate arc toward the waiting left hand. The gleam intensifies at the point where blade meets scabbard.The instant the blade seats — a massive magenta-white explosion of light detonates from behind. Radial beams shoot outward in every direction. The figure becomes a pure silhouette against the overwhelming brightness.Within the light burst, the kanji 斬 materializes in bold calligraphic brushstrokes — dark ink against the blinding glow. Ink-splash drip effects trail from the base of each stroke. A bright horizontal magenta beam slices through the center of the kanji, and the character fragments along the cut line — upper strokes drift upward, lower strokes drift downward, as if space itself has been bisected. The magenta glow gradually dims. The fractured kanji holds its split position as the light fades to a twilight afterglow.",
+      "category": "vfx",
+      "quality_score": 90,
+      "source_url": "https://x.com/ShadeLurk/status/2042547964657439181",
+      "author": "@ShadeLurk",
+      "created_at": "2026-04-10T10:19:18.000Z",
+      "tweet_text": "剣閃→納刀\nCapCutAI動画メーカー Seedance 2.0で作りました #capcutseedance2\n\n@capcutapp\n \n@capcutapp_jp\n PR  \n\nprompt: \nExtreme close-up from low angle. The torso twists away from the draw side — the left shoulder drops forward, the right shoulder pulls back, weight loading into the rear hip. Magenta energy arcs swirl around the torso, building intensity. A bright flash ignites at the sword hilt.The body uncoils — explosive rush directly toward the camera with heavy motion blur and diagonal speed streaks. The face fills the frame for one instant, eyes locked forward — then the drawn blade sweeps past in a magenta flash and the figure is already behind the camera, shrinking to a distant silhouette against the dark horizon.The sky erupts with criss-crossing sword flash lines — each slash cuts diagonally across the full width of the sky, intersecting other slashes at random angles. Each line appears as a thick bright beam — white-blue core with magenta edges — then gradually thins and fades to a thin pink trace. New lines continuously appear while older ones dissipate. The layered effect builds to peak density before slowly subsiding.The camera rushes forward to catch up. A glowing blade trail sweeps across the lens. The figure stands in noto posture — right hand raised above the left shoulder holding the sword at a diagonal, left hand at waist level guiding the blade toward the scabbard opening.The blade gleams with a bright star-burst sparkle at its midpoint. Inch by inch over several seconds, the right hand lowers — the glowing sword descends in a slow, deliberate arc toward the waiting left hand. The gleam intensifies at the point where blade meets scabbard.The instant the blade seats — a massive magenta-white explosion of light detonates from behind. Radial beams shoot outward in every direction. The figure becomes a pure silhouette against the overwhelming brightness.Within the light burst, the kanji 斬 materializes in bold calligraphic brushstrokes — dark ink against the blinding glow. Ink-splash drip effects trail from the base of each stroke. A bright horizontal magenta beam slices through the center of the kanji, and the character fragments along the cut line — upper strokes drift upward, lower strokes drift downward, as if space itself has been bisected. The magenta glow gradually dims. The fractured kanji holds its split position as the light fades to a twilight afterglow.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 33,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042547637677887488/vid/avc1/864x496/C8pmUlBkyZe0rkBe.mp4?tag=21",
+      "video": "media/videos/2042547964657439181.mp4"
     },
     {
       "id": "x:2042159871584268373",
@@ -4531,6 +4869,78 @@
       "video_url": "https://video.twimg.com/amplify_video/2039289796968017920/vid/avc1/1280x720/edlTyjNMOlVSS-kr.mp4",
       "thumbnail": "media/thumbs/2039290009354707379.webp",
       "video": "media/videos/2039290009354707379.mp4"
+    },
+    {
+      "id": "x:2042520477172658289",
+      "text": "A glowing asteroid enters the atmosphere above a sprawling metropolis at night. The camera tracks the meteor streaking across the sky before it slams into the city center. A massive shockwave blasts outward, flattening buildings and throwing cars through the air. A gigantic fireball rises above the crater as dust clouds engulf the skyline. Asteroid impact disaster, city shockwave destruction, explosive crater formation, cinematic apocalyptic scale, 4K. Made in @freepik",
+      "display_text": "A glowing asteroid enters the atmosphere above a sprawling metropolis at night. The camera tracks the meteor streaking across the sky before it slams into the city center. A massive shockwave blasts outward, flattening buildings and throwing cars through the air. A gigantic fireball rises above the crater as dust clouds engulf the skyline. Asteroid impact disaster, city shockwave destruction, explosive crater formation, cinematic apocalyptic scale, 4K.",
+      "category": "cinematic",
+      "quality_score": 89,
+      "source_url": "https://x.com/LudovicCreator/status/2042520477172658289",
+      "author": "@LudovicCreator",
+      "created_at": "2026-04-10T08:30:04.000Z",
+      "tweet_text": "🎨 SEEDANCE 2 🎨\n\nPrompt  :\n\nA glowing asteroid enters the atmosphere above a sprawling metropolis at night.\n\nThe camera tracks the meteor streaking across the sky before it slams into the city center.\n\nA massive shockwave blasts outward, flattening buildings and throwing cars through the air.\n\nA gigantic fireball rises above the crater as dust clouds engulf the skyline.\n\nAsteroid impact disaster, city shockwave destruction, explosive crater formation, cinematic apocalyptic scale, 4K.\n\nMade in @freepik",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 24,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2042520459606929408/pu/vid/avc1/1280x720/tfLGf_URCIWYJXvh.mp4?tag=12",
+      "video": "media/videos/2042520477172658289.mp4"
+    },
+    {
+      "id": "x:2042557825302561113",
+      "text": "BREAKING: Someone just built a FREE alternative to Screen Studio. No subscription. No watermark. No limits. And it covers what most people actually use. Here is what OpenScreen is. Screen Studio costs $29/month. OpenScreen costs $0. Forever. No trial tricks. No upsell. Just a clean, open-source screen recorder built for product demos. Because most people do not need 50 features. They need this: → Smooth zooms → Clean backgrounds → Simple editing → Professional-looking output That is exactly what OpenScreen focuses on. Here is what it can do: → Record full screen or specific windows → Auto zoom or manual zoom with full control → Record mic + system audio together → Add motion blur for smooth transitions → Customize backgrounds, colors, gradients → Add text, arrows, and annotations → Trim clips and adjust speed per segment → Export in multiple formats and aspect ratios And yes... it works everywhere: → macOS → Windows → Linux No ecosystem lock-in. No forced upgrades. But here is the real shift. This is not trying to replace Screen Studio. It is redefining the category. Most users are paying $348/year for features they never touch. OpenScreen strips it down to what actually matters. Clean demos. Fast workflow. Zero cost. Which means: For a huge chunk of creators... Paid screen recording tools just became optional.",
+      "display_text": "BREAKING: Someone just built a FREE alternative to Screen Studio. No subscription. No watermark. No limits. And it covers what most people actually use. Here is what OpenScreen is. Screen Studio costs $29/month. OpenScreen costs $0. Forever. No trial tricks. No upsell. Just a clean, open-source screen recorder built for product demos. Because most people do not need 50 features. They need this: → Smooth zooms → Clean backgrounds → Simple editing → Professional-looking output That is exactly what OpenScreen focuses on. Here is what it can do: → Record full screen or specific windows → Auto zoom or manual zoom with full control → Record mic + system audio together → Add motion blur for smooth transitions → Customize backgrounds, colors, gradients → Add text, arrows, and annotations → Trim clips and adjust speed per segment → Export in multiple formats and aspect ratios And yes... it works everywhere: → macOS → Windows → Linux No ecosystem lock-in. No forced upgrades. But here is the real shift. This is not trying to replace Screen Studio. It is redefining the category. Most users are paying $348/year for features they never touch. OpenScreen strips it down to what actually matters. Clean demos. Fast workflow. Zero cost. Which means: For a huge chunk of creators... Paid screen recording tools just became optional.",
+      "category": "commercial",
+      "quality_score": 88,
+      "source_url": "https://x.com/Div_pradeep/status/2042557825302561113",
+      "author": "@Div_pradeep",
+      "created_at": "2026-04-10T10:58:29.000Z",
+      "tweet_text": "Just came across Dreamina Seedance 2.0 inside CapCut, and it’s already built into different features.\n\nI’ll probably mess around with it a bit later.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 3,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2041690881204613122/vid/avc1/3200x1800/EOBB3UVz-cF73GDf.mp4?tag=21",
+      "video": "media/videos/2042557825302561113.mp4"
+    },
+    {
+      "id": "x:2042515307315544537",
+      "text": "Magnific Video Upscaling is here Bringing you two variants: Precision for sharp, faithful 4K that stays true to your footage, and Creative for when you want the AI to go a bit further with new details. Yours to try: https:// app.scenario.com/models/model_m agnific-video-upscaler-creative?utm_source=X.com&utm_medium=social&utm_campaign=MagnificVideoUpscale ...",
+      "display_text": "Magnific Video Upscaling is here Bringing you two variants: Precision for sharp, faithful 4K that stays true to your footage, and Creative for when you want the AI to go a bit further with new details. Yours to try: https:// app.scenario.com/models/model_m agnific-video-upscaler-creative?utm_source=X.com&utm_medium=social&utm_campaign=MagnificVideoUpscale ...",
+      "category": "other",
+      "quality_score": 88,
+      "source_url": "https://x.com/emmanuel_2m/status/2042515307315544537",
+      "author": "@emmanuel_2m",
+      "created_at": "2026-04-10T08:09:32.000Z",
+      "tweet_text": "You’re going to see a lot of my Seedance 2.0 generations on Scenario haha \n\nBest video model out ever by a huge margin - the multi-modal input possibilities are wild.\n\nDropping a concept Porsche ad. Text-to-video. Full prompt below \n\nAccess it on \nhttps://\napp.scenario.com/models/model_b\nytedance-seedance-2-0\n…",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 7,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/ext_tw_video/2041901433528659968/pu/vid/avc1/1280x720/zISQoP62AFNL1RWU.mp4?tag=12",
+      "video": "media/videos/2042515307315544537.mp4"
     },
     {
       "id": "x:2042193242830094380",
@@ -4823,6 +5233,30 @@
         "reason": "off_target",
         "timestamp": "2026-04-09T14:37:50.458Z"
       }
+    },
+    {
+      "id": "x:2042559372140695712",
+      "text": "They told him to find inner peace, so he learned how to shred. 🛹🧘‍♂️ Ai Generated with seedance 2.0 🔥 Video prompt -------------- 15-second action-comedy short, polished cinematic realism with calm spiritual contrast. Same subject throughout: a serene monk in flowing saffron robes riding a skateboard through a giant temple courtyard. 0–3s: he stands motionless on the board as incense smoke drifts around him. 3–6s: he suddenly pushes off and glides down stone steps with impossible balance. 6–10s: he weaves through prayer wheels, lantern poles, and pigeons without disturbing his peaceful expression. 10–15s: he lands a flawless spinning trick, steps off gently, and bows as the skateboard rolls back to his feet.",
+      "display_text": "cinematic realism with calm spiritual contrast. Same subject throughout: a serene monk in flowing saffron robes riding a skateboard through a giant temple courtyard. 0–3s: he stands motionless on the board as incense smoke drifts around him. 3–6s: he suddenly pushes off and glides down stone steps with impossible balance. 6–10s: he weaves through prayer wheels, lantern poles, and pigeons without disturbing his peaceful expression. 10–15s: he lands a flawless spinning trick, steps off gently, and bows as the skateboard rolls back to his feet.",
+      "category": "cinematic",
+      "quality_score": 87,
+      "source_url": "https://x.com/azed_ai/status/2042559372140695712",
+      "author": "@azed_ai",
+      "created_at": "2026-04-10T11:04:37.000Z",
+      "tweet_text": "They told him to find inner peace, \nso he learned how to shred. 🛹🧘‍♂️\n\nAi Generated with seedance 2.0 🔥\n\nVideo prompt \n--------------\n15-second action-comedy short, polished cinematic realism with calm spiritual contrast. Same subject throughout: a serene monk in flowing saffron robes riding a skateboard through a giant temple courtyard. 0–3s: he stands motionless on the board as incense smoke drifts around him. 3–6s: he suddenly pushes off and glides down stone steps with impossible balance. 6–10s: he weaves through prayer wheels, lantern poles, and pigeons without disturbing his peaceful expression. 10–15s: he lands a flawless spinning trick, steps off gently, and bows as the skateboard rolls back to his feet.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042204593795514369/vid/avc1/2560x1440/GNR2u5H8Ygdq_0nP.mp4?tag=21",
+      "video": "media/videos/2042559372140695712.mp4"
     },
     {
       "id": "x:2042160435936596003",
@@ -5237,6 +5671,30 @@
       "video": "media/videos/2040445075520639022.mp4"
     },
     {
+      "id": "x:2042547830615871787",
+      "text": "2/ Prompt I used for the running scene: Character: Image 1 (UPLOADED MY IMAGE from Asset Library) running in slow motion toward camera, panic on her face, pale pink dress, rain-slicked street at night, green glowing numbers on her forearm like this (UPLOADED an image from movie ‘In Time’ where you could see green numbers written on the arm), dramatic cinematic lighting.",
+      "display_text": "2/ Prompt I used for the running scene: Character: Image 1 (UPLOADED MY IMAGE from Asset Library) running in slow motion toward camera, panic on her face, pale pink dress, rain-slicked street at night, green glowing numbers on her forearm like this (UPLOADED an image from movie ‘In Time’ where you could see green numbers written on the arm), dramatic cinematic lighting.",
+      "category": "cinematic",
+      "quality_score": 85,
+      "source_url": "https://x.com/yulikay/status/2042547830615871787",
+      "author": "@yulikay",
+      "created_at": "2026-04-10T10:18:46.000Z",
+      "tweet_text": "1/ You upload references, write a prompt, and Seedance 2.0 handles the shot planning itself (unless you wanna take it under your control).\n\nThe storyboarding is automatic, I really love how it looks like and how convenient it is, the transitions are seamless, and the consistency across the clips is amazing!",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 6,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042546803380490241/vid/avc1/3840x2160/9-3e8IjFnk-JrlOD.mp4?tag=21",
+      "video": "media/videos/2042547830615871787.mp4"
+    },
+    {
       "id": "x:2041804634013184301",
       "text": "Bullet time effect. A businessman in white shirt and black tie slipping and falling backwards on an icy wet street in Wall Street, New York. Coffee cup standing on ground, liquid exploding outward frozen in mid-air. Ice chunks, water droplets, and coffee splash all completely suspended time is frozen. Tall buildings on both sides creating a canyon effect. The camera smoothly orbits 360 degrees around the falling man at low ground level angle, only the camera moves while everything else remains perfectly still. Cinematic, overcast dramatic lighting, wide angle lens distortion.",
       "display_text": "Bullet time effect. A businessman in white shirt and black tie slipping and falling backwards on an icy wet street in Wall Street, New York. Coffee cup standing on ground, liquid exploding outward frozen in mid-air. Ice chunks, water droplets, and coffee splash all completely suspended time is frozen. Tall buildings on both sides creating a canyon effect. The camera smoothly orbits 360 degrees around the falling man at low ground level angle, only the camera moves while everything else remains perfectly still. Cinematic, overcast dramatic lighting, wide angle lens distortion.",
@@ -5638,36 +6096,6 @@
       },
       "video_url": "https://video.twimg.com/amplify_video/2042351538748719104/vid/avc1/1920x1080/mjL6BZl7Bwl8Ly5h.mp4?tag=21",
       "video": "media/videos/2042356338005524715.mp4"
-    },
-    {
-      "id": "x:2042120110966485082",
-      "text": "Mi Template Maestro (Cópialo y úsalo): • Sujeto: [ ] • Acción (paso a paso): [ ] • Escenario: [ ] • Lente/Cámara: [Pan/Zoom/Steady] • Luz: [Cinematic/Soft] • Restricciones: No morphing, no text. ¡Pruébenlo y me etiquetan en sus resultados!",
-      "display_text": "Mi Template Maestro (Cópialo y úsalo): • Sujeto: [ ] • Acción (paso a paso): [ ] • Escenario: [ ] • Lente/Cámara: [Pan/Zoom/Steady] • Luz: [Cinematic/Soft] • Restricciones: No morphing, no text. ¡Pruébenlo y me etiquetan en sus resultados!",
-      "category": "cinematic",
-      "quality_score": 83,
-      "source_url": "https://x.com/CamilaReyes_IA/status/2042120110966485082",
-      "author": "@CamilaReyes_IA",
-      "created_at": "2026-04-09T05:59:09.000Z",
-      "tweet_text": "Dejen de 'chatear' con la IA si quieren videos nivel cine.\n\nDespués de horas testeando Seedance 2.0, entendí que el secreto no es el prompt, es la MENTALIDAD DE DIRECTOR.\n\nHe resumido mi flujo de trabajo para que dejen de sacar videos deformes y empiecen a crear arte.\n#Seedance2 https://t.co/nroU6mVojY",
-      "source_network": "x",
-      "reviewed_llm": false,
-      "likes": 0,
-      "retweets": null,
-      "screen": {
-        "approved": true,
-        "score": 88,
-        "reasons": [],
-        "reviewed_at": "2026-04-09T23:36:19Z",
-        "engine": "internal_rules_v1"
-      },
-      "video_url": "https://video.twimg.com/amplify_video/2041690881204613122/vid/avc1/3200x1800/EOBB3UVz-cF73GDf.mp4?tag=21",
-      "published": false,
-      "admin_feedback": {
-        "action": "reject",
-        "reason": "off_target",
-        "timestamp": "2026-04-09T14:39:57.134Z"
-      },
-      "video": "media/videos/2042120110966485082.mp4"
     },
     {
       "id": "x:2042110761099784406",
@@ -6179,6 +6607,174 @@
       "video_url": "https://video.twimg.com/amplify_video/2040508382331928576/vid/avc1/1280x720/boc4faFQo__C7pZB.mp4?tag=14",
       "thumbnail": "media/thumbs/2040508583792796033.webp",
       "video": "media/videos/2040508583792796033.mp4"
+    },
+    {
+      "id": "x:2042547661509922866",
+      "text": "\"woman, angular jaw. strong brows, slightly ungroomed. deep-set eyes. olive skin, sun-freckled nose bridge. mid-20s. dark",
+      "display_text": "\"woman, angular jaw. strong brows, slightly ungroomed. deep-set eyes. olive skin, sun-freckled nose bridge. mid-20s. dark",
+      "category": "other",
+      "quality_score": 82,
+      "source_url": "https://x.com/ritesh_ai/status/2042547661509922866",
+      "author": "@ritesh_ai",
+      "created_at": "2026-04-10T10:18:05.000Z",
+      "tweet_text": "we are so cooked. this entire clip is just one single prompt. without editing or any kind of post production.\n\nseedance 2.0 changed the game entirely. https://t.co/jz1uWtttMh",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 1,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042545727038197763/vid/avc1/720x1280/M7PZFDRQOLn1UsKT.mp4?tag=21",
+      "video": "media/videos/2042547661509922866.mp4"
+    },
+    {
+      "id": "x:2042546812817674451",
+      "text": "5/ On pure visual quality, Dreamina Seedance 2.0 is genuinely immersive: • Intelligent scene continuation • Multi-shot story arcs • Precise audio-video alignment • Realistic physics This model actually understands how real camera footage works.",
+      "display_text": "5/ On pure visual quality, Dreamina Seedance 2.0 is genuinely immersive: • Intelligent scene continuation • Multi-shot story arcs • Precise audio-video alignment • Realistic physics This model actually understands how real camera footage works.",
+      "category": "other",
+      "quality_score": 82,
+      "source_url": "https://x.com/X5ZlJ/status/2042546812817674451",
+      "author": "@X5ZlJ",
+      "created_at": "2026-04-10T10:14:43.000Z",
+      "tweet_text": "5/ On pure visual quality, Dreamina Seedance 2.0 is genuinely immersive:\n\n• Intelligent scene continuation\n• Multi-shot story arcs\n• Precise audio-video alignment\n• Realistic physics\nThis model actually understands how real camera footage works. https://t.co/pzX9uYpkQR",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042546761978515460/vid/avc1/1284x720/vuV71XXLRALhAfWB.mp4?tag=14",
+      "video": "media/videos/2042546812817674451.mp4"
+    },
+    {
+      "id": "x:2042546490107924739",
+      "text": "5/ On pure visual quality, Dreamina Seedance 2.0 is genuinely immersive: • Intelligent scene continuation • Multi-shot story arcs • Precise audio-video alignment • Realistic physics This model actually understands how real camera footage works.",
+      "display_text": "5/ On pure visual quality, Dreamina Seedance 2.0 is genuinely immersive: • Intelligent scene continuation • Multi-shot story arcs • Precise audio-video alignment • Realistic physics This model actually understands how real camera footage works.",
+      "category": "other",
+      "quality_score": 82,
+      "source_url": "https://x.com/X5ZlJ/status/2042546490107924739",
+      "author": "@X5ZlJ",
+      "created_at": "2026-04-10T10:13:26.000Z",
+      "tweet_text": "🚨Listen — the wait is officially over. Dreamina Seedance 2.0 just launched in the US on Dreamina.\n\nI've been running this thing through every test I can think of, and it delivers for creators. Take literally ANY concept and turn it into a complete video scene on the fly — no render queues, no costly gear, no headaches.\n\nIt accepts text, images, video clips, and audio as references… and genuinely keeps everything coherent: consistent characters, fluid motion, realistic lighting, no random glitchy cuts. This isn't just another AI video gimmick — it's rapid-fire storytelling that actually works.\n\nDreamina's all-in-one creative platform just received its biggest upgrade yet. If you produce video content, you owe it to yourself to test this.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042546440061489154/vid/avc1/1284x720/8_cBGoys8iEqFyMN.mp4?tag=14",
+      "video": "media/videos/2042546490107924739.mp4"
+    },
+    {
+      "id": "x:2042541463423324430",
+      "text": "5/ Visual fidelity-wise, Dreamina Seedance 2.0 delivers cinematic-grade output: • Smart continuation (\"keep the camera rolling\") • Multi-shot storytelling • Precise audio-visual sync • Realistic physical simulation This model genuinely comprehends how live footage works.",
+      "display_text": "5/ Visual fidelity-wise, Dreamina Seedance 2.0 delivers cinematic-grade output: • Smart continuation (\"keep the camera rolling\") • Multi-shot storytelling • Precise audio-visual sync • Realistic physical simulation This model genuinely comprehends how live footage works.",
+      "category": "cinematic",
+      "quality_score": 82,
+      "source_url": "https://x.com/misbah_2024/status/2042541463423324430",
+      "author": "@misbah_2024",
+      "created_at": "2026-04-10T09:53:28.000Z",
+      "tweet_text": "8/ If AI video, digital storytelling, or creative automation matters to you —\n\nStart now: \nhttps://\ndreamina.capcut.com/ai-tool/home/?\nutm_medium=social&utm_source=twitter&utm_campaign=dreaminaseedance2_cubo\n…\n\nDon't sleep on this.\n\nDreamina Seedance 2.0, available globally since March 16 — full power, no queue. New users get free access.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042541294044745733/vid/avc1/1924x1078/skM-FAe78TDiDOTj.mp4?tag=21",
+      "video": "media/videos/2042541463423324430.mp4"
+    },
+    {
+      "id": "x:2042541454170689678",
+      "text": "5/ Visual fidelity-wise, Dreamina Seedance 2.0 delivers cinematic-grade output: • Smart continuation (\"keep the camera rolling\") • Multi-shot storytelling • Precise audio-visual sync • Realistic physical simulation This model genuinely comprehends how live footage works.",
+      "display_text": "5/ Visual fidelity-wise, Dreamina Seedance 2.0 delivers cinematic-grade output: • Smart continuation (\"keep the camera rolling\") • Multi-shot storytelling • Precise audio-visual sync • Realistic physical simulation This model genuinely comprehends how live footage works.",
+      "category": "cinematic",
+      "quality_score": 82,
+      "source_url": "https://x.com/misbah_2024/status/2042541454170689678",
+      "author": "@misbah_2024",
+      "created_at": "2026-04-10T09:53:25.000Z",
+      "tweet_text": "5/ Visual fidelity-wise, Dreamina Seedance 2.0 delivers cinematic-grade output:\n\n• Smart continuation (\"keep the camera rolling\")\n• Multi-shot storytelling\n• Precise audio-visual sync\n• Realistic physical simulation\n\nThis model genuinely comprehends how live footage works. https://t.co/EwMZHtrUG9",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042541192748109826/vid/avc1/1924x1078/9m3xJh7F82b410jd.mp4?tag=21",
+      "video": "media/videos/2042541454170689678.mp4"
+    },
+    {
+      "id": "x:2042541449347240206",
+      "text": "5/ Visual fidelity-wise, Dreamina Seedance 2.0 delivers cinematic-grade output: • Smart continuation (\"keep the camera rolling\") • Multi-shot storytelling • Precise audio-visual sync • Realistic physical simulation This model genuinely comprehends how live footage works.",
+      "display_text": "5/ Visual fidelity-wise, Dreamina Seedance 2.0 delivers cinematic-grade output: • Smart continuation (\"keep the camera rolling\") • Multi-shot storytelling • Precise audio-visual sync • Realistic physical simulation This model genuinely comprehends how live footage works.",
+      "category": "cinematic",
+      "quality_score": 82,
+      "source_url": "https://x.com/misbah_2024/status/2042541449347240206",
+      "author": "@misbah_2024",
+      "created_at": "2026-04-10T09:53:24.000Z",
+      "tweet_text": "5/ Visual fidelity-wise, Dreamina Seedance 2.0 delivers cinematic-grade output:\n\n• Smart continuation (\"keep the camera rolling\")\n• Multi-shot storytelling\n• Precise audio-visual sync\n• Realistic physical simulation\n\nThis model genuinely comprehends how live footage works. https://t.co/EwMZHtrUG9",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042541088129585155/vid/avc1/1924x1078/NZcoKS2aoO4BAZ8L.mp4?tag=21",
+      "video": "media/videos/2042541449347240206.mp4"
+    },
+    {
+      "id": "x:2042541431018131623",
+      "text": "5/ Visual fidelity-wise, Dreamina Seedance 2.0 delivers cinematic-grade output: • Smart continuation (\"keep the camera rolling\") • Multi-shot storytelling • Precise audio-visual sync • Realistic physical simulation This model genuinely comprehends how live footage works.",
+      "display_text": "5/ Visual fidelity-wise, Dreamina Seedance 2.0 delivers cinematic-grade output: • Smart continuation (\"keep the camera rolling\") • Multi-shot storytelling • Precise audio-visual sync • Realistic physical simulation This model genuinely comprehends how live footage works.",
+      "category": "cinematic",
+      "quality_score": 82,
+      "source_url": "https://x.com/misbah_2024/status/2042541431018131623",
+      "author": "@misbah_2024",
+      "created_at": "2026-04-10T09:53:20.000Z",
+      "tweet_text": "Dreamina Seedance 2.0 is NOW LIVE in the US on Dreamina!\n\nI've been testing non-stop and the Omni-reference feature is surprisingly intuitive to work with.\n\nHere's how you can generate scroll-stopping videos in seconds:\n\n• Search for Dreamina Seedance online\n• Type in your prompt\n• Log into your account\n• Activate Omni Reference (supports images, video, audio)\n• Hit Generate.\nA single prompt = remarkably clean, professional video output.\n\nGet started:",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042540916272164864/vid/avc1/1924x1078/hrRp4Y_2IapP-JIN.mp4?tag=21",
+      "video": "media/videos/2042541431018131623.mp4"
     },
     {
       "id": "x:2042268341872570632",
@@ -7084,6 +7680,100 @@
         "reason": "off_target",
         "timestamp": "2026-04-05T11:11:26.815Z"
       }
+    },
+    {
+      "id": "x:2042543579130925419",
+      "text": "8/ For anyone deep in AI video, visual storytelling, or automated content creation — Create here: https:// dreamina.capcut.com/ai-tool/home/? utm_medium=social&utm_source=twitter&utm_campaign=dreaminaseedance2_cubo ... This upgrade demands your attention. Dreamina Seedance 2.0, global launch March 16 — full capability, zero queue. Free for new users.",
+      "display_text": "8/ For anyone deep in AI video, visual storytelling, or automated content creation — Create here: https:// dreamina.capcut.com/ai-tool/home/? utm_medium=social&utm_source=twitter&utm_campaign=dreaminaseedance2_cubo ... This upgrade demands your attention. Dreamina Seedance 2.0, global launch March 16 — full capability, zero queue. Free for new users.",
+      "category": "cinematic",
+      "quality_score": 80,
+      "source_url": "https://x.com/heytafsirul/status/2042543579130925419",
+      "author": "@heytafsirul",
+      "created_at": "2026-04-10T10:01:52.000Z",
+      "tweet_text": "8/ For anyone deep in AI video, visual storytelling, or automated content creation —\n\nCreate here: \nhttps://\ndreamina.capcut.com/ai-tool/home/?\nutm_medium=social&utm_source=twitter&utm_campaign=dreaminaseedance2_cubo\n…\n\nThis upgrade demands your attention.\n\nDreamina Seedance 2.0, global launch March 16 — full capability, zero queue. Free for new users.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      }
+    },
+    {
+      "id": "x:2042543504140960131",
+      "text": "8/ For anyone deep in AI video, visual storytelling, or automated content creation — Create here: https:// dreamina.capcut.com/ai-tool/home/? utm_medium=social&utm_source=twitter&utm_campaign=dreaminaseedance2_cubo ... This upgrade demands your attention. Dreamina Seedance 2.0, global launch March 16 — full capability, zero queue. Free for new users.",
+      "display_text": "8/ For anyone deep in AI video, visual storytelling, or automated content creation — Create here: https:// dreamina.capcut.com/ai-tool/home/? utm_medium=social&utm_source=twitter&utm_campaign=dreaminaseedance2_cubo ... This upgrade demands your attention. Dreamina Seedance 2.0, global launch March 16 — full capability, zero queue. Free for new users.",
+      "category": "cinematic",
+      "quality_score": 80,
+      "source_url": "https://x.com/heytafsirul/status/2042543504140960131",
+      "author": "@heytafsirul",
+      "created_at": "2026-04-10T10:01:34.000Z",
+      "tweet_text": "6/ Dreamina Seedance 2.0 has earned its spot as the leading AI video generation tool.\n\nThe defining edge isn't resolution — it's how much control you have.\n\nVisual creation has finally become an editable workflow instead of a random output generator. https://t.co/jCRU7K3VrV",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042543328173174784/vid/avc1/1284x720/W_-5hOtTpMTVmpgU.mp4?tag=14",
+      "video": "media/videos/2042543504140960131.mp4"
+    },
+    {
+      "id": "x:2042543440874082607",
+      "text": "8/ For anyone deep in AI video, visual storytelling, or automated content creation — Create here: https:// dreamina.capcut.com/ai-tool/home/? utm_medium=social&utm_source=twitter&utm_campaign=dreaminaseedance2_cubo ... This upgrade demands your attention. Dreamina Seedance 2.0, global launch March 16 — full capability, zero queue. Free for new users.",
+      "display_text": "8/ For anyone deep in AI video, visual storytelling, or automated content creation — Create here: https:// dreamina.capcut.com/ai-tool/home/? utm_medium=social&utm_source=twitter&utm_campaign=dreaminaseedance2_cubo ... This upgrade demands your attention. Dreamina Seedance 2.0, global launch March 16 — full capability, zero queue. Free for new users.",
+      "category": "cinematic",
+      "quality_score": 80,
+      "source_url": "https://x.com/heytafsirul/status/2042543440874082607",
+      "author": "@heytafsirul",
+      "created_at": "2026-04-10T10:01:19.000Z",
+      "tweet_text": "5/ On pure visual fidelity, Dreamina Seedance 2.0 is cinematic:\n\n• Smart continuation mode\n• Multi-shot narrative building\n• Tight audio-visual sync across single and multiple subjects\n• True-to-life physics\nThis model gets how real footage behaves. https://t.co/qryUiSOFyk",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042543328173174784/vid/avc1/1284x720/W_-5hOtTpMTVmpgU.mp4?tag=14",
+      "video": "media/videos/2042543440874082607.mp4"
+    },
+    {
+      "id": "x:2042543188284706834",
+      "text": "8/ For anyone deep in AI video, visual storytelling, or automated content creation — Create here: https:// dreamina.capcut.com/ai-tool/home/? utm_medium=social&utm_source=twitter&utm_campaign=dreaminaseedance2_cubo ... This upgrade demands your attention. Dreamina Seedance 2.0, global launch March 16 — full capability, zero queue. Free for new users.",
+      "display_text": "8/ For anyone deep in AI video, visual storytelling, or automated content creation — Create here: https:// dreamina.capcut.com/ai-tool/home/? utm_medium=social&utm_source=twitter&utm_campaign=dreaminaseedance2_cubo ... This upgrade demands your attention. Dreamina Seedance 2.0, global launch March 16 — full capability, zero queue. Free for new users.",
+      "category": "cinematic",
+      "quality_score": 80,
+      "source_url": "https://x.com/heytafsirul/status/2042543188284706834",
+      "author": "@heytafsirul",
+      "created_at": "2026-04-10T10:00:19.000Z",
+      "tweet_text": "Dreamina Seedance 2.0 is NOW LIVE in the US on Dreamina!\n\nI've been testing non-stop and the Omni-reference feature is surprisingly intuitive to work with.\n\nHere's how you can generate scroll-stopping videos in seconds:\n\n• Search for Dreamina Seedance online\n• Type in your prompt\n• Log into your account\n• Activate Omni Reference (supports images, video, audio)\n• Hit Generate.\nA single prompt = remarkably clean, professional video output.\n\nGet started:",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-10T11:50:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "video_url": "https://video.twimg.com/amplify_video/2042543138418626562/vid/avc1/1284x720/OSL8NyF0yPqZV_WY.mp4?tag=14",
+      "video": "media/videos/2042543188284706834.mp4"
     },
     {
       "id": "x:2042148571689144802",

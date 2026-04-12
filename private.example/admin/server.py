@@ -1,14 +1,16 @@
-"""Local admin server for reviewing and publishing prompts.
+"""Local admin server (maintainer-only): full store under private/, public export to data/.
 
-Run:  python admin/server.py
+Copy this tree to ``private/admin`` (see ``private.example/README.md``), then from repo root::
+
+    python private/admin/server.py
+
 Open: http://localhost:8090
 
-Feedback loop: when admin saves reviews, this server:
-1. Updates prompt published/feedback state in data/prompts.json
-2. Learns trim rules into data/trim_rules.json (handles, strip phrases, protected phrases)
-3. Learns non-prompt rules into data/screen_rules.json (fingerprints + optional markers, never author blocks)
-4. Re-trims affected prompts with the updated trimmer
-5. Copies prompts.json to web/public for local preview
+On save:
+1. Writes the full store (published + unpublished + admin_feedback) to ``private/data/prompts.json``
+2. Exports the public bundle to ``data/prompts.json`` (published-only, no admin fields)
+3. Learns trim / screen rules under ``data/``
+4. Copies the public bundle to ``web/public/prompts.json`` for local preview
 """
 
 from __future__ import annotations
@@ -22,13 +24,13 @@ from datetime import datetime, timezone
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "data" / "prompts.json"
-RULES_PATH = ROOT / "data" / "trim_rules.json"
+ROOT = Path(__file__).resolve().parents[2]
 ADMIN_DIR = Path(__file__).resolve().parent
+RULES_PATH = ROOT / "data" / "trim_rules.json"
 PORT = int(os.environ.get("ADMIN_PORT", "8090"))
 
 sys.path.insert(0, str(ROOT))
+from crawler.merge_store import write_public_prompts_json  # noqa: E402
 from crawler.prompt_trimmer import reload_learned, trim_to_prompt_body  # noqa: E402
 from crawler.screen_rules import learn_screen_rules_from_store  # noqa: E402
 from crawler.x_scrape_playwright import fetch_best_public_tweet_text  # noqa: E402
@@ -38,13 +40,28 @@ def _now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def _admin_data_path() -> Path:
+    """Full store path; bootstrap from ``data/prompts.json`` on first run."""
+    dest = ROOT / "private" / "data" / "prompts.json"
+    if not dest.exists():
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        pub = ROOT / "data" / "prompts.json"
+        if pub.is_file():
+            shutil.copy2(pub, dest)
+        else:
+            with dest.open("w", encoding="utf-8") as f:
+                json.dump({"updated_at": _now_iso(), "prompts": []}, f, ensure_ascii=False, indent=2)
+                f.write("\n")
+    return dest
+
+
 def _fetch_full_tweet_text(tweet_id: str, username: str = "") -> str | None:
     """Longest tweet body: syndication tree + optional vxtwitter chain (see X_VXTWITTER_TEXT)."""
     return fetch_best_public_tweet_text(tweet_id, username)
 
 
 def _load() -> dict:
-    with DATA_PATH.open(encoding="utf-8") as f:
+    with _admin_data_path().open(encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -95,28 +112,21 @@ def _learn_from_feedback(store: dict) -> int:
         current_display = (p.get("display_text") or "").strip()
 
         if action == "reject" and reason == "trim_not_enough":
-            # The current display_text still has non-prompt content.
-            # Extract @handles from it and add as commercial handles.
             handles = _extract_handles_from_text(current_display)
             for h in handles:
                 if h not in existing_handles and len(h) > 2:
                     existing_handles.add(h)
                     new_rules += 1
 
-            # If admin provided specific text to strip, add it
             strip_text = fb.get("strip_text", "").strip()
             if strip_text and strip_text not in existing_strips:
                 existing_strips.add(strip_text)
                 new_rules += 1
 
         elif action == "reject" and reason == "trim_too_hard":
-            # The trimmer cut too much. If there's a meaningful difference
-            # between original and display, protect key phrases.
             if original_text and current_display:
-                # Find what was removed and protect it if it's substantial
                 removed = original_text.replace(current_display, "").strip()
                 if removed and len(removed) > 20:
-                    # Don't protect the whole block — just note the pattern
                     first_line = removed.split("\n")[0].strip()[:80]
                     if first_line and first_line not in existing_protected:
                         existing_protected.add(first_line)
@@ -130,7 +140,7 @@ def _learn_from_feedback(store: dict) -> int:
             "timestamp": _now_iso(),
             "new_rules": new_rules,
         })
-        rules["feedback_log"] = log[-50:]  # keep last 50 entries
+        rules["feedback_log"] = log[-50:]
         _save_rules(rules)
         reload_learned()
 
@@ -153,7 +163,6 @@ def _retrim_from_feedback(store: dict) -> int:
             continue
 
         if reason == "incomplete_text":
-            # Re-fetch full text from X's syndication API
             source_url = p.get("source_url", "")
             import re as _re
             m = _re.search(r"/status/(\d+)", source_url)
@@ -166,7 +175,6 @@ def _retrim_from_feedback(store: dict) -> int:
                     p["display_text"] = trim_to_prompt_body(full_text)
                     touched += 1
                     continue
-            # Even if re-fetch didn't get longer text, re-trim what we have
             p["display_text"] = trim_to_prompt_body(original)
             touched += 1
         elif reason == "trim_too_hard":
@@ -181,15 +189,17 @@ def _retrim_from_feedback(store: dict) -> int:
 
 def _save(store: dict) -> None:
     store["updated_at"] = _now_iso()
-    backup = DATA_PATH.with_suffix(".json.bak")
-    if DATA_PATH.exists():
-        shutil.copy2(DATA_PATH, backup)
-    with DATA_PATH.open("w", encoding="utf-8") as f:
+    data_path = _admin_data_path()
+    backup = data_path.with_suffix(".json.bak")
+    if data_path.exists():
+        shutil.copy2(data_path, backup)
+    with data_path.open("w", encoding="utf-8") as f:
         json.dump(store, f, ensure_ascii=False, indent=2)
         f.write("\n")
+    write_public_prompts_json(store)
     web_public = ROOT / "web" / "public" / "prompts.json"
     if web_public.parent.exists():
-        shutil.copy2(DATA_PATH, web_public)
+        shutil.copy2(ROOT / "data" / "prompts.json", web_public)
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -238,11 +248,8 @@ class Handler(SimpleHTTPRequestHandler):
                         p["admin_feedback"] = u["admin_feedback"]
                     changed += 1
 
-                # 1) Learn trim rules from feedback → data/trim_rules.json
                 new_trim_rules = _learn_from_feedback(store)
-                # 2) Learn screen/crawl rules → data/screen_rules.json
                 new_screen_rules = learn_screen_rules_from_store(store)
-                # 3) Re-trim affected prompts using updated trimmer state
                 retrimmed = _retrim_from_feedback(store)
 
                 _save(store)
@@ -279,7 +286,8 @@ class Handler(SimpleHTTPRequestHandler):
 def main():
     server = HTTPServer(("127.0.0.1", PORT), Handler)
     print(f"Admin server running at http://localhost:{PORT}")
-    print(f"Data: {DATA_PATH}")
+    print(f"Full store: {_admin_data_path()}")
+    print(f"Public export: {ROOT / 'data' / 'prompts.json'}")
     print(f"Rules: {RULES_PATH}")
     print("Press Ctrl+C to stop.\n")
     try:

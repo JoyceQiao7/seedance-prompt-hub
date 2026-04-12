@@ -1,4 +1,4 @@
-"""CLI: unofficial X search scrape → extract → internal screen → data/prompts.json."""
+"""CLI: unofficial X search scrape → extract → internal screen → store + public export."""
 
 from __future__ import annotations
 
@@ -12,7 +12,13 @@ from crawler.config import MIN_HEURISTIC_SCORE, X_SCRAPE_QUERIES
 from crawler.envutil import env_int
 from crawler.extract_prompt import extract_prompt
 from crawler.media import process_prompts_media
-from crawler.merge_store import load_store, merge_items, save_store
+from crawler.merge_store import (
+    apply_public_only_auto_publish,
+    full_store_path,
+    load_store,
+    merge_items,
+    save_store,
+)
 from crawler.models import RawPost
 from crawler.prompt_trimmer import trim_to_prompt_body
 from crawler.relevance import is_ai_video_creator_content
@@ -147,6 +153,10 @@ def run() -> int:
     n_media = 0
     if not skip_media:
         n_media = process_prompts_media(merged)
+
+    _full = full_store_path()
+    if _full is None or not _full.is_file():
+        apply_public_only_auto_publish(merged)
 
     store["prompts"] = merged
     save_store(store)

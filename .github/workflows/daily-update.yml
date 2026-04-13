@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -30,9 +30,9 @@ jobs:
           X_COOKIES_B64: ${{ secrets.X_COOKIES_B64 }}
         run: PYTHONPATH=. python -m crawler
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: "20"
+          node-version: "22"
           cache: npm
           cache-dependency-path: web/package-lock.json
 

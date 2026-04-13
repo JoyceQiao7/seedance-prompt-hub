@@ -40,16 +40,22 @@ def _extract_thumb(video: Path, thumb: Path) -> bool:
     """Extract first frame as WebP, scaled to 640px wide."""
     if not _FFMPEG:
         return False
-    r = subprocess.run(
-        [
-            _FFMPEG, "-y", "-i", str(video),
-            "-vframes", "1",
-            "-vf", "scale=640:-2",
-            "-quality", "82",
-            str(thumb),
-        ],
-        capture_output=True, timeout=30,
-    )
+    try:
+        r = subprocess.run(
+            [
+                _FFMPEG, "-y", "-i", str(video),
+                "-vframes", "1",
+                "-vf", "scale=640:-2",
+                "-quality", "82",
+                str(thumb),
+            ],
+            capture_output=True,
+            timeout=30,
+        )
+    except subprocess.TimeoutExpired:
+        print(f"  media: ffmpeg thumbnail timed out for {video.name}", flush=True)
+        thumb.unlink(missing_ok=True)
+        return False
     return r.returncode == 0 and thumb.exists()
 
 
@@ -58,19 +64,25 @@ def _compress_video(src: Path, dest: Path) -> bool:
     if not _FFMPEG:
         shutil.copy2(src, dest)
         return True
-    r = subprocess.run(
-        [
-            _FFMPEG, "-y", "-i", str(src),
-            "-c:v", "libx264", "-crf", "28",
-            "-preset", "fast",
-            "-vf", "scale='min(720,iw)':-2",
-            "-c:a", "aac", "-b:a", "96k",
-            "-movflags", "+faststart",
-            "-t", "15",
-            str(dest),
-        ],
-        capture_output=True, timeout=120,
-    )
+    try:
+        r = subprocess.run(
+            [
+                _FFMPEG, "-y", "-i", str(src),
+                "-c:v", "libx264", "-crf", "28",
+                "-preset", "fast",
+                "-vf", "scale='min(720,iw)':-2",
+                "-c:a", "aac", "-b:a", "96k",
+                "-movflags", "+faststart",
+                "-t", "15",
+                str(dest),
+            ],
+            capture_output=True,
+            timeout=120,
+        )
+    except subprocess.TimeoutExpired:
+        print(f"  media: ffmpeg compress timed out for {src.name}", flush=True)
+        dest.unlink(missing_ok=True)
+        return False
     return r.returncode == 0 and dest.exists()
 
 

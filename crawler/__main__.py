@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import os
-from datetime import date, timedelta
 from typing import Any
 
 from dotenv import load_dotenv
@@ -14,6 +13,7 @@ from crawler.envutil import env_int
 from crawler.extract_prompt import extract_prompt
 from crawler.media import process_prompts_media
 from crawler.merge_store import (
+    PromptDeduper,
     apply_public_only_auto_publish,
     full_store_path,
     load_store,
@@ -21,8 +21,6 @@ from crawler.merge_store import (
     save_store,
 )
 from crawler.models import RawPost
-from crawler.pacific_window import pst_window_utc_from_env
-from crawler.prompt_dedupe import PromptDeduper
 from crawler.prompt_trimmer import trim_to_prompt_body
 from crawler.relevance import is_ai_video_creator_content
 from crawler.screen import backfill_store_prompts, internal_screen
@@ -137,39 +135,18 @@ def run() -> int:
     max_queries = max(1, env_int("X_MAX_QUERIES", 10))
     queries = X_SCRAPE_QUERIES[:max_queries]
 
-    pst_window = pst_window_utc_from_env()
-    until_date: str | None = None
-    if pst_window is not None:
-        end_d = date.fromisoformat(os.environ["X_PST_END"].strip()[:10])
-        until_date = (end_d + timedelta(days=1)).isoformat()
-
     # Use last crawl timestamp to only fetch new posts
     last_updated = store.get("updated_at", "")
     since_date: str | None = None
-    pst_start = (os.environ.get("X_PST_START") or "").strip()[:10]
-    if pst_start:
-        since_date = pst_start
-    elif last_updated and not os.environ.get("X_FULL_CRAWL"):
+    if last_updated and not os.environ.get("X_FULL_CRAWL"):
         since_date = last_updated[:10]  # "2026-04-05T..." → "2026-04-05"
 
     if os.environ.get("X_SKIP_SCRAPE", "").lower() in ("1", "true", "yes"):
         print("X_SKIP_SCRAPE set — skipping browser fetch.", flush=True)
         raw_posts: list[RawPost] = []
     else:
-        if pst_window is not None:
-            print(
-                "X scrape: Pacific window "
-                f"{pst_start} 00:00–{os.environ.get('X_PST_END', '').strip()[:10]} 23:59 "
-                "(America/Los_Angeles).",
-                flush=True,
-            )
         print(f"X scrape: running {len(queries)} search queries (Latest).", flush=True)
-        raw_posts = scrape_x_searches(
-            queries,
-            since=since_date,
-            until=until_date,
-            utc_created_window=pst_window,
-        )
+        raw_posts = scrape_x_searches(queries, since=since_date)
 
     deduper: PromptDeduper | None = None
     if os.environ.get("X_DEDUPE", "1").lower() not in ("0", "false", "no"):

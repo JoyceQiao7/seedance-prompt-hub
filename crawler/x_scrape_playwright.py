@@ -17,11 +17,8 @@ from urllib.parse import quote_plus
 
 import urllib.request
 
-from datetime import datetime
-
 from crawler.envutil import env_bool, env_float, env_int
 from crawler.models import RawPost
-from crawler.pacific_window import tweet_in_utc_window
 
 
 _STATUS_PATH = re.compile(r"/@?([^/]+)/status/(\d+)")
@@ -510,8 +507,6 @@ def scrape_x_searches(
     max_scrolls_per_query: int | None = None,
     pause_s: float | None = None,
     since: str | None = None,
-    until: str | None = None,
-    utc_created_window: tuple[datetime, datetime] | None = None,
 ) -> list[RawPost]:
     from playwright.sync_api import sync_playwright
 
@@ -553,16 +548,13 @@ def scrape_x_searches(
 
         # --- Phase 1: collect tweet stubs from search ---
         since_filter = f" since:{since}" if since else ""
-        until_filter = f" until:{until}" if until else ""
         if since:
             print(f"X scrape: filtering posts since {since}", flush=True)
-        if until:
-            print(f"X scrape: filtering posts until {until} (X advanced-search, typically exclusive)", flush=True)
         login_wall = False
         for q in queries:
             if login_wall:
                 break
-            full_q = q + since_filter + until_filter
+            full_q = q + since_filter
             url = f"https://x.com/search?q={quote_plus(full_q)}&f=live&src=typed_query"
             try:
                 page.goto(url, wait_until="domcontentloaded", timeout=90_000)
@@ -582,15 +574,6 @@ def scrape_x_searches(
 
             for _ in range(max_scrolls):
                 for stub in _parse_articles(page):
-                    if utc_created_window is not None:
-                        lo, hi = utc_created_window
-                        if not tweet_in_utc_window(
-                            stub.get("created_at"),
-                            lo,
-                            hi,
-                            include_if_missing_timestamp=False,
-                        ):
-                            continue
                     if stub["id"] not in seen:
                         seen.add(stub["id"])
                         stubs.append(stub)
@@ -633,15 +616,6 @@ def scrape_x_searches(
 
     posts: list[RawPost] = []
     for s in stubs:
-        if utc_created_window is not None:
-            lo, hi = utc_created_window
-            if not tweet_in_utc_window(
-                s.get("created_at"),
-                lo,
-                hi,
-                include_if_missing_timestamp=False,
-            ):
-                continue
         posts.append(
             RawPost(
                 id=f"x:{s['id']}",

@@ -2,7 +2,9 @@ name: Daily prompt crawl
 
 on:
   schedule:
-    - cron: "0 10,22 * * *"
+    # UTC — GitHub Actions has no timezone. 11:00 & 23:00 UTC = 03:00 & 15:00 US Pacific Standard Time (PST, UTC−8).
+    # During daylight time (PDT, UTC−7), the same jobs run at 04:00 & 16:00 local Pacific.
+    - cron: "0 11,23 * * *"
   workflow_dispatch:
 
 permissions:

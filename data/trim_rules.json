@@ -3,10 +3,14 @@
     "image",
     "image2",
     "karan_luthra_ai",
-    "topviewaihq"
+    "topviewaihq",
+    "yapper_so"
   ],
   "strip_phrases": [],
   "protected_phrases": [
+    "I have an action sakuga scene, a Japanese style fight typical shonen hero teenag",
+    "Komut / Prompt An endless expanse of golden Sahara sand dunes stretches to the h",
+    "Seedance 2.0 prompt (2 x 15 second prompts) Monologue & Action Sequence · 0:00 –",
     "We have released Seedance 2.0. https:// promptsref.com/tool/AI-Video- Generator ",
     "【Seedance2】影との共演 以下、プロンプト"
   ],
@@ -21,6 +25,18 @@
     },
     {
       "timestamp": "2026-04-09T14:36:30Z",
+      "new_rules": 1
+    },
+    {
+      "timestamp": "2026-04-15T14:01:11Z",
+      "new_rules": 1
+    },
+    {
+      "timestamp": "2026-04-15T14:07:54Z",
+      "new_rules": 2
+    },
+    {
+      "timestamp": "2026-04-15T14:09:55Z",
       "new_rules": 1
     }
   ]

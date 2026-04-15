@@ -51,7 +51,8 @@ def _build_record(
         "likes": raw.metrics.get("like_count"),
         "retweets": raw.metrics.get("retweet_count"),
         "screen": screen,
-        "published": False,
+        # null = pending admin review (admin UI treats false as "rejected", not queue)
+        "published": None,
     }
     if raw.video_url:
         rec["video_url"] = raw.video_url

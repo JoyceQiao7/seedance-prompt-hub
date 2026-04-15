@@ -137,10 +137,17 @@ def _learn_from_feedback(store: dict) -> int:
     return new_rules
 
 
+def _mark_retrim_pending_review(p: dict) -> None:
+    """Re-trim changed body text; send row back to admin queue (null), not live hub."""
+    p["published"] = None
+    p.pop("admin_feedback", None)
+
+
 def _retrim_from_feedback(store: dict) -> int:
     """Re-trim prompts based on their feedback.
 
     This runs AFTER _learn_from_feedback so the trimmer has the latest rules.
+    Rows we touch go back to **pending** so they are reviewed again before publish.
     """
     touched = 0
     for p in store.get("prompts", []):
@@ -148,7 +155,8 @@ def _retrim_from_feedback(store: dict) -> int:
         if not fb or fb.get("action") != "reject":
             continue
         reason = fb.get("reason", "")
-        original = (p.get("text") or "").strip()
+        # Prefer full tweet body; fall back to display when text was never backfilled.
+        original = (p.get("text") or p.get("display_text") or "").strip()
         if not original:
             continue
 
@@ -163,15 +171,19 @@ def _retrim_from_feedback(store: dict) -> int:
                     p["text"] = full_text
                     p["tweet_text"] = full_text
                     p["display_text"] = trim_to_prompt_body(full_text)
+                    _mark_retrim_pending_review(p)
                     touched += 1
                     continue
             p["display_text"] = trim_to_prompt_body(original)
+            _mark_retrim_pending_review(p)
             touched += 1
         elif reason == "trim_too_hard":
             p["display_text"] = original
+            _mark_retrim_pending_review(p)
             touched += 1
         elif reason == "trim_not_enough":
             p["display_text"] = trim_to_prompt_body(original)
+            _mark_retrim_pending_review(p)
             touched += 1
 
     return touched
@@ -235,6 +247,25 @@ class Handler(SimpleHTTPRequestHandler):
                 new_screen_rules = learn_screen_rules_from_store(store)
                 retrimmed = _retrim_from_feedback(store)
 
+                # Any trim-related reject in this save must leave the row pending for re-review,
+                # even if _retrim skipped (edge cases) or an older admin process left published=false.
+                trim_reasons = {"incomplete_text", "trim_too_hard", "trim_not_enough"}
+                pending_unstick = 0
+                for u in updates:
+                    pid = u.get("id")
+                    if not pid or pid not in by_id:
+                        continue
+                    fb = u.get("admin_feedback")
+                    if not isinstance(fb, dict) or fb.get("action") != "reject":
+                        continue
+                    if fb.get("reason") not in trim_reasons:
+                        continue
+                    pr = by_id[pid]
+                    if pr.get("published") is False:
+                        pr["published"] = None
+                        pr.pop("admin_feedback", None)
+                        pending_unstick += 1
+
                 _save(store)
                 resp = json.dumps({
                     "ok": True,
@@ -242,6 +273,7 @@ class Handler(SimpleHTTPRequestHandler):
                     "new_rules_learned": new_trim_rules,
                     "new_screen_rules": new_screen_rules,
                     "retrimmed": retrimmed,
+                    "pending_unstick": pending_unstick,
                 })
                 self.send_response(200)
             except Exception as exc:

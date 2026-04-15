@@ -81,7 +81,10 @@ def merge_items(
             continue
         prev = by_id.get(pid)
         if prev is None:
-            by_id[pid] = p
+            # New tweet ids must never ship as published until admin sets true (ingest bugs / bad rows).
+            row = dict(p)
+            row["published"] = None
+            by_id[pid] = row
         elif p.get("quality_score", 0) >= prev.get("quality_score", 0):
             by_id[pid] = _merge_prompt_record(prev, p)
 

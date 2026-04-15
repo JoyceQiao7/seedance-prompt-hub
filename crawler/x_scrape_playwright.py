@@ -78,6 +78,37 @@ def _looks_like_login_wall(page: Any) -> bool:
     return False
 
 
+def _article_looks_like_repost(art: Any) -> bool:
+    """True when the search card is someone else's post surfaced as a repost/retweet (not an original)."""
+    try:
+        ctx = art.query_selector('[data-testid="socialContext"]')
+        if not ctx:
+            return False
+        t = (ctx.inner_text() or "").lower()
+        if "reposted" in t or "retweeted" in t:
+            return True
+        if "repost" in t and "quote" not in t:
+            return True
+    except Exception:  # noqa: BLE001
+        return False
+    return False
+
+
+def _syndication_is_retweet(data: dict[str, Any] | None) -> bool:
+    """Detect native RT / repost from syndication JSON or classic RT @ prefix text."""
+    if not isinstance(data, dict):
+        return False
+    if data.get("retweeted_status"):
+        return True
+    tw = data.get("tweet")
+    if isinstance(tw, dict) and tw.get("retweeted_status"):
+        return True
+    tx = (data.get("text") or "").lstrip()
+    if len(tx) >= 4 and tx[:4].upper() == "RT @":
+        return True
+    return False
+
+
 def _parse_articles(page: Any) -> list[dict[str, Any]]:
     """Extract tweet stubs from search results (text may be truncated)."""
     out: list[dict[str, Any]] = []
@@ -93,6 +124,8 @@ def _parse_articles(page: Any) -> list[dict[str, Any]]:
             continue
         user, tid = m.group(1), m.group(2)
         if user.lower() in ("i", "intent", "home", "search"):
+            continue
+        if _article_looks_like_repost(art):
             continue
         text_el = art.query_selector('[data-testid="tweetText"]')
         text = (text_el.inner_text() if text_el else "").strip()
@@ -573,7 +606,8 @@ def scrape_x_searches(
                 break
 
             for _ in range(max_scrolls):
-                for stub in _parse_articles(page):
+                batch = _parse_articles(page)
+                for stub in batch:
                     if stub["id"] not in seen:
                         seen.add(stub["id"])
                         stubs.append(stub)
@@ -589,7 +623,12 @@ def scrape_x_searches(
             )
         for i, stub in enumerate(stubs):
             tid = stub["id"]
+            if stub.get("_skip_repost"):
+                continue
             syn_data = _syndication_fetch_json(tid)
+            if syn_data and _syndication_is_retweet(syn_data):
+                stub["_skip_repost"] = True
+                continue
             full_text, video_url, replies = _fetch_tweet_detail(
                 page, stub["username"], tid
             )
@@ -616,6 +655,8 @@ def scrape_x_searches(
 
     posts: list[RawPost] = []
     for s in stubs:
+        if s.get("_skip_repost"):
+            continue
         posts.append(
             RawPost(
                 id=f"x:{s['id']}",

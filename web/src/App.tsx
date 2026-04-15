@@ -26,6 +26,8 @@ const CATEGORY_LABELS: Record<string, string> = {
 };
 
 const PROMPT_PREVIEW_LEN = 180;
+/** First N grid thumbnails load eagerly with high fetch priority (above-the-fold on typical layouts). */
+const THUMB_GRID_PRIORITY_COUNT = 18;
 
 function usePromptStore() {
   const [data, setData] = useState<PromptStore | null>(null);
@@ -43,6 +45,35 @@ function usePromptStore() {
   }, []);
 
   return { data, error };
+}
+
+/** When `enabled`, flip to true once the element nears the viewport (分段 / staged load). */
+function useIntersectOnce<T extends HTMLElement>(enabled: boolean, rootMargin = "200px") {
+  const ref = useRef<T | null>(null);
+  const [ready, setReady] = useState(() => !enabled);
+
+  useEffect(() => {
+    if (!enabled) return;
+    if (ready) return;
+    const node = ref.current;
+    if (!node) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            setReady(true);
+            io.disconnect();
+            break;
+          }
+        }
+      },
+      { rootMargin, threshold: 0.01 },
+    );
+    io.observe(node);
+    return () => io.disconnect();
+  }, [enabled, ready, rootMargin]);
+
+  return [ref, ready] as const;
 }
 
 function mediaUrl(relPath: string): string {
@@ -139,11 +170,15 @@ function PromptModal({
                   autoPlay
                   playsInline
                   preload="metadata"
+                  controlsList="nodownload"
                 />
               ) : (
                 <img
                   src={absoluteMediaRef(p.thumbnail!)}
                   alt={`Preview for ${p.category} prompt by ${p.author}`}
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
                 />
               )}
             </div>
@@ -180,9 +215,12 @@ function PromptModal({
 function PromptCard({
   p,
   onOpen,
+  thumbBoost,
 }: {
   p: PromptRow;
   onOpen: () => void;
+  /** When true, thumbnail loads with high priority (first visible rows). */
+  thumbBoost: boolean;
 }) {
   const displayText = p.display_text || p.text;
   const isLong = displayText.length > PROMPT_PREVIEW_LEN;
@@ -195,50 +233,43 @@ function PromptCard({
   const hasRemoteVideo = !!(p.video_url && p.video_url.trim());
   const showPlay = hasLocalVideo || hasRemoteVideo;
   const previewLabel = `Preview for ${p.category} prompt by ${p.author}`;
+  /** Local file only: defer <video> until near viewport. Remote URLs never load in the grid (modal only). */
+  const deferGridVideo = hasLocalVideo && !hasThumb;
+  const [mediaRef, gridVideoReady] = useIntersectOnce<HTMLElement>(deferGridVideo, "220px");
 
   return (
     <article className="card" onClick={onOpen}>
-      <figure className="card-media">
+      <figure className="card-media" ref={mediaRef}>
         {hasThumb ? (
           <>
             <img
               src={absoluteMediaRef(p.thumbnail!)}
               alt={previewLabel}
-              width={640}
-              height={360}
-              loading="lazy"
+              width={480}
+              height={270}
+              loading={thumbBoost ? "eager" : "lazy"}
               decoding="async"
-              fetchPriority="low"
+              fetchPriority={thumbBoost ? "high" : "auto"}
             />
-            {showPlay ? <PlayOverlayIcon /> : null}
           </>
-        ) : hasLocalVideo ? (
-          <>
+        ) : deferGridVideo ? (
+          gridVideoReady ? (
             <video
               src={`${absoluteMediaRef(p.video!)}#t=0.001`}
               muted
               playsInline
               preload="metadata"
-              width={640}
-              height={360}
+              width={480}
+              height={270}
               aria-label={previewLabel}
             />
-            <PlayOverlayIcon />
-          </>
+          ) : (
+            <div className="card-media-skeleton" aria-hidden />
+          )
         ) : (
-          <>
-            <video
-              src={`${absoluteMediaRef(p.video_url!)}#t=0.001`}
-              muted
-              playsInline
-              preload="metadata"
-              width={640}
-              height={360}
-              aria-label={previewLabel}
-            />
-            <PlayOverlayIcon />
-          </>
+          <div className="card-media-skeleton" aria-hidden />
         )}
+        {showPlay ? <PlayOverlayIcon /> : null}
       </figure>
       <div className="card-head">
         <span className="badge cat mono">
@@ -352,8 +383,13 @@ export default function App() {
         <div className="empty">No prompts match your search. Try a different keyword or category.</div>
       ) : (
         <div className="grid">
-          {filtered.map((p) => (
-            <PromptCard key={p.id} p={p} onOpen={() => setActivePrompt(p)} />
+          {filtered.map((p, i) => (
+            <PromptCard
+              key={p.id}
+              p={p}
+              thumbBoost={i < THUMB_GRID_PRIORITY_COUNT}
+              onOpen={() => setActivePrompt(p)}
+            />
           ))}
         </div>
       )}

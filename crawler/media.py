@@ -8,12 +8,28 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from crawler.envutil import env_int
+
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA_DIR = ROOT / "web" / "public" / "media"
 THUMBS_DIR = MEDIA_DIR / "thumbs"
 VIDEOS_DIR = MEDIA_DIR / "videos"
 
 _FFMPEG = shutil.which("ffmpeg")
+
+
+def _thumb_max_width() -> int:
+    """WebP preview width (default 480 for lighter grid images)."""
+    return max(320, min(1024, env_int("MEDIA_THUMB_MAX_WIDTH", 480)))
+
+
+def _video_max_width() -> int:
+    """Re-encoded MP4 max width; caps ~2K sources down toward ~1080p web delivery."""
+    return max(640, min(1920, env_int("MEDIA_MAX_VIDEO_WIDTH", 1080)))
+
+
+def _video_crf() -> int:
+    return max(18, min(38, env_int("MEDIA_VIDEO_CRF", 29)))
 
 
 def _ensure_dirs() -> None:
@@ -37,16 +53,17 @@ def _download(url: str, dest: Path) -> bool:
 
 
 def _extract_thumb(video: Path, thumb: Path) -> bool:
-    """Extract first frame as WebP, scaled to 640px wide."""
+    """Extract first frame as WebP, scaled for card previews."""
     if not _FFMPEG:
         return False
+    tw = _thumb_max_width()
     try:
         r = subprocess.run(
             [
                 _FFMPEG, "-y", "-i", str(video),
                 "-vframes", "1",
-                "-vf", "scale=640:-2",
-                "-quality", "82",
+                "-vf", f"scale={tw}:-2",
+                "-quality", "80",
                 str(thumb),
             ],
             capture_output=True,
@@ -60,17 +77,20 @@ def _extract_thumb(video: Path, thumb: Path) -> bool:
 
 
 def _compress_video(src: Path, dest: Path) -> bool:
-    """Re-encode to H.264 720p with faststart for streaming."""
+    """Re-encode to H.264 (max width ~1080 by default), +faststart for progressive playback."""
     if not _FFMPEG:
         shutil.copy2(src, dest)
         return True
+    mw = _video_max_width()
+    crf = _video_crf()
+    vf = f"scale='min({mw},iw)':-2"
     try:
         r = subprocess.run(
             [
                 _FFMPEG, "-y", "-i", str(src),
-                "-c:v", "libx264", "-crf", "28",
+                "-c:v", "libx264", "-crf", str(crf),
                 "-preset", "fast",
-                "-vf", "scale='min(720,iw)':-2",
+                "-vf", vf,
                 "-c:a", "aac", "-b:a", "96k",
                 "-movflags", "+faststart",
                 "-t", "15",

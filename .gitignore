@@ -12,7 +12,7 @@ venv/
 web/node_modules/
 web/dist/
 
-# Maintainer-only: full prompt store + copied admin (see private.example/)
+# Legacy local folder from older layouts (optional)
 private/
 *.log
 .idea/

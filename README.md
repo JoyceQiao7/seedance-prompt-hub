@@ -8,24 +8,19 @@ Powered by [Rizzbid](https://github.com/JoyceQiao7).
 
 A free, open-source collection of the best Seedance 2.0 video generation prompts found across the internet. Every prompt is scored, screened, and categorized by use case so you can find exactly what you need.
 
-## Public vs private (this repo)
+## Repository layout
 
-**Public (safe to push to GitHub)** — anyone can clone and reproduce the hub:
+**Tracked in Git** — anyone can clone and reproduce the hub:
 
-- `web/` — React UI, layout, and UX
-- `data/prompts.json` — **published** prompts only (no `admin_feedback`, no unpublished rows)
+- `web/` — React UI (the hub only lists rows with `published: true`)
+- `data/prompts.json` — **canonical** prompt store (published and pending review; `published` per row)
 - `data/trim_rules.json`, `data/screen_rules.json` — shared crawl/trim rules
 - `crawler/` — scrape + merge pipeline used by scheduled CI
 - `web/public/media/` — thumbnails and re-encoded videos referenced by the dataset
-- `web/public/prompts.json` — copy of the public bundle for static hosting (updated by CI)
-- `private.example/` — template for the maintainer-only tree (copy to `private/`)
+- `web/public/prompts.json` — copy of `data/prompts.json` for static hosting (updated by CI / `npm run sync-data`)
+- `admin/` — local review UI (`python admin/server.py`)
 
-**Private (gitignored `private/`)** — not on GitHub:
-
-- Full prompt store (`private/data/prompts.json`): pending, rejected, and `admin_feedback`
-- Admin app: copy `private.example/admin` → `private/admin` (see `private.example/README.md`)
-
-GitHub Actions has no `private/` checkout: the crawler loads only the public `data/prompts.json`, **auto-publishes** new screened rows for that run, and commits the refreshed public bundle + media. Local runs **with** `private/data/prompts.json` keep the full queue and respect publish/reject decisions.
+CI and local crawlers both read/write **`data/prompts.json`**. New crawled rows default to **`published: false`** until you approve them in admin.
 
 ## Browse prompts
 
@@ -47,12 +42,11 @@ npm run dev
 
 `npm run dev` / `npm run build` sync `data/prompts.json` into `web/public/prompts.json`.
 
-## Maintainer: admin + private store
+## Maintainer: admin
 
-1. One-time: follow `private.example/README.md` (`bootstrap_private_store.py` + copy admin into `private/admin`).
-2. `python private/admin/server.py` — open [http://127.0.0.1:8090](http://127.0.0.1:8090) (`ADMIN_PORT` overrides the port).
-3. Saves update `private/data/prompts.json`, re-export `data/prompts.json`, and learned rules under `data/`.
-4. Commit **public** paths: `data/prompts.json`, `data/trim_rules.json`, `data/screen_rules.json`, `web/public/prompts.json`, and `web/public/media/` as needed. Do not commit `private/`.
+1. From the repo root: `python admin/server.py` — open [http://127.0.0.1:8090](http://127.0.0.1:8090) (`ADMIN_PORT` overrides the port).
+2. Saves update **`data/prompts.json`** (and `web/public/prompts.json` when present), plus learned rules under `data/`.
+3. Commit `data/prompts.json`, `data/trim_rules.json`, `data/screen_rules.json`, `web/public/prompts.json`, and `web/public/media/` as needed.
 
 ## License
 

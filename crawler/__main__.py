@@ -14,8 +14,6 @@ from crawler.extract_prompt import extract_prompt
 from crawler.media import process_prompts_media
 from crawler.merge_store import (
     PromptDeduper,
-    apply_public_only_auto_publish,
-    full_store_path,
     load_store,
     merge_items,
     save_store,
@@ -53,6 +51,7 @@ def _build_record(
         "likes": raw.metrics.get("like_count"),
         "retweets": raw.metrics.get("retweet_count"),
         "screen": screen,
+        "published": False,
     }
     if raw.video_url:
         rec["video_url"] = raw.video_url
@@ -167,10 +166,6 @@ def run() -> int:
     n_media = 0
     if not skip_media:
         n_media = process_prompts_media(merged)
-
-    _full = full_store_path()
-    if _full is None or not _full.is_file():
-        apply_public_only_auto_publish(merged)
 
     store["prompts"] = merged
     save_store(store)

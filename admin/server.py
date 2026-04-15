@@ -1,16 +1,15 @@
-"""Local admin server (maintainer-only): full store under private/, public export to data/.
+"""Local admin server: edits ``data/prompts.json`` (canonical store, same as on GitHub).
 
-Copy this tree to ``private/admin`` (see ``private.example/README.md``), then from repo root::
+From the repository root::
 
-    python private/admin/server.py
+    python admin/server.py
 
-Open: http://localhost:8090
+Open: http://127.0.0.1:8090 (override with ``ADMIN_PORT``).
 
 On save:
-1. Writes the full store (published + unpublished + admin_feedback) to ``private/data/prompts.json``
-2. Exports the public bundle to ``data/prompts.json`` (published-only, no admin fields)
-3. Learns trim / screen rules under ``data/``
-4. Copies the public bundle to ``web/public/prompts.json`` for local preview
+1. Writes the full store to ``data/prompts.json`` (``published`` per row; optional ``admin_feedback``)
+2. Learns trim / screen rules under ``data/``
+3. Copies ``data/prompts.json`` to ``web/public/prompts.json`` when that folder exists (local preview)
 """
 
 from __future__ import annotations
@@ -24,13 +23,13 @@ from datetime import datetime, timezone
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 ADMIN_DIR = Path(__file__).resolve().parent
 RULES_PATH = ROOT / "data" / "trim_rules.json"
 PORT = int(os.environ.get("ADMIN_PORT", "8090"))
 
 sys.path.insert(0, str(ROOT))
-from crawler.merge_store import write_public_prompts_json  # noqa: E402
+from crawler.merge_store import prompt_store_path, save_store  # noqa: E402
 from crawler.prompt_trimmer import reload_learned, trim_to_prompt_body  # noqa: E402
 from crawler.screen_rules import learn_screen_rules_from_store  # noqa: E402
 from crawler.x_scrape_playwright import fetch_best_public_tweet_text  # noqa: E402
@@ -40,28 +39,19 @@ def _now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def _admin_data_path() -> Path:
-    """Full store path; bootstrap from ``data/prompts.json`` on first run."""
-    dest = ROOT / "private" / "data" / "prompts.json"
-    if not dest.exists():
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        pub = ROOT / "data" / "prompts.json"
-        if pub.is_file():
-            shutil.copy2(pub, dest)
-        else:
-            with dest.open("w", encoding="utf-8") as f:
-                json.dump({"updated_at": _now_iso(), "prompts": []}, f, ensure_ascii=False, indent=2)
-                f.write("\n")
-    return dest
-
-
 def _fetch_full_tweet_text(tweet_id: str, username: str = "") -> str | None:
     """Longest tweet body: syndication tree + optional vxtwitter chain (see X_VXTWITTER_TEXT)."""
     return fetch_best_public_tweet_text(tweet_id, username)
 
 
 def _load() -> dict:
-    with _admin_data_path().open(encoding="utf-8") as f:
+    p = prompt_store_path()
+    if not p.is_file():
+        p.parent.mkdir(parents=True, exist_ok=True)
+        with p.open("w", encoding="utf-8") as f:
+            json.dump({"updated_at": _now_iso(), "prompts": []}, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+    with p.open(encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -188,18 +178,11 @@ def _retrim_from_feedback(store: dict) -> int:
 
 
 def _save(store: dict) -> None:
-    store["updated_at"] = _now_iso()
-    data_path = _admin_data_path()
+    data_path = prompt_store_path()
     backup = data_path.with_suffix(".json.bak")
     if data_path.exists():
         shutil.copy2(data_path, backup)
-    with data_path.open("w", encoding="utf-8") as f:
-        json.dump(store, f, ensure_ascii=False, indent=2)
-        f.write("\n")
-    write_public_prompts_json(store)
-    web_public = ROOT / "web" / "public" / "prompts.json"
-    if web_public.parent.exists():
-        shutil.copy2(ROOT / "data" / "prompts.json", web_public)
+    save_store(store)
 
 
 class Handler(SimpleHTTPRequestHandler):
@@ -285,9 +268,8 @@ class Handler(SimpleHTTPRequestHandler):
 
 def main():
     server = HTTPServer(("127.0.0.1", PORT), Handler)
-    print(f"Admin server running at http://localhost:{PORT}")
-    print(f"Full store: {_admin_data_path()}")
-    print(f"Public export: {ROOT / 'data' / 'prompts.json'}")
+    print(f"Admin server running at http://127.0.0.1:{PORT}")
+    print(f"Prompt store: {prompt_store_path()}")
     print(f"Rules: {RULES_PATH}")
     print("Press Ctrl+C to stop.\n")
     try:

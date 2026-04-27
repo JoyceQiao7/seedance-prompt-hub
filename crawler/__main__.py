@@ -14,6 +14,7 @@ from crawler.extract_prompt import extract_prompt
 from crawler.media import process_prompts_media
 from crawler.merge_store import (
     PromptDeduper,
+    auto_publish_and_prune,
     load_store,
     merge_items,
     save_store,
@@ -24,7 +25,7 @@ from crawler.relevance import is_ai_video_creator_content
 from crawler.screen import backfill_store_prompts, internal_screen
 from crawler.screen_rules import post_matches_off_target_memory
 from crawler.score_quality import score_prompt
-from crawler.x_scrape_playwright import backfill_video_urls, scrape_x_searches
+from crawler.x_scrape_playwright import backfill_likes_from_syndication, backfill_video_urls, scrape_x_searches
 
 
 def _build_record(
@@ -157,6 +158,10 @@ def run() -> int:
     force_backfill = os.environ.get("FORCE_SCREEN_BACKFILL", "").lower() in ("1", "true", "yes")
     n_back = backfill_store_prompts(merged, force=force_backfill)
 
+    # Auto-publish score-100 prompts; prune score<=98 (admin decisions always win).
+    # Done before media download so we don't waste time on prompts about to be pruned.
+    merged, n_auto_pub, n_pruned = auto_publish_and_prune(merged)
+
     # Backfill video URLs for prompts that are missing them
     skip_scrape = os.environ.get("X_SKIP_SCRAPE", "").lower() in ("1", "true", "yes")
     n_vid_backfill = 0
@@ -168,13 +173,20 @@ def run() -> int:
     if not skip_media:
         n_media = process_prompts_media(merged)
 
+    # Refresh like counts for all published prompts so "trending" sort stays current.
+    n_likes = backfill_likes_from_syndication(
+        merged, predicate=lambda p: p.get("published") is True
+    )
+
     store["prompts"] = merged
     save_store(store)
     dup_part = f"; dedupe skipped {n_dup_skipped}" if n_dup_skipped else ""
     print(
         f"Stored {len(merged)} prompts ({len(incoming)} new screened this run from "
         f"{len(raw_posts)} scraped posts; backfill touched {n_back}; "
-        f"video backfill {n_vid_backfill}; media processed {n_media}{dup_part}).",
+        f"auto-published {n_auto_pub}; pruned {n_pruned}; "
+        f"video backfill {n_vid_backfill}; media processed {n_media}; "
+        f"likes refreshed {n_likes}{dup_part}).",
         flush=True,
     )
     return 0

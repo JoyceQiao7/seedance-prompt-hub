@@ -103,6 +103,46 @@ def _now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
+def auto_publish_and_prune(
+    prompts: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], int, int]:
+    """Auto-publish score-100 prompts and prune score≤98 ones each crawl.
+
+    Rules (admin decisions always win):
+    - ``quality_score == 100`` and ``published`` is not ``False``
+      → set ``published = True`` (auto-approve; admin reject is never overridden).
+    - ``quality_score <= 98`` and ``published`` is not ``True``
+      → remove from store (admin-approved rows survive regardless of score).
+
+    Returns ``(kept_prompts, n_auto_published, n_pruned)``.
+    """
+    keep: list[dict[str, Any]] = []
+    n_published = 0
+    n_pruned = 0
+    for p in prompts:
+        try:
+            score = int(p.get("quality_score") or 0)
+        except (TypeError, ValueError):
+            score = 0
+        pub = p.get("published")
+
+        if score <= 98:
+            if pub is True:
+                # Admin explicitly approved — keep regardless of score.
+                keep.append(p)
+            else:
+                n_pruned += 1
+        else:
+            # score 99 or 100: always keep.
+            keep.append(p)
+            if score == 100 and pub is None:
+                # Auto-publish only when admin hasn't set an explicit decision.
+                p["published"] = True
+                n_published += 1
+
+    return keep, n_published, n_pruned
+
+
 # --- Near-duplicate prompt bodies (crawl ingest) ---
 
 

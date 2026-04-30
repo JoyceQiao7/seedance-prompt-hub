@@ -1,6 +1,256 @@
 {
-  "updated_at": "2026-04-30T00:29:05Z",
+  "updated_at": "2026-04-30T12:46:41Z",
   "prompts": [
+    {
+      "id": "x:2049812014596599834",
+      "text": "Ultra-realistic cinematic 15-second vertical video (9:16), 4K, dark rustic wooden table, soft dramatic lighting, shallow depth of field, natural textures, no text, no subtitles, no music.0–2sTop-down shot: delicate hands with soft blue nail polish gently touch a bowl of flour.Around it: scattered blueberries, mint leaves, butter cubes.Subtle ambient movement, calm setup.2–4sSide close shot: flour being sifted into a glass bowl.Fine particles fall in slow motion, catching warm light.4–6sMacro shot: hands kneading dough.Sticky texture stretches between fingers, light flour dust visible on skin.6–8s45-degree angle: fresh blueberries pour into a pie crust.Berries bounce naturally, filling the base with slight movement.8–10sTop angled close-up: hands carefully place lattice strips over the pie.Precise woven pattern forming, smooth controlled motion.10–12sSide shot: oven door opens.Warm golden light spills out with gentle steam.Pie placed inside, heat distortion subtly visible.12–13.5sClose-up: crust brushed with glaze.Surface becomes glossy, light reflecting softly.13.5–14.5sMacro: fresh blueberries and mint placed on top of baked pie.Tiny details, natural imperfections, realistic textures.14.5–15sFinal frontal shot: finished blueberry pie on rustic table.Hands enter frame softly.A small white kitten sits nearby, quietly observing.",
+      "display_text": "Ultra-realistic cinematic 15-second vertical video (9:16), 4K, dark rustic wooden table, soft dramatic lighting, shallow depth of field, natural textures, no text, no subtitles, no music.0–2sTop-down shot: delicate hands with soft blue nail polish gently touch a bowl of flour.Around it: scattered blueberries, mint leaves, butter cubes.Subtle ambient movement, calm setup.2–4sSide close shot: flour being sifted into a glass bowl.Fine particles fall in slow motion, catching warm light.4–6sMacro shot: hands kneading dough.Sticky texture stretches between fingers, light flour dust visible on skin.6–8s45-degree angle: fresh blueberries pour into a pie crust.Berries bounce naturally, filling the base with slight movement.8–10sTop angled close-up: hands carefully place lattice strips over the pie.Precise woven pattern forming, smooth controlled motion.10–12sSide shot: oven door opens.Warm golden light spills out with gentle steam.Pie placed inside, heat distortion subtly visible.12–13.5sClose-up: crust brushed with glaze.Surface becomes glossy, light reflecting softly.13.5–14.5sMacro: fresh blueberries and mint placed on top of baked pie.Tiny details, natural imperfections, realistic textures.14.5–15sFinal frontal shot: finished blueberry pie on rustic table.Hands enter frame softly.A small white kitten sits nearby, quietly observing.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/kingofdairyque/status/2049812014596599834",
+      "author": "@kingofdairyque",
+      "created_at": "2026-04-30T11:24:02.000Z",
+      "tweet_text": "Created with Seedance 2 + GPT IMAGE 2 \nPrompt:\nUltra-realistic cinematic 15-second vertical video (9:16), 4K, dark rustic wooden table, soft dramatic lighting, shallow depth of field, natural textures, no text, no subtitles, no music.0–2sTop-down shot: delicate hands with soft blue nail polish gently touch a bowl of flour.Around it: scattered blueberries, mint leaves, butter cubes.Subtle ambient movement, calm setup.2–4sSide close shot: flour being sifted into a glass bowl.Fine particles fall in slow motion, catching warm light.4–6sMacro shot: hands kneading dough.Sticky texture stretches between fingers, light flour dust visible on skin.6–8s45-degree angle: fresh blueberries pour into a pie crust.Berries bounce naturally, filling the base with slight movement.8–10sTop angled close-up: hands carefully place lattice strips over the pie.Precise woven pattern forming, smooth controlled motion.10–12sSide shot: oven door opens.Warm golden light spills out with gentle steam.Pie placed inside, heat distortion subtly visible.12–13.5sClose-up: crust brushed with glaze.Surface becomes glossy, light reflecting softly.13.5–14.5sMacro: fresh blueberries and mint placed on top of baked pie.Tiny details, natural imperfections, realistic textures.14.5–15sFinal frontal shot: finished blueberry pie on rustic table.Hands enter frame softly.A small white kitten sits nearby, quietly observing.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 27,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:40Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": true,
+      "video_url": "https://video.twimg.com/ext_tw_video/2049811936725147649/pu/vid/avc1/1072x720/vEEFHCvkbTh6xB8a.mp4?tag=19",
+      "video": "media/videos/2049812014596599834.mp4"
+    },
+    {
+      "id": "x:2049785969675759714",
+      "text": "A hooded fighter glides on enchanted ice skates across a vast frozen lake, carving deep blue trails, racing toward a towering crystalline ice golem cracking the surface with each step. The hero spirals up a frozen shard ramp, launches skyward, and plunges twin daggers into the colossus's glowing core, shattering it into a blizzard of shards. Dolly-in low angle, then orbital aerial shot. Pale arctic dawn, god rays piercing fog, frost particles, cinematic teal palette, hyperrealistic 4K, shallow depth of field.",
+      "display_text": "A hooded fighter glides on enchanted ice skates across a vast frozen lake, carving deep blue trails, racing toward a towering crystalline ice golem cracking the surface with each step. The hero spirals up a frozen shard ramp, launches skyward, and plunges twin daggers into the colossus's glowing core, shattering it into a blizzard of shards. Dolly-in low angle, then orbital aerial shot. Pale arctic dawn, god rays piercing fog, frost particles, cinematic teal palette, hyperrealistic 4K, shallow depth of field.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/rovvmut_/status/2049785969675759714",
+      "author": "@rovvmut_",
+      "created_at": "2026-04-30T09:40:33.000Z",
+      "tweet_text": "I put Happy Horse 1.0 to the test on @muvi_ai and compared it directly with Seedance 2.0.\n\nSeedance is playing in a different league. The cinematic weight, atmosphere and physics are just on another level. \n\nPrompt: A hooded fighter glides on enchanted ice skates across a vast frozen lake, carving deep blue trails, racing toward a towering crystalline ice golem cracking the surface with each step. The hero spirals up a frozen shard ramp, launches skyward, and plunges twin daggers into the colossus's glowing core, shattering it into a blizzard of shards. Dolly-in low angle, then orbital aerial shot. Pale arctic dawn, god rays piercing fog, frost particles, cinematic teal palette, hyperrealistic 4K, shallow depth of field.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 33,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:34Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": true,
+      "video_url": "https://video.twimg.com/amplify_video/2049682804833705984/vid/avc1/1920x1080/R72PgHwl5lVWuX-N.mp4?tag=21",
+      "video": "media/videos/2049785969675759714.mp4"
+    },
+    {
+      "id": "x:2049780308040663295",
+      "text": "A cinematic luxury skincare advertising storyboard infographic for a glycolic acid exfoliating serum. Layout: 16 panels arranged in a clean 4x4 grid, each panel showing a progressive skincare routine and transformation sequence. Subject: A modern young woman with clear glowing skin, natural makeup, soft minimal beauty aesthetic, holding and using a premium glass dropper bottle of glycolic acid serum. Style: high-end skincare advertisement storyboard, ultra clean dermatology aesthetic, soft cinematic lighting, white marble and pastel background tones, premium editorial beauty photography style, realistic illustration with subtle glow and smooth skin refinement effects. Sequence (visual progression across panels): 1. luxury serum bottle hero shot on marble surface 2. close-up of glass bottle and label 3. dropper extracting serum 4. serum applied to fingertip 5. gentle application on face 6. absorption into skin close-up 7. skin texture smoothing effect 8. subtle before-after transition hint 9. radiant glow beginning to appear 10. skincare routine mirror scene 11. dermatologist clean aesthetic vibe 12. hydration and clarity improvement focus 13. close-up glowing healthy skin portrait 14. sunlight reflecting on smooth skin 15. premium product beauty shot with glow 16. final hero frame: serum bottle + glowing skin model Design: clean grid separation, minimal elegant numbering 1–16, thin lines between panels, soft arrows indicating progression flow, refined editorial layout, balanced composition. Title at top: “GLYCOLIC ACID – 16 STEP SKIN TRANSFORMATION” Negative prompt: blurry, messy layout, low quality, distorted face, acne exaggeration, watermark, oversaturated colors, broken text, unrealistic anatomy, cluttered design 📌 Motion prompt: A smooth cinematic skincare commercial animation. Gently transition through the 16-panel storyboard in sequence, as if the camera is moving across each frame. Soft zoom-ins on key moments like serum drop, application on skin, and glowing skin results. Maintain a clean luxury beauty aesthetic with soft lighting, white marble tones, and elegant motion flow. Subtle camera pans, slow transitions, and minimal motion blur. Focus on premium skincare advertisement feel with calm, soothing progression and radiant skin glow effects. End on a hero shot of the product with glowing healthy skin.",
+      "display_text": "cinematic skincare commercial animation. Gently transition through the 16-panel storyboard in sequence, as if the camera is moving across each frame. Soft zoom-ins on key moments like serum drop, application on skin, and glowing skin results. Maintain a clean luxury beauty aesthetic with soft lighting, white marble tones, and elegant motion flow. Subtle camera pans, slow transitions, and minimal motion blur. Focus on premium skincare advertisement feel with calm, soothing progression and radiant skin glow effects. End on a hero shot of the product with glowing healthy skin.",
+      "category": "commercial",
+      "quality_score": 100,
+      "source_url": "https://x.com/arghzq/status/2049780308040663295",
+      "author": "@arghzq",
+      "created_at": "2026-04-30T09:18:03.000Z",
+      "tweet_text": "GPT Image 2 + Seedance 2.0 | Pollo AI\nSkincare ad generated from a storyboard 🎥✨\n\n📌 Prompt: A cinematic luxury skincare advertising storyboard infographic for a glycolic acid exfoliating serum.\nLayout: 16 panels arranged in a clean 4x4 grid, each panel showing a progressive skincare routine and transformation sequence.\n\nSubject: A modern young woman with clear glowing skin, natural makeup, soft minimal beauty aesthetic, holding and using a premium glass dropper bottle of glycolic acid serum.\n\nStyle: high-end skincare advertisement storyboard, ultra clean dermatology aesthetic, soft cinematic lighting, white marble and pastel background tones, premium editorial beauty photography style, realistic illustration with subtle glow and smooth skin refinement effects.\n\nSequence (visual progression across panels):\n\n1. luxury serum bottle hero shot on marble surface\n2. close-up of glass bottle and label\n3. dropper extracting serum\n4. serum applied to fingertip\n5. gentle application on face\n6. absorption into skin close-up\n7. skin texture smoothing effect\n8. subtle before-after transition hint\n9. radiant glow beginning to appear\n10. skincare routine mirror scene\n11. dermatologist clean aesthetic vibe\n12. hydration and clarity improvement focus\n13. close-up glowing healthy skin portrait\n14. sunlight reflecting on smooth skin\n15. premium product beauty shot with glow\n16. final hero frame: serum bottle + glowing skin model\n\nDesign: clean grid separation, minimal elegant numbering 1–16, thin lines between panels, soft arrows indicating progression flow, refined editorial layout, balanced composition.\n\nTitle at top: “GLYCOLIC ACID – 16 STEP SKIN TRANSFORMATION”\n\nNegative prompt: blurry, messy layout, low quality, distorted face, acne exaggeration, watermark, oversaturated colors, broken text, unrealistic anatomy, cluttered design\n\n📌 Motion prompt: A smooth cinematic skincare commercial animation.\nGently transition through the 16-panel storyboard in sequence, as if the camera is moving across each frame.\nSoft zoom-ins on key moments like serum drop, application on skin, and glowing skin results.\nMaintain a clean luxury beauty aesthetic with soft lighting, white marble tones, and elegant motion flow.\nSubtle camera pans, slow transitions, and minimal motion blur.\nFocus on premium skincare advertisement feel with calm, soothing progression and radiant skin glow effects.\nEnd on a hero shot of the product with glowing healthy skin.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 20,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:36Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": true,
+      "video_url": "https://video.twimg.com/amplify_video/2049779903080628224/vid/avc1/960x960/n_tUoOF7Qtz0Mhlz.mp4?tag=21",
+      "video": "media/videos/2049780308040663295.mp4"
+    },
+    {
+      "id": "x:2049770674886152232",
+      "text": "GRWM (Male Minimal Editorial) Using GPT image 2.0 + Seedance 2.0 on @itsPolloAI Prompt ⬇️ REFERENCE IMAGE: Use the provided 4×4 male storyboard collage as visual guide for framing, pacing, outfit flow, and transitions. ⸻ CONCEPT: Get Ready With Me — Modern Minimal Menswear (Clean, Sharp Look) ⸻ TIMELINE: 0:00–0:04 Dark fitted tee (espresso / charcoal tone) Ivory tailored trousers Clean tuck-in adjustment Mirror check, subtle posture shift 0:04–0:08 Light blue shirt layering (open, relaxed fit) Beige blazer on shoulders Sleeve adjustment (watch visible) Body turn, confident stance 0:08–0:12 Leather strap watch close-up Minimal pendant necklace placement Brown belt fastening (crisp motion) Sunglasses on, sharp expression 0:12–0:15 White sneakers step-in Walking shot (slow, editorial stride) Leather tote bag grab Final full look pose, composed and confident ⸻ STYLE: Neutral menswear palette (espresso, ivory, beige, soft blue) Soft natural indoor lighting Warm tones, clean aesthetic interior Luxury editorial, minimal and sharp ⸻ MODEL: Single male subject Modern hairstyle, slightly textured Calm, confident, effortless expressions Editorial posture, no exaggeration ⸻ CAMERA: Close-ups + mid shots Shallow depth of field Steady framing, subtle handheld realism Focus on fabric, tailoring, and textures ⸻ TRANSITIONS: Match cuts (tuck → belt → blazer) Fabric motion transitions Clean jump cuts synced with movement Smooth pacing, visually satisfying flow ⸻ OUTPUT: 4:5 vertical video Loopable ending (final pose blends into start) Pinterest-style luxury aesthetic Clean, smooth, premium GRWM",
+      "display_text": "GRWM (Male Minimal Editorial) Using GPT image 2.0 + Seedance 2.0 on @itsPolloAI Prompt ⬇️ REFERENCE IMAGE: Use the provided 4×4 male storyboard collage as visual guide for framing, pacing, outfit flow, and transitions. ⸻ CONCEPT: Get Ready With Me — Modern Minimal Menswear (Clean, Sharp Look) ⸻ TIMELINE: 0:00–0:04 Dark fitted tee (espresso / charcoal tone) Ivory tailored trousers Clean tuck-in adjustment Mirror check, subtle posture shift 0:04–0:08 Light blue shirt layering (open, relaxed fit) Beige blazer on shoulders Sleeve adjustment (watch visible) Body turn, confident stance 0:08–0:12 Leather strap watch close-up Minimal pendant necklace placement Brown belt fastening (crisp motion) Sunglasses on, sharp expression 0:12–0:15 White sneakers step-in Walking shot (slow, editorial stride) Leather tote bag grab Final full look pose, composed and confident ⸻ STYLE: Neutral menswear palette (espresso, ivory, beige, soft blue) Soft natural indoor lighting Warm tones, clean aesthetic interior Luxury editorial, minimal and sharp ⸻ MODEL: Single male subject Modern hairstyle, slightly textured Calm, confident, effortless expressions Editorial posture, no exaggeration ⸻ CAMERA: Close-ups + mid shots Shallow depth of field Steady framing, subtle handheld realism Focus on fabric, tailoring, and textures ⸻ TRANSITIONS: Match cuts (tuck → belt → blazer) Fabric motion transitions Clean jump cuts synced with movement Smooth pacing, visually satisfying flow ⸻ OUTPUT: 4:5 vertical video Loopable ending (final pose blends into start) Pinterest-style luxury aesthetic Clean, smooth, premium GRWM",
+      "category": "social-content",
+      "quality_score": 100,
+      "source_url": "https://x.com/iamrealsnow/status/2049770674886152232",
+      "author": "@iamrealsnow",
+      "created_at": "2026-04-30T08:39:46.000Z",
+      "tweet_text": "GRWM (Male Minimal Editorial) Using GPT image 2.0 + Seedance 2.0 on @itsPolloAI \n\nPrompt ⬇️ \n\nREFERENCE IMAGE:\nUse the provided 4×4 male storyboard collage as visual guide for framing, pacing, outfit flow, and transitions.\n\n⸻\n\nCONCEPT:\n\nGet Ready With Me — Modern Minimal Menswear (Clean, Sharp Look)\n\n⸻\n\nTIMELINE:\n\n0:00–0:04\n\nDark fitted tee (espresso / charcoal tone)\nIvory tailored trousers\nClean tuck-in adjustment\nMirror check, subtle posture shift\n\n0:04–0:08\n\nLight blue shirt layering (open, relaxed fit)\nBeige blazer on shoulders\nSleeve adjustment (watch visible)\nBody turn, confident stance\n\n0:08–0:12\n\nLeather strap watch close-up\nMinimal pendant necklace placement\nBrown belt fastening (crisp motion)\nSunglasses on, sharp expression\n\n0:12–0:15\n\nWhite sneakers step-in\nWalking shot (slow, editorial stride)\nLeather tote bag grab\nFinal full look pose, composed and confident\n\n⸻\n\nSTYLE:\n\nNeutral menswear palette (espresso, ivory, beige, soft blue)\nSoft natural indoor lighting\nWarm tones, clean aesthetic interior\nLuxury editorial, minimal and sharp\n\n⸻\n\nMODEL:\n\nSingle male subject\nModern hairstyle, slightly textured\nCalm, confident, effortless expressions\nEditorial posture, no exaggeration\n\n⸻\n\nCAMERA:\n\nClose-ups + mid shots\nShallow depth of field\nSteady framing, subtle handheld realism\nFocus on fabric, tailoring, and textures\n\n⸻\n\nTRANSITIONS:\n\nMatch cuts (tuck → belt → blazer)\nFabric motion transitions\nClean jump cuts synced with movement\nSmooth pacing, visually satisfying flow\n\n⸻\n\nOUTPUT:\n\n4:5 vertical video\nLoopable ending (final pose blends into start)\nPinterest-style luxury aesthetic\nClean, smooth, premium GRWM",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 35,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:38Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": true,
+      "video_url": "https://video.twimg.com/amplify_video/2049770587179069440/vid/avc1/1920x1080/3dirk1S5omZAItQU.mp4?tag=21",
+      "video": "media/videos/2049770674886152232.mp4"
+    },
+    {
+      "id": "x:2049763903379513775",
+      "text": "Two agents. One lab. No mercy. Created with seedance 2.0 on @yapper_so Ultra-realistic cinematic 15-second video, 4K, grounded physics, high-speed action, intense realism, no subtitles, no on-screen text. 0–2s — ALERT IGNITION A high-tech laboratory interior — glass panels, holographic screens, scattered equipment. Emergency red lights begin flashing, casting sharp moving shadows. Camera handheld, slight tension movement. Two female agents face each other at close range — locked eye contact. 2–5s — FIRST ENGAGEMENT One agent lunges forward. Fast hand-to-hand exchange — blocks, elbow strike, counter punch. Camera stays tight, slightly shaky but controlled. A metal chair gets kicked aside, sliding across the floor. 5–8s — ENVIRONMENT USE Second agent grabs a tablet device, swings it — impact hits shoulder. First agent stumbles, then grabs the chair and uses it as a shield. Quick grapple — both struggle for control, realistic weight and resistance. 8–11s — CLOSE COMBAT INTENSITY They collide into a lab table — equipment falls, sparks flicker. Rapid knee strike → arm lock → escape twist. Camera follows movement closely with short directional shakes on impact. 11–13s — MOMENTUM SHIFT One agent flips the other using leverage. Body hits the ground hard — strong but grounded impact. Breathing heavy, immediate recovery — no pause. 13–15s — FINAL STANDOFF Both agents quickly rise, circling slightly. Red emergency lights pulse across their faces. Camera slowly stabilizes, holding tension as they prepare to strike again. Cut ends mid-motion for intensity.",
+      "display_text": "Two agents. One lab. No mercy. 0–2s — ALERT IGNITION A high-tech laboratory interior — glass panels, holographic screens, scattered equipment. Emergency red lights begin flashing, casting sharp moving shadows. Camera handheld, slight tension movement. Two female agents face each other at close range — locked eye contact. 2–5s — FIRST ENGAGEMENT One agent lunges forward. Fast hand-to-hand exchange — blocks, elbow strike, counter punch. Camera stays tight, slightly shaky but controlled. A metal chair gets kicked aside, sliding across the floor. 5–8s — ENVIRONMENT USE Second agent grabs a tablet device, swings it — impact hits shoulder. First agent stumbles, then grabs the chair and uses it as a shield. Quick grapple — both struggle for control, realistic weight and resistance. 8–11s — CLOSE COMBAT INTENSITY They collide into a lab table — equipment falls, sparks flicker. Rapid knee strike → arm lock → escape twist. Camera follows movement closely with short directional shakes on impact. 11–13s — MOMENTUM SHIFT One agent flips the other using leverage. Body hits the ground hard — strong but grounded impact. Breathing heavy, immediate recovery — no pause. 13–15s — FINAL STANDOFF Both agents quickly rise, circling slightly. Red emergency lights pulse across their faces. Camera slowly stabilizes, holding tension as they prepare to strike again. Cut ends mid-motion for intensity.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/SimplyAnnisa/status/2049763903379513775",
+      "author": "@SimplyAnnisa",
+      "created_at": "2026-04-30T08:12:51.000Z",
+      "tweet_text": "Two agents. One lab. No mercy.\nCreated with seedance 2.0 on @yapper_so \nUltra-realistic cinematic 15-second video, 4K, grounded physics, high-speed action, intense realism, no subtitles, no on-screen text.\n\n0–2s — ALERT IGNITION\n\nA high-tech laboratory interior — glass panels, holographic screens, scattered equipment.\nEmergency red lights begin flashing, casting sharp moving shadows.\nCamera handheld, slight tension movement.\nTwo female agents face each other at close range — locked eye contact.\n\n2–5s — FIRST ENGAGEMENT\n\nOne agent lunges forward.\nFast hand-to-hand exchange — blocks, elbow strike, counter punch.\nCamera stays tight, slightly shaky but controlled.\nA metal chair gets kicked aside, sliding across the floor.\n\n5–8s — ENVIRONMENT USE\n\nSecond agent grabs a tablet device, swings it — impact hits shoulder.\nFirst agent stumbles, then grabs the chair and uses it as a shield.\nQuick grapple — both struggle for control, realistic weight and resistance.\n\n8–11s — CLOSE COMBAT INTENSITY\n\nThey collide into a lab table — equipment falls, sparks flicker.\nRapid knee strike → arm lock → escape twist.\nCamera follows movement closely with short directional shakes on impact.\n\n11–13s — MOMENTUM SHIFT\n\nOne agent flips the other using leverage.\nBody hits the ground hard — strong but grounded impact.\nBreathing heavy, immediate recovery — no pause.\n\n13–15s — FINAL STANDOFF\n\nBoth agents quickly rise, circling slightly.\nRed emergency lights pulse across their faces.\nCamera slowly stabilizes, holding tension as they prepare to strike again.\nCut ends mid-motion for intensity.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 54,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:49Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": true,
+      "video_url": "https://video.twimg.com/ext_tw_video/2049763820244193280/pu/vid/avc1/1620x1080/BnvZyEMhiTiX2LNW.mp4?tag=19",
+      "video": "media/videos/2049763903379513775.mp4"
+    },
+    {
+      "id": "x:2049752237690478646",
+      "text": "Prompt for seedance : FORMAT: 4:5 vertical video, 1080×1350, 15.00s total Platform: Seedance 2.0 (image-to-video) Input: use the provided 4×4 makeup storyboard image as reference/seed CONCEPT: Start → build → refine → final pose TIMELINE (micro-timed, 16 shots): 0:00.00–0:00.90 Clean face (neutral expression) 0:00.90–0:01.80 Moisturizer press (hands, soft massage) 0:01.80–0:02.70 Primer application (even spread) 0:02.70–0:03.60 Skin glow close-up (texture highlight) 0:03.60–0:04.50 Foundation brush blend (smooth strokes) 0:04.50–0:05.40 Concealer placement (under-eye + spots) 0:05.40–0:06.30 Blend seamless base (sponge detail) 0:06.30–0:07.20 Powder set (light tap) 0:07.20–0:08.10 Contour mapping (cheek + jaw) 0:08.10–0:09.00 Blush placement (cheek lift) 0:09.00–0:09.90 Brows shaping (precise strokes) 0:09.90–0:10.80 Eyeshadow blend (soft gradient) 0:10.80–0:11.70 Eyeliner (sharp line) 0:11.70–0:12.60 Mascara / lashes (definition) 0:12.60–0:13.50 Highlighter glow (cheekbone catch light) 0:13.50–0:15.00 Lips application → final pose (direct eye contact, slight turn, hold) STYLE: Luxury editorial, neutral palette, soft diffused lighting, skin-focused detail CAMERA: Tight portrait framing, macro close-ups for details, shallow depth of field TRANSITIONS: Match cuts aligned to hand positions, clean jump cuts, no effects OUTPUT: Seamless flow, precise pacing, loop-friendly end frame",
+      "display_text": ": FORMAT: 4:5 vertical video, 1080×1350, 15.00s total 2.0 (image-to-video) Input: use the provided 4×4 makeup storyboard image as reference/seed CONCEPT: Start → build → refine → final pose TIMELINE (micro-timed, 16 shots): 0:00.00–0:00.90 Clean face (neutral expression) 0:00.90–0:01.80 Moisturizer press (hands, soft massage) 0:01.80–0:02.70 Primer application (even spread) 0:02.70–0:03.60 Skin glow close-up (texture highlight) 0:03.60–0:04.50 Foundation brush blend (smooth strokes) 0:04.50–0:05.40 Concealer placement (under-eye + spots) 0:05.40–0:06.30 Blend seamless base (sponge detail) 0:06.30–0:07.20 Powder set (light tap) 0:07.20–0:08.10 Contour mapping (cheek + jaw) 0:08.10–0:09.00 Blush placement (cheek lift) 0:09.00–0:09.90 Brows shaping (precise strokes) 0:09.90–0:10.80 Eyeshadow blend (soft gradient) 0:10.80–0:11.70 Eyeliner (sharp line) 0:11.70–0:12.60 Mascara / lashes (definition) 0:12.60–0:13.50 Highlighter glow (cheekbone catch light) 0:13.50–0:15.00 Lips application → final pose (direct eye contact, slight turn, hold) STYLE: Luxury editorial, neutral palette, soft diffused lighting, skin-focused detail CAMERA: Tight portrait framing, macro close-ups for details, shallow depth of field TRANSITIONS: Match cuts aligned to hand positions, clean jump cuts, no effects OUTPUT: Seamless flow, precise pacing, loop-friendly end frame",
+      "category": "character",
+      "quality_score": 100,
+      "source_url": "https://x.com/Diplomeme/status/2049752237690478646",
+      "author": "@Diplomeme",
+      "created_at": "2026-04-30T07:26:30.000Z",
+      "tweet_text": "Prompt for seedance : \n\nFORMAT:\n4:5 vertical video, 1080×1350, 15.00s total\nPlatform: Seedance 2.0 (image-to-video)\nInput: use the provided 4×4 makeup storyboard image as reference/seed\n\nCONCEPT:\nStart → build → refine → final pose\n\nTIMELINE (micro-timed, 16 shots):\n\n0:00.00–0:00.90  Clean face (neutral expression)\n0:00.90–0:01.80  Moisturizer press (hands, soft massage)\n0:01.80–0:02.70  Primer application (even spread)\n0:02.70–0:03.60  Skin glow close-up (texture highlight)\n\n0:03.60–0:04.50  Foundation brush blend (smooth strokes)\n0:04.50–0:05.40  Concealer placement (under-eye + spots)\n0:05.40–0:06.30  Blend seamless base (sponge detail)\n0:06.30–0:07.20  Powder set (light tap)\n\n0:07.20–0:08.10  Contour mapping (cheek + jaw)\n0:08.10–0:09.00  Blush placement (cheek lift)\n0:09.00–0:09.90  Brows shaping (precise strokes)\n0:09.90–0:10.80  Eyeshadow blend (soft gradient)\n\n0:10.80–0:11.70  Eyeliner (sharp line)\n0:11.70–0:12.60  Mascara / lashes (definition)\n\n0:12.60–0:13.50  Highlighter glow (cheekbone catch light)\n0:13.50–0:15.00  Lips application → final pose (direct eye contact, slight turn, hold)\n\nSTYLE:\nLuxury editorial, neutral palette, soft diffused lighting, skin-focused detail\n\nCAMERA:\nTight portrait framing, macro close-ups for details, shallow depth of field\n\nTRANSITIONS:\nMatch cuts aligned to hand positions, clean jump cuts, no effects\n\nOUTPUT:\nSeamless flow, precise pacing, loop-friendly end frame",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:39Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": true,
+      "video_url": "https://video.twimg.com/amplify_video/2049752099026866177/vid/avc1/800x800/TJL1V-A0cKXyuT2a.mp4?tag=21",
+      "video": "media/videos/2049752237690478646.mp4"
+    },
+    {
+      "id": "x:2049739564630307176",
+      "text": "GPT image 2 × Seedance 2.0 combo 🔥 on @yapper_so STORYBOARD IMAGE PROMPT Create a cinematic 21-panel storyboard grid (3 columns × 7 rows) in a single image, styled like a professional sports photography sequence. Each panel is numbered 1–21 in the top-left corner with a bold white caption at the bottom in uppercase sans-serif text. The subject is a teenage female dancer (approximately 16–17 years old) performing a powerful contemporary/hip-hop fusion routine on a dramatic stage with dark atmospheric lighting, spotlight beams, and bokeh crowd in the background. Cinematic color grade: deep blacks, warm amber highlights, motion blur on fast movements. Each frame feels like a high-budget editorial sports photography shot. Panel sequence: FIRST BREATH — She stands center stage, eyes closed, head down, hands relaxed at sides THE BUILD — Slow chest rise, arms beginning to lift outward, tension in the body EYES OPEN — Extreme close-up of her eyes snapping open, fierce and focused FIRST MOVE — Sharp head isolation snap to the right, hair whipping mid-air ARMS BREAK — Explosive arm wave rippling from shoulder to fingertip, motion blur BODY ROLL — Full torso body roll in side profile, spine arching beautifully FOOTWORK — Ground-level shot of fast footwork, sneakers kicking up dust/light particles FLOOR HIT — She drops to the floor in a controlled krump-style chest drop STAGE OPENS — Wide shot showing her isolated on vast dark stage, spotlight above THE SPIN — Mid-spin, skirt or outfit fabric wrapping around her body in motion FREEZE — Sudden sharp freeze pose, one arm extended, other cocked at 90° GLIDE — Side view of a smooth slide/glide across the floor, low to ground SLOW MOTION — Extreme close-up hands in slow graceful motion through the air THE JUMP — Full airborne leap, legs split, arms wide, peak of the jump THE LAND — Powerful landing, one knee down, dust particle explosion around her ATTITUDE — Low angle looking up at her standing dominant, chin down, staring into camera THE BREAKDOWN — Crowd in background reacts, silhouettes with raised hands FINAL SEQUENCE — Multi-exposure ghost effect showing 3 overlapping positions LAST EIGHT — Teammates/other dancers blur into frame behind her, energy building THE FINALE — Full extension final pose, arms stretched to ceiling, head thrown back UNFORGETTABLE — Wide cinematic shot, spotlight beam, smoke/haze, text overlay reads DANCE Style references: Cinematic sports editorial, Adidas/Nike campaign aesthetic, dramatic chiaroscuro lighting, 85mm lens feel, 4K ultra-sharp. Consistent character across all frames.",
+      "display_text": "Each panel is numbered 1–21 in the top-left corner with a bold white caption at the bottom in uppercase sans-serif text. The subject is a teenage female dancer (approximately 16–17 years old) performing a powerful contemporary/hip-hop fusion routine on a dramatic stage with dark atmospheric lighting, spotlight beams, and bokeh crowd in the background. Cinematic color grade: deep blacks, warm amber highlights, motion blur on fast movements. Each frame feels like a high-budget editorial sports photography shot. Panel sequence: FIRST BREATH — She stands center stage, eyes closed, head down, hands relaxed at sides THE BUILD — Slow chest rise, arms beginning to lift outward, tension in the body EYES OPEN — Extreme close-up of her eyes snapping open, fierce and focused FIRST MOVE — Sharp head isolation snap to the right, hair whipping mid-air ARMS BREAK — Explosive arm wave rippling from shoulder to fingertip, motion blur BODY ROLL — Full torso body roll in side profile, spine arching beautifully FOOTWORK — Ground-level shot of fast footwork, sneakers kicking up dust/light particles FLOOR HIT — She drops to the floor in a controlled krump-style chest drop STAGE OPENS — Wide shot showing her isolated on vast dark stage, spotlight above THE SPIN — Mid-spin, skirt or outfit fabric wrapping around her body in motion FREEZE — Sudden sharp freeze pose, one arm extended, other cocked at 90° GLIDE — Side view of a smooth slide/glide across the floor, low to ground SLOW MOTION — Extreme close-up hands in slow graceful motion through the air THE JUMP — Full airborne leap, legs split, arms wide, peak of the jump THE LAND — Powerful landing, one knee down, dust particle explosion around her ATTITUDE — Low angle looking up at her standing dominant, chin down, staring into camera THE BREAKDOWN — Crowd in background reacts, silhouettes with raised hands FINAL SEQUENCE — Multi-exposure ghost effect showing 3 overlapping positions LAST EIGHT — Teammates/other dancers blur into frame behind her, energy building THE FINALE — Full extension final pose, arms stretched to ceiling, head thrown back UNFORGETTABLE — Wide cinematic shot, spotlight beam, smoke/haze, text overlay reads DANCE Style references: Cinematic sports editorial, Adidas/Nike campaign aesthetic, dramatic chiaroscuro lighting, 85mm lens feel, 4K ultra-sharp. Consistent character across all frames.",
+      "category": "vfx",
+      "quality_score": 100,
+      "source_url": "https://x.com/meng_dagg695/status/2049739564630307176",
+      "author": "@meng_dagg695",
+      "created_at": "2026-04-30T06:36:09.000Z",
+      "tweet_text": "GPT image 2 × Seedance 2.0 combo 🔥 on @yapper_so \n\nSTORYBOARD IMAGE PROMPT\nCreate a cinematic 21-panel storyboard grid (3 columns × 7 rows) in a single image, styled like a professional sports photography sequence. Each panel is numbered 1–21 in the top-left corner with a bold white caption at the bottom in uppercase sans-serif text. The subject is a teenage female dancer (approximately 16–17 years old) performing a powerful contemporary/hip-hop fusion routine on a dramatic stage with dark atmospheric lighting, spotlight beams, and bokeh crowd in the background. Cinematic color grade: deep blacks, warm amber highlights, motion blur on fast movements. Each frame feels like a high-budget editorial sports photography shot.\nPanel sequence:\nFIRST BREATH — She stands center stage, eyes closed, head down, hands relaxed at sides\nTHE BUILD — Slow chest rise, arms beginning to lift outward, tension in the body\nEYES OPEN — Extreme close-up of her eyes snapping open, fierce and focused\nFIRST MOVE — Sharp head isolation snap to the right, hair whipping mid-air\nARMS BREAK — Explosive arm wave rippling from shoulder to fingertip, motion blur\nBODY ROLL — Full torso body roll in side profile, spine arching beautifully\nFOOTWORK — Ground-level shot of fast footwork, sneakers kicking up dust/light particles\nFLOOR HIT — She drops to the floor in a controlled krump-style chest drop\nSTAGE OPENS — Wide shot showing her isolated on vast dark stage, spotlight above\nTHE SPIN — Mid-spin, skirt or outfit fabric wrapping around her body in motion\nFREEZE — Sudden sharp freeze pose, one arm extended, other cocked at 90°\nGLIDE — Side view of a smooth slide/glide across the floor, low to ground\nSLOW MOTION — Extreme close-up hands in slow graceful motion through the air\nTHE JUMP — Full airborne leap, legs split, arms wide, peak of the jump\nTHE LAND — Powerful landing, one knee down, dust particle explosion around her\nATTITUDE — Low angle looking up at her standing dominant, chin down, staring into camera\nTHE BREAKDOWN — Crowd in background reacts, silhouettes with raised hands\nFINAL SEQUENCE — Multi-exposure ghost effect showing 3 overlapping positions\nLAST EIGHT — Teammates/other dancers blur into frame behind her, energy building\nTHE FINALE — Full extension final pose, arms stretched to ceiling, head thrown back\nUNFORGETTABLE — Wide cinematic shot, spotlight beam, smoke/haze, text overlay reads DANCE\nStyle references: Cinematic sports editorial, Adidas/Nike campaign aesthetic, dramatic chiaroscuro lighting, 85mm lens feel, 4K ultra-sharp. Consistent character across all frames.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 45,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:43Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": true,
+      "video_url": "https://video.twimg.com/ext_tw_video/2049739494484770816/pu/vid/avc1/1080x1920/pXA0AG0KTWO6bxx0.mp4",
+      "video": "media/videos/2049739564630307176.mp4"
+    },
+    {
+      "id": "x:2049734809828929942",
+      "text": "🚨🚨 To maintain perfect continuity, I reused the first video as a reference while generating the second clip in Seedance 2.0. PROMPT 2/2...👇 **FORMAT:** 15s · 16:9 · high-speed aerial destruction --- **CONTINUITY:** Continue from previous — villain crashed, explosion ongoing --- **ENVIRONMENT:** Dense city blocks, rooftops + streets, debris-filled air **LIGHTING:** Daylight + explosion flashes + dust haze --- **HERO:** Red-black armored warrior (fully armored, airborne) **VILLAIN:** Black-armored warrior, unstable energy --- **SAFETY:** No gore, no injury detail, no civilians — only armor combat + environment destruction --- **THRUSTERS:** Clean blue plasma propulsion --- **AUDIO:** Only realistic sound effects (SFX), no background music, no cinematic score, no music layers. Focus on natural environmental sounds and action-based audio only. --- ## 🎞️ TIMELINE **0:00–0:01.5 — CHAOS HOOK** Villain bursts from dust → grabs large debris → throws directly at hero mid-air (Camera: snap zoom + whip pan) (SFX: debris tear, air crack) --- **0:01.5–0:03 — NEAR MISS** Hero dodges → debris narrowly misses → smashes structure behind (Camera: fast tracking + impact snap) (SFX: heavy crash, concrete break) --- **0:03–0:05 — MID-AIR CLASH** Rapid punches → visible shockwave rings in air (Camera: aggressive orbit + micro cuts) (SFX: impact booms) --- **0:05–0:07 — BUILDING BREAK** Hero slams villain → crashes through building layers (Camera: high-speed tracking through debris) (SFX: wall breaks, debris burst) --- **0:07–0:09 — STREET IMPACT** Villain hits ground → shockwave flips cars (Camera: top-down drop) (SFX: ground blast, metal bend) --- **0:09–0:11 — HERO DIVE** Hero dives fast with energy trail (Camera: vertical speed ramp) (SFX: air tear, thruster roar) --- **0:11–0:12.5 — RAPID STRIKES** Multiple hits → shockwave pulses crack ground (Camera: tight cuts + micro slow-mo) (SFX: heavy impacts) --- **0:12.5–0:14 — FINAL COLLAPSE** Villain launched into building → partial collapse + dust cloud (Camera: wide shake) (SFX: structure fall) --- **0:14–0:15 — END FRAME** Hero hovering above destruction (Camera: wide pull-back) (SFX: debris settle , wind)",
+      "display_text": "**FORMAT:** 15s · 16:9 · high-speed aerial destruction --- **CONTINUITY:** Continue from previous — villain crashed, explosion ongoing --- **ENVIRONMENT:** Dense city blocks, rooftops + streets, debris-filled air **LIGHTING:** Daylight + explosion flashes + dust haze --- **HERO:** Red-black armored warrior (fully armored, airborne) **VILLAIN:** Black-armored warrior, unstable energy --- **SAFETY:** No gore, no injury detail, no civilians — only armor combat + environment destruction --- **THRUSTERS:** Clean blue plasma propulsion --- **AUDIO:** Only realistic sound effects (SFX), no background music, no cinematic score, no music layers. Focus on natural environmental sounds and action-based audio only. --- ## 🎞️ TIMELINE **0:00–0:01.5 — CHAOS HOOK** Villain bursts from dust → grabs large debris → throws directly at hero mid-air (Camera: snap zoom + whip pan) (SFX: debris tear, air crack) --- **0:01.5–0:03 — NEAR MISS** Hero dodges → debris narrowly misses → smashes structure behind (Camera: fast tracking + impact snap) (SFX: heavy crash, concrete break) --- **0:03–0:05 — MID-AIR CLASH** Rapid punches → visible shockwave rings in air (Camera: aggressive orbit + micro cuts) (SFX: impact booms) --- **0:05–0:07 — BUILDING BREAK** Hero slams villain → crashes through building layers (Camera: high-speed tracking through debris) (SFX: wall breaks, debris burst) --- **0:07–0:09 — STREET IMPACT** Villain hits ground → shockwave flips cars (Camera: top-down drop) (SFX: ground blast, metal bend) --- **0:09–0:11 — HERO DIVE** Hero dives fast with energy trail (Camera: vertical speed ramp) (SFX: air tear, thruster roar) --- **0:11–0:12.5 — RAPID STRIKES** Multiple hits → shockwave pulses crack ground (Camera: tight cuts + micro slow-mo) (SFX: heavy impacts) --- **0:12.5–0:14 — FINAL COLLAPSE** Villain launched into building → partial collapse + dust cloud (Camera: wide shake) (SFX: structure fall) --- **0:14–0:15 — END FRAME** Hero hovering above destruction (Camera: wide pull-back) (SFX: debris settle , wind)",
+      "category": "vfx",
+      "quality_score": 100,
+      "source_url": "https://x.com/Ratul_AI/status/2049734809828929942",
+      "author": "@Ratul_AI",
+      "created_at": "2026-04-30T06:17:15.000Z",
+      "tweet_text": "🚨🚨\nTo maintain perfect continuity, I reused the first video as a reference while generating the second clip in Seedance 2.0.\n\nPROMPT 2/2...👇\n\n**FORMAT:** 15s · 16:9 · high-speed aerial destruction\n\n---\n\n**CONTINUITY:** Continue from previous — villain crashed, explosion ongoing\n\n---\n\n**ENVIRONMENT:** Dense city blocks, rooftops + streets, debris-filled air\n**LIGHTING:** Daylight + explosion flashes + dust haze\n\n---\n\n**HERO:** Red-black armored warrior (fully armored, airborne)\n**VILLAIN:** Black-armored warrior, unstable energy\n\n---\n\n**SAFETY:** No gore, no injury detail, no civilians — only armor combat + environment destruction\n\n---\n\n**THRUSTERS:** Clean blue plasma propulsion\n\n---\n\n**AUDIO:**\nOnly realistic sound effects (SFX), no background music, no cinematic score, no music layers. Focus on natural environmental sounds and action-based audio only.\n\n---\n\n## 🎞️ TIMELINE\n\n**0:00–0:01.5 — CHAOS HOOK**\nVillain bursts from dust → grabs large debris → throws directly at hero mid-air\n(Camera: snap zoom + whip pan)\n(SFX: debris tear, air crack)\n\n---\n\n**0:01.5–0:03 — NEAR MISS**\nHero dodges → debris narrowly misses → smashes structure behind\n(Camera: fast tracking + impact snap)\n(SFX: heavy crash, concrete break)\n\n---\n\n**0:03–0:05 — MID-AIR CLASH**\nRapid punches → visible shockwave rings in air\n(Camera: aggressive orbit + micro cuts)\n(SFX: impact booms)\n\n---\n\n**0:05–0:07 — BUILDING BREAK**\nHero slams villain → crashes through building layers\n(Camera: high-speed tracking through debris)\n(SFX: wall breaks, debris burst)\n\n---\n\n**0:07–0:09 — STREET IMPACT**\nVillain hits ground → shockwave flips cars\n(Camera: top-down drop)\n(SFX: ground blast, metal bend)\n\n---\n\n**0:09–0:11 — HERO DIVE**\nHero dives fast with energy trail\n(Camera: vertical speed ramp)\n(SFX: air tear, thruster roar)\n\n---\n\n**0:11–0:12.5 — RAPID STRIKES**\nMultiple hits → shockwave pulses crack ground\n(Camera: tight cuts + micro slow-mo)\n(SFX: heavy impacts)\n\n---\n\n**0:12.5–0:14 — FINAL COLLAPSE**\nVillain launched into building → partial collapse + dust cloud\n(Camera: wide shake)\n(SFX: structure fall)\n\n---\n\n**0:14–0:15 — END FRAME**\nHero hovering above destruction\n(Camera: wide pull-back)\n(SFX: debris settle\n, wind)",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 0,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:45Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": true,
+      "video_url": "https://video.twimg.com/ext_tw_video/2049733217343971328/pu/vid/avc1/940x540/3KWqCOGCFbEPZr2w.mp4?tag=19",
+      "video": "media/videos/2049734809828929942.mp4"
+    },
+    {
+      "id": "x:2049716790864048505",
+      "text": "Create a 4K cinematic rugby storyboard from tackle to try with dramatic stadium lighting and broadcast style. Start with a slow-motion midfield tackle—mud and turf flying—then transition into a fast counterattack with offload and explosive sprint. Mix close-ups (boots, sweat, impact) with wide field shots. Show a key pass breaking the defense, followed by a sprint to the try line. Build tension with a slow-motion approach, then a powerful dive and ball grounding with realistic physics. End with an emotional celebration—teammates join, crowd erupts, stadium lights glow. Use dynamic camera angles, motion blur, and smooth transitions to highlight the shift from defense to victory.",
+      "display_text": "Create a 4K cinematic rugby storyboard from tackle to try with dramatic stadium lighting and broadcast style. Start with a slow-motion midfield tackle—mud and turf flying—then transition into a fast counterattack with offload and explosive sprint. Mix close-ups (boots, sweat, impact) with wide field shots. Show a key pass breaking the defense, followed by a sprint to the try line. Build tension with a slow-motion approach, then a powerful dive and ball grounding with realistic physics. End with an emotional celebration—teammates join, crowd erupts, stadium lights glow. Use dynamic camera angles, motion blur, and smooth transitions to highlight the shift from defense to victory.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/doctorwasif/status/2049716790864048505",
+      "author": "@doctorwasif",
+      "created_at": "2026-04-30T05:05:39.000Z",
+      "tweet_text": "Chatgpt GPT-2 + Seedance 2 on @yapper_so \n\nPrompt:\nCreate a 4K cinematic rugby storyboard from tackle to try with dramatic stadium lighting and broadcast style. Start with a slow-motion midfield tackle—mud and turf flying—then transition into a fast counterattack with offload and explosive sprint. Mix close-ups (boots, sweat, impact) with wide field shots.\n\nShow a key pass breaking the defense, followed by a sprint to the try line. Build tension with a slow-motion approach, then a powerful dive and ball grounding with realistic physics. End with an emotional celebration—teammates join, crowd erupts, stadium lights glow. Use dynamic camera angles, motion blur, and smooth transitions to highlight the shift from defense to victory.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 67,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:45Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": true,
+      "video_url": "https://video.twimg.com/ext_tw_video/2049716711017103360/pu/vid/avc1/1080x1920/glGoGTXS6NaJYhc3.mp4?tag=19",
+      "video": "media/videos/2049716790864048505.mp4"
+    },
+    {
+      "id": "x:2049668274330255388",
+      "text": "Create a high-quality 4K cinematic football (soccer) storyboard showing a full sequence from tackle to goal, using dynamic lighting, dramatic stadium atmosphere, and professional sports broadcast style. The scene begins with an intense midfield moment where a defender performs a strong sliding tackle, grass and dirt particles flying in slow motion as the ball is cleanly won. Transition immediately into a fast counterattack: the player recovers, pushes the ball forward, and accelerates past opponents with quick footwork. Show close-ups of boots striking the ball, sweat, and focused expressions, mixed with wide shots of the field opening up. Add a key pass moment where the ball is threaded through defenders, followed by a sprint toward goal with the crowd rising in anticipation. Build tension with a slow-motion approach to the penalty box, then a powerful shot on goal—either a clean strike or a curled finish. Show the ball hitting the net with dramatic impact, net rippling, and goalkeeper reaction. End with an emotional celebration: the scorer running, sliding, or raising arms as teammates join, stadium lights glowing and crowd erupting. Use varied camera angles (wide, tracking, close-up, POV, slow motion), strong motion blur, and realistic physics (ball spin, turf impact), emphasizing the shift from defensive intensity to attacking triumph and victory.",
+      "display_text": "Create a high-quality 4K cinematic football (soccer) storyboard showing a full sequence from tackle to goal, using dynamic lighting, dramatic stadium atmosphere, and professional sports broadcast style. The scene begins with an intense midfield moment where a defender performs a strong sliding tackle, grass and dirt particles flying in slow motion as the ball is cleanly won. Transition immediately into a fast counterattack: the player recovers, pushes the ball forward, and accelerates past opponents with quick footwork. Show close-ups of boots striking the ball, sweat, and focused expressions, mixed with wide shots of the field opening up. Add a key pass moment where the ball is threaded through defenders, followed by a sprint toward goal with the crowd rising in anticipation. Build tension with a slow-motion approach to the penalty box, then a powerful shot on goal—either a clean strike or a curled finish. Show the ball hitting the net with dramatic impact, net rippling, and goalkeeper reaction. End with an emotional celebration: the scorer running, sliding, or raising arms as teammates join, stadium lights glowing and crowd erupting. Use varied camera angles (wide, tracking, close-up, POV, slow motion), strong motion blur, and realistic physics (ball spin, turf impact), emphasizing the shift from defensive intensity to attacking triumph and victory.",
+      "category": "cinematic",
+      "quality_score": 100,
+      "source_url": "https://x.com/ZaraIrahh/status/2049668274330255388",
+      "author": "@ZaraIrahh",
+      "created_at": "2026-04-30T01:52:52.000Z",
+      "tweet_text": "Created with Gpt Image 2 + Seedance 2.0 on @SJinn_Agent\n\nPrompt:\n\nCreate a high-quality 4K cinematic football (soccer) storyboard showing a full sequence from tackle to goal, using dynamic lighting, dramatic stadium atmosphere, and professional sports broadcast style. The scene begins with an intense midfield moment where a defender performs a strong sliding tackle, grass and dirt particles flying in slow motion as the ball is cleanly won. Transition immediately into a fast counterattack: the player recovers, pushes the ball forward, and accelerates past opponents with quick footwork. Show close-ups of boots striking the ball, sweat, and focused expressions, mixed with wide shots of the field opening up. Add a key pass moment where the ball is threaded through defenders, followed by a sprint toward goal with the crowd rising in anticipation. Build tension with a slow-motion approach to the penalty box, then a powerful shot on goal—either a clean strike or a curled finish. Show the ball hitting the net with dramatic impact, net rippling, and goalkeeper reaction. End with an emotional celebration: the scorer running, sliding, or raising arms as teammates join, stadium lights glowing and crowd erupting. Use varied camera angles (wide, tracking, close-up, POV, slow motion), strong motion blur, and realistic physics (ball spin, turf impact), emphasizing the shift from defensive intensity to attacking triumph and victory.",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 431,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:46Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": true,
+      "video_url": "https://video.twimg.com/ext_tw_video/2049668223403253760/pu/vid/avc1/1280x720/hiXFX6B4KWcuuw3R.mp4?tag=19",
+      "video": "media/videos/2049668274330255388.mp4"
+    },
     {
       "id": "x:2049621008869458287",
       "text": "Aqui os prompts pra usarem no ChatGPT e depois usarem o Seedance para animar: PROMPT 1 Analyze the provided character image and extract key visual traits such as clothing style, personality, and overall aesthetic. Based on this, define a cohesive game theme and create an original game title. Generate a highly detailed 3D game main menu scene with the following requirements: - Clean white background - Full-body 3D character centered or slightly to the right - On the left side, include a vertical UI menu with: - Start - Settings - Multiplayer - Credits - Modern, minimal, high-end game UI design - Cinematic lighting and realistic materials - Aspect ratio: 16:9 PROMPT 2 Using the same character and visual identity, evolve the scene into the next step of the game interface. Create a new highly detailed 3D game menu scene where the player selects the game mode: - Replace the white background with a cinematic environment that matches the game theme - Maintain the same character design and realism - On the left side, display game modes such as: - Story Mode - Arcade Mode - Multiplayer - Survival Mode - On the right side, include difficulty selection options such as: - Easy - Normal - Hard - Legend - Add a \"Start Game\" button near the difficulty panel - Use immersive lighting, atmosphere, and environmental storytelling - Maintain a premium AAA game UI style - Aspect ratio: 16:9 PROMPT 3 Transform the scene into an in-game third-person perspective. Create a highly detailed 3D gameplay scene inspired by GTA-style visuals and UI: - The character is seen from behind in a third-person view - Fully immersive open-world environment consistent with the established theme - Realistic lighting, reflections, and environmental details - Include a GTA-style HUD with: - Mini-map in the bottom corner - Mission objective text - Player stats such as health, money, and time - Optional notification or message system - Cinematic composition with strong depth and atmosphere - Maintain high realism and AAA quality rendering - Aspect ratio: 16:9",
@@ -86,7 +336,7 @@
       "tweet_text": "Seedance 2.0 on Dreamina.\n\nPrompt:\nStyle: Hyper-realistic, bright kitchen, energetic vlog, fast cuts Music: Upbeat J-pop / pop-rock hybrid (fast, cheerful) Camera: Multishot, jump cuts, snap zooms, overhead + handheld mix Tone: Cute, energetic, charming, slightly chaotic\n\n0–2s — HOOK (CUTE + FAST INTRO)\n\nClose-up of her face, bright smile\n\nShe leans toward camera, holding fresh ingredients\n\nCute energetic voice: 「今日はね、めっちゃ美味しいの作るよ〜！」 (“Today, I’m making something super delicious!”)\n\nQuick snap zoom → beat drop\n\n2–5s — INGREDIENT CHAOS (FAST + SATISFYING)\n\nRapid montage:\n\nOverhead: ingredients neatly arranged\n\nQuick cuts → washing vegetables (water splashing)\n\nFast chopping (knife rhythm synced to beat)\n\nShe giggles lightly\n\nVoice (playful): 「早く早く〜！」 (“Hurry hurry~!”)\n\n5–8s — COOKING ACTION (HEAT + ENERGY)\n\nFast cuts with motion:\n\nPan placed on stove → flame ignites\n\nOil poured → glossy swirl\n\nIngredients tossed into pan (sizzle burst)\n\nCamera shake slightly for impact\n\nVoice: 「いい音〜！」 (“That sound is so good!”)\n\n8–11s — FLAVOR BUILD (DYNAMIC + FUN)\n\nStir-fry tossing (slow motion for 0.5s, then snap back fast)\n\nSauce poured → steam rises dramatically\n\nClose-up textures (shiny, sizzling food)\n\nShe reacts excitedly\n\n「やばい、いい匂い！」 (“This smells amazing!”)\n\n11–13s — PLATING + FINAL TOUCH (CUTE DETAIL)\n\nFood plated quickly\n\nGarnish sprinkled in slow motion\n\nSnap zoom to finished dish\n\nShe claps lightly\n\n13–15s — FINAL (CHARM + CONNECTION)\n\nClose-up, she presents dish to camera\n\nBright smile, slightly tilts head\n\n「いただきます♡」 (“Let’s eat♡”)\n\nQuick bite → happy reaction\n\n「おいしい〜！」 (“So good~!”)\n\nMusic hits final upbeat note\n\nKling Optimization Tags\n\n“fast cooking montage, japanese vlog style, kawaii expression”\n\n“bright kitchen lighting, food texture detail, steam, oil shine”\n\n“jump cuts, snap zoom, overhead cooking shots”\n\n“energetic female, expressive reactions, cute voic",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 20,
+      "likes": 71,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -111,7 +361,7 @@
       "tweet_text": "🎨 SEEDANCE 2 🎨\n\nPrompt  :\n\nA 28-year-old ash-covered geologist with short burned-orange hair, soot-streaked skin, and a torn thermal suit sprints down a collapsing volcanic ridge in the first two seconds as a colossal lava titan erupts from beneath the mountain behind her, its body formed of molten rock plates and glowing fissures, sending waves of fire and stone into the sky, instantly igniting the surrounding forest and shattering observation towers into flaming debris, and the entire sequence maintains relentless forward momentum as she runs across cracking basalt paths, collapsing rope bridges, research outposts, and narrow cliffside stairways while the molten titan advances in a slow but unstoppable gait, punching through rock walls with magma-coated fists, triggering landslides with each step, hurling boulders that explode on impact, and sending rivers of lava cascading into her path so she must vault over fissures, slide beneath falling beams, balance across unstable ledges, and push through crowds of fleeing scientists and emergency crews.\nThe render in the style of practical volcanic miniatures combined with high-end cinematic VFX, thick smoke plumes, heat distortion, glowing embers drifting through the air, with heavy film grain and warm orange-red color grading, the camera locked in aggressive chase framing with handheld instability, occasional wide shots revealing the titan’s overwhelming scale and path logic, and just as she reaches a suspended evacuation platform over a lava river, the titan slams both fists into the ground, creating a shockwave that freezes momentarily in slow motion before erupting outward and cutting to black.\n\nMade in @runwayml",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 30,
+      "likes": 68,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -161,7 +411,7 @@
       "tweet_text": "GRWM (ft. Ai model)\n\nGPT image 2  x Seedance 2.0\n\nPrompt : ⤵️ https://t.co/j270bs7b8r",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 19,
+      "likes": 95,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -186,7 +436,7 @@
       "tweet_text": "Step 1 — The foundation.\nGenerate your image with GPT Image 2.\n\nThis is the most important step.\nGet the vibe right → everything else follows.\n\nHere’s the prompt 👇\n\nCreate a high-end cinematic luxury poster illustrating the transformation of motion into form.\nTop section (seamless progression, no borders):\nA horizontal sequence of 5 stages showing a moonwalk-inspired movement evolving into a diamond sculpture.\nA performer inspired by Michael Jackson in side view performing a smooth moonwalk, elegant silhouette, black suit and fedora, subtle ground smoke, cinematic lighting\nThe figure dissolves into golden light trails and particles, motion energy flowing backward\nPure abstract flowing energy lines (gold and white), fluid and dynamic, no human form\nEnergy crystallizing into a faceted humanoid structure, diamond fragments forming\nA fully formed crystal sculpture capturing the exact moonwalk pose, sharp facets, reflective material\nSmooth transition across all stages, no panel separation.\n\nTypography (top left):\nFROM MOTION TO FORM\nSubtitle: INSPIRED BY THE MOONWALK\nModern luxury sans-serif, subtle gold tone\n\nBottom section:\nUltra photorealistic studio render of the final diamond trophy\nObject:\nA crystal sculpture shaped from the moonwalk pose, dynamic leaning posture, elegant curves\nMaterial:\nTransparent diamond with high refraction, internal reflections, subtle rainbow caustics\nDramatic cinematic lighting, strong top spotlight, warm golden rim light, high contrast\n\nDark luxury background fading into black, floating golden particles\nGlossy black reflective base with mirror reflection\n\nFlowing silk fabric in background, soft highlights, luxury feel\nBranding (bottom left):\nMOONWALK DIAMOND TROPHY\nTagline: ICONIC MOTION. SCULPTED IN LIGHT.\nUltra realistic, luxury advertising, cinematic, high detail, premium finish",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 4,
+      "likes": 10,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -211,7 +461,7 @@
       "tweet_text": "Seedance 2.0 Video Prompt, K-Pop Dance Sequence (16 Steps, Korean Street)\n\n[PROJECT TYPE]\nCinematic K-pop dance video (instruction-to-performance translation)\n\n[CORE REQUIREMENT, STRICT]\nThe video must faithfully follow the exact 16-step choreography shown in the reference sheet, in the same order, with accurate poses and transitions.\nNo steps added, removed, or rearranged.\n\n[CHARACTER]\nKorean female dancer (K-pop idol aesthetic)\nSlim, athletic build\nSame consistent face and proportions throughout\nExpressive, confident stage presence\nNatural, fluid but sharp K-pop movement quality\n\n[WARDROBE, K-POP STYLE]\nFitted crop top\nLoose high-waisted jeans\nSneakers\nModern idol styling (clean, trendy)\nFabric reacts naturally to movement (denim weight, subtle folds)\n\n[LOCATION / ENVIRONMENT]\nEmpty aesthetic Korean street (Seoul-inspired)\nClean urban design: narrow street, minimal signage, soft architecture\nNo people, no vehicles\nSlight cinematic depth (buildings, street lights, textures)\nLighting:\nSoft daylight or golden hour (ideal for K-pop vibe)\nBalanced highlights + gentle shadows\n\n[16-STEP CHOREOGRAPHY, LOCKED SEQUENCE]\nStarting Pose\nStep Touch Right\nStep Touch Left\nHip Sway Combo\nBody Roll Down\nBack Step Sweep\nQuarter Turn Pivot\nHair Flip & Pose\nSide Step Drag\nCross Behind Unwind\nBody Wave Up\nHip Circle\nStep Lock Step\nArm Sweep Pose\nChest Pop & Hit\nFinal Pose (hold 2–3 sec)\n\n[CAMERA DIRECTION]\nFull-body framing at all times\nStart: centered wide shot\nSmooth tracking + subtle dolly movement\nSlight angle variation (front → 3/4 → side for spins)\nNo fast cuts — continuous flow\nCamera movement complements choreography, not distracts\n\n[MOVEMENT STYLE, IMPORTANT]\nAuthentic K-pop choreography feel\nMix of:\nSharp hits (chest pop, accents)\nSmooth transitions (body waves, turns)\nClean isolations (hips, chest, arms)\nControlled spins, balanced footwork\nNo jitter, no unnatural speed\n\n[TIMING]\nEach step: ~2–3 seconds\nTotal duration: ~35–50 seconds\nSeamless transitions between steps\n\n[MUSIC DIRECTION, VERY IMPORTANT]\nGenre: K-pop / K-pop instrumental / dance-pop\nTempo: 100–115 BPM\nStyle:\nClean beat drops\nPunchy percussion\nLight synth melodies\nModern idol choreography vibe\nSync Notes:\nStep transitions hit beats\nStep 8 (Hair Flip) hits a musical accent\nStep 15 (Chest Pop) synced with a strong beat hit\nFinal pose lands on a clean musical ending\n\n[VISUAL STYLE]\nPhotorealistic\nSlightly stylized K-pop MV tone\nSoft cinematic grading\nClean, polished, high-end look\n\n[OUTPUT SETTINGS]\n4K resolution\n24–30 FPS\nHigh motion clarity\nNo distortion, no artifacts\n\n[RESTRICTIONS]\nNo extra dancers\nNo background crowd\nNo outfit changes\nNo deviation from choreography\nNo camera cuts that break continuity",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 3,
+      "likes": 4,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -236,7 +486,7 @@
       "tweet_text": "The Great Cookie Heist\n\nSeedance 2.0 on @SJinn_Agent \n\nPrompt:\n\nVisual Style: Vibrant 3D animation, exaggerated squash-and-stretch physics, and cinematic lighting.\nTime\nScene Description\nCamera Movement\n0-3s\nA tiny, sophisticated Hamster in a high-tech harness lowers from a ceiling vent toward a giant chocolate chip cookie on a kitchen island.\nCrane Shot: Smoothly descends from the ceiling, following the hamster’s POV as the \"target\" gets closer.\n3-6s\nJust as his paws touch the cookie, a shadow looms. A sleepy Ginger Cat enters the frame, yawning wide right next to him.\nLow-Angle Pan: Rapidly circles 180° around the hamster to reveal the massive cat towering in the background.\n6-9s\nThe hamster panics, grabs the cookie (which is twice his size), and sprints. He uses a silver spoon as a catapult to launch into the air.\nTracking Shot: A fast side-scrolling \"profile\" shot, keeping pace with the hamster's frantic running.\n9-12s\nMid-air, the hamster opens a tiny paraglider made of a cocktail napkin. He soars over the cat’s head while the cat swipes blindly.\nDynamic Follow: The camera \"glides\" behind the hamster’s shoulder, dipping and diving through the air.\n12-15s\nThe hamster sticks a superhero landing back inside the dark vent. He takes a huge, satisfying bite as the vent cover slams shut.\nPush-In to Zoom: A rapid zoom into the hamster’s face for the \"crunch,\" followed by a quick \"iris-out\" black screen.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 35,
+      "likes": 96,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -261,7 +511,7 @@
       "tweet_text": "90's School Bus Transform in Dragon Transformer.\n\nMade with Seedance 2 on \n@yapper_so\n \n\nPrompt:\n\n[Cinematography]: Dynamic tracking shot moving alongside the vehicle at a low angle, transitioning into a shaky, handheld camera movement to emphasize impact and scale during the transformation. Shot on IMAX digital cameras with anamorphic lenses, high shutter speed to capture mechanical intricacies, water droplets on the lens, shallow depth of field focusing on the shifting metal.\n\n[Subject]: Initially a weathered, emerald-green vintage school bus with rusted wheel wells. It morphs into a colossal, industrial T-Rex mecha composed of twisted chassis metal, bus tires functioning as limb joints, and the front grille splitting to form a jagged, metallic maw.\n\n[Action]: The bus speeds down the wet asphalt, splashing puddles. Suddenly, hydraulic pistons engage; the roof splits, the wheels rotate inward to become legs, and the body reconfigures vertically. The newly formed mecha stomps the ground, cracking the pavement, and unleashes a torrent of fire from its mouth while its headlights-turned-eyes flare bright red.\n\n[Context]: A winding, rain-slicked road cutting through a dense, foggy coniferous forest. Tall pine trees line the path, shrouded in mist. The atmosphere is stormy, with heavy rain pouring down, reflecting the transformation in the wet road surface.\n\n[Style & Ambiance]: High-octane sci-fi action aesthetic, reminiscent of Michael Bay films. Gritty, realistic CGI textures with metallic sheen and rust details. Lighting is dramatic and moody, dominated by cool blue tones of the rainy twilight, contrasted sharply by the warm orange glow of the mecha's fire breath and glowing eyes.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 1,
+      "likes": 2,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -286,7 +536,7 @@
       "tweet_text": "Step 2: Take each frame into Seedance 2.0\n\nPrompt : \n\nCreate a 15-second ultra cinematic luxury food advertisement for premium biryani, structured as 8 sequential scenes. Maintain visual consistency, warm golden color grading, rich contrast, shallow depth of field, and high-end commercial quality.\n\nScene 1 (0–2s):\nA stunning elegant woman in a luxury hotel corridor, soft golden lights, slow dolly-in camera movement, slight lens flare, shallow depth of field, confident expression, premium vibe.\n\nScene 2 (2–3.5s):\nTransition into a cinematic cloudscape at golden hour, camera flying forward through glowing clouds, smooth aerial motion, surreal and dreamy transition.\n\nScene 3 (3.5–5s):\nClose-up of a traditional copper pot opening, steam dramatically rising, slow motion, macro lens, camera tilt-up from pot to steam, highly detailed textures.\n\nScene 4 (5–6.5s):\nExtreme close-up of biryani rice and meat, steam flowing, cinematic macro shot, slow push-in camera movement, rich textures and vibrant spices.\n\nScene 5 (6.5–8s):\nChef plating biryani with precision, top-down + slight side angle, slow motion hand movement, warm spotlight lighting, luxury kitchen ambiance.\n\nScene 6 (8–10s):\nElegant woman holding biryani plate, eyes closed, smelling aroma, slow circular camera orbit, soft golden glow, emotional anticipation.\n\nScene 7 (10–12s):\nClose-up of spoon lifting biryani to mouth, slow motion, shallow depth of field, cinematic side angle, steam visible, sensual food experience.\n\nScene 8 (12–15s):\nFinal hero shot of biryani in a royal bowl, steam rising, dramatic lighting, slow zoom-in, dark background with golden highlights, premium food commercial finish.\n\nStyle & Effects:\ncinematic lighting, volumetric light, slow motion, 4K ultra realistic, high dynamic range, food commercial style, luxury branding, smooth transitions, film grain, depth of field, rich golden tones.\n\nCamera language:\ndolly-in, push-in, macro close-ups, orbit shots, aerial motion, slow zoom.\n\nMood:\nluxury, indulgence, desire, premium experience.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 4,
+      "likes": 6,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -361,7 +611,7 @@
       "tweet_text": "Seedance 2.0 is really amazing.. 15 cinematic shots in 15 seconds on @yapper_so \n\nPrompt and tutorial 👇 https://t.co/z151KzJnvq",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 3,
+      "likes": 4,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -411,7 +661,7 @@
       "tweet_text": "GPT Image 2 and Seedance 2.0 on \n@SocialSight\n \n\nPrompt  \n\nA realistic young woman casually grocery shopping inside a well-lit supermarket during early evening.\nShe is holding her phone at arm’s length, recording herself while walking through aisles and picking up products.\nFraming is slightly shaky and imperfect, like a real handheld front camera vlog.\nExpression: relaxed, conversational, occasionally smiling while talking about items she picks.\nShe pauses to grab products from shelves, briefly showing them to the camera as she explains why she’s buying them.\nOutfit: simple everyday wear (oversized hoodie or fitted top with jeans), minimal styling.\nMakeup: natural, skin texture visible, no heavy filters.\nLighting: bright supermarket lighting, slightly harsh but realistic.\nEnvironment: fully stocked grocery store, colorful packaging, people occasionally passing in background.\nAudio style: casual talking, like a voice note or vlog, unscripted feel.\nStyle: ultra-realistic, raw phone footage, slight grain, no cinematic polish, authentic social media vibe.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 68,
+      "likes": 82,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -461,7 +711,7 @@
       "tweet_text": "A quiet morning of simple joy, carried gently by the rhythm of the sea\n\nCreated with seedance 2.0 on @yapper_so https://t.co/cPaoo9DXFT",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 81,
+      "likes": 126,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -486,7 +736,7 @@
       "tweet_text": "Making ads with GPT and Seedance is super easy. It's not even my style. My friends here know I am more into books, movies, experimental ideas. However, I am always looking for efficient ways to make things happen with AI. Here is what I used: \n\nGPT Image 2.0 prompt: \n2 images: Prompt: 1 Create a cinematic hero image of a gourmet cheeseburger on a dark stone surface.  Details: glossy brioche bun, melted cheese, crisp lettuce, tomato, grilled patty, sauce, sesame seeds, realistic texture, appetizing steam. Lighting: warm side light, shallow depth of field, premium food commercial style. No text, no logos, no watermark.  Prompt 2: Create a 9-cell hybrid keyframe-to-transition storyboard sheet for a 15-second gourmet burger ad.  S1: empty dark stone surface with warm spotlight. T1: ingredients slide into frame with quick motion streaks. S2: burger ingredients stacked in mid-action, bun above patty. T2: slow-motion drop of top bun, sauce glistens. S3: finished burger lands perfectly, tiny bounce. T3: camera pushes into macro cheese melt and steam. S4: close-up bite moment, juicy texture revealed. T4: whip-pan back to final hero angle with steam trails. S5: final hero shot of complete burger on dark stone surface.  Use large S cells and smaller T cells. Show motion using arrows, ghosted ingredient positions, steam, sauce trails, and camera push-in icons. Style: premium food commercial, warm lighting, rich texture, appetizing, cinematic. Minimal labels only. No logos, no watermark.\n\nHere is my Seedance 2.0 prompt. Just an experiment: \n\nUse @ image_1 as the exact burger identity and food quality reference.\nUse @ image_2 as the hybrid keyframe-to-transition storyboard.\n\nCreate one polished 15-second premium burger commercial.\n\nRead the board in order:\nS1 → T1 → S2 → T2 → S3 → T3 → S4 → T4 → S5.\n\nThe S cells are the main anchor shots.\nThe T cells are transition instructions between shots.\n\nTiming:\n0–2s: S1, empty dark stone surface with warm cinematic light.\n2–4s: T1, ingredients slide into frame with fast appetizing motion trails.\n4–6s: S2, burger assembles in stacked layers.\n6–8s: T2, top bun drops down in slow motion with sauce and cheese dripping.\n8–10s: S3, completed burger lands as steam rises.\n10–12s: T3, macro push-in on melted cheese, grilled patty, steam, and glossy texture.\n12–13.5s: S4, extreme appetizing texture reveal.\n13.5–15s: T4 into S5, fast smooth transition to final whole burger hero shot.\n\nPreserve the burger identity from @ image_1:\nglossy sesame bun, melted cheddar, grilled patty, lettuce, tomato, onion, sauce, steam, dark stone surface, warm side light.\n\nThe arrows, labels, numbers, and icons in the storyboard are instructions only. Do not render any arrows, labels, icons, text, or storyboard graphics in the final video.\n\nMake the video feel like a premium food commercial, not a slideshow.\nUse macro lens, shallow depth of field, slow motion, steam, sauce drips, glossy highlights, and satisfying assembly motion.\nDo not add extra ingredients.\nDo not change the burger.\nDo not show hands unless clearly needed.\nDo not show logos or text.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 7,
+      "likes": 19,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -511,7 +761,7 @@
       "tweet_text": "AI dance anime in Times Square with \n@Hailuo_AI\n\n\nThis was created using Seedance with a 16-frame choreography setup. I focused on keeping the character consistent while adding cinematic camera motion.\n\n▼ Prompt\nanime girl, twin pigtails, black & red outfit, Times Square night, neon lights, wet reflections, cinematic lighting, no crowd, consistent character.\n\n1: medium full shot, slight push in, step forward right foot, left follows, relaxed arms\n2: camera slight pan right, slide right, arms swing\n3: upper body close-up, slight zoom, turn right, hand to forehead\n4: medium shot, slight pull back, cross step\n5: waist close-up, focus on hips, sway hips right left\n6: full body, slight dolly out, step backward\n7: orbit camera right, 180-degree arc, full spin\n8: low angle shot, small jump, arms up\n9: side tracking shot, step right\n10: upper body shot, slow zoom in, arm wave\n11: chest-level close shot, push forward motion\n12: waist orbit, slight circular camera, hip rotation\n13: medium shot, slight zoom out, combo steps\n14: dynamic diagonal camera, swing arms, turn right left\n15: high angle shot, looking down, touch floor\n16: close-up face then pull out to full body, final pose, slight smile\n\n#Seedance",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 35,
+      "likes": 54,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -536,7 +786,7 @@
       "tweet_text": "AI has already replaced film directors..\n\nChatGPT Image 2 can now generate storyboards,\nupload them to Seedance 2.0 and it generates complete sequences and auto-edits\n\nThis is too crazy",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 41,
+      "likes": 73,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -586,7 +836,7 @@
       "tweet_text": "If you’re in e-commerce, you should definitely use Nano Banana + Seedance for social media content.\n\nHere are the prompts:\n\nImage prompt:\n\nA high-end café-style product photograph of a transparent glass filled with iced matcha coffee, centered against a soft beige and cream seamless studio background. The drink shows a rich dark coffee base blending with creamy milk swirls, creating a smooth gradient effect. Several clear ice cubes are visible with realistic transparency and light refraction. The glass has subtle condensation droplets, adding freshness. Soft natural studio lighting creates delicate highlights and a clean shadow beneath the glass. Ultra-sharp focus, premium beverage advertisement style, DSLR macro photography, hyper realistic, 8K.\n\nVideo prompt:\n\nCreate a hyper-realistic exploded vertical infographic composition of an iced coffee.\n\nTop → Bottom structure:\n\nFoam Layer (light creamy foam with soft airy texture)\n\n→ Coffee Liquid (rich dark espresso layer with smooth gradient)\n\n→ Ice Cubes (transparent cubes with sharp edges and reflections)\n\n→ Milk Layer (soft creamy white layer with smooth blend effect)\n\n→ Glass Base (clear minimal glass structure)\n\nAll elements must be perfectly centered, evenly spaced, and aligned vertically. Use a soft beige seamless background with clean café-style lighting and subtle realistic shadows beneath each floating element. The composition should feel like a premium beverage ad combined with a clean infographic layout.\n\nAdd clean minimalist text labels with thin pointer lines using these exact labels:\n\n“Foam”\n\n“matcha Coffee”\n\n“Ice”\n\n“Milk”\n\n“Glass”\n\nUltra-realistic liquid detail, sharp reflections, premium commercial photography, 8K.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 1,
+      "likes": 2,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -611,7 +861,7 @@
       "tweet_text": "Created with Seedance on @yapper_so .\nPrompt::\nUltra-realistic cinematic 15-second video, 4K, soft natural lighting, shallow depth of field, slow camera movement, emotional storytelling, warm color grading.\n\nScene 1 (0–3s)\n\nA young girl sits beside a softly lit window, painting on a canvas.\nGolden sunlight gently illuminates her face and workspace.\nCamera slowly pushes in as she adds delicate brush strokes with focus.\n\nScene 2 (3–7s)\n\nClose-up: she squeezes a paint tube — nothing comes out.\nShe tries another… also empty.\nSubtle change in expression from calm focus to quiet concern.\nCut to her eyes, reflecting realization.\n\nScene 3 (7–11s)\n\nShe leans back slightly, looking at the canvas.\nCamera slowly pans across the painting — a visible unfinished section lacking color.\nLighting softens, shadows slightly deepen to enhance mood.\n\nScene 4 (11–15s)\n\nShe gently places the brush down.\nOver-the-shoulder shot of the incomplete artwork.\nShe gazes at it thoughtfully — calm, paused, not defeated.\nWarm light lingers",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 50,
+      "likes": 53,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -636,7 +886,7 @@
       "tweet_text": "🚨PromptShare🚨\nEpic tracking shot with Seedance 2\nMade in Runway\n\nPROMPT\nA heavily armored military convoy with aggressive design, mounted weapons firing, engines roaring loudly.\nRaces at full speed through a desert while explosions detonate around and behind the vehicles.\nOpen desert battlefield with dust storms, burning wreckage, and incoming missiles.\nLow-angle tracking shot glued to the front vehicle transitioning into aerial sweep, whip pans following explosions, dust and fire interacting with lens, high-energy chaotic movement",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 49,
+      "likes": 56,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -661,7 +911,7 @@
       "tweet_text": "Created with Gpt Image 2 + Seedance 2.0 on @SJinn_Agent \n\nPrompt:\n\nCreate a clean, bright skincare commercial storyboard in a 16:9 layout with 9 panels. Use soft natural lighting, minimal aesthetic, and a fresh, airy mood with white and pastel tones. The main character is a young woman with soft makeup and styled hair, wearing light, elegant clothing. The setting is a modern, sunlit interior with large windows and a calm atmosphere. No text or subtitles anywhere.\nShow a clear story flow: she starts at her desk looking slightly tired or concerned, then a close-up of her face showing dry or dull skin. She discovers a clear skincare bottle and gently presents it. Show a close-up of the liquid pouring onto her hand, followed by her applying it to her face. After use, her skin looks hydrated, glowing, and smooth. Transition to her feeling confident and refreshed, walking in a bright, clean space with soft breeze and flowing elements. End with a calm product beauty shot on a minimal surface, then a final frame of her smiling softly at the camera while holding the product.\nFocus on natural expressions, glowing skin, and a transformation from dull to fresh. Include cinematic close-ups, soft focus, light reflections, and subtle sparkles to enhance the clean beauty feel. Keep everything elegant, minimal, and visually soothing with no branding text.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 235,
+      "likes": 295,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -711,7 +961,7 @@
       "tweet_text": "Created with seedance 2.0 on @yapper_so \n\nInnocent Cat is Saved by Kind man.\n\nPrompt: \nA small frightened kitten sits alone on a street at the beginning. A kind man gently approaches and carefully picks up the kitten with both hands. The kitten initially looks scared but quickly relaxes in his arms. The man smiles softly, holding the kitten close to his chest. The kitten starts to look happy and सुरक्षित, slightly wagging its tail and blinking slowly. Warm golden sunlight fills the scene, creating a soft emotional glow. Background is slightly blurred with natural greenery. Cinematic camera movement, slow motion, shallow depth of field, ultra-realistic, 4K quality, emotional storytelling, soft lighting.\n\nYou can also try 👇👇",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 82,
+      "likes": 83,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -736,7 +986,7 @@
       "tweet_text": "Seedance 2.0\n\nPrompt:  \n\nClassic retro cartoon style. Scene One: A bustling Egyptian marketplace transitions into a large tent. The tent is isolated from the outside world. A muscular jackal merchant Anubis, wearing armbands, with his sleeves rolled up bare, is tied to a table, his wrists and ankles shackled, his arms forcibly raised overhead, unable to move a muscle. Two bird-like pirates, a captain and a henchman, stand beside him. The captain orders Anubis to lead the way to the ancient treasure. Scene Two: Anubis scoffs with a dismissive \"Hmph,\" turns his head away, closes his eyes, and says nothing. Scene Three: The captain grins wickedly and pulls out a feather. Anubis notices, growing somewhat worried, shakes his head slightly, and says, \"Please, not the feather.\" Scene Four: The bird-like captain extends the feather toward Anubis's armpit, and Anubis says again with worry, \"Anything but that!\" Scene 5: A close-up shot shows the captain tickling Anubis's armpit with the feather, accompanied by comical sound effects. At the same time, we hear Anubis's reluctant laughter. Scene 6: A close-up shot focuses on Anubis's upper body; his eyes squeezed shut, he grins widely with muffled laughter as the feather continues to slide up and down his armpit. Scene 7: The captain keeps tickling Anubis's armpit with the feather; Anubis giggles, trying to shift his upper body, but the handcuffs hold him fast, and the feather persists in teasing his armpit. Scene 8: The captain continues tickling Anubis's armpit with the feather; Anubis laughs and finally says, \"Stop! I'll tell you, just stop tickling!\" Then he bursts into laughter again. Anubis's voice is deep.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 1155,
+      "likes": 1203,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -786,7 +1036,7 @@
       "tweet_text": "Robot Ant on mission \n\nTrying something fun\n\nSeedance 2.0 on \n@SJinn_Agent\n \n\nPrompt:\n\nScene 1: The Blueprint (0-3s) A tiny, resourceful ant named Barnaby stands on a kitchen counter, wearing a miniature high-tech visor. A blueprint of a donut is projected in front of him. A single, colossal rainbow sprinkle rests beside him.\n\nScene 2: The Approach (3-6s) Barnaby cautiously approaches the sprinkle. The camera zooms in dramatically, emphasizing the ant’s small size against the bright, textured surface of the confectionery.\n\nScene 3: The Heavy Lifting (6-9s) He attempts to lift the sprinkle. Barnaby strains, his antennae vibrating. He leverages his tiny strength, but the sprinkle remains frustratingly rooted to the counter.\n\nScene 4: The Innovation (9-12s) Suddenly, a tiny, segmented robotic leg extends from Barnaby’s backpack. He uses the device to effortlessly pry the sprinkle loose, a digital cheer icon appearing above his visor.\n\nScene 5: The Sweet Success (12-15s) The robotic leg helps Barnaby carry the massive sprinkle on his back. He marches off screen, humming a tiny tune, the colorful prize a gleaming testament to his victory.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 89,
+      "likes": 95,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -886,7 +1136,7 @@
       "tweet_text": "Prompt for Seedance 2.0 👇\n\nStep 1: \n\nDrop your selfie into GPT Image 2:\n\nPhotorealistic full-body shot of a person reclined\non a wooden beach lounger by the sea. They wear a\nwide-brimmed black sun hat and oversized dark\nsunglasses, casual summer outfit. They hold a tall\niced coffee, a faint soft smile, completely relaxed.\nUnbothered.\n\nBehind them, far across the horizon, a massive\nnuclear mushroom cloud rises into the sky — glowing\norange at the base, billowing grey smoke, dominating\nthe entire background. Distant but huge.\n\nWarm golden-hour light, faint orange glow from the\nexplosion catching the hat brim. Shot on 35mm lens,\nnatural skin texture, slight grain, candid feel,\nshallow depth of field.\n\nUse the attached photo as the face reference — face\nshape, eye shape, nose, lips, hair color.\n\nStep 2: \n\nAnimate the picture with Seedance 2.0: \n\nThe person from the Image 1 slowly lifts the iced coffee, takes a sip through\nthe straw, lowers it, and gives a faint soft smile\ntoward the camera.\n\nA gentle ocean breeze moves her/his hair.\n\nIn the background, the mushroom cloud billows upward,\nsmoke rolling and rising slowly, glowing at the base.\n\nCamera: locked-off, very slight slow push-in.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 9,
+      "likes": 10,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -961,7 +1211,7 @@
       "tweet_text": "🚨PromptShare🚨\nEpic shot with Seedance 2\nMade in Higgsfield\n\nPROMPT\nA military helicopter dives between skyscrapers firing missiles, opening on a cockpit close-up with reflections of the city, camera pulling out into a dynamic aerial tracking shot as missiles launch, transitioning into an FPV chase following one missile weaving through buildings before impact, explosion tearing through glass and steel, camera shaking violently from the blast, smoke and debris filling the frame.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 53,
+      "likes": 58,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -986,7 +1236,7 @@
       "tweet_text": "GPT Image 2 + Seedance 2.0\nPROMPT = Create a 15-second vertical short video in 9:16 format, continuing the same visual world: Abraham Lincoln in 1861 inside a modern TikTok livestream. The image combines old-photo grain, faded sepia textures, Civil War-era interiors, and highly saturated livestream overlays.\nCharacter identity must be strictly bound to the Lincoln character reference image. Keep the same facial structure, beard, stovepipe hat, black suit, age, and overall presidential presence exactly consistent. Do not replace him with another person, do not make him younger, and do not drift away from the reference identity.\nThe office environment and visual atmosphere should reference the environment image: a dim Civil War-era office, weathered wall textures, a large old war map, a wooden desk, scattered papers, and historical props. Keep the environment grounded in 1861 while allowing modern livestream comments and graphic overlays to invade the frame.\nThe reference audio should influence rhythm, pacing, and sound design only. The final result should feel like epic historical ambience mixed with modern trap-driven livestream energy.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 28,
+      "likes": 34,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -1061,7 +1311,7 @@
       "tweet_text": "I was shocked when I saw what was generated with Seedance 2.0 \n\nIn the last scene, the face reflected in the window glass is expressed even though I didn't specify it in the prompt!!! \n\nHaving this as footage makes such a huge difference in the impression—it's an amazing follow-up \n\nPrompt is in the reply with \n\nBy Higgisfield",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 62,
+      "likes": 63,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -1111,7 +1361,7 @@
       "tweet_text": "From terror to trust, a forgotten guardian returns in the heart of the storm.\n\nCreated with Seedance 2.0 on \n@SJinn_Agent\n \n\nPrompt: Shot 1 (00:00–00:02) – WS, Rainy Night, Forward Tracking\nA narrow, ancient village alley drenched in relentless rain. Water streams down slanted rooftops and floods uneven stone pathways, reflecting flickering lantern light.\nA young girl runs barefoot through the المياه, her soaked dress clinging to her as she struggles to keep balance. Behind her, shadowy figures move unnaturally—distorted, stretching and glitching with each lightning flash as they close in.\nVFX: Heavy rain simulation, reflective wet surfaces, lightning illuminating distorted shadows.\nSFX: Thunder cracks, rapid splashing footsteps, howling wind.\nShot 2 (00:02–00:04) – CU, Panic Fall, Slight Handheld Shake\nShe suddenly slips and crashes onto the wet stone. Water splashes outward.\nClose on her face—rain mixes with tears, her breath sharp and uneven. Her trembling hands push against the ground as she tries to move back, eyes locked on the approaching darkness.\nVFX: Detailed splash simulation, motion blur, lens water droplets.\nSFX: Intensifying heartbeat, heavy breathing, rain striking surfaces.\nShot 3 (00:04–00:06) – LS, Violent Ground Eruption\nThe ground beneath the shadows fractures violently. Stone explodes upward in a powerful shockwave, sending debris and المياه into the air.\nA massive dragon bursts from below—its body dark and armored, faint glowing veins pulsing beneath its scales. It rises between the girl and the shadows, instantly scattering them into fragments of darkness.\nVFX: Ground destruction, flying debris, glowing cracks, volumetric dust.\nSFX: Deep impact boom, layered dragon roar with sub-bass rumble.\nShot 4 (00:06–00:08) – CU, Emotional Realization, Slow Push-In\nThe girl freezes, looking up. Her fear begins to fade.\nLightning briefly illuminates the dragon’s face—its glowing eye calm, focused. The reflection of that eye fills hers. The rain appears to slow slightly in this moment.\nVFX: Eye reflection detail, subtle slow-motion rain, soft glow from dragon’s eye.\nSFX: Thunder fades into low ambient tone, rain softens.\nShot 5 (00:08–00:11) – MS, Gentle Interaction, Static Frame\nThe dragon slowly lowers its massive head toward her, movements controlled and careful.\nIt gently nudges her shoulder. Water droplets slide across its scales, glowing faintly as they fall.\nShe hesitates, then slowly lifts her hand toward it, tension leaving her body.\nVFX: Subtle bioluminescent pulses under scales, detailed water interaction.\nSFX: Deep calm breathing, soft ambient hum.\nShot 6 (00:11–00:13) – LS, Protective Wing Expansion\nThe dragon spreads its विशाल wings wide, forming a protective barrier around her.\nRain violently hits the outer surface of the wings, but inside the space becomes still—dry, warm, and silent. The contrast between chaos outside and calm inside is immediate and striking.\nVFX: Rain deflection on wings, cold blue tones outside vs warm glow inside.\nSFX: Wind muffled, rain hitting wing surface, low protective resonance.\nShot 7 (00:13–00:15) – CU, Emotional Close, Soft Fade\nShe places her hand gently against the dragon’s face.\nAt the moment of contact, a warm golden light spreads outward, gradually replacing the cold storm tones. The rain visually and audibly fades.\nHer expression softens completely—fear replaced by trust. The dragon slowly closes its eye.\nThe scene fades into darkness with a lingering glow between them.\nVFX: Warm light bloom, gradual rain fade-out, soft vignette fade.\nSFX: Ambient tone dissolving into silence, final soft breath.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 122,
+      "likes": 138,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -1311,7 +1561,7 @@
       "tweet_text": "What if workouts were generated like this?\n\nBuilt a dumbbell routine as a motion sheet with GPT Image 2\n\nThen turned it into a video with Seedance 2.0\n\nI tested 4 exercises in 15s, it works, but 2–3 exercises would probably give the best output. \n\nMotion sheet:\nMonochrome grayscale technical illustration, biomechanically accurate fitness instruction sheet, clean 3D anatomical character, scientific diagram aesthetic, minimalistic, no artistic exaggeration\n\n2x4 grid layout (8 panels total), perfectly aligned cells, equal spacing, thin black borders, numbered from 1 to 8\n\nNeutral athletic human body (gender-neutral), proportional anatomy, consistent character across all panels\n\nDumbbell workout sequence (key positions only):\n1. Dumbbell curl (start position)\n2. Dumbbell curl (top contraction)\n3. Shoulder press (start at shoulder level)\n4. Shoulder press (overhead lockout)\n5. Dumbbell lateral raise (arms down)\n6. Lateral raise (arms at shoulder height)\n7. Dumbbell squat (standing start)\n8. Squat (bottom position)\n\nTop-left: bold number + exercise name (English)\nCenter: full-body pose (clear joint positions)\nBottom-left: short technical explanation (2–3 lines, correct form cues)\nOverlay: directional arrows showing movement path (up/down/arc)\n\nCorrect joint alignment, neutral spine, proper elbow and knee positioning, realistic weight distribution, no exaggerated motion\n\nHighly detailed grayscale shading, soft studio lighting, subtle shadows, clean linework, medical / sports science diagram quality\n\nPure white background\n\nNo colors, no background environment, no extra elements, no stylization, no blur",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 16,
+      "likes": 17,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -1584,7 +1834,7 @@
       "tweet_text": "Seedance 2.0 Prompt : Create a dramatic and epic aerial fight scene between a lone warrior riding a massive black dragon and a colossal fire monster in the stormy sky at golden hour sunset.\n\n2-second hook: Start with an extreme wide aerial shot. The warrior on the dragon's back charges directly toward camera at high speed through dark storm clouds. Suddenly, the giant fire monster bursts out from behind a cloud with a deafening roar, its body engulfed in flames. The camera violently whips around as the dragon and fire monster nearly collide mid-air, creating a massive burst of fire and wind.\n\nMain sequence:\n- Epic aerial battle high above a mountain range at sunset. Dramatic golden-orange and deep purple sky with storm clouds.\n- The black dragon is enormous, powerful, with glowing red eyes and huge beating wings that create visible wind trails and embers.\n- The warrior is a fierce, armored fighter standing on the dragon's back, dual-wielding glowing swords.\n- The fire monster is colossal, serpentine, with molten rock skin, giant flaming wings, and a mouth that constantly spews streams of liquid fire.\n\nCamera work: Dynamic, cinematic aerial shots — sweeping drone-like tracking shots, orbiting around the fight, vertigo dives, fast whip-pans, low-angle shots looking up at the monsters, and extreme wide shots showing the scale of the battle.\n\nKey moments:\n- Dragon and fire monster clash mid-air, wings colliding, creating a massive explosion of fire and sparks.\n- Warrior leaps from the dragon's back, attacks the fire monster's head in slow-motion while the dragon breathes black fire from below.\n- Fire monster roars and unleashes a huge stream of flames. Dragon and warrior dodge dramatically through the fire.\n- Close-up shots of the warrior's determined face, dragon scales reflecting fire light, and the monster's burning eyes.\n- Final climax: Warrior channels energy into his swords and delivers a powerful downward strike into the fire monster's back as the dragon dives with him.\n\nLighting: Dramatic golden hour sunset lighting mixed with intense fire glows. Volumetric god rays through storm clouds. Fire illuminates the undersides of clouds and characters.\n\nAtmosphere: Epic, intense, cinematic. Flying embers, burning debris falling from the sky, strong wind effects, dramatic cloud movement.\n\nTechnical specs:\n- Duration: 12-15 seconds\n- Resolution: 4K\n- Frame rate: 24fps (cinematic)\n- Aspect ratio: 16:9\n- Style: Highly cinematic, epic fantasy action, dramatic lighting, intense scale and movement\n\nMake it extremely dynamic, visually spectacular, and emotionally intense.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 2,
+      "likes": 3,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -1709,7 +1959,7 @@
       "tweet_text": "15-second continuous single-shot action sequence.\nNo cuts. No scene transitions.\n\nCinematic stylized 3D animation, painterly lighting, expressive character design, detailed textures, strong color contrast (warm vs cold), volumetric light, cinematic 35mm lens, subtle depth of field, high-end animated film quality\n\nColor palette contrast:\nCharacter A → warm tones (orange, gold, dust)\nCharacter B → cold tones (cyan, magenta, neon glow)\n\nScene:\n\nIndustrial bridge suspended over a deep urban drop. Pipes leaking vapor. Flickering lights. Night atmosphere with heavy haze.\n\n0–3s — tension build\n\nCamera slowly pushes forward between both characters.\nCharacter A: close-range fighter with heavy powered gauntlets, grounded stance.\nCharacter B: agile, unpredictable, holding a compact hextech firearm with glowing components.\nSilence. Only distant machinery.\n\n3–6s — ignition\n\nCharacter B fires first — fast, erratic shots.\nCamera whips sideways as Character A blocks with gauntlets — sparks and energy bursts.\nImmediate forward rush from Character A.\n\n6–10s — chaos choreography\n\nClose combat + ranged interplay.\nCharacter A uses weight and direct strikes — punches feel heavy and impactful.\nCharacter B dodges with acrobatic movement, sliding along railings, firing mid-motion.\nCamera circles tightly, alternating focus between both styles.\nEach impact has clear anticipation → contact → follow-through.\n\n10–13s — escalation\n\nCharacter B leaps backward, charging weapon — unstable energy build.\nCharacter A charges forward simultaneously, gauntlets glowing brighter.\nEnvironment reacting: steam bursts, metal rattling.\n\n13–15s — final frame\n\nMid-air collision moment.\nPunch vs energy blast.\nLight fills frame.\nCut to silhouette of both figures frozen in impact. Freeze.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 44,
+      "likes": 45,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -1759,7 +2009,7 @@
       "tweet_text": "Seedance 2.0 Prompt:\n\nUse the provided character sheet @[image1] as reference.\n\nCreate a cinematic character introduction video.\n\nOpen with the character looking into camera and speaking naturally, introducing herself in her own words.\n\nDo not treat the sheet as a single image. Use its elements as separate shots.\n\nStructure:\ndetail → identity → presence → full reveal\n\nMake the character active:\nshe moves, reacts, interacts with her environment and prop while talking\nshort, natural gestures, small shifts, purposeful motion\n\nShow acting range:\nsubtle emotional shifts while speaking (confidence, hesitation, curiosity, intensity)\nexpress through micro-expressions, eyes, tone, and body language\n\nInclude:\nface close-ups, outfit/material details, prop usage, expressive performance moments\n\nKeep everything grounded and realistic.\n\nCamera:\ncontrolled, minimal movement (soft push-ins, light tracking, subtle handheld)\n\nLighting:\ncinematic and consistent\n\nEnd on a confident mid or full shot, character fully established.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 66,
+      "likes": 68,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -1909,7 +2159,7 @@
       "tweet_text": "He calculated everything, except feelings\n\nCreated with Seedance 2.0 on @SJinn_Agent \n\nPROMPT:\nStylized 3D animated short, bright colors, soft cinematic lighting, playful and heartwarming tone (~15s). Consistent characters: BOLT, sleek silver robot with glowing blue LED eyes, antenna, chest display; JAX, scruffy 10-year-old boy, messy dark hair, green hoodie.\nScene flow:\nLiving room, warm afternoon. JAX eats cereal watching TV while BOLT scans and says it’s “42% soggy.” JAX rolls eyes. A puppy scene makes JAX tear up; BOLT scans and asks if he needs repair. JAX laughs: “That’s crying.”\nBOLT’s chest shows “Emotion Module Installing.” Eyes flicker. He attempts a smile—awkward and scary. JAX reacts. JAX gives him a puppy plush; BOLT’s chest lights up with a heart.\nClose-up: BOLT’s eyes turn warm amber, a metallic tear forms. “I am leaking.” JAX hugs him.\nFinal wide shot: both watching TV together, BOLT holding plush, heart glowing. “Can we watch it again?” Warm sunset fade.\nAudio: light orchestral, robotic hums, soft piano.\n Style: smooth animation, expressive lighting, cinematic, emotional-comedy.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 57,
+      "likes": 58,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -2059,7 +2309,7 @@
       "tweet_text": "A force rose from the ocean, she ended it without fear.\n\nCreated with Seedance 2.0 on @SJinn_Agent \n\nPROMPT:\nBeautiful young Japanese woman (realistic, pastel blue t-shirt, cargo pants) on a beach.\n0:00–0:02 Close-up → she looks at ocean.\n 0:02–0:04 Ocean explodes, sea monster emerges, chaos.\n 0:04–0:05 She stands calm.\n🗣️「マジでうるさい…」\n0:05–0:07 Sand + debris lift, air distorts, weapon forms.\n 0:07–0:09 She charges at extreme speed, monster charges back.\n 0:09–0:10 Mid-air impact → shockwave.\n🗣️「静かにして。」\nPhase 2: She recovers, monster evolves, power intensifies.\n🗣️「…面倒になってきた。」\nWeapons orbit → final charge.\n🗣️「これで終わり。」\nFinal: Massive strike → monster collapses.\nWide shot: she stands alone.\n🗣️「終わった。」",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 68,
+      "likes": 69,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -2159,7 +2409,7 @@
       "tweet_text": "Seedance 2.0 on @yapper_so\n\nPrompt \nA cinematic, continuous rightward panning tracking shot depicting the journey of life from birth to old age through seamless transitions. The camera slides smoothly past walls, doors, and curtains to reveal different stages of life in chronological order. It begins in a hospital room with a crying newborn baby on a medical cart, passing through a blue curtain into a bright preschool classroom where a toddler plays. The camera continues panning right into a sunny schoolyard with kids running with backpacks, then seamlessly glides through a wall into a teenager's bedroom where a boy jumps on his bed. The pan continues onto a leafy college campus with a young man walking with a backpack, then immediately transitions into a bustling city crosswalk in Times Square. Moving right, the scene shifts to an elegant wedding reception with a couple dancing amidst falling confetti, then to a green park where a middle-aged father watches children play. The camera passes through a house wall into a cozy living room where a man gently helps an elderly woman sit down. The final scene rests on the elderly woman sitting peacefully in an armchair, smiling softly as warm golden hour sunset light streams through the window.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 68,
+      "likes": 67,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -2184,7 +2434,7 @@
       "tweet_text": "She thought it was a treasure, but the real surprise was something else \n\nMade with Seedance 2.0 on \n@yapper_so\n\n\nPROMPT:\n0:00–0:03\nRear tracking shot. She walks carefully through cave, torch lighting walls, braids and keychain bouncing.\n0:03–0:06\nBats suddenly rush from ceiling. She ducks, shields face, keeps moving.\n0:06–0:08\nCave opens. Treasure chest revealed on platform. She slows, eyes widen with curiosity.\n0:08–0:10\nShe steps onto platform and opens chest carefully.\n0:15–0:17\nInside: only a folded weathered note. Dust floats in warm light.\n0:17–0:20\nShe unfolds it slowly. Soft magical glow appears.\n0:20–0:22\nText reveals: “Don’t forget to follow Yapper”\nHer expression: surprised, delighted “oh…”\n0:22–0:24\nShe leans back smiling. Unicorn keychain swings. Mood turns playful.\n0:24–0:25\nCamera pulls back. Chest glowing softly, cave calm again.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 6,
+      "likes": 7,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -2709,7 +2959,7 @@
       "tweet_text": "Storm of Fire and Magic. Epic Battlefield Clash in a Lightning-Forged Fantasy Warzone\n\nCreated with Seedance 2.0 on @yapper_so if you want to learn how to create prompt given below. https://t.co/OK3e4vWief",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 141,
+      "likes": 144,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -2909,7 +3159,7 @@
       "tweet_text": "Created with Seedance 2.0 on \n@yapper_so\n \nPrompt:\nUltra-realistic cinematic video, 4K–8K resolution, 24fps, wide-angle lens (24–35mm). Scene: a peaceful green meadow with soft sunlight, gentle wind moving grass, and an old tree with a small burrow at its base. Action sequence: 0–3s: A white rabbit runs across the meadow and pauses briefly near the tree, then quickly enters a small hole 3–6s: A young girl(named amna) approaches, kneels, and looks into the hole → the ground subtly opens into a glowing tunnel, soft warm light emerging from within 6–8s: Transition into the underground world as she moves downward → camera follows smoothly into a vast hidden realm with glowing trees, floating rocks, and soft luminous rivers 8–10s: Wide cinematic reveal of the new world → the rabbit stands ahead, waiting calmly as the girl(amna) steps forward in quiet awe Camera movement: Smooth tracking shot following the rabbit → slow push-in toward the hole → seamless transition into a descending motion → wide reveal at the end Lighting: Natural daylight in meadow → warm glowing tunnel light → soft surreal luminous lighting in underground world Environment details: Realistic grass movement, subtle dust particles, glowing elements kept natural and controlled, no exaggeration Strict constraints: Smooth transitions, no sudden cuts No distortion or morphing errors Maintain consistent character proportions Realistic motion and physics Voice-over (soft, storytelling tone): “It started with something small…” “A simple path…” “But some doors…” “Lead to entire worlds.”",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 144,
+      "likes": 147,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -2959,7 +3209,7 @@
       "tweet_text": "Let's fly in the sky\n\nGpt image 2 + Seedance 2.0 on @yapper_so \n\nPrompt\n\nCreate a cinematic animated short film in a hand-painted, Ghibli-inspired aesthetic with soft lighting, emotional storytelling, and natural environmental motion. The tone is magical, nostalgic, and deeply atmospheric.\nThe story follows a peaceful countryside village and a young inventor who builds a flying machine that changes how the village sees the sky.\n🌿 SCENE FLOW (SEQUENTIAL VIDEO STRUCTURE)\n1. Establishing Village (Slow cinematic pan) Wide aerial shot of a lush green countryside village at sunrise. Rolling hills, rice fields swaying in wind, smoke rising from wooden houses. Soft golden light, peaceful ambient atmosphere, birds flying across the sky. Slow camera push-in.\n2. The Hidden Workshop (Interior reveal) Cut to a cozy wooden inventor’s workshop filled with sketches, mechanical parts, and warm sunlight beams through dusty windows. Camera slowly moves across blueprints of a flying machine. Subtle floating dust particles, intimate mood.\n3. The Inventor Moment (Character focus) Close-up of a young inventor sketching intensely. Emotional expression, soft lamp lighting on face, hands moving quickly across paper. Camera slowly rotates around character, showing determination and loneliness.\n4. Machine Reveal (Hero object shot) The handcrafted flying machine is revealed—wood, brass, fabric wings. Camera low-angle orbit shot, slow dramatic reveal. Light glinting off metal parts. Subtle wind movement makes wings slightly shift.\n5. First Flight Launch (Action sequence) The machine launches from a grassy hill above the village. Fast wind movement, grass bending, villagers running into frame below. Camera follows the machine accelerating upward into sky. Dynamic motion blur.\n6. Mid-air instability (Tension moment) Flying machine tilts in turbulent wind. Camera shakes slightly, dramatic clouds swirling. Close-up of rotating wings struggling. Sound of wind intensifies. Emotional tension builds.\n7. Village Reaction (Cutaway emotional shot) Villagers watching from below—children pointing, elders reacting in awe. Warm sunset lighting. Slow-motion emotional expressions. Camera pans across crowd faces.\n8. Above the clouds (Calm transformation) Machine stabilizes above a glowing cloud sea. Peaceful silence replaces tension. Soft golden-orange sky blending into deep blue. Camera drifts slowly around the floating machine.\n9. Magical Encounter + Ending (Climactic emotional finish) A glowing ethereal spirit-like light entity appears in the sky near the machine, gently illuminating everything. The inventor looks up in awe. Camera pulls back slowly into a vast sky revealing infinite clouds. Fade out into sunset.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 150,
+      "likes": 151,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -3009,7 +3259,7 @@
       "tweet_text": "Who’s adding this to the cart?\n\nCreated with Gpt Image 2 + Seedance 2.0 on @SJinn_Agent \n\nPrompt:\n\nA cheerful and attractive American female influencer is doing a livestream product promotion, holding a bottle of \"Glow Radiance Vitamin C Serum\" and presenting it to the camera. She speaks in fluent English with a natural American accent, using a lively, friendly, and persuasive tone like a professional livestream seller. She smiles warmly, maintains eye contact with the camera, and uses natural hand gestures while talking. She says:\n\"This Vitamin C serum gives your skin such a beautiful glow! It’s lightweight, super hydrating, and perfect for daily use. And right now, we’ve got a limited-time deal in the livestream for just $29—it’s honestly such a steal!\"\nThe scene is styled like a modern e-commerce livestream interface. There are floating chat comments on the left, gift animations (hearts, fireworks, virtual gifts), and a product info card on the right showing the price and a purchase button. The livestream viewer count displays \"100K+\" viewers.\nCamera shot: medium close-up, soft lighting, clean and premium look, with a slight camera push-in movement.\nOverall style: high-end, warm aesthetic inspired by Japanese commercial visuals, polished and engaging livestream atmosphere.\nLanguage: English\nAccent: American\nLip sync: enabled\nTone: energetic, friendly, persuasive\nSpeaking speed: natural, slightly fast (livestream style)",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 490,
+      "likes": 489,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -3209,7 +3459,7 @@
       "tweet_text": "Realistic vs Manga style \n\nLeft side - text to video \nRight side - Image to video \n\nSeedance 2 and GPT Image 2 \n\n@higgsfield https://t.co/9WHehc6awp",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 5,
+      "likes": 6,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -3359,7 +3609,7 @@
       "tweet_text": "GPT Image 2 + Seedance 2 in one prompt, here's the chain that makes it work🎬\n\nWe asked Lumi: Draw a 15-panel comic in the style of Haruki Murakami.\n\nShe generated it in GPT Image 2. A quiet story about a guy, a ginger cat, and the last tram. Purple sunset, waterfront, Fuji on the horizon. Then Lumi automatically handed off to Sonic, to animate it.\n\nThat's the whole pipeline. One prompt, start to finish ✅",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 2,
+      "likes": 3,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -3509,7 +3759,7 @@
       "tweet_text": "Seedance 2.0 on \n@SocialSight\n \n\nPrompt:\nUltra-realistic cinematic scene at a destroyed Gwanghwamun Gate. Cracked roads, burning vehicles, debris, and smoke fill the square. Damaged statues of Sejong the Great and Yi Sun-sin in background. Handheld camera, shallow depth, motion blur, heavy impacts, sparks, no fantasy effects.\n[Character]\nAsian female (exact match to @image_1), torn white dress, covered in dust, calm and focused.\n[Armor]\nModular exosuit (purple + silver-teal from \n@image_2\n). Pieces fly in and lock with metallic precision, sparks, and impact sounds.\n[Enemies]\nFast grey-black beasts with claws and glowing red eyes attacking from all sides.\nShots (0–15s)\n0–2s: Wide shot. Hero runs through ruins as monsters chase. Armor pieces approach fast.\n2–6s: Boots, legs, waist, torso attach mid-run with metallic locks.\n6–9s: Helmet seals. Purple energy glows. Camera orbits as enemies close in.\n9–15s: Combat—punch sends one flying, second thrown into explosion, final hit creates ground shockwave. Hero ends in a half-kneeling pose.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 261,
+      "likes": 260,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -3584,7 +3834,7 @@
       "tweet_text": "Are you ready for grocery shopping with me?\n\nGpt Image 2 + Seedance 2.0 on @SJinn_Agent \n\nPrompt\n\nimage_1 as the storyboard sequence reference. Follow the nine panels in order as a single 15-second animated short GLOBAL CONSISTENCY (apply to all shots)\nSame young woman, same face, same hairstyle, same casual outfit, same body proportions across all shots, no variation. Bright supermarket interior, fully stocked shelves, natural store lighting, realistic colors, handheld/vlog realism, subtle camera imperfections, real-world physics, 16:9 aspect ratio.\n\nSHOT 1 – Establishing Tracking\nWide establishing shot, young woman pushes a shopping cart into a bright supermarket aisle, smiling directly at camera, steady side tracking shot moving parallel to her, smooth motion, shelves passing in background, natural lighting, vibrant but realistic colors\n\nSHOT 2 – Engagement Beat\nMedium tracking shot, she continues walking, glances at camera and gestures casually as if inviting viewer along, relaxed smile, cart rolling smoothly, slight depth of field, natural movement\n\nSHOT 3 – Discovery Moment\nMedium shot transitioning into slow push-in, she slows down and notices a product on the shelf, expression shifts to curiosity, hand reaching out, camera subtly moves closer\n\nSHOT 4 – Product Interaction\nMedium close-up, she picks up the product and examines it, reading the label carefully, fingers adjusting grip naturally, slow push-in continues, realistic focus breathing, soft background blur\n\nSHOT 5 – Approval Close-Up\nClose-up on face and product, she nods with approval and smiles slightly, natural micro-expressions, warm lighting on skin, shallow depth of field, vlog-style intimacy\n\nSHOT 6 – Over-the-Shoulder Placement\nOver-the-shoulder shot, she places the product into the cart, basket visible in foreground, handheld camera feel with slight natural shake, realistic motion and timing\n\nSHOT 7 – Personality Moment\nMedium shot, she turns toward camera while lightly laughing and saying something casual, friendly and spontaneous energy, relaxed posture, subtle handheld motion\n\nSHOT 8 – Continued Shopping Motion\nWide shot, she resumes walking down the aisle, quickly grabbing another product without stopping, smooth dolly follow, slightly faster pacing, shelves moving past dynamically\n\nSHOT 9 – Outro Walkaway\nWide rear tracking shot, she pushes the cart forward down the aisle, briefly looks back toward camera with a smile, aisle depth visible, lighting consistent, calm natural ending",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 137,
+      "likes": 138,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -4233,7 +4483,7 @@
       "tweet_text": "Created with Seedance 2.0 on \n@yapper_so\n \n\nPrompt: Minimal lab setup, soft blue lighting, 4K–8K, 24fps. A computer screen displays a simple communication interface.\nCamera: over-the-shoulder → slow push-in.\nAction sequence:\nScientist types a message labeled “To Future Self”\nHe sends it\nInstantly, a reply appears\nHe reads it slowly\nHis expression becomes serious\nMessage on screen: You don’t change anything.\nStrict constraints:\nClean readable UI\nNo glitching text\nNatural typing motion\nStable lighting\nVoice-over\nI thought I could learn from the future…\nFix my mistakes…\nBut the answer came fast…\nAnd it wasn’t what I expected.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 146,
+      "likes": 145,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -4291,7 +4541,7 @@
       "tweet_text": "created with seedance 2.0 on \n@yapper_so\n \n\nprompt : Cozy indoor scene, warm ambient lighting, 4K–8K, 24fps. Wooden desk with an old book. Dust particles visible in soft light.\nA person sits scrolling on phone, ignoring the book.\nCamera: slow push-in, steady.\nAction sequence:\nPerson scrolls casually\nPauses, looks at book\nPuts phone down\nOpens book slowly\nFirst page reveals handwritten text: “I waited.”\nText is already written, no animation.\nStrict constraints:\nRealistic paper texture\nNo UI glitches\nNatural motion only\nConsistent lighting\n\nVoice-over\nIt never asked for attention…\nIt just waited…\nQuietly…\nAnd maybe… that’s why I missed it.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 139,
+      "likes": 138,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -4610,7 +4860,7 @@
       "tweet_text": "🚨PromptShare🚨\nFPV tracking shot prompt for Seedance 2 #DreaminaCPP\n\nPROMPT\nA young woman with short hair, scratched face, eyes wide in panic, wearing casual urban clothes covered in dust, body tense and reactive.\nSprints through collapsing streets, jumping over broken asphalt while a giant quadruped creature charges behind her smashing everything in its path.\ncity blocks with collapsing buildings, sparks from broken cables, fire spreading across vehicles.\nFPV tracking shot directly behind her with rapid head-like motion, micro jitters and sharp tilts, creature entering frame behind with each stride, debris hitting lens, intense motion blur and survival-driven chaos",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 64,
+      "likes": 65,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -6408,7 +6658,7 @@
       "tweet_text": "This time freeze effect is going viral and it's super easy to make using Seedance 2.0\n\nCheck the reply for the prompt. https://t.co/zYrTS1bt5g",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 1066,
+      "likes": 1067,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -6785,7 +7035,7 @@
       "tweet_text": "FPV video of the ancient Indian Videha kingdom\n\nCreated with Seedance 2.0\n\nPrompt used: extremely fast-paced cinematic FPV flying through the ancient Indian Videha kingdom, hyper-realistic, 4K, dynamic motion, rushing through grand palaces, temples, marketplaces, courtyards, scholars, people, golden sunlight, dramatic lighting, depth of field, epic scale, lush greenery, riverbanks, horses and chariots in motion, immersive, cinematic color grading, HDR, volumetric lighting",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 75,
+      "likes": 76,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -6988,7 +7238,7 @@
       "tweet_text": "Claude's newly released Claude Design is so insanely good that stocks for Figma, Adobe, and others are plummeting right now.  \nOverseas, they're calling it the SaaSpocalypse (the end of SaaS), but looking at this, it feels like we're about to see a ton of cases where existing big-name services suddenly get torched by AI, huh.\n\nSpreading awareness on the business side all at once through Cowork in January and February was a huge factor too.",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 1676,
+      "likes": 1677,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -7220,7 +7470,7 @@
       "tweet_text": "Another Seedance 2 Fast and Grok Imagine (Quality) Comparison!\n\nNote: Grok seems to love playing with the lighting as Seedance 2 Fast keeping it cinematic and vibes with the gritty viking theme.\n\nSame prompt, different results.\n\nTry it (optimised for 10 second clips):\nA weathered Norse chieftain wades through waist-deep prairie grass toward distant mesas in the untouched American heartlands. [0-3s]: Ultra-wide aerial shot revealing the Viking as solitary figure against infinite golden grasslands, Unreal Engine 5 nanite geometry rendering millions of individual grass blades. [3-7s]: Tracking shot at water level as he battles across turbulent river, heavy high-contrast shadows cutting across his armor, super crisp 35mm film grain texture. [7-10s]: Wide heroic shot atop canyon edge, overlooking endless wilderness below, anamorphic lens flare, dramatic sunset silhouette. UE5 Lumen global illumination, ray-traced shadows, hyper-detailed fur and mail, gritty cinematic color grading. avoid jitter, bent limbs, distorted faces, blurry motion, watermark, low-poly textures, oversaturation",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 9,
+      "likes": 10,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -7365,7 +7615,7 @@
       "tweet_text": "Racing through the end of the world like it’s just the beginning\n\nMade with seedance 2.0 on @yapper_so \n\nPROMPT:\n\none continuous shot, no cuts, cinematic hollywood blockbuster style, camera starts with a wide aerial view of a post-apocalyptic cyberpunk city, ruined buildings, broken highways, dust and smoke drifting in the air, slowly descending toward a cracked abandoned road, a red neon-lit sports car suddenly speeds into frame, camera dynamically dives down and transitions into a low angle tracking shot close to the ground, following the car as it accelerates, dust and debris flying, sparks under the chassis, then smoothly shifts into a side tracking shot moving parallel to the car, showing scratched metal body and glowing neon reflections on wet cracked asphalt, camera continues moving and swings behind into a rear chase perspective, following closely with intense motion blur and camera shake, dust trail and glowing taillights, reflections in puddles, then seamlessly pushes forward through the car into a first-person FPV view from inside the windshield, cracked glass, road rushing ahead, neon lights flickering in the distance, dust hitting the lens, then the camera pulls back out again into a wide cinematic shot as a massive explosion erupts in the background, debris flying in slow motion while the car speeds away, finally the camera rises upward into a dramatic aerial shot as the car drives toward the horizon, ruined cyberpunk skyline fading into fog under a toxic sunset sky, ultra realistic, 8k, volumetric lighting, motion blur, lens flare, film grain, high contrast, epic scale",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 80,
+      "likes": 81,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -7771,7 +8021,7 @@
       "tweet_text": "Frozen Elegance\n\nmade with Midjourney + Seedance 2 on @mitte_ai \n\nSeedance 2 also generated the music, and it matched the visuals surprisingly well, especially for a one-pass.\n\nPrompt below ↓ https://t.co/vqeme9zPHL",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 355,
+      "likes": 356,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -8206,7 +8456,7 @@
       "tweet_text": "Seedance 2.0 on \n@yapper_so\n\n\nPrompt :\n\nFORMAT: 15s / 120–140 BPM / 15 SHOTS / beat-synced / seamless match cuts\nSUBJECT:\nA confident woman in her mid-20s, sharp presence, natural makeup, neatly styled hair. Calm, focused energy.\nWARDROBE:\nMorning: soft lounge set (tee + relaxed pants)\nOffice: tailored blazer, fitted top, formal trousers, clean shoes\nEvening: blazer slightly relaxed, effortless look\nENVIRONMENT:\nModern apartment → elevator → busy city commute → corporate office → cafeteria → evening city streets\nSHOT LIST (15 beats):\nAlarm rings, close-up on phone, hand reaches out\nEyes open, soft daylight across face\nSitting up, tying hair quickly\nBathroom mirror — splashing water, droplets in motion\nLight makeup touch-up, focused expression\nButtoning blouse / adjusting outfit details\nPutting on blazer — smooth motion\nSliding on watch or bracelet\nWalking through apartment hallway, confident stride\nElevator doors close — match cut\nFast-paced walk through traffic, reflections and motion blur\nEntering office — glass doors open\nWorking at desk, typing, quick glance at screen\nLunch with colleagues — relaxed smiles, candid interaction\nEvening walk in city — warm lights, calm expression, subtle smile\nSTYLE & CAMERA:\nCinematic realism, soft skin tones, shallow depth of field\nDynamic transitions: whip pans, match cuts, speed ramps\nLighting progression: cool morning → neutral office → warm evening glow\nAUDIO:\nAmbient layers (alarm, footsteps, city, chatter) synced to beat",
       "source_network": "x",
       "reviewed_llm": false,
-      "likes": 68,
+      "likes": 69,
       "retweets": null,
       "screen": {
         "approved": true,
@@ -9037,7 +9287,7 @@
       "id": "x:2044363826624348205",
       "display_text": "'Driven by rhythmic music, featuring a continuous combination of fast-cut montage, slow motion, macro photography, and time-lapse to create a stunning high-tech atmosphere. No dialogue; only beats, low-frequency drum hits, breathing, and ambient sounds. 0-5s: The microscopic and hidden worlds invisible to the naked eye: ultra-macro of a water droplet bursting into a crown shape; floating pollen; sunlight particles; butterfly wing scales; sand grains vibrating on a speaker (sound wave visualization); time-lapse of clouds, star trails, and city crowds; underwater bubbles and light beams—visuals resembling \"AI visual enhancement.\" 6-13s: The beat suddenly intensifies, and the world dances to the music: auroras and green light bands surge; dolphins leap with frozen water splashes; schools of fish turn to form streamlined waves; ocean waves crash on the shore; flocks of birds take off in unison; wind blows over grass, fabric, and tree shadows; city crowds and traffic transform into rivers of light. 14-15s: Extreme macro close-up of a human eye. The pupil clearly reflects the preceding spectacles, leaving only the sound of a heartbeat.'",
       "tweet_text": "I tested Seedance 2.0 on BytePlus.\n\nPrompt: 'Driven by rhythmic music, featuring a continuous combination of fast-cut montage, slow motion, macro photography, and time-lapse to create a stunning high-tech atmosphere. No dialogue; only beats, low-frequency drum hits, breathing, and ambient sounds.\n0-5s: The microscopic and hidden worlds invisible to the naked eye: ultra-macro of a water droplet bursting into a crown shape; floating pollen; sunlight particles; butterfly wing scales; sand grains vibrating on a speaker (sound wave visualization); time-lapse of clouds, star trails, and city crowds; underwater bubbles and light beams—visuals resembling \"AI visual enhancement.\"\n6-13s: The beat suddenly intensifies, and the world dances to the music: auroras and green light bands surge; dolphins leap with frozen water splashes; schools of fish turn to form streamlined waves; ocean waves crash on the shore; flocks of birds take off in unison; wind blows over grass, fabric, and tree shadows; city crowds and traffic transform into rivers of light.\n14-15s: Extreme macro close-up of a human eye. The pupil clearly reflects the preceding spectacles, leaving only the sound of a heartbeat.'",
-      "likes": 3,
+      "likes": 4,
       "thumbnail": "media/thumbs/2044363826624348205.webp",
       "admin_feedback": {
         "action": "approve",
@@ -10157,7 +10407,7 @@
       "id": "x:2043705964264833530",
       "display_text": "extremely fast-paced cinematic FPV flying through the ancient Gandhara kingdom at its peak, hyper-realistic, 4K detail, golden-hour lighting, soaring over grand Buddhist stupas, Greco-Indian architecture, bustling ancient marketplaces, monks in saffron robes, intricate stone carvings, silk road traders, dramatic mountain backdrops, epic scale, immersive depth, volumetric lighting, atmospheric haze, film-grade color grading, ultra smooth stabilization, intense pacing, cinematic sound design",
       "tweet_text": "FPV video of the ancient Indian Gandhara kingdom\n\nCreated with Seedance 2.0\n\nPrompt: extremely fast-paced cinematic FPV  flying through the ancient Gandhara kingdom at its peak, hyper-realistic, 4K detail, golden-hour lighting, soaring over grand Buddhist stupas, Greco-Indian architecture, bustling ancient marketplaces, monks in saffron robes, intricate stone carvings, silk road traders, dramatic mountain backdrops, epic scale, immersive depth, volumetric lighting, atmospheric haze, film-grade color grading, ultra smooth stabilization, intense pacing, cinematic sound design",
-      "likes": 62,
+      "likes": 63,
       "thumbnail": "media/thumbs/2043705964264833530.webp",
       "admin_feedback": {
         "action": "approve",
@@ -10519,7 +10769,7 @@
       "id": "x:2043538730926182521",
       "display_text": "Ultra-cinematic urban rescue, photorealistic, realistic physics, grounded body motion, realistic falling weight, realistic timing. Night city backstreet behind a live music venue, wet asphalt, neon signage, light steam, reflections on pavement, hard colored edge light, shallow depth of field. ARRI Alexa look. 50mm primary lens, occasional 85mm close-up. Indian blockbuster-style snap zooms and heroic timing, but fully grounded visual physics. Characters: Minji Seo — adult Korean female idol, mid-20s, tall, calm, magnetic heroic presence, fast explosive movement. Black performance jacket, fitted black cargo pants, stage boots, in-ear monitor still visible. Reina Kurose — adult Japanese female idol, mid-20s, elegant, serious, calm, controlled presence. Long dark coat over silver-gray stagewear, boots, composed expression. Bonifaciy — fluffy white street cat asleep near the wall. Environment: Single narrow neon alley, one vertical shop sign, wet pavement, stacked crates, venue back door, soft steam drifting from a vent. No crowd. Keep the space clean and readable. Critical object rules: Only one falling sign panel visible in this clip. No duplicate panels. No extra falling debris. The sign panel freezes stable 5 to 10 cm above the cat. Stable freeze physics. No wobble, no flicker, no teleporting. 0-2s: Extreme close-up of the single vertical sign panel. Bolts snap loose. The sign panel detaches and begins a fast natural fall. 2-4s: Dramatic zoom out reveals Bonifaciy sleeping beside the wall below. The same sign panel is falling directly toward the cat. Wet neon reflections shimmer on the pavement. 4-7s: Cut to Minji exiting the venue back door. She notices the danger instantly. Snap zoom on her eyes. She launches into a full sprint. 7-10s: Low-angle tracking shot. Minji dives across the wet pavement, body stretched forward, one hand reaching toward the cat. Water sprays from her boots. 10-15s: At the last possible instant, time freezes. A shockwave ripple passes through the alley. Raindrops suspend in mid-air. Steam locks in place. Minji freezes mid-dive. The sign panel freezes perfectly stable 5 to 10 cm above the cat. Bonifaciy remains asleep. Reina enters frame already unaffected by the freeze and walks calmly into the frozen scene. Slow circular camera move around the frozen tableau.",
       "tweet_text": "Seedance V2 \nThis is not perfect the prompt need some tweak but very promising results.\n\nSeedance V2, 15 seconds.\n\nUltra-cinematic urban rescue, photorealistic, realistic physics, grounded body motion, realistic falling weight, realistic timing. Night city backstreet behind a live music venue, wet asphalt, neon signage, light steam, reflections on pavement, hard colored edge light, shallow depth of field. ARRI Alexa look. 50mm primary lens, occasional 85mm close-up. Indian blockbuster-style snap zooms and heroic timing, but fully grounded visual physics.\n\nCharacters:\nMinji Seo — adult Korean female idol, mid-20s, tall, calm, magnetic heroic presence, fast explosive movement. Black performance jacket, fitted black cargo pants, stage boots, in-ear monitor still visible.\nReina Kurose — adult Japanese female idol, mid-20s, elegant, serious, calm, controlled presence. Long dark coat over silver-gray stagewear, boots, composed expression.\nBonifaciy — fluffy white street cat asleep near the wall.\n\nEnvironment:\nSingle narrow neon alley, one vertical shop sign, wet pavement, stacked crates, venue back door, soft steam drifting from a vent. No crowd. Keep the space clean and readable.\n\nCritical object rules:\nOnly one falling sign panel visible in this clip.\nNo duplicate panels.\nNo extra falling debris.\nThe sign panel freezes stable 5 to 10 cm above the cat.\nStable freeze physics. No wobble, no flicker, no teleporting.\n\n0-2s:\nExtreme close-up of the single vertical sign panel. Bolts snap loose. The sign panel detaches and begins a fast natural fall.\n\n2-4s:\nDramatic zoom out reveals Bonifaciy sleeping beside the wall below. The same sign panel is falling directly toward the cat. Wet neon reflections shimmer on the pavement.\n\n4-7s:\nCut to Minji exiting the venue back door. She notices the danger instantly. Snap zoom on her eyes. She launches into a full sprint.\n\n7-10s:\nLow-angle tracking shot. Minji dives across the wet pavement, body stretched forward, one hand reaching toward the cat. Water sprays from her boots.\n\n10-15s:\nAt the last possible instant, time freezes. A shockwave ripple passes through the alley. Raindrops suspend in mid-air. Steam locks in place. Minji freezes mid-dive. The sign panel freezes perfectly stable 5 to 10 cm above the cat. Bonifaciy remains asleep. Reina enters frame already unaffected by the freeze and walks calmly into the frozen scene. Slow circular camera move around the frozen tableau.",
-      "likes": 156,
+      "likes": 157,
       "thumbnail": "media/thumbs/2043538730926182521.webp",
       "admin_feedback": {
         "action": "approve",
@@ -12755,6 +13005,31 @@
       "likes": 66
     },
     {
+      "id": "x:2049808327501094962",
+      "text": "real camera language: → 24mm drone — wide angle → 35mm dolly — zoom in → 50mm orbit — around the character no AI drift. no random cuts. character is the same in every shot. perfume ad doesn't look like \"AI clip.\" looks like real production.",
+      "display_text": "real camera language: → 24mm drone — wide angle → 35mm dolly — zoom in → 50mm orbit — around the character no AI drift. no random cuts. character is the same in every shot. perfume ad doesn't look like \"AI clip.\" looks like real production.",
+      "category": "cinematic",
+      "quality_score": 99,
+      "source_url": "https://x.com/hrrcnes/status/2049808327501094962",
+      "author": "@hrrcnes",
+      "created_at": "2026-04-30T11:09:23.000Z",
+      "tweet_text": "ai kölem broski ajansların 40k tl'den kapıyı açtığı videoyu 5 dakikada üretti sağolsun.\n\nprompt: storyboard. floor plan. character sheet. lens list (24mm drone, 35mm dolly, 50mm orbit). lighting mood board.\n\nreklam ajanslarının işini 5 dolarlık köleye yaptırma işi 1080p hd ifşa: https://t.co/ldOz8DNzQt",
+      "source_network": "x",
+      "reviewed_llm": false,
+      "likes": 10,
+      "retweets": null,
+      "screen": {
+        "approved": true,
+        "score": 88,
+        "reasons": [],
+        "reviewed_at": "2026-04-30T12:40:34Z",
+        "engine": "internal_rules_v1"
+      },
+      "published": null,
+      "video_url": "https://video.twimg.com/amplify_video/2049807629573099520/vid/avc1/1920x2300/kUBkjxgoxv3NDu44.mp4?tag=21",
+      "video": "media/videos/2049808327501094962.mp4"
+    },
+    {
       "id": "x:2049441628616540670",
       "text": "Classic retro Disney animation style. Scene One: On a pirate ship in the vast ocean, a group of villainous bird pirates capture a dragon. The dragon is bound with ropes, with only its feet free. The bird captain orders the dragon to take them to the treasure's location and points a sword at the dragon. Scene Two: The dragon defiantly blows out a puff of smoke, glares angrily, then turns its head away, refusing to speak to the bird pirates. Scene Three: The bird pirates smirk slyly, pull out a feather, and extend it toward the dragon's soles. The dragon looks on in bewilderment as the bird pirate says it will regret this. Scene Four: A close-up shot shows the feather tickling the dragon's soles, accompanied by comical sound effects. At the same time, we hear the dragon chuckle softly. Scene Five: The shot focuses on the dragon's upper body, where the dragon grins widely, eyes squeezed shut, letting out muffled laughter, while the bird pirates continue tickling the dragon's soles with the feather. Scene Six: The bird pirates tickle the dragon's soles with the feather, and the dragon bursts into hearty laughter. Amid the laughter, the dragon says it will take them to find the treasure, then continues laughing. Scene Seven: After tickling the soles for a while, the bird pirates finally stop, humming in satisfaction. English voiceover.",
       "display_text": "Classic retro Disney animation style. Scene One: On a pirate ship in the vast ocean, a group of villainous bird pirates capture a dragon. The dragon is bound with ropes, with only its feet free. The bird captain orders the dragon to take them to the treasure's location and points a sword at the dragon. Scene Two: The dragon defiantly blows out a puff of smoke, glares angrily, then turns its head away, refusing to speak to the bird pirates. Scene Three: The bird pirates smirk slyly, pull out a feather, and extend it toward the dragon's soles. The dragon looks on in bewilderment as the bird pirate says it will regret this. Scene Four: A close-up shot shows the feather tickling the dragon's soles, accompanied by comical sound effects. At the same time, we hear the dragon chuckle softly. Scene Five: The shot focuses on the dragon's upper body, where the dragon grins widely, eyes squeezed shut, letting out muffled laughter, while the bird pirates continue tickling the dragon's soles with the feather. Scene Six: The bird pirates tickle the dragon's soles with the feather, and the dragon bursts into hearty laughter. Amid the laughter, the dragon says it will take them to find the treasure, then continues laughing. Scene Seven: After tickling the soles for a while, the bird pirates finally stop, humming in satisfaction. English voiceover.",
@@ -13567,7 +13842,7 @@
       "id": "x:2039704453784191201",
       "display_text": "{ \"shot\": { \"composition\": \"POV time-freeze with hands moving through frozen environment\", \"lens\": \"ultra-wide cinematic lens with subtle distortion\", \"camera_movement\": \"slow walk, precise hand movements, sudden time release burst\" }, \"subject\": { \"description\": \"person moving while everything else is frozen mid-action\", \"wardrobe\": \"hands visible\", \"props\": \"frozen people, objects mid-air, suspended debris\" }, \"scene\": { \"location\": \"busy city street\", \"time_of_day\": \"day\", \"environment\": \"people frozen mid-motion, objects suspended in air\" }, \"visual_details\": { \"action\": \"walk through frozen crowd, move objects, sudden time resumes explosively\", \"special_effects\": \"time freeze particles, motion snap release\", \"hair_clothing_motion\": \"fabric still then snapping with time\" }, \"cinematography\": { \"lighting\": \"clean daylight with sharp shadows\", \"color_palette\": \"natural tones with crisp contrast\", \"tone\": \"mind-bending, cinematic\" }, \"audio\": { \"music\": \"slow ambient then explosive drop\", \"ambient\": \"silence then sudden chaos\", \"sound_effects\": \"time snap, object movement\", \"mix_level\": \"contrast silence and burst\" } }",
       "tweet_text": "PromptShare\nPOV time-freeze JSON PROMPT for Seedance 2\n\nPROMPT\n{\n  \"shot\": {\n    \"composition\": \"POV time-freeze with hands moving through frozen environment\",\n    \"lens\": \"ultra-wide cinematic lens with subtle distortion\",\n    \"camera_movement\": \"slow walk, precise hand movements, sudden time release burst\"\n  },\n  \"subject\": {\n    \"description\": \"person moving while everything else is frozen mid-action\",\n    \"wardrobe\": \"hands visible\",\n    \"props\": \"frozen people, objects mid-air, suspended debris\"\n  },\n  \"scene\": {\n    \"location\": \"busy city street\",\n    \"time_of_day\": \"day\",\n    \"environment\": \"people frozen mid-motion, objects suspended in air\"\n  },\n  \"visual_details\": {\n    \"action\": \"walk through frozen crowd, move objects, sudden time resumes explosively\",\n    \"special_effects\": \"time freeze particles, motion snap release\",\n    \"hair_clothing_motion\": \"fabric still then snapping with time\"\n  },\n  \"cinematography\": {\n    \"lighting\": \"clean daylight with sharp shadows\",\n    \"color_palette\": \"natural tones with crisp contrast\",\n    \"tone\": \"mind-bending, cinematic\"\n  },\n  \"audio\": {\n    \"music\": \"slow ambient then explosive drop\",\n    \"ambient\": \"silence then sudden chaos\",\n    \"sound_effects\": \"time snap, object movement\",\n    \"mix_level\": \"contrast silence and burst\"\n  }\n}",
-      "likes": 1429
+      "likes": 1428
     },
     {
       "source_url": "https://x.com/TechieBySA/status/2044378649739079738",
@@ -14328,7 +14603,7 @@
       "id": "x:2042008560364556599",
       "display_text": "cinematic transformation VFX, ancient temple arena under cosmic energy storm, hyper-detailed armor morphing with glowing",
       "tweet_text": "Seedance 2.0 prompt share \n\nSunset parkour on São Paulo’s stacked rooftops. \nOne teenage girl with zero fear \nsprinting, vaulting, flying between buildings 15 stories up as the city lights start to sparkle. \n\nPure adrenaline. \nvideo prompt in replies",
-      "likes": 379,
+      "likes": 378,
       "thumbnail": "media/thumbs/2042008560364556599.webp"
     },
     {
